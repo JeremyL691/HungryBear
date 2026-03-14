@@ -3,13 +3,14 @@
 from __future__ import annotations
 
 import re
+import unicodedata
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
 import requests
 from bs4 import BeautifulSoup
 
-from .constants import DINING_MENUS_URL, DINING_LOCATIONS
+from .constants import DINING_MENUS_URL, DINING_LOCATIONS, LOCATION_ALIASES
 
 
 @dataclass
@@ -68,16 +69,52 @@ class MenuScraper:
         "pure plates",
     }
 
-    DINING_LOCATIONS_SET = {re.sub(r"\s+", " ", name.strip().lower()) for name in DINING_LOCATIONS}
+    @staticmethod
+    def _strip_accents(s: str) -> str:
+        """e.g. Café -> Cafe (GitBook/HTML sometimes mixes diacritics)."""
+        s = unicodedata.normalize("NFKD", s or "")
+        return "".join(ch for ch in s if not unicodedata.combining(ch))
+
+    def __init__(self) -> None:
+        names = list(DINING_LOCATIONS) + [a for aliases in LOCATION_ALIASES.values() for a in aliases]
+        self._dining_locations_set = {
+            re.sub(r"\s+", " ", self._strip_accents(name).strip().lower())
+            for name in names
+        }
+        # Cache to avoid double-fetching during one /start flow (available meals -> menu).
+        self._cache_html: Optional[str] = None
+        self._cache_ts: float = 0.0
 
     def fetch_html(self) -> str:
-        headers = {"User-Agent": "HungryBear/1.0 (student project)"}
-        resp = requests.get(DINING_MENUS_URL, headers=headers, timeout=25)
-        resp.raise_for_status()
-        return resp.text
+        import time
+
+        # 60s cache window: reduces load + avoids transient failures between back-to-back calls.
+        if self._cache_html and (time.time() - self._cache_ts) < 60:
+            return self._cache_html
+
+        headers = {
+            "User-Agent": "HungryBear/1.0 (student project)",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        }
+        last_err: Optional[Exception] = None
+        for attempt in range(1, 4):
+            try:
+                resp = requests.get(DINING_MENUS_URL, headers=headers, timeout=25)
+                resp.raise_for_status()
+                # Occasionally the site returns a partial shell; require we see at least one hall.
+                if "Crossroads" not in resp.text and "Foothill" not in resp.text and "Cafe" not in resp.text and "Caf" not in resp.text:
+                    raise RuntimeError("Menus HTML looked incomplete")
+                self._cache_html = resp.text
+                self._cache_ts = time.time()
+                return resp.text
+            except Exception as e:
+                last_err = e
+                time.sleep(0.6 * attempt)
+        raise RuntimeError(f"Failed to fetch dining menus after retries: {last_err}")
 
     def _norm(self, s: str) -> str:
-        return re.sub(r"\s+", " ", (s or "").strip().lower())
+        s = self._strip_accents(s or "")
+        return re.sub(r"\s+", " ", s.strip().lower())
 
     def _clean_line(self, s: str) -> str:
         s = (s or "").strip()
@@ -112,8 +149,24 @@ class MenuScraper:
             return "All Day"
         return None
 
+    def canonicalize_location(self, s: str) -> str:
+        """Map user input / legacy names to the canonical DINING_LOCATIONS name."""
+        n = self._norm(s)
+        # exact canonical match
+        for canon in DINING_LOCATIONS:
+            if self._norm(canon) == n:
+                return canon
+        # alias match
+        for canon, aliases in LOCATION_ALIASES.items():
+            if self._norm(canon) == n:
+                return canon
+            for a in aliases:
+                if self._norm(a) == n:
+                    return canon
+        return s
+
     def _is_location_name_line(self, s: str) -> bool:
-        return self._norm(s) in self.DINING_LOCATIONS_SET
+        return self._norm(s) in self._dining_locations_set
 
     def _is_noise(self, s: str) -> bool:
         low = self._norm(s)
@@ -160,13 +213,13 @@ class MenuScraper:
             m = one_line_re.match(ln)
             if m:
                 loc = self._norm(m.group("loc"))
-                if loc in self.DINING_LOCATIONS_SET:
+                if loc in self._dining_locations_set:
                     starts.append((loc, i))
                     continue
 
             if is_now_line(ln) and i - 1 >= 0:
                 prev = self._norm(lines[i - 1])
-                if prev in self.DINING_LOCATIONS_SET:
+                if prev in self._dining_locations_set:
                     starts.append((prev, i - 1))
 
         seen = set()
@@ -202,10 +255,11 @@ class MenuScraper:
     # ---------------- new: available meals for the chosen hall ----------------
 
     def get_available_meals(self, location: str) -> Tuple[List[str], Optional[str]]:
+        """Returns (meals, debug_message_if_any).
+
+        Meals are among: Breakfast, Lunch, Dinner, All Day.
         """
-        Returns (meals, debug_message_if_any)
-        meals are among: Breakfast, Lunch, Dinner, All Day
-        """
+        location = self.canonicalize_location(location)
         html = self.fetch_html()
         lines = self._html_to_lines(html)
 
@@ -374,6 +428,7 @@ class MenuScraper:
     # ---------------- public: get menu ----------------
 
     def get_menu(self, location: str, meal: str) -> MenuResult:
+        location = self.canonicalize_location(location)
         html = self.fetch_html()
         lines = self._html_to_lines(html)
 
