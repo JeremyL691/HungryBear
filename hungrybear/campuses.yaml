@@ -2,6 +2,7 @@
 #
 #   adapter:            module in hungrybear/adapters/
 #   main_halls:         location ids that must serve full meals on a normal day
+#   weekday_only:       main halls that normally close on weekends
 #   min_items_per_meal: a main-hall meal with fewer items than this is flagged "broken"
 #   breaks:             [start, end] inclusive date ranges with no service (suppresses alerts)
 #   options:            adapter-specific settings
@@ -26,3 +27,49 @@ ucb:
       local-x-design: cafe
       qualcomm-cafe: cafe
       gateway-cafe: cafe
+
+ucla:
+  name: UCLA
+  short_name: UCLA
+  adapter: ucla
+  main_halls: [de-neve-dining, sproul-dining]
+  min_items_per_meal: 10
+  options:
+    # menus-at-a-glance name -> /hours/ name
+    hours_aliases:
+      Sproul Dining: Bruin Plate
+      Covel Dining: Epicuria at Covel
+
+ucsb:
+  name: UC Santa Barbara
+  short_name: UCSB
+  adapter: ucsb
+  main_halls: [carrillo, de-la-guerra, portola]
+  min_items_per_meal: 8
+
+ucsc:
+  name: UC Santa Cruz
+  short_name: UCSC
+  adapter: foodpro
+  main_halls:
+    - john-r-lewis-and-college-nine-di
+    - cowell-and-stevenson-dining-hall
+    - crown-and-merrill-dining-hall
+    - porter-and-kresge-dining-hall
+    - rachel-carson-and-oakes-dining-h
+  weekday_only: [crown-and-merrill-dining-hall, porter-and-kresge-dining-hall]
+  min_items_per_meal: 8
+  options:
+    base: https://nutrition.sa.ucsc.edu/
+    index: ""
+
+ucr:
+  name: UC Riverside
+  short_name: UCR
+  adapter: foodpro
+  main_halls: [glasgow, lothian]
+  weekday_only: [lothian]
+  min_items_per_meal: 8
+  options:
+    base: https://foodpro.ucr.edu/foodpro/
+    index: location.aspx

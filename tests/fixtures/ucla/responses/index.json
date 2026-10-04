@@ -1,0 +1,32 @@
+{
+ "48d76538caf00555": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "date": "2026-10-05"
+  },
+  "url": "https://dining.ucla.edu/menus-at-a-glance/"
+ },
+ "4cc4286ea4cfae52": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "date": "2026-10-03"
+  },
+  "url": "https://dining.ucla.edu/menus-at-a-glance/"
+ },
+ "6e3af43cc2234228": {
+  "data": {},
+  "method": "GET",
+  "params": {},
+  "url": "https://dining.ucla.edu/hours/"
+ },
+ "8cf3876e05080ee7": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "date": "2026-10-04"
+  },
+  "url": "https://dining.ucla.edu/menus-at-a-glance/"
+ }
+}

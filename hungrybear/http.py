@@ -13,10 +13,13 @@ from __future__ import annotations
 import gzip
 import hashlib
 import json
+import ssl
 import time
+from functools import lru_cache
 from pathlib import Path
 from typing import Dict, Mapping, Optional
 
+import certifi
 import httpx
 
 USER_AGENT = (
@@ -32,10 +35,27 @@ class FetchError(RuntimeError):
     pass
 
 
-def request_key(method: str, url: str, params: Optional[Mapping] = None, data: Optional[Mapping] = None) -> str:
+@lru_cache(maxsize=1)
+def ssl_context() -> ssl.SSLContext:
+    """certifi roots + intermediates that some campus servers fail to send (see certs/)."""
+    ctx = ssl.create_default_context(cafile=certifi.where())
+    ctx.load_verify_locations(cafile=str(Path(__file__).with_name("certs") / "extra-intermediates.pem"))
+    return ctx
+
+
+def _norm_params(x) -> object:
+    """Mappings stay dicts; lists of (key, value) pairs (repeated keys, e.g. ?m=a&m=b) become sorted pairs."""
+    if not x:
+        return {}
+    if isinstance(x, Mapping):
+        return dict(x)
+    return sorted([str(k), str(v)] for k, v in x)
+
+
+def request_key(method: str, url: str, params=None, data=None) -> str:
     """Stable key for a request, used to name recorded responses."""
     payload = json.dumps(
-        {"m": method.upper(), "u": url, "p": dict(params or {}), "d": dict(data or {})},
+        {"m": method.upper(), "u": url, "p": _norm_params(params), "d": _norm_params(data)},
         sort_keys=True,
         ensure_ascii=False,
     )
@@ -47,6 +67,7 @@ class Fetcher:
 
     def __init__(self, timeout: float = 30.0, retries: int = 3, min_interval: float = 0.3) -> None:
         self._client = httpx.Client(
+            verify=ssl_context(),
             timeout=timeout,
             follow_redirects=True,
             headers={"User-Agent": USER_AGENT, "Accept-Language": "en-US,en;q=0.9"},
@@ -103,7 +124,7 @@ class RecordingFetcher(Fetcher):
         text = super()._send(method, url, params=params, data=data, headers=headers)
         key = request_key(method, url, params, data)
         (self.dir / f"{key}.gz").write_bytes(gzip.compress(text.encode(), mtime=0))
-        self._index[key] = {"method": method, "url": url, "params": dict(params or {}), "data": dict(data or {})}
+        self._index[key] = {"method": method, "url": url, "params": _norm_params(params), "data": _norm_params(data)}
         self._index_path.write_text(json.dumps(self._index, indent=1, sort_keys=True))
         return text
 

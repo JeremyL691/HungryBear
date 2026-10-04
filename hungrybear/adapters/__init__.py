@@ -8,9 +8,15 @@ from ..config import CampusConfig
 from ..http import Fetcher
 from .base import Adapter, AdapterError
 from .berkeley import BerkeleyAdapter
+from .foodpro import FoodProAdapter
+from .ucla import UclaAdapter
+from .ucsb import UcsbAdapter
 
 ADAPTERS: Dict[str, Type[Adapter]] = {
     "berkeley": BerkeleyAdapter,
+    "foodpro": FoodProAdapter,
+    "ucla": UclaAdapter,
+    "ucsb": UcsbAdapter,
 }
 
 

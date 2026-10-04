@@ -1,0 +1,1947 @@
+== ucsc 2026-10-03 status=ok
+john-r-lewis-and-college-nine-di | John R. Lewis & College Nine Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - French Toast Sticks [vegan,!soy,!wheat]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Roasted Red Potatoes [vegan,!gluten]
+      - Sausage Links [!gluten,!pork]
+      - Sweet Potato, Black Bean, and Kale Hash [vegan,!gluten]
+    # Grill
+      - Buttermilk Waffles [vegetarian,!egg,!milk,!soy,!wheat]
+    # Clean Plate
+      - Steamed Rice [vegan,!gluten]
+    # Sweet Treats
+      - Old Fashioned Cake Donuts [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+  Lunch ?-?
+    # Breakfast
+      - French Toast Sticks [vegan,!soy,!wheat]
+      - Roasted Red Potatoes [vegan,!gluten]
+      - Sausage Links [!gluten,!pork]
+      - Sweet Potato, Black Bean, and Kale Hash [vegan,!gluten]
+    # Soups
+      - Organic Black Bean Soup [vegan,!gluten]
+      - Spicy North African Chicken Soup [!alcohol,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Sausage and Mushroom Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweet Treats
+      - Gluten-Free Snickerdoodle Cookie [vegetarian,!egg,!gluten,!soy]
+      - Pound Cake [vegetarian,!egg,!milk,!wheat]
+    # Hot Bars
+      - Chicken Tikka Masala [!gluten,!milk]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Available 2pm-5pm
+      - Basmati Rice Pullao [vegan,!gluten]
+      - Cauliflower Lentil Dal [vegan,!gluten]
+      - Central Indian Bar
+      - Chana Masala [vegan,!gluten]
+      - Chickpea & Roasted Cauliflower Buttered Curry [vegetarian,!gluten,!milk]
+      - Condiments
+      - Original Naan [vegan,!wheat]
+  Dinner ?-?
+    # Soups
+      - Organic Black Bean Soup [vegan,!gluten]
+      - Spicy North African Chicken Soup [!alcohol,!wheat]
+    # Entrees
+      - Caramelized Chipotle Tofu [vegan,!gluten,!soy]
+      - Chicken Tenders [!soy,!wheat]
+      - Creamy Mashed Yukon Golds [vegetarian,!gluten,!milk]
+      - Roasted Green Beans in Garlic Oil [vegan,!gluten]
+      - Vegan Garlic Mashed Potatoes [vegan,!gluten]
+      - Vegan Mushroom Gravy [vegan,!alcohol,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Sausage and Mushroom Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweet Treats
+      - Apple Pie [vegetarian,!milk,!soy,!wheat]
+      - Gluten-Free Snickerdoodle Cookie [vegetarian,!egg,!gluten,!soy]
+    # Hot Bars
+      - 6" Flour Tortilla [vegan,!soy,!wheat]
+      - Beef Taqueria Bar
+      - Charro Beans [vegan,!gluten]
+      - Guacamole [vegan,!gluten]
+      - Happy Plant Vegan Chorizo Crumbles and Potatoes [vegan,!gluten]
+      - Mexican Rice [vegan,!gluten]
+      - Pico de Gallo Salsa [vegan,!gluten]
+      - Shredded Cheddar and Jack Cheese [vegetarian,!gluten,!milk]
+      - Sour Cream [vegetarian,!gluten,!milk]
+      - Taqueria Beef [halal,!gluten]
+      - Yellow Corn Tortillas [vegan,!gluten]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+  Late Night ?-?
+    # Entrees
+      - Braised Pork [!gluten,!pork]
+      - Caramelized Chipotle Tofu [vegan,!gluten,!soy]
+      - Charro Beans [vegan,!gluten]
+      - Cheese Sauce [vegetarian,!gluten,!milk,!soy]
+      - Condiments
+      - Roasted Cauliflower [vegan,!gluten]
+      - Sidewinder Fry Bar
+      - Sidewinder Fry [vegetarian,!soy]
+      - Vegan Chipotle Gardein [vegan,!soy,!wheat]
+    # Grill
+      - Halal Chicken Nuggets [halal,!egg,!soy,!wheat]
+      - Vegan Tenders [vegan,!soy,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Sausage and Mushroom Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweet Treats
+      - Gluten-Free Snickerdoodle Cookie [vegetarian,!egg,!gluten,!soy]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+cowell-and-stevenson-dining-hall | Cowell & Stevenson Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+    # Clean Plate
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Steamed Rice [vegan,!gluten]
+    # Sweets Treats
+      - Old Fashioned Cake Donuts [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+    # Hot Bars
+      - Cajun Roasted Red Potatoes [vegan,!gluten]
+      - French Toast Sticks [vegan,!soy,!wheat]
+      - Ham Steaks [!gluten,!pork]
+      - Vegan Happy Scramble [vegan,!gluten]
+  Lunch ?-?
+    # Soups
+      - Chicken Noodle Soup [!egg,!soy,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweets Treats
+      - Gluten-Free Snickerdoodle Cookie [vegetarian,!egg,!gluten,!soy]
+      - Pound Cake [vegetarian,!egg,!milk,!wheat]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Available 2pm-5pm
+      - Braised Pork [!gluten,!pork]
+      - Cheese Sauce [vegetarian,!gluten,!milk,!soy]
+      - Condiments
+      - French Toast Sticks [vegan,!soy,!wheat]
+      - Green Onion Slaw [vegan,!gluten]
+      - Halal Chicken Patty [halal,!egg,!milk,!soy,!wheat]
+      - Ham Steaks [!gluten,!pork]
+      - Hamburger Bun [vegan,!sesame,!soy,!wheat]
+      - Ranch Chili Beans [vegan,!gluten]
+      - Sidewinder Fry Bar
+      - Sidewinder Fry [vegetarian,!soy]
+      - Tater Tots [vegetarian,!soy]
+      - Tempeh Roasted with Chorizo Spice [vegan,!gluten,!soy]
+      - Vegan Happy Scramble [vegan,!gluten]
+  Dinner ?-?
+    # Soups
+      - Chicken Noodle Soup [!egg,!soy,!wheat]
+    # Entrees
+      - Cajun Lightning Chicken [halal,!fish,!gluten,!soy]
+      - Quinoa with Lemon and Thyme [vegan,!gluten]
+      - Roasted Broccoli and Carrots [vegan,!gluten]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweets Treats
+      - Apple Pie [vegetarian,!milk,!soy,!wheat]
+      - Gluten-Free Snickerdoodle Cookie [vegetarian,!egg,!gluten,!soy]
+    # Hot Bars
+      - Available Upon Request: Gluten Free Rotini Pasta [vegan,!gluten]
+      - Condiments
+      - Focaccia Breadsticks [vegan,!sesame,!soy,!wheat]
+      - Italian Roasted Tofu [vegan,!gluten,!soy]
+      - Marinara Sauce [vegan,!gluten]
+      - Southern Italian Bar
+      - Spaghetti Noodles [vegan,!wheat]
+      - Sustainable Scampi with Tomato and Spinach [!alcohol,!gluten,!milk,!shellfish]
+      - Vegan Italian White Beans [vegan,!gluten]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+crown-and-merrill-dining-hall | Crown & Merrill Dining Hall [dining_hall/closed]
+porter-and-kresge-dining-hall | Porter & Kresge Dining Hall [dining_hall/closed]
+rachel-carson-and-oakes-dining-h | Rachel Carson & Oakes Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Belgian Waffle Squares [vegetarian,!egg,!milk,!soy,!wheat]
+      - Cajun Roasted Red Potatoes [vegan,!gluten]
+      - Ham Steaks [!gluten,!pork]
+      - Thai Tofu Scramble [vegan,!gluten,!sesame,!soy]
+    # Sweet Treats
+      - Old Fashioned Cake Donuts [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+    # Market Table
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Steamed Rice [vegan,!gluten]
+  Lunch ?-?
+    # Sweet Treats
+      - Gluten-Free Snickerdoodle Cookie [vegetarian,!egg,!gluten,!soy]
+      - Pound Cake [vegetarian,!egg,!milk,!wheat]
+    # Hot Bars
+      - Braised Pork [!gluten,!pork]
+      - Cheese Sauce [vegetarian,!gluten,!milk,!soy]
+      - Condiments
+      - Green Onion Slaw [vegan,!gluten]
+      - Ranch Chili Beans [vegan,!gluten]
+      - Sidewinder Fry Bar
+      - Sidewinder Fry [vegetarian,!soy]
+      - Tempeh Roasted with Chorizo Spice [vegan,!gluten,!soy]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Herb & Olive from the oven
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Market Table
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Belgian Waffle Squares [vegetarian,!egg,!milk,!soy,!wheat]
+      - Cajun Roasted Red Potatoes [vegan,!gluten]
+      - Creamy Broccoli Cheddar Soup [vegetarian,!gluten,!milk]
+      - Ham Steaks [!gluten,!pork]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+      - Vegan Happy Scramble [vegan,!gluten]
+    # Greeter
+      - Halal Chicken Patty [halal,!egg,!milk,!soy,!wheat]
+      - Hamburger Bun [vegan,!sesame,!soy,!wheat]
+      - Vegan Actual Veggies Black Bean Patty [vegan,!gluten]
+  Dinner ?-?
+    # Sweet Treats
+      - Apple Pie [vegetarian,!milk,!soy,!wheat]
+      - Gluten-Free Snickerdoodle Cookie [vegetarian,!egg,!gluten,!soy]
+    # Hot Bars
+      - BBQ Shredded Pork [!gluten,!pork]
+      - Buttermilk Biscuit [vegetarian,!milk,!soy,!wheat]
+      - Creamy Mashed Yukon Golds [vegetarian,!gluten,!milk]
+      - Mashed Potato Bowl Bar
+      - Roasted Kale and Butternut Squash [vegan,!gluten]
+      - Vegan Garlic Mashed Potatoes [vegan,!gluten]
+      - Vegan Mushroom Gravy [vegan,!alcohol,!wheat]
+    # Market Table
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Cajun Lightning Chicken [halal,!fish,!gluten,!soy]
+      - Quinoa with Lemon and Thyme [vegan,!gluten]
+      - Rice Pilaf [vegan,!gluten]
+      - Roasted Broccoli and Carrots [vegan,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+banana-joes | Banana Joe's [cafe/closed]
+oakes-cafe | Oakes Cafe [cafe/closed]
+global-village-cafe | Global Village Cafe [cafe/closed]
+owls-nest-cafe | Owl's Nest Cafe [cafe/closed]
+ucen-coffee-bar | UCen Coffee Bar [cafe/closed]
+stevenson-coffee-house | Stevenson Coffee House [cafe/closed]
+perk-coffee-bar | Perk Coffee Bar [cafe/closed]
+porter-market | Porter Market [market/closed]
+merrill-market | Merrill Market [market/closed]
+== ucsc 2026-10-04 status=ok
+john-r-lewis-and-college-nine-di | John R. Lewis & College Nine Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Biscuit and Gravy [vegetarian,!milk,!soy,!wheat]
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Pork Sausage Patties [!gluten,!pork]
+      - Tater Tots [vegetarian,!soy]
+      - Thai Tofu Scramble [vegan,!gluten,!sesame,!soy]
+    # Grill
+      - Buttermilk Waffles [vegetarian,!egg,!milk,!soy,!wheat]
+    # Clean Plate
+      - Steamed Rice [vegan,!gluten]
+    # Sweet Treats
+      - Old Fashioned Cake Donuts [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+  Lunch ?-?
+    # Breakfast
+      - Biscuit and Gravy [vegetarian,!milk,!soy,!wheat]
+      - Pork Sausage Patties [!gluten,!pork]
+      - Tater Tots [vegetarian,!soy]
+      - Thai Tofu Scramble [vegan,!gluten,!sesame,!soy]
+    # Soups
+      - Potato Leek Soup [vegan,!wheat]
+      - Vegan Tortilla Soup [vegan,!gluten]
+    # Grill
+      - Buttermilk Waffles [vegetarian,!egg,!milk,!soy,!wheat]
+      - French Fries [vegetarian,!soy]
+      - Halal Chicken Nuggets [halal,!egg,!soy,!wheat]
+      - Vegan Tenders [vegan,!soy,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Chicken & Pesto Pizza [!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweet Treats
+      - Sugar Cookie [vegetarian,!alcohol,!egg,!milk,!wheat]
+      - Truffle Mousse Cake [vegetarian,!egg,!milk,!soy,!tree_nuts,!wheat]
+    # Hot Bars
+      - Available Upon Request: Gluten Free Rotini Pasta [vegan,!gluten]
+      - Cheese Tortellini [vegetarian,!egg,!milk,!wheat]
+      - Condiments
+      - Focaccia Breadsticks [vegan,!sesame,!soy,!wheat]
+      - Housemade Creamy Alfredo Sauce [vegetarian,!gluten,!milk]
+      - Italian Roasted Squash and Carrots [vegan,!gluten]
+      - Marinara Sauce [vegan,!gluten]
+      - Northern Italian Bar
+      - Penne [vegan,!wheat]
+      - Porcini Crusted Roasted Chicken [halal,!gluten,!milk]
+      - Vegan Italian White Beans [vegan,!gluten]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+  Dinner ?-?
+    # Soups
+      - Potato Leek Soup [vegan,!wheat]
+      - Vegan Tortilla Soup [vegan,!gluten]
+    # Entrees
+      - BBQ Tofu [vegan,!gluten,!soy]
+      - Chipotle Lime Pork Loin [!gluten,!pork]
+      - Cumin Roasted Carrot [vegan,!gluten]
+      - Papas Bravas [vegan,!alcohol,!gluten]
+    # Grill
+      - BBQ Pulled Shiitake [vegan,!gluten,!soy]
+      - Green Onion Slaw [vegan,!gluten]
+      - Hamburger Bun [vegan,!sesame,!soy,!wheat]
+      - Sweet Potato Fries [vegetarian,!soy]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Chicken & Pesto Pizza [!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweet Treats
+      - German Chocolate Cake With Nuts [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Sugar Cookie [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Hot Bars
+      - Grilled Pineapple Rings [vegan,!gluten]
+      - Halal Blended Beef Patty [halal,!gluten]
+      - Hamburger Bun [vegan,!sesame,!soy,!wheat]
+      - House Made Gluten-Friendly Teriyaki Sauce [vegan,!gluten,!soy]
+      - Portobello Mushroom Patty [vegan,!gluten]
+      - Sauteed Onions and Peppers [vegan,!gluten]
+      - Sidewinder Fry [vegetarian,!soy]
+      - Teriyaki Burger Bar
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+cowell-and-stevenson-dining-hall | Cowell & Stevenson Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Belgian Waffle Squares [vegetarian,!egg,!milk,!soy,!wheat]
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Potatoes O'Brien [vegan,!gluten]
+      - Tempeh, Black Bean, and Potato Hash [vegan,!gluten,!soy]
+      - Turkey Sausage Patties [!gluten]
+    # Clean Plate
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Steamed Rice [vegan,!gluten]
+    # Sweets Treats
+      - Old Fashioned Cake Donuts [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+  Lunch ?-?
+    # Breakfast
+      - Belgian Waffle Squares [vegetarian,!egg,!milk,!soy,!wheat]
+      - Potatoes O'Brien [vegan,!gluten]
+      - Tempeh, Black Bean, and Potato Hash [vegan,!gluten,!soy]
+      - Turkey Sausage Patties [!gluten]
+    # Soups
+      - Organic Black Bean Soup [vegan,!gluten]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Combination Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweets Treats
+      - Sugar Cookie [vegetarian,!alcohol,!egg,!milk,!wheat]
+      - Truffle Mousse Cake [vegetarian,!egg,!milk,!soy,!tree_nuts,!wheat]
+    # Hot Bars
+      - Chickpea Harira [vegan,!gluten]
+      - Couscous, Red Grain, And Vegetable Salad [vegan,!soy,!wheat]
+      - Harissa Tofu [vegan,!gluten,!soy]
+      - Marrakech Spice Bar
+      - Roasted Cauliflower and Vegetable Medley [vegan,!gluten]
+      - Roasted Eggplant [vegan,!gluten]
+      - Tahini Sauce [vegan,!gluten,!sesame]
+      - Za'atar Chicken [halal,!gluten,!sesame]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+  Dinner ?-?
+    # Soups
+      - Chicken & Rice Soup [!alcohol,!gluten]
+      - Organic Black Bean Soup [vegan,!gluten]
+    # Entrees
+      - Char Siu Chicken [!alcohol,!gluten,!sesame,!soy]
+      - Spicy Gardein with Garlic & Basil [vegan,!alcohol,!sesame,!soy,!wheat]
+      - Sticky Rice [vegan,!gluten]
+      - Stir Fry Vegetables [vegan,!gluten,!sesame,!soy]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Combination Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweets Treats
+      - German Chocolate Cake With Nuts [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Sugar Cookie [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Hot Bars
+      - Chashu Style Pork [!gluten,!pork,!soy]
+      - Condiments
+      - Ramen Bar
+      - Ramen Noodles [vegan,!wheat]
+      - Roasted Corn [vegan,!gluten]
+      - Sauteed Bok Choy and Carrots with Sesame [vegan,!gluten,!sesame]
+      - Tonkotsu Style Ramen Broth [!alcohol,!gluten,!milk,!pork,!soy]
+      - Vegan Ramen Broth [vegan,!alcohol,!gluten,!sesame,!soy]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+  Late Night ?-?
+    # Grill
+      - Curly Fries [vegetarian,!soy,!wheat]
+      - Falafel Wrap [vegetarian,!milk,!soy,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Combination Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweets Treats
+      - Sugar Cookie [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Hot Bars
+      - BBQ Shredded Pork [!gluten,!pork]
+      - Buttermilk Biscuit [vegetarian,!milk,!soy,!wheat]
+      - Condiments
+      - Creamy Mashed Yukon Golds [vegetarian,!gluten,!milk]
+      - Mashed Potato Bowl Bar
+      - Roasted Kale and Butternut Squash [vegan,!gluten]
+      - Vegan Garlic Mashed Potatoes [vegan,!gluten]
+      - Vegan Mushroom Gravy [vegan,!alcohol,!wheat]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+crown-and-merrill-dining-hall | Crown & Merrill Dining Hall [dining_hall/closed]
+porter-and-kresge-dining-hall | Porter & Kresge Dining Hall [dining_hall/closed]
+rachel-carson-and-oakes-dining-h | Rachel Carson & Oakes Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - French Toast Sticks [vegan,!soy,!wheat]
+      - Tater Tots [vegetarian,!soy]
+      - Tempeh, Black Bean, and Potato Hash [vegan,!gluten,!soy]
+      - Turkey Sausage Patties [!gluten]
+    # Sweet Treats
+      - Old Fashioned Cake Donuts [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+    # Market Table
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Steamed Rice [vegan,!gluten]
+  Lunch ?-?
+    # Sweet Treats
+      - Sugar Cookie [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Hot Bars
+      - Chickpea Harira [vegan,!gluten]
+      - Couscous, Red Grain, And Vegetable Salad [vegan,!soy,!wheat]
+      - Harissa Tofu [vegan,!gluten,!soy]
+      - Marrakech Spice Bar
+      - Roasted Cauliflower [vegan,!gluten]
+      - Roasted Eggplant [vegan,!gluten]
+      - Za'atar Chicken [halal,!gluten,!sesame]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Market Table
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Chicken Noodle Soup [!egg,!soy,!wheat]
+      - French Toast Sticks [vegan,!soy,!wheat]
+      - Organic Black Bean Soup [vegan,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tater Tots [vegetarian,!soy]
+      - Tempeh, Black Bean, and Potato Hash [vegan,!gluten,!soy]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+      - Turkey Sausage Patties [!gluten]
+    # Greeter
+      - Halal Chicken Nuggets [halal,!egg,!soy,!wheat]
+      - Vegan Tenders [vegan,!soy,!wheat]
+  Dinner ?-?
+    # Sweet Treats
+      - German Chocolate Cake With Nuts [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Sugar Cookie [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Hot Bars
+      - Chicken Vindaloo [halal,!gluten]
+      - Coastal Indian Bar
+      - Makhni Dal [vegan,!gluten]
+      - Steamed Basmati Rice [vegan,!gluten]
+      - Tofu Vindaloo [vegan,!gluten,!soy]
+      - Vegetable Pakoras [vegan,!gluten]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Market Table
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Char Siu Chicken [!alcohol,!gluten,!sesame,!soy]
+      - Chicken Noodle Soup [!egg,!soy,!wheat]
+      - Organic Black Bean Soup [vegan,!gluten]
+      - Spicy Gardein with Garlic & Basil [vegan,!alcohol,!sesame,!soy,!wheat]
+      - Steamed Rice [vegan,!gluten]
+      - Sticky Rice [vegan,!gluten]
+      - Stir Fry Vegetables [vegan,!gluten,!sesame,!soy]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+  Late Night ?-?
+    # Grill
+      - Curly Fries [vegetarian,!soy,!wheat]
+      - Falafel Wrap [vegetarian,!milk,!soy,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Sweet Treats
+      - Sugar Cookie [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Hot Bars
+      - BBQ Shredded Pork [!gluten,!pork]
+      - Condiments
+      - Creamy Mashed Yukon Golds [vegetarian,!gluten,!milk]
+      - Mashed Potato Bowl Bar
+      - Roasted Kale and Butternut Squash [vegan,!gluten]
+      - Vegan Garlic Mashed Potatoes [vegan,!gluten]
+      - Vegan Mushroom Gravy [vegan,!alcohol,!wheat]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Market Table
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+banana-joes | Banana Joe's [cafe/closed]
+oakes-cafe | Oakes Cafe [cafe/closed]
+global-village-cafe | Global Village Cafe [cafe/closed]
+owls-nest-cafe | Owl's Nest Cafe [cafe/closed]
+ucen-coffee-bar | UCen Coffee Bar [cafe/closed]
+stevenson-coffee-house | Stevenson Coffee House [cafe/closed]
+perk-coffee-bar | Perk Coffee Bar [cafe/closed]
+porter-market | Porter Market [market/closed]
+merrill-market | Merrill Market [market/closed]
+== ucsc 2026-10-05 status=ok
+john-r-lewis-and-college-nine-di | John R. Lewis & College Nine Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Chicken Apple Sausage [!gluten,!milk]
+      - Chocolate Chip Pancakes [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Natural Bridges Tofu Scramble [vegan,!gluten,!soy]
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Roasted Red Potatoes [vegan,!gluten]
+    # Clean Plate
+      - Steamed Rice [vegan,!gluten]
+    # Campus Bakery
+      - Chocolate Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Orange Crunch Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+  Lunch ?-?
+    # Soups
+      - Home Style Ground Beef Chili [halal,!gluten]
+      - House Made Vegan Tomato Soup [vegan,!gluten]
+    # Entrees
+      - Steamed Carrots and Broccoli [vegan,!gluten]
+      - Sticky Rice [vegan,!gluten]
+      - Teriyaki Chicken [halal,!gluten,!sesame,!soy]
+      - Teriyaki Tofu [vegan,!gluten,!soy]
+    # Grill
+      - Beef Frank [!gluten]
+      - Hot Dog Bun [vegan,!sesame,!soy,!wheat]
+      - Vegan Hot Dog [vegan,!gluten]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Vegan Pepperoni Pizza [vegan]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweet Treats
+      - Mint Condition [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Campus Bakery
+      - Banana Loaf [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Brownies [vegetarian,!egg,!milk,!soy,!wheat]
+    # Hot Bars
+      - BBQ Wings [halal,!gluten]
+      - Buffalo Cauliflower [vegetarian]
+      - Condiments
+      - Green Chili and Cheese Potato Salad [vegetarian,!gluten,!milk]
+      - Green Onion Slaw [vegan,!gluten]
+      - Hot 'N Spicy Wings [halal,!gluten]
+      - Smoke & Spice Wing Bar
+      - Tater Tots [vegetarian,!soy]
+      - Vegan Tenders [vegan,!soy,!wheat]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+  Dinner ?-?
+    # Soups
+      - Home Style Ground Beef Chili [halal,!gluten]
+      - House Made Vegan Tomato Soup [vegan,!gluten]
+    # Entrees
+      - Harissa BBQ Beef [halal,!gluten,!soy]
+      - Harissa Tofu [vegan,!gluten,!soy]
+      - Scalloped Potatoes [vegetarian,!milk,!wheat]
+      - Steamed Carrots and Broccoli [vegan,!gluten]
+    # Grill
+      - Halal Blended Beef Patty [halal,!gluten]
+      - Hamburger Bun [vegan,!sesame,!soy,!wheat]
+      - Portobello Mushroom Patty [vegan,!gluten]
+      - Sidewinder Fry [vegetarian,!soy]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Vegan Pepperoni Pizza [vegan]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Campus Bakery
+      - Chocolate Mocha Cake [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Dutch Apple Pie [vegan,!soy,!wheat]
+      - Red Velvet Cake [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+    # Hot Bars
+      - Basmati Rice Pullao [vegan,!gluten]
+      - Chana Masala [vegan,!gluten]
+      - Chicken Tikka Masala [halal,!gluten,!milk]
+      - Condiments
+      - Dal Saag [vegan,!gluten]
+      - Masala Baked Tofu [vegan,!gluten,!soy]
+      - North Indian Bar
+      - Original Naan [vegan,!wheat]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+cowell-and-stevenson-dining-hall | Cowell & Stevenson Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Natural Bridges Tofu Scramble [vegan,!gluten,!soy]
+      - Orange French Toast [vegetarian,!alcohol,!egg,!milk,!sesame,!soy,!wheat]
+      - Sausage Links [!gluten,!pork]
+      - Tater Tots [vegetarian,!soy]
+    # Clean Plate
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Steamed Rice [vegan,!gluten]
+    # Campus Bakery
+      - Chocolate Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Orange Crunch Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+  Lunch ?-?
+    # Soups
+      - Chicken Pozole [!alcohol,!gluten]
+      - Three Sisters Crave Soup [vegan,!gluten]
+    # Entrees
+      - Available Upon Request: Gluten Free Rotini Pasta [vegan,!gluten]
+      - Creamy Cajun Chicken Pasta [halal,!milk,!wheat]
+      - Green Beans with Mushrooms and Carmelized Onions [vegan,!gluten]
+      - Roasted Sweet Potatoes [vegan,!gluten]
+      - Spicy Red Beans and Vegetables [vegan,!alcohol,!gluten]
+    # Grill
+      - Hamburger Bun [vegan,!sesame,!soy,!wheat]
+      - Portobello Mushroom Patty [vegan,!gluten]
+      - Sustainable Salmon Patty [!alcohol,!egg,!fish,!gluten,!soy]
+      - Sweet Potato Fries [vegetarian,!soy]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Vegan Vegetable Pizza [vegan]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweets Treats
+      - Mint Condition [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Campus Bakery
+      - Banana Loaf [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Brownies [vegetarian,!egg,!milk,!soy,!wheat]
+    # Hot Bars
+      - BBQ Pork Ribs [!gluten,!pork]
+      - Cajun Coleslaw [vegan,!gluten]
+      - Charro Beans [vegan,!gluten]
+      - Condiments
+      - Corn Cobbettes [vegan,!gluten]
+      - Cornbread [vegetarian,!egg,!milk,!soy,!wheat]
+      - Smokehouse BBQ Ribs Bar
+      - Tempeh Roasted with Chorizo Spice [vegan,!gluten,!soy]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+  Dinner ?-?
+    # Soups
+      - Chicken Pozole [!alcohol,!gluten]
+      - Three Sisters Crave Soup [vegan,!gluten]
+    # Entrees
+      - Orange Glazed Chicken [!sesame,!soy,!wheat]
+      - Orange Glazed Gardein [vegan,!sesame,!soy,!wheat]
+      - Pineapple Fried Rice [vegan,!gluten,!sesame,!soy]
+      - Sesame Yakisoba Noodles [vegan,!sesame,!soy,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Vegan Vegetable Pizza [vegan]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweets Treats
+      - Mint Condition [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Campus Bakery
+      - Chocolate Mocha Cake [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Dutch Apple Pie [vegan,!soy,!wheat]
+      - Red Velvet Cake [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+    # Hot Bars
+      - BBQ Wings [halal,!gluten]
+      - Buffalo Cauliflower [vegetarian]
+      - Condiments
+      - Green Chili and Cheese Potato Salad [vegetarian,!gluten,!milk]
+      - Green Onion Slaw [vegan,!gluten]
+      - Hot 'N Spicy Wings [halal,!gluten]
+      - Smoke & Spice Wing Bar
+      - Tater Tots [vegetarian,!soy]
+      - Vegan Tenders [vegan,!soy,!wheat]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+  Late Night ?-?
+    # Grill
+      - French Fries [vegetarian,!soy]
+      - Kickin' Chicken Sandwich [halal,!milk,!sesame,!soy,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Vegan Vegetable Pizza [vegan]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweets Treats
+      - Mint Condition [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Hot Bars
+      - Cheese Sauce [vegetarian,!gluten,!milk,!soy]
+      - Chicken Tinga [halal,!gluten]
+      - Cilantro Slaw [vegan,!gluten]
+      - Condiments
+      - Nachos Bar
+      - Tempeh Roasted with Chorizo Spice [vegan,!gluten,!soy]
+      - Tortilla Chips [vegan,!gluten]
+      - Vegan Refried Beans [vegan,!gluten]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+crown-and-merrill-dining-hall | Crown & Merrill Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Buttermilk Pancake with Cinnamon Apples [vegetarian,!egg,!milk,!soy,!wheat]
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Crispy Bacon [!gluten,!pork]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Tempeh, Black Bean, and Potato Hash [vegan,!gluten,!soy]
+      - Triangle Hash Brown Patty [vegetarian,!soy]
+    # Clean Plate
+      - Steamed Rice [vegan,!gluten]
+    # Campus Bakery
+      - Chocolate Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Orange Crunch Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+  Lunch ?-?
+    # Soups
+      - Artichoke Bisque [vegetarian,!alcohol,!milk]
+      - Organic Vegan Chili [vegan,!gluten]
+    # Entrees
+      - Braised Toscano Potatoes [vegan,!gluten]
+      - Roast Pork Loin with Parsley and Shallot Sauce [!alcohol,!gluten,!pork]
+      - Tempeh Roasted with Chorizo Spice [vegan,!gluten,!soy]
+    # Pizza
+      - Bacon and Ranch Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweet Treats
+      - Mint Condition [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Campus Bakery
+      - Banana Loaf [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Brownies [vegetarian,!egg,!milk,!soy,!wheat]
+    # Hot Bars
+      - Cilantro Chutney [vegan,!gluten]
+      - Mumbai Street Bar
+      - Original Naan [vegan,!wheat]
+      - Palak Spinach Paneer [vegetarian,!gluten,!milk]
+      - Pao Bhaji [vegetarian,!gluten,!milk]
+      - Steamed Basmati Rice [vegan,!gluten]
+      - Tarka Dal [vegan,!gluten]
+      - Tomato Chutney [vegan,!gluten]
+      - Vegetable Tikkis [vegan,!gluten]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Available 2pm-5pm
+      - Creamy Mashed Yukon Golds [vegetarian,!gluten,!milk]
+      - Hoisin Chicken Wings [!alcohol,!gluten,!sesame,!soy]
+      - Roasted Turkey Breast with Honey Dijon Sauce [!alcohol,!gluten]
+      - Szechuan Chicken Wings [!gluten,!sesame,!soy]
+      - Vegan Garlic Mashed Potatoes [vegan,!gluten]
+  Dinner ?-?
+    # Soups
+      - Artichoke Bisque [vegetarian,!alcohol,!milk]
+      - Organic Vegan Chili [vegan,!gluten]
+    # Entrees
+      - Available Upon Request: Gluten Free Rotini Pasta [vegan,!gluten]
+      - Lasagna Bolognese [halal,!egg,!milk,!wheat]
+      - Marinara Sauce [vegan,!gluten]
+      - Penne [vegan,!wheat]
+      - Sauteed Rainbow Chard with Garlic Oil [vegan,!gluten]
+      - Vegan Italian White Beans [vegan,!gluten]
+    # Pizza
+      - Bacon and Ranch Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Sweet Treats
+      - Mint Condition [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Campus Bakery
+      - Chocolate Mocha Cake [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Red Velvet Cake [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+    # Hot Bars
+      - Chickpea Harira [vegan,!gluten]
+      - Couscous, Red Grain, And Vegetable Salad [vegan,!soy,!wheat]
+      - Harissa Tofu [vegan,!gluten,!soy]
+      - Marrakech Spice Bar
+      - Roasted Cauliflower and Vegetable Medley [vegan,!gluten]
+      - Roasted Eggplant [vegan,!gluten]
+      - Tahini Sauce [vegan,!gluten,!sesame]
+      - Za'atar Chicken [halal,!gluten,!sesame]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+porter-and-kresge-dining-hall | Porter & Kresge Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Buttermilk Pancake with Cinnamon Apples [vegetarian,!egg,!milk,!soy,!wheat]
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Crispy Bacon [!gluten,!pork]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Tempeh, Black Bean, and Potato Hash [vegan,!gluten,!soy]
+      - Triangle Hash Brown Patty [vegetarian,!soy]
+    # Clean Plate
+      - Steamed Rice [vegan,!gluten]
+    # Campus Bakery
+      - Chocolate Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Orange Crunch Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+  Lunch ?-?
+    # Soups
+      - Organic Vegan Chili [vegan,!gluten]
+    # Entrees
+      - Braised Toscano Potatoes [vegan,!gluten]
+      - Roast Pork Loin with Parsley and Shallot Sauce [!alcohol,!gluten,!pork]
+      - Tempeh Roasted with Chorizo Spice [vegan,!gluten,!soy]
+    # Grill
+      - Beef Frank [!gluten]
+      - Hot Dog Bun [vegan,!sesame,!soy,!wheat]
+      - Vegan Hot Dog [vegan,!gluten]
+    # Pizza
+      - Bacon and Ranch Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Campus Bakery
+      - Banana Loaf [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Brownies [vegetarian,!egg,!milk,!soy,!wheat]
+    # Hot Bars
+      - Cilantro Chutney [vegan,!gluten]
+      - Mumbai Street Bar
+      - Original Naan [vegan,!wheat]
+      - Palak Spinach Paneer [vegetarian,!gluten,!milk]
+      - Pao Bhaji [vegetarian,!gluten,!milk]
+      - Steamed Basmati Rice [vegan,!gluten]
+      - Tarka Dal [vegan,!gluten]
+      - Tomato Chutney [vegan,!gluten]
+      - Vegetable Tikkis [vegan,!gluten]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+  Dinner ?-?
+    # Soups
+      - Organic Vegan Chili [vegan,!gluten]
+    # Entrees
+      - Available Upon Request: Gluten Free Rotini Pasta [vegan,!gluten]
+      - Lasagna Bolognese [halal,!egg,!milk,!wheat]
+      - Marinara Sauce [vegan,!gluten]
+      - Penne [vegan,!wheat]
+      - Sauteed Rainbow Chard with Garlic Oil [vegan,!gluten]
+      - Vegan Italian White Beans [vegan,!gluten]
+    # Pizza
+      - Bacon and Ranch Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+    # Clean Plate
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+    # Campus Bakery
+      - Chocolate Mocha Cake [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Dutch Apple Pie [vegan,!soy,!wheat]
+    # Hot Bars
+      - Chickpea Harira [vegan,!gluten]
+      - Couscous, Red Grain, And Vegetable Salad [vegan,!soy,!wheat]
+      - Harissa Tofu [vegan,!gluten,!soy]
+      - Marrakech Spice Bar
+      - Roasted Cauliflower and Vegetable Medley [vegan,!gluten]
+      - Roasted Eggplant [vegan,!gluten]
+      - Spicy Red Beans and Vegetables [vegan,!alcohol,!gluten]
+      - Za'atar Chicken [halal,!gluten,!sesame]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+rachel-carson-and-oakes-dining-h | Rachel Carson & Oakes Dining Hall [dining_hall/open]
+  Breakfast ?-?
+    # Breakfast
+      - Natural Bridges Tofu Scramble [vegan,!gluten,!soy]
+      - Orange French Toast [vegetarian,!alcohol,!egg,!milk,!sesame,!soy,!wheat]
+      - Sausage Links [!gluten,!pork]
+      - Tater Tots [vegetarian,!soy]
+    # Campus Bakery
+      - Chocolate Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Orange Crunch Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+    # Herb & Olive from the oven
+      - Gemelli [vegan,!wheat]
+    # Market Table
+      - Cage-Free Scrambled Eggs [vegetarian,!egg,!gluten]
+      - Hard Boiled Cage-Free Egg [vegetarian,!egg,!gluten]
+      - Organic Gluten-Free Oatmeal [vegan,!gluten]
+      - Steamed Rice [vegan,!gluten]
+  Lunch ?-?
+    # Campus Bakery
+      - Banana Loaf [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Brownies [vegetarian,!egg,!milk,!soy,!wheat]
+      - Mint Condition [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Rice & Noodle Wok Fired
+      - Beef and Broccoli [!alcohol,!soy,!wheat]
+      - Chili Garlic Tofu [vegan,!gluten,!soy]
+    # Rice & Noodle
+      - Jasmine Rice [vegan,!gluten]
+      - Sesame Yakisoba Noodles [vegan,!sesame,!soy,!wheat]
+    # Rice & Noodle Vegetables
+      - Kim Chi (Korean Spicy Fermented Cabbage) [vegan,!gluten]
+      - Pickled Carrot & Cucumber [vegan,!gluten]
+      - Tamari Roasted Mushrooms [vegan,!gluten,!soy]
+    # Sazon Grill & Braise
+      - Chicken Tinga [halal,!gluten]
+      - Citrus Braised Carnitas [!alcohol,!gluten,!pork]
+      - Fable Mushroom Barbacoa [vegan,!gluten,!soy]
+    # Sazon Rice & Beans
+      - Arroz Rojo [vegan,!gluten]
+      - Mexican Black Beans [vegan,!gluten]
+    # Sazon Tortillas and Sides
+      - 6" Flour Tortilla [vegan,!soy,!wheat]
+      - Roasted Corn & Peppers [vegan,!gluten]
+      - Yellow Corn Tortillas [vegan,!gluten]
+    # Sazon Salsa & Toppings
+      - Nopales en Escabeche [vegan,!gluten]
+      - Pickled Jalapeno Peppers [vegan,!gluten]
+      - Pickled Red Onions [vegan,!gluten]
+      - Salsa Diablo [vegan,!gluten]
+      - Salsa Roja de RCO [vegan,!gluten]
+      - Salsa Verde [vegan,!gluten]
+    # Herb & Olive from the oven
+      - Gemelli [vegan,!wheat]
+      - Margherita Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+    # Herb & Olive Pasta and Sauces
+      - Available Upon Request: Gluten Free Rotini Pasta [vegan,!gluten]
+      - Bolognese Sauce [halal,!gluten]
+      - Housemade Creamy Alfredo Sauce [vegetarian,!gluten,!milk]
+      - Marinara Sauce [vegan,!gluten]
+    # Market Table
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Three Sisters Crave Soup [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+  Dinner ?-?
+    # Sweet Treats
+      - Mint Condition [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Campus Bakery
+      - Chocolate Mocha Cake [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Dutch Apple Pie [vegan,!soy,!wheat]
+      - Red Velvet Cake [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Rice & Noodle Wok Fired
+      - Beef and Broccoli [!alcohol,!soy,!wheat]
+      - Chili Garlic Tofu [vegan,!gluten,!soy]
+    # Rice & Noodle
+      - Jasmine Rice [vegan,!gluten]
+      - Sesame Yakisoba Noodles [vegan,!sesame,!soy,!wheat]
+    # Rice & Noodle Vegetables
+      - Kim Chi (Korean Spicy Fermented Cabbage) [vegan,!gluten]
+      - Pickled Carrot & Cucumber [vegan,!gluten]
+      - Tamari Roasted Mushrooms [vegan,!gluten,!soy]
+    # Sazon Grill & Braise
+      - Chicken Tinga [halal,!gluten]
+      - Citrus Braised Carnitas [!alcohol,!gluten,!pork]
+      - Fable Mushroom Barbacoa [vegan,!gluten,!soy]
+    # Sazon Rice & Beans
+      - Arroz Rojo [vegan,!gluten]
+      - Mexican Black Beans [vegan,!gluten]
+    # Sazon Tortillas and Sides
+      - 6" Flour Tortilla [vegan,!soy,!wheat]
+      - Roasted Corn & Peppers [vegan,!gluten]
+      - Yellow Corn Tortillas [vegan,!gluten]
+    # Sazon Salsa & Toppings
+      - Nopales en Escabeche [vegan,!gluten]
+      - Pickled Jalapeno Peppers [vegan,!gluten]
+      - Pickled Red Onions [vegan,!gluten]
+      - Salsa Diablo [vegan,!gluten]
+      - Salsa Roja de RCO [vegan,!gluten]
+      - Salsa Verde [vegan,!gluten]
+    # Herb & Olive from the oven
+      - Margherita Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+    # Herb & Olive Pasta and Sauces
+      - Available Upon Request: Gluten Free Rotini Pasta [vegan,!gluten]
+      - Bolognese Sauce [halal,!gluten]
+      - Housemade Creamy Alfredo Sauce [vegetarian,!gluten,!milk]
+      - Marinara Sauce [vegan,!gluten]
+    # Market Table
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Three Sisters Crave Soup [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+  Late Night ?-?
+    # Grill
+      - French Fries [vegetarian,!soy]
+      - Kickin' Chicken Sandwich [halal,!milk,!sesame,!soy,!wheat]
+    # Pizza
+      - Cheese Pizza [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # Sweet Treats
+      - Mint Condition [vegetarian,!alcohol,!egg,!milk,!wheat]
+    # Hot Bars
+      - Cheese Sauce [vegetarian,!gluten,!milk,!soy]
+      - Chicken Tinga [halal,!gluten]
+      - Cilantro Slaw [vegan,!gluten]
+      - Condiments
+      - Nachos Bar
+      - Tempeh Roasted with Chorizo Spice [vegan,!gluten,!soy]
+      - Tortilla Chips [vegan,!gluten]
+      - Vegan Refried Beans [vegan,!gluten]
+    # Cold Bars
+      - Deli Bar
+      - Salad Bar
+    # Market Table
+      - Allergen Free Halal Chicken Thigh [halal,!gluten]
+      - Steamed Rice [vegan,!gluten]
+      - Tofu with Kosher Salt [vegan,!gluten,!soy]
+banana-joes | Banana Joe's [cafe/open]
+  Late Night ?-?
+    # Burgers and Sandwiches
+      - ABC Burger Banana Joe's [!milk,!pork,!sesame,!soy,!wheat]
+      - Banana Joe's Classic Cheese Burger [halal,!milk,!sesame,!soy,!wheat]
+      - Banana Joe's Vegan Tender Sandwich [vegan,!sesame,!soy,!wheat]
+      - Chicken Tender Sandwich Banana Joe's [!milk,!sesame,!soy,!wheat]
+      - Monster Burger [halal,!egg,!milk,!sesame,!soy,!wheat]
+      - Vegan Black Bean Burger [vegan,!sesame,!soy,!wheat]
+    # Pizza
+      - Bacon and Ranch Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Combo Meat Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Hawaiian Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Pepperoni Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+      - Pizza Special [vegetarian,!egg,!milk,!sesame,!soy,!wheat]
+      - Sausage and Onion Pizza [!egg,!milk,!pork,!sesame,!soy,!wheat]
+    # ON THE FRY SIDE
+      - Chicken Tenders, 3 [!soy,!wheat]
+      - French Fries [vegetarian,!soy]
+    # Bakery
+      - Brownie M&M [vegetarian,!egg,!milk,!soy,!wheat]
+      - Vegan Chocolate Chip Cookie [vegan,!alcohol,!soy,!wheat]
+oakes-cafe | Oakes Cafe [cafe/open]
+  Lunch ?-? (After 11am)
+    # Burgers
+      - Basic Burger [halal,!sesame,!soy,!wheat]
+      - Chicken Tender Sandwich [!milk,!sesame,!soy,!wheat]
+      - Chipotle Bacon Chicken Sandwich [!milk,!pork,!wheat]
+    # Specialties
+      - BLT Sandwich [!pork,!soy,!wheat]
+      - Cheesy Chicken Pesto [!milk,!wheat]
+      - Chicken Teriyaki Bowl [!alcohol,!soy,!wheat]
+      - Grilled Cheese Sandwich [vegetarian,!milk,!soy,!wheat]
+      - Spicy Crispy Chicken Sandwich [!sesame,!soy,!wheat]
+      - Veggie Burger [vegetarian,!milk,!sesame,!soy,!wheat]
+    # Bakery
+      - Apple Blueberry Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Cheddar Garlic Croizel [vegetarian,!milk,!wheat]
+      - Chocolate Croissant [vegetarian,!alcohol,!milk,!soy,!wheat]
+      - Croissant [vegetarian,!egg,!milk,!wheat]
+      - Maple Pecan Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Vegan Chocolate Chip Cookies [vegan,!alcohol,!soy,!wheat]
+    # Sides
+      - Garden Salad (SIDE) [vegan,!gluten]
+      - Grilled Chicken, No Antibotics Ever [!gluten]
+      - Side French Fries [vegetarian,!soy]
+      - Tofu [vegan,!gluten,!soy]
+    # Boba
+      - Classic Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Coconut Thai Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Dragon Coconut Smoothie [vegetarian,!milk,!soy,!wheat]
+      - Dragon Fruit Strawberry Lemonade [vegetarian,!milk,!soy,!wheat]
+      - Frozen Strawberry Passionfruit [vegetarian,!milk,!soy,!wheat]
+      - Mango Black Tea [vegetarian,!milk,!soy,!wheat]
+      - Mango Lemonade [vegetarian,!milk,!soy,!wheat]
+      - Mango Passionfruit Lemonade [vegetarian,!milk,!soy,!wheat]
+      - Mango Popping Pearls [vegan,!gluten]
+      - Mango Smoothie [vegetarian,!milk,!soy,!wheat]
+      - Salted Caramel Milk Tea Smoothie [vegetarian,!milk,!soy,!wheat]
+      - Salted Caramel Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Salted Caramel Thai Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Strawberry Lemonade [vegetarian,!milk,!soy,!wheat]
+      - Strawberry Popping Pearls [vegan,!gluten]
+      - Strawberry Smoothie [vegetarian,!milk,!soy,!wheat]
+      - Tapioca Boba Pearls [vegan,!gluten]
+      - Thai Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Tropical Lemon Thai Tea [vegetarian,!milk,!soy,!wheat]
+    # Coffee & Tea Now City of Santa Cruz Cup Fee of $.025 BYO and save up to $0.50 when ordering a togo drink
+      - 16 oz Cold Brew Coffee [vegan,!gluten]
+      - Add Espresso Shot [vegan,!gluten]
+      - Americano 12oz [vegan,!gluten]
+      - Americano 16oz [vegan,!gluten]
+      - Americano 20 oz [vegan,!gluten]
+      - Cappuccino, Single [vegetarian,!gluten,!milk]
+      - Cappucino, Double [vegetarian,!gluten,!milk]
+      - Caramel Latte, Double [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Single [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Triple [vegetarian,!gluten,!milk,!soy]
+      - Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Coconut Caramel Latte, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Coffee, 12 oz [vegan,!gluten]
+      - Coffee, 16 oz [vegan,!gluten]
+      - Coffee, 20 oz [vegan,!gluten]
+      - Cookie Butter Mocha 16 OZ [vegetarian,!gluten,!milk,!soy]
+      - Dirty Hazelnut Chai Latte [vegetarian,!alcohol,!gluten,!milk,!tree_nuts]
+      - Espresso, Double Shot [vegan,!gluten]
+      - Espresso, Single Shot [vegan,!gluten]
+      - Espresso, Triple Shot [vegan,!gluten]
+      - Hazelnut Brittle Latte, 16 oz [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Hazelnut Latte, Double [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Single [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Triple [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Milk Chocolate Mocha 16 OZ [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Horchata Latte [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Hot Chocolate [vegetarian,!gluten,!milk]
+      - Hot Tea [vegan,!gluten]
+      - Latte, Double [vegetarian,!gluten,!milk]
+      - Latte, Single [vegetarian,!gluten,!milk]
+      - Latte, Triple [vegetarian,!gluten,!milk]
+      - London Fog Tea Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Mexican Mocha, 16 oz [vegetarian,!alcohol,!gluten,!milk]
+      - Mocha, Double [vegetarian,!gluten,!milk]
+      - Mocha, Single [vegetarian,!gluten,!milk]
+      - Mocha, Triple [vegetarian,!gluten,!milk]
+      - Peppermint Matcha Latte [vegetarian,!gluten,!milk]
+      - Peppermint Mocha, 16 oz [vegetarian,!gluten,!milk]
+      - Pumpkin Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Pumpkin Latte, 16 oz [vegetarian,!gluten,!milk]
+      - Raspberry White Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Salted Caramel Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Spanish Latte 16 OZ [vegetarian,!gluten,!milk]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+      - Tea Latte [vegetarian,!gluten,!milk]
+      - Vanilla Latte, Double [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Single [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Triple [vegetarian,!alcohol,!gluten,!milk]
+      - Vietnamese Coffee, 16 oz [vegetarian,!gluten,!milk]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+      - White Mocha, Double [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Single [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Triple [vegetarian,!gluten,!milk,!soy]
+global-village-cafe | Global Village Cafe [cafe/open]
+  All Day ?-?
+    # Daily
+      - Avocado Toast [vegan,!tree_nuts,!wheat]
+      - BLT Avocado Toast [!pork,!tree_nuts,!wheat]
+      - Caprese Avocado Toast [vegetarian,!milk,!tree_nuts,!wheat]
+      - Cheesy Toast [vegetarian,!milk,!tree_nuts,!wheat]
+      - Club Avocado Toast [!pork,!soy,!tree_nuts,!wheat]
+      - Egg-rything Avocado Toast [vegetarian,!egg,!sesame,!tree_nuts,!wheat]
+      - El Gallo [vegetarian,!milk,!tree_nuts,!wheat]
+      - French Macaroons [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Hot Honey Bacon Waffle [!egg,!milk,!pork,!soy,!wheat]
+      - Hummus Bagel [vegan,!sesame,!soy,!wheat]
+      - Jalapeno Popper Toast [vegetarian,!milk,!tree_nuts,!wheat]
+      - Le Veg Avocado Toast [vegan,!tree_nuts,!wheat]
+      - Mixed Green Salad [vegan,!gluten]
+      - Nutella Banana Waffle [vegetarian,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Strawberry Cream Cheese Waffle [vegetarian,!egg,!milk,!soy,!wheat]
+      - Toasted Bagel & Cream Cheese [vegetarian,!milk,!wheat]
+    # Campus Bakery
+      - Apple Blueberry Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Cheddar Garlic Croizel [vegetarian,!milk,!wheat]
+      - Chocolate Croissant [vegetarian,!alcohol,!milk,!soy,!wheat]
+      - Croissant [vegetarian,!egg,!milk,!wheat]
+      - Maple Pecan Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Vegan Chocolate Chip Cookie [vegan,!alcohol,!soy,!wheat]
+      - Vegan Fruit and Nut Granola [vegan,!alcohol,!gluten,!sesame,!tree_nuts]
+    # Bagels
+      - Everything Bagelry Bagel [vegan,!sesame,!wheat]
+      - Garlic Bagelry Bagel [vegan,!wheat]
+      - Jalapeno Cheese Bagelry Bagel [vegetarian,!milk,!wheat]
+      - Plain Bagelry Bagel [vegan,!wheat]
+      - Tomato Basil Bagelry Bagel [vegan,!wheat]
+    # Commissary
+      - Breakfast Bacon Burrito [!egg,!milk,!pork,!soy,!wheat]
+      - Breakfast Burrito [vegetarian,!egg,!milk,!soy,!wheat]
+      - Calabrian Italian Club [!milk,!pork,!wheat]
+      - Chicken Penne Alfredo [!milk,!soy,!wheat]
+      - Chicken Salad Sandwich [!alcohol,!milk,!soy,!wheat]
+      - Chipotle Chicken Wrap [!soy,!wheat]
+      - Pesto Chicken Salad Pita Sandwich [!soy,!wheat]
+      - Pesto Pasta Salad [vegetarian,!milk,!wheat]
+      - Roma Sandwich [vegetarian,!milk,!wheat]
+      - Rotisserie Chicken Caesar Salad [!alcohol,!egg,!fish,!milk,!soy,!wheat]
+      - The Gobbler [!alcohol,!milk,!sesame,!soy,!wheat]
+      - Turkey Bacon Provolone Sandwich [!egg,!milk,!pork,!soy,!wheat]
+      - Turkey Cheddar Croissant Sandwich [!milk,!soy,!wheat]
+    # Coffee Drinks
+      - 16 oz Cold Brew Coffee [vegan,!gluten]
+      - Add Espresso Shot [vegan,!gluten]
+      - Americano 12oz [vegan,!gluten]
+      - Americano 16oz [vegan,!gluten]
+      - Americano 20 oz [vegan,!gluten]
+      - Cappuccino, Single [vegetarian,!gluten,!milk]
+      - Cappucino, Double [vegetarian,!gluten,!milk]
+      - Caramel Latte, Double [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Single [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Triple [vegetarian,!gluten,!milk,!soy]
+      - Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Coconut Caramel Latte, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Coffee, 12 oz [vegan,!gluten]
+      - Coffee, 16 oz [vegan,!gluten]
+      - Coffee, 20 oz [vegan,!gluten]
+      - Cookie Butter Mocha 16 OZ [vegetarian,!gluten,!milk,!soy]
+      - Dirty Hazelnut Chai Latte [vegetarian,!alcohol,!gluten,!milk,!tree_nuts]
+      - Espresso, Double Shot [vegan,!gluten]
+      - Espresso, Single Shot [vegan,!gluten]
+      - Espresso, Triple Shot [vegan,!gluten]
+      - Hazelnut Brittle Latte, 16 oz [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Hazelnut Latte, Double [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Single [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Triple [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Milk Chocolate Mocha 16 OZ [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Honey Lavender Latte, 16 oz [vegetarian,!gluten,!milk]
+      - Horchata Latte [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Hot Chocolate [vegetarian,!gluten,!milk]
+      - Hot Tea [vegan,!gluten]
+      - Latte, Double [vegetarian,!gluten,!milk]
+      - Latte, Single [vegetarian,!gluten,!milk]
+      - Latte, Triple [vegetarian,!gluten,!milk]
+      - London Fog Tea Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Mexican Mocha, 16 oz [vegetarian,!alcohol,!gluten,!milk]
+      - Mocha, Double [vegetarian,!gluten,!milk]
+      - Mocha, Single [vegetarian,!gluten,!milk]
+      - Mocha, Triple [vegetarian,!gluten,!milk]
+      - Peppermint Matcha Latte [vegetarian,!gluten,!milk]
+      - Peppermint Mocha, 16 oz [vegetarian,!gluten,!milk]
+      - Pumpkin Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Pumpkin Latte, 16 oz [vegetarian,!gluten,!milk]
+      - Raspberry White Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Salted Caramel Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Spanish Latte 16 OZ [vegetarian,!gluten,!milk]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+      - Tea Latte [vegetarian,!gluten,!milk]
+      - Vanilla Latte, Double [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Single [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Triple [vegetarian,!alcohol,!gluten,!milk]
+      - Vietnamese Coffee, 16 oz [vegetarian,!gluten,!milk]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+      - White Mocha, Double [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Single [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Triple [vegetarian,!gluten,!milk,!soy]
+    # Drinks Specials
+      - Chocolate Strawberry Smoothie [vegetarian,!gluten,!milk]
+      - Frozen Chocolate Banana [vegetarian,!gluten,!milk]
+      - Frozen Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Frozen Mint Cookies & Cream [vegetarian,!milk,!soy,!wheat]
+      - Frozen Strawberry Taro [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+    # Coffee & Tea -- New City of Santa Cruz Cup Fee of $.025 BYO and save up to $0.50 when ordering a togo drink
+      - Dirty Vanilla Tonic [vegan,!alcohol,!gluten]
+      - Iced Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Italian Soda [vegan,!gluten]
+      - Peach Mango Refresher [vegan,!gluten]
+    # Smoothies
+      - Frozen Caramel Latte [vegetarian,!gluten,!milk,!soy]
+      - Frozen Cookies & Cream [vegetarian,!milk,!soy,!wheat]
+      - Frozen Espresso Cookies & Cream [vegetarian,!milk,!soy,!wheat]
+      - Frozen Latte [vegetarian,!gluten,!milk]
+      - Frozen Matcha [vegetarian,!gluten,!milk]
+      - Frozen Mocha [vegetarian,!gluten,!milk]
+      - Iced Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Italian Soda [vegan,!gluten]
+      - Lemon Cream Smoothie [vegetarian,!gluten,!milk]
+      - Lemonade Smoothie [vegetarian,!gluten,!milk]
+      - Mango Cream Smoothie [vegetarian,!gluten,!milk]
+      - Mango Fruit Smoothie [vegetarian,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Strawberry Cream Smoothie [vegetarian,!gluten,!milk]
+      - Strawberry Fruit Smoothie [vegetarian,!gluten,!milk]
+      - Strawberry Lemonade Smoothie [vegetarian,!gluten,!milk]
+    # All Day
+      - Add Avocado [vegan,!gluten]
+      - Add Bacon [!gluten,!pork]
+      - Add Cheddar Cheese [vegetarian,!gluten,!milk]
+      - Add Hard Boiled Egg [vegetarian,!egg,!gluten]
+      - Add Hummus [vegan,!gluten,!sesame,!soy]
+      - Add Pickled Jalapeno [vegan,!gluten]
+      - Add Side Pico De Gallo Salsa [vegan,!gluten]
+      - Coffee Bar Syrup Add On [vegan,!alcohol,!gluten]
+      - Gluten-Free Oat Milk [vegan,!gluten]
+      - Half & Half [vegetarian,!gluten,!milk]
+      - Sliced Smoked Provolone Cheese [vegetarian,!gluten,!milk]
+      - Soy Milk [vegan,!gluten,!soy]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+    # Add Ons
+      - Add Avocado [vegan,!gluten]
+      - Add Chicken, 2 oz [!gluten,!soy]
+      - Add Fresh Mozzarella [vegetarian,!gluten,!milk]
+      - Add Hard Boiled Egg [vegetarian,!egg,!gluten]
+      - Add Hummus [vegan,!gluten,!sesame,!soy]
+      - Add Queso Fresco [vegetarian,!gluten,!milk]
+      - Add Side Pico De Gallo Salsa [vegan,!gluten]
+      - Mashed Avocado [vegan,!gluten]
+      - Pesto Ricotta Spread [vegetarian,!gluten,!milk]
+owls-nest-cafe | Owl's Nest Cafe [cafe/open]
+  Breakfast ?-?
+    # Campus Bakery
+      - Apple Blueberry Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Cheddar Garlic Croizel [vegetarian,!milk,!wheat]
+      - Chocolate Croissant [vegetarian,!alcohol,!milk,!soy,!wheat]
+      - Croissant [vegetarian,!egg,!milk,!wheat]
+      - Maple Pecan Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Vegan Chocolate Chip Cookie [vegan,!alcohol,!soy,!wheat]
+    # Coffee and Tea
+      - 16 oz Cold Brew Coffee [vegan,!gluten]
+      - Add Espresso Shot [vegan,!gluten]
+      - Americano 12oz [vegan,!gluten]
+      - Americano 16oz [vegan,!gluten]
+      - Americano 20 oz [vegan,!gluten]
+      - Cappuccino, Single [vegetarian,!gluten,!milk]
+      - Cappucino, Double [vegetarian,!gluten,!milk]
+      - Caramel Latte, Double [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Single [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Triple [vegetarian,!gluten,!milk,!soy]
+      - Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Coconut Caramel Latte, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Coffee, 12 oz [vegan,!gluten]
+      - Coffee, 16 oz [vegan,!gluten]
+      - Coffee, 20 oz [vegan,!gluten]
+      - Cookie Butter Mocha 16 OZ [vegetarian,!gluten,!milk,!soy]
+      - Dirty Hazelnut Chai Latte [vegetarian,!alcohol,!gluten,!milk,!tree_nuts]
+      - Espresso, Double Shot [vegan,!gluten]
+      - Espresso, Single Shot [vegan,!gluten]
+      - Espresso, Triple Shot [vegan,!gluten]
+      - Hazelnut Brittle Latte, 16 oz [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Hazelnut Latte, Double [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Single [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Triple [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Milk Chocolate Mocha 16 OZ [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Horchata Latte [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Hot Chocolate [vegetarian,!gluten,!milk]
+      - Hot Tea [vegan,!gluten]
+      - Latte, Double [vegetarian,!gluten,!milk]
+      - Latte, Single [vegetarian,!gluten,!milk]
+      - Latte, Triple [vegetarian,!gluten,!milk]
+      - London Fog Tea Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Mexican Mocha, 16 oz [vegetarian,!alcohol,!gluten,!milk]
+      - Mocha, Double [vegetarian,!gluten,!milk]
+      - Mocha, Single [vegetarian,!gluten,!milk]
+      - Mocha, Triple [vegetarian,!gluten,!milk]
+      - Peppermint Matcha Latte [vegetarian,!gluten,!milk]
+      - Peppermint Mocha, 16 oz [vegetarian,!gluten,!milk]
+      - Pumpkin Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Pumpkin Latte, 16 oz [vegetarian,!gluten,!milk]
+      - Raspberry White Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Salted Caramel Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Spanish Latte 16 OZ [vegetarian,!gluten,!milk]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+      - Tea Latte [vegetarian,!gluten,!milk]
+      - Vanilla Latte, Double [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Single [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Triple [vegetarian,!alcohol,!gluten,!milk]
+      - Vietnamese Coffee, 16 oz [vegetarian,!gluten,!milk]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+      - White Mocha, Double [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Single [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Triple [vegetarian,!gluten,!milk,!soy]
+    # Drinks Specials
+      - Dirty Vanilla Tonic [vegan,!alcohol,!gluten]
+      - Iced Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Italian Soda [vegan,!gluten]
+  All Day ?-?
+    # Bagels
+      - Blueberry Bagelry Bagel [vegan,!wheat]
+      - Cream Cheese pck [vegetarian,!gluten,!milk]
+      - Everything Bagelry Bagel [vegan,!sesame,!wheat]
+      - Jalapeno Cheese Bagelry Bagel [vegetarian,!milk,!wheat]
+      - Pesto Bagelry Bagel [vegetarian,!milk,!wheat]
+      - Plain Bagelry Bagel [vegan,!wheat]
+      - Tomato Basil Bagelry Bagel [vegan,!wheat]
+    # All Day Bowls
+      - Build Your Own Bowl
+      - Coastal Shirataki Ahi Bowl [!fish,!gluten,!sesame,!shellfish,!soy]
+      - Fire Island Chicken Bowl [!alcohol,!soy,!wheat]
+      - Island Slamon Bowl [!alcohol,!egg,!fish,!soy,!wheat]
+      - Pacific Harvest Chicken Bowl [!alcohol,!soy,!wheat]
+      - Pacific Soba Market Bowl [!alcohol,!egg,!fish,!soy,!wheat]
+      - Redwood Garden Bowl [vegan,!alcohol,!gluten,!sesame,!soy]
+      - Santa Cruz Ahi Bowl [!fish,!gluten,!sesame,!shellfish,!soy]
+      - Wasabi Tempeh Bowl [vegan,!gluten,!sesame,!soy]
+    # All Day Base
+      - Brown Rice Quinoa Blend [vegan,!gluten]
+      - Chilled Soba Noodles [vegan,!soy,!wheat]
+      - Glass Noodles [!gluten]
+      - Japanese White Rice [vegan,!gluten]
+      - Organic Mixed Greens [vegan,!gluten]
+      - Seasoned Japanese White Rice [vegan,!gluten]
+    # All Day Protein (1)
+      - Ahi Poke [!fish,!gluten,!sesame,!shellfish,!soy]
+      - Candied Miso Salmon Poke [!alcohol,!fish,!gluten,!soy]
+      - Miso Ginger Tofu [vegan,!alcohol,!gluten,!sesame,!soy]
+      - Spicy Ahi Poke [!fish,!gluten,!sesame,!soy]
+      - Tamari Maple Tempeh [vegan,!gluten,!sesame,!soy]
+      - Teriyaki Chicken [!alcohol,!soy,!wheat]
+    # All Day Finish (1)
+      - Crispy Fried Garlic [vegan,!gluten]
+      - Furikake [vegan,!gluten,!sesame]
+      - Tempura Crunch [vegan,!wheat]
+    # All Day Topping (4) cold
+      - Cubed Mango [vegan,!gluten]
+      - Cubed Pineapple [vegan,!gluten]
+      - Cucumber [vegan,!gluten]
+      - Diced Avocado [vegan,!gluten]
+      - Diced Green Onion [vegan,!gluten]
+      - Edamame [vegan,!gluten,!soy]
+      - Pickled Ginger [vegan,!gluten]
+      - Pickled Jalapeno [vegan,!gluten]
+      - Seaweed Salad [vegan,!gluten,!sesame]
+      - Shredded Carrots [vegan,!gluten]
+      - Shredded Coleslaw Mix [vegan,!gluten]
+    # All Day Sauce
+      - Coconut Chili Sauce [vegan,!gluten,!soy]
+      - Creamy Wasabi Avocado Sauce [vegan,!gluten,!soy]
+      - Roasted Garlic and Onion [vegetarian,!egg,!soy,!wheat]
+      - Spicy Yuzu Aioli [vegan,!soy,!wheat]
+      - Turmeric Yuzu Ponzu Sauce [vegan,!gluten,!soy]
+ucen-coffee-bar | UCen Coffee Bar [cafe/open]
+  All Day ?-?
+    # Campus Bakery
+      - Apple Blueberry Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Cheddar Garlic Croizel [vegetarian,!milk,!wheat]
+      - Chocolate Croissant [vegetarian,!alcohol,!milk,!soy,!wheat]
+      - Croissant [vegetarian,!egg,!milk,!wheat]
+      - Maple Pecan Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Vegan Chocolate Chip Cookie [vegan,!alcohol,!soy,!wheat]
+    # Coffee and Tea
+      - 16 oz Cold Brew Coffee [vegan,!gluten]
+      - Add Espresso Shot [vegan,!gluten]
+      - Americano 12oz [vegan,!gluten]
+      - Americano 16oz [vegan,!gluten]
+      - Americano 20 oz [vegan,!gluten]
+      - Cappuccino, Single [vegetarian,!gluten,!milk]
+      - Cappucino, Double [vegetarian,!gluten,!milk]
+      - Caramel Latte, Double [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Single [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Triple [vegetarian,!gluten,!milk,!soy]
+      - Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Coconut Caramel Latte, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Coffee, 12 oz [vegan,!gluten]
+      - Coffee, 16 oz [vegan,!gluten]
+      - Coffee, 20 oz [vegan,!gluten]
+      - Cookie Butter Mocha 16 OZ [vegetarian,!gluten,!milk,!soy]
+      - Dirty Hazelnut Chai Latte [vegetarian,!alcohol,!gluten,!milk,!tree_nuts]
+      - Espresso, Double Shot [vegan,!gluten]
+      - Espresso, Single Shot [vegan,!gluten]
+      - Espresso, Triple Shot [vegan,!gluten]
+      - Hazelnut Brittle Latte, 16 oz [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Hazelnut Latte, Double [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Single [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Triple [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Milk Chocolate Mocha 16 OZ [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Horchata Latte [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Hot Chocolate [vegetarian,!gluten,!milk]
+      - Hot Tea [vegan,!gluten]
+      - Latte, Double [vegetarian,!gluten,!milk]
+      - Latte, Single [vegetarian,!gluten,!milk]
+      - Latte, Triple [vegetarian,!gluten,!milk]
+      - London Fog Tea Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Mexican Mocha, 16 oz [vegetarian,!alcohol,!gluten,!milk]
+      - Mocha, Double [vegetarian,!gluten,!milk]
+      - Mocha, Single [vegetarian,!gluten,!milk]
+      - Mocha, Triple [vegetarian,!gluten,!milk]
+      - Peppermint Matcha Latte [vegetarian,!gluten,!milk]
+      - Peppermint Mocha, 16 oz [vegetarian,!gluten,!milk]
+      - Pumpkin Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Pumpkin Latte, 16 oz [vegetarian,!gluten,!milk]
+      - Raspberry White Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Salted Caramel Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Spanish Latte 16 OZ [vegetarian,!gluten,!milk]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+      - Tea Latte [vegetarian,!gluten,!milk]
+      - Vanilla Latte, Double [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Single [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Triple [vegetarian,!alcohol,!gluten,!milk]
+      - Vietnamese Coffee, 16 oz [vegetarian,!gluten,!milk]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+      - White Mocha, Double [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Single [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Triple [vegetarian,!gluten,!milk,!soy]
+    # Drinks
+      - Dirty Vanilla Tonic [vegan,!alcohol,!gluten]
+      - Iced Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Italian Soda [vegan,!gluten]
+      - Peach Mango Refresher [vegan,!gluten]
+stevenson-coffee-house | Stevenson Coffee House [cafe/open]
+  All Day ?-?
+    # Bagels Flavors
+      - Blueberry Bagelry Bagel [vegan,!wheat]
+      - Everything Bagelry Bagel [vegan,!sesame,!wheat]
+      - Jalapeno Cheese Bagelry Bagel [vegetarian,!milk,!wheat]
+      - Plain Bagelry Bagel [vegan,!wheat]
+      - Tomato Basil Bagelry Bagel [vegan,!wheat]
+    # Sandwiches
+      - Avocado & Arugula Sandwich [vegetarian,!milk,!wheat]
+      - BLT Sandwich [!pork,!wheat]
+      - Chipotle Chickpea Salad Sandwich [vegan,!wheat]
+      - Salami Sandwich [!pork,!wheat]
+      - Turkey Pesto Sandwich [!milk,!wheat]
+      - Turkey Sandwich [!wheat]
+    # Soup
+      - Organic Tomato Bisque [vegetarian,!gluten,!milk]
+      - Soup and Cheese Toast Combo [vegetarian,!milk,!wheat]
+    # Lunch
+      - Chefs Salad [vegan,!gluten]
+      - Rotisserie Chicken Caesar Salad [!alcohol,!egg,!fish,!milk,!soy,!wheat]
+    # Boba
+      - Classic Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Coconut Thai Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Dragon Coconut Smoothie [vegetarian,!milk,!soy,!wheat]
+      - Dragon Fruit Strawberry Lemonade [vegetarian,!milk,!soy,!wheat]
+      - Frozen Strawberry Passionfruit [vegetarian,!milk,!soy,!wheat]
+      - Mango Black Tea [vegetarian,!milk,!soy,!wheat]
+      - Mango Lemonade [vegetarian,!milk,!soy,!wheat]
+      - Mango Passionfruit Lemonade [vegetarian,!milk,!soy,!wheat]
+      - Mango Popping Pearls [vegan,!gluten]
+      - Mango Smoothie [vegetarian,!milk,!soy,!wheat]
+      - Salted Caramel Milk Tea Smoothie [vegetarian,!milk,!soy,!wheat]
+      - Salted Caramel Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Salted Caramel Thai Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Strawberry Lemonade [vegetarian,!milk,!soy,!wheat]
+      - Strawberry Popping Pearls [vegan,!gluten]
+      - Strawberry Smoothie [vegetarian,!milk,!soy,!wheat]
+      - Tapioca Boba Pearls [vegan,!gluten]
+      - Thai Milk Tea [vegetarian,!milk,!soy,!wheat]
+      - Tropical Lemon Thai Tea [vegetarian,!milk,!soy,!wheat]
+    # Campus Bakery
+      - Apple Blueberry Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Cheddar Garlic Croizel [vegetarian,!milk,!wheat]
+      - Chocolate Croissant [vegetarian,!alcohol,!milk,!soy,!wheat]
+      - Cinnamon Roll [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Croissant [vegetarian,!egg,!milk,!wheat]
+      - Maple Pecan Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Stevenson Coffee House Fudgie Bar [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Vegan Chocolate Chip Cookies [vegan,!alcohol,!soy,!wheat]
+    # Grab & Go
+      - Calabrian Italian Club [!milk,!pork,!wheat]
+      - Chicken Penne Alfredo [!milk,!soy,!wheat]
+      - Chipotle Chicken Wrap [!soy,!wheat]
+      - Pesto Pasta Salad [vegetarian,!milk,!wheat]
+      - Rotisserie Chicken Caesar Salad [!alcohol,!egg,!fish,!milk,!soy,!wheat]
+    # Coffee & Tea -- New City of Santa Cruz Cup Fee of $.025 BYO and save up to $0.50 when ordering a togo drink
+      - 16 oz Cold Brew Coffee [vegan,!gluten]
+      - Add Espresso Shot [vegan,!gluten]
+      - Americano 12oz [vegan,!gluten]
+      - Americano 16oz [vegan,!gluten]
+      - Americano 20 oz [vegan,!gluten]
+      - Cappuccino, Single [vegetarian,!gluten,!milk]
+      - Cappucino, Double [vegetarian,!gluten,!milk]
+      - Caramel Latte, Double [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Single [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Triple [vegetarian,!gluten,!milk,!soy]
+      - Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Coconut Caramel Latte, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Coffee, 12 oz [vegan,!gluten]
+      - Coffee, 16 oz [vegan,!gluten]
+      - Coffee, 20 oz [vegan,!gluten]
+      - Cookie Butter Mocha 16 OZ [vegetarian,!gluten,!milk,!soy]
+      - Dirty Hazelnut Chai Latte [vegetarian,!alcohol,!gluten,!milk,!tree_nuts]
+      - Espresso, Double Shot [vegan,!gluten]
+      - Espresso, Single Shot [vegan,!gluten]
+      - Espresso, Triple Shot [vegan,!gluten]
+      - Hazelnut Brittle Latte, 16 oz [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Hazelnut Latte, Double [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Single [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Triple [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Milk Chocolate Mocha 16 OZ [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Horchata Latte [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Hot Chocolate [vegetarian,!gluten,!milk]
+      - Hot Tea [vegan,!gluten]
+      - Latte, Double [vegetarian,!gluten,!milk]
+      - Latte, Single [vegetarian,!gluten,!milk]
+      - Latte, Triple [vegetarian,!gluten,!milk]
+      - London Fog Tea Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Mexican Mocha, 16 oz [vegetarian,!alcohol,!gluten,!milk]
+      - Mocha, Double [vegetarian,!gluten,!milk]
+      - Mocha, Single [vegetarian,!gluten,!milk]
+      - Mocha, Triple [vegetarian,!gluten,!milk]
+      - Peppermint Matcha Latte [vegetarian,!gluten,!milk]
+      - Peppermint Mocha, 16 oz [vegetarian,!gluten,!milk]
+      - Pumpkin Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Pumpkin Latte, 16 oz [vegetarian,!gluten,!milk]
+      - Raspberry White Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Salted Caramel Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Spanish Latte 16 OZ [vegetarian,!gluten,!milk]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+      - Tea Latte [vegetarian,!gluten,!milk]
+      - Vanilla Latte, Double [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Single [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Triple [vegetarian,!alcohol,!gluten,!milk]
+      - Vietnamese Coffee, 16 oz [vegetarian,!gluten,!milk]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+      - White Mocha, Double [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Single [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Triple [vegetarian,!gluten,!milk,!soy]
+    # Drinks Specials
+      - Dirty Vanilla Tonic [vegan,!alcohol,!gluten]
+      - Iced Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Italian Soda [vegan,!gluten]
+    # All Day
+      - Add Avocado [vegan,!gluten]
+      - Add Bacon [!gluten,!pork]
+      - Add Cheddar Cheese [vegetarian,!gluten,!milk]
+      - Add Pepper Jack Cheese [vegetarian,!gluten,!milk]
+      - Add Sliced Red Onion [vegan,!gluten]
+      - Add Sliced Tomato [vegan,!gluten]
+      - Chipotle Aioli [vegan,!gluten]
+      - Coffee Bar Syrup Add On [vegan,!alcohol,!gluten]
+      - Gluten-Free Oat Milk [vegan,!gluten]
+      - Half & Half [vegetarian,!gluten,!milk]
+      - Italian Dry Salami [!gluten,!pork]
+      - Oven Roasted Turkey Breast [!gluten]
+      - Sliced Smoked Provolone Cheese [vegetarian,!gluten,!milk]
+      - Soy Milk [vegan,!gluten,!soy]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+perk-coffee-bar | Perk Coffee Bar [cafe/open]
+  All Day ?-?
+    # Grab & Go
+      - Bacon Breakfast Burrito [!egg,!milk,!pork,!soy,!wheat]
+      - Breakfast Burrito [vegetarian,!egg,!milk,!soy,!wheat]
+      - Calabrian Italian Club [!milk,!pork,!wheat]
+      - Chicken Penne Alfredo [!milk,!soy,!wheat]
+      - Chicken Salad Sandwich [!alcohol,!milk,!soy,!wheat]
+      - Chipotle Chicken Wrap [!soy,!wheat]
+      - Pesto Chicken Salad Pita Sandwich [!soy,!wheat]
+      - Pesto Pasta Salad [vegetarian,!milk,!wheat]
+      - Roma Sandwich [vegetarian,!milk,!wheat]
+      - Rotisserie Chicken Caesar Salad [!alcohol,!egg,!fish,!milk,!soy,!wheat]
+      - The Gobbler [!alcohol,!milk,!sesame,!soy,!wheat]
+      - Turkey Bacon Provolone Sandwich [!egg,!milk,!pork,!soy,!wheat]
+      - Turkey Cheddar Croissant Sandwich [!milk,!soy,!wheat]
+    # Campus Bakery
+      - Apple Blueberry Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Cheddar Garlic Croizel [vegetarian,!milk,!wheat]
+      - Chocolate Croissant [vegetarian,!alcohol,!milk,!soy,!wheat]
+      - Croissant [vegetarian,!egg,!milk,!wheat]
+      - Maple Pecan Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Vegan Chocolate Chip Cookies [vegan,!alcohol,!soy,!wheat]
+    # Coffee & Tea -- New City of Santa Cruz Cup Fee of $.025 BYO and save up to $0.50 when ordering a togo drink
+      - 16 oz Cold Brew Coffee [vegan,!gluten]
+      - Add Espresso Shot [vegan,!gluten]
+      - Americano 12oz [vegan,!gluten]
+      - Americano 16oz [vegan,!gluten]
+      - Americano 20 oz [vegan,!gluten]
+      - Cappuccino, Single [vegetarian,!gluten,!milk]
+      - Cappucino, Double [vegetarian,!gluten,!milk]
+      - Caramel Latte, Double [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Single [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Triple [vegetarian,!gluten,!milk,!soy]
+      - Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Coconut Caramel Latte, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Coffee, 12 oz [vegan,!gluten]
+      - Coffee, 16 oz [vegan,!gluten]
+      - Coffee, 20 oz [vegan,!gluten]
+      - Cookie Butter Mocha 16 OZ [vegetarian,!gluten,!milk,!soy]
+      - Dirty Hazelnut Chai Latte [vegetarian,!alcohol,!gluten,!milk,!tree_nuts]
+      - Espresso, Double Shot [vegan,!gluten]
+      - Espresso, Single Shot [vegan,!gluten]
+      - Espresso, Triple Shot [vegan,!gluten]
+      - Hazelnut Brittle Latte, 16 oz [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Hazelnut Latte, Double [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Single [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Triple [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Milk Chocolate Mocha 16 OZ [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Honey Lavender Latte, 16 oz [vegetarian,!gluten,!milk]
+      - Horchata Latte [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Hot Chocolate [vegetarian,!gluten,!milk]
+      - Hot Tea [vegan,!gluten]
+      - Latte, Double [vegetarian,!gluten,!milk]
+      - Latte, Single [vegetarian,!gluten,!milk]
+      - Latte, Triple [vegetarian,!gluten,!milk]
+      - London Fog Tea Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Mexican Mocha, 16 oz [vegetarian,!alcohol,!gluten,!milk]
+      - Mocha, Double [vegetarian,!gluten,!milk]
+      - Mocha, Single [vegetarian,!gluten,!milk]
+      - Mocha, Triple [vegetarian,!gluten,!milk]
+      - Peppermint Matcha Latte [vegetarian,!gluten,!milk]
+      - Peppermint Mocha, 16 oz [vegetarian,!gluten,!milk]
+      - Pumpkin Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Pumpkin Latte, 16 oz [vegetarian,!gluten,!milk]
+      - Raspberry White Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Salted Caramel Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Spanish Latte 16 OZ [vegetarian,!gluten,!milk]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+      - Tea Latte [vegetarian,!gluten,!milk]
+      - Vanilla Latte, Double [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Single [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Triple [vegetarian,!alcohol,!gluten,!milk]
+      - Vietnamese Coffee, 16 oz [vegetarian,!gluten,!milk]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+      - White Mocha, Double [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Single [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Triple [vegetarian,!gluten,!milk,!soy]
+    # Beverages
+      - Dirty Vanilla Tonic [vegan,!alcohol,!gluten]
+      - Iced Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Italian Soda [vegan,!gluten]
+      - Peach Mango Refresher [vegan,!gluten]
+porter-market | Porter Market [market/open]
+  All Day ?-?
+    # Specials
+      - Avocado Paradise Breakfast Crunch Wrap [vegetarian,!egg,!milk,!soy,!wheat]
+      - BBQ Chicken Crunch Wrap [!milk,!soy,!wheat]
+      - Breakfast Bacon Crunch Wrap [!egg,!milk,!pork,!soy,!wheat]
+      - Chicken Caesar Crunch Wrap [!egg,!fish,!milk,!soy,!wheat]
+      - Spicy Ranch Chicken Crunch Wrap [!egg,!milk,!soy,!wheat]
+    # Bagels
+      - Cream Cheese pck [vegetarian,!gluten,!milk]
+      - Everything Bagelry Bagel [vegan,!sesame,!wheat]
+      - Garlic Bagelry Bagel [vegan,!wheat]
+      - Jalapeno Cheese Bagelry Bagel [vegetarian,!milk,!wheat]
+      - Pesto Bagelry Bagel [vegetarian,!milk,!wheat]
+      - Plain Bagelry Bagel [vegan,!wheat]
+      - Tomato Basil Bagelry Bagel [vegan,!wheat]
+    # Campus Bakery
+      - Apple Blueberry Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Cheddar Garlic Croizel [vegetarian,!milk,!wheat]
+      - Chocolate Croissant [vegetarian,!alcohol,!milk,!soy,!wheat]
+      - Croissant [vegetarian,!egg,!milk,!wheat]
+      - Maple Pecan Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Vegan Chocolate Chip Cookies [vegan,!alcohol,!soy,!wheat]
+    # Smoothies
+      - Frozen Caramel Latte [vegetarian,!gluten,!milk,!soy]
+      - Frozen Cookies & Cream [vegetarian,!milk,!soy,!wheat]
+      - Frozen Espresso Cookies & Cream [vegetarian,!milk,!soy,!wheat]
+      - Frozen Latte [vegetarian,!gluten,!milk]
+      - Frozen Matcha [vegetarian,!gluten,!milk]
+      - Frozen Mocha [vegetarian,!gluten,!milk]
+      - Iced Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Iced Taro [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Italian Soda [vegan,!gluten]
+      - Lemon Cream Smoothie [vegetarian,!gluten,!milk]
+      - Lemonade Smoothie [vegetarian,!gluten,!milk]
+      - Mango Cream Smoothie [vegetarian,!gluten,!milk]
+      - Mango Fruit Smoothie [vegetarian,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Strawberry Cream Smoothie [vegetarian,!gluten,!milk]
+      - Strawberry Fruit Smoothie [vegetarian,!gluten,!milk]
+      - Strawberry Lemonade Smoothie [vegetarian,!gluten,!milk]
+    # Coffee Drinks
+      - 16 oz Cold Brew Coffee [vegan,!gluten]
+      - Add Espresso Shot [vegan,!gluten]
+      - Americano 12oz [vegan,!gluten]
+      - Americano 16oz [vegan,!gluten]
+      - Americano 20 oz [vegan,!gluten]
+      - Cappuccino, Single [vegetarian,!gluten,!milk]
+      - Cappucino, Double [vegetarian,!gluten,!milk]
+      - Caramel Latte, Double [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Single [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Triple [vegetarian,!gluten,!milk,!soy]
+      - Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Dirty Hazelnut Chai Latte [vegetarian,!alcohol,!gluten,!milk,!tree_nuts]
+      - Espresso, Double Shot [vegan,!gluten]
+      - Espresso, Single Shot [vegan,!gluten]
+      - Espresso, Triple Shot [vegan,!gluten]
+      - Hazelnut Latte, Double [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Single [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Triple [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hot Chocolate [vegetarian,!gluten,!milk]
+      - Hot Tea [vegan,!gluten]
+      - Latte, Double [vegetarian,!gluten,!milk]
+      - Latte, Single [vegetarian,!gluten,!milk]
+      - Latte, Triple [vegetarian,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Mocha, Double [vegetarian,!gluten,!milk]
+      - Mocha, Single [vegetarian,!gluten,!milk]
+      - Mocha, Triple [vegetarian,!gluten,!milk]
+      - Peppermint Matcha Latte [vegetarian,!gluten,!milk]
+      - Peppermint Mocha, 16 oz [vegetarian,!gluten,!milk]
+      - Pumpkin Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+      - Tea Latte [vegetarian,!gluten,!milk]
+      - Vanilla Latte, Double [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Single [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Triple [vegetarian,!alcohol,!gluten,!milk]
+      - Vietnamese Coffee, 16 oz [vegetarian,!gluten,!milk]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+      - White Mocha, Double [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Single [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Triple [vegetarian,!gluten,!milk,!soy]
+    # Drinks
+      - Chocolate Strawberry Smoothie [vegetarian,!gluten,!milk]
+      - Coconut Caramel Latte, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Cookie Butter Mocha 16 OZ [vegetarian,!gluten,!milk,!soy]
+      - Dirty Hazelnut Chai Latte [vegetarian,!alcohol,!gluten,!milk,!tree_nuts]
+      - Frozen Chocolate Banana [vegetarian,!gluten,!milk]
+      - Frozen Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Frozen Mint Cookies & Cream [vegetarian,!milk,!soy,!wheat]
+      - Hazelnut Brittle Latte, 16 oz [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Hazelnut Milk Chocolate Mocha 16 OZ [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+      - Horchata Latte [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - London Fog Tea Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Mexican Mocha, 16 oz [vegetarian,!alcohol,!gluten,!milk]
+      - Peppermint Matcha Latte [vegetarian,!gluten,!milk]
+      - Peppermint Mocha, 16 oz [vegetarian,!gluten,!milk]
+      - Pumpkin Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Pumpkin Latte, 16 oz [vegetarian,!gluten,!milk]
+      - Raspberry White Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Salted Caramel Mocha, 16 oz [vegetarian,!gluten,!milk,!soy]
+      - Spanish Latte 16 OZ [vegetarian,!gluten,!milk]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+merrill-market | Merrill Market [market/open]
+  All Day ?-?
+    # Bagels
+      - Blueberry Bagelry Bagel [vegan,!wheat]
+      - Cinnamon Raisin Bagelry Bagel [vegan,!wheat]
+      - Cream Cheese pck [vegetarian,!gluten,!milk]
+      - Everything Bagelry Bagel [vegan,!sesame,!wheat]
+      - Jalapeno Cheese Bagelry Bagel [vegetarian,!milk,!wheat]
+      - Pesto Bagelry Bagel [vegetarian,!milk,!wheat]
+      - Plain Bagelry Bagel [vegan,!wheat]
+      - Tomato Basil Bagelry Bagel [vegan,!wheat]
+    # Campus Bakery
+      - Apple Blueberry Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!wheat]
+      - Cheddar Garlic Croizel [vegetarian,!milk,!wheat]
+      - Chocolate Croissant [vegetarian,!alcohol,!milk,!soy,!wheat]
+      - Croissant [vegetarian,!egg,!milk,!wheat]
+      - Maple Pecan Muffin [vegetarian,!alcohol,!egg,!milk,!soy,!tree_nuts,!wheat]
+      - Vegan Chocolate Chip Cookies [vegan,!alcohol,!soy,!wheat]
+    # Smoothies
+      - Frozen Caramel Latte [vegetarian,!gluten,!milk,!soy]
+      - Frozen Cookies & Cream [vegetarian,!milk,!soy,!wheat]
+      - Frozen Espresso Cookies & Cream [vegetarian,!milk,!soy,!wheat]
+      - Frozen Latte [vegetarian,!gluten,!milk]
+      - Frozen Matcha [vegetarian,!gluten,!milk]
+      - Frozen Mocha [vegetarian,!gluten,!milk]
+      - Iced Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Iced Taro [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Italian Soda [vegan,!gluten]
+      - Lemon Cream Smoothie [vegetarian,!gluten,!milk]
+      - Lemonade Smoothie [vegetarian,!gluten,!milk]
+      - Mango Cream Smoothie [vegetarian,!gluten,!milk]
+      - Mango Fruit Smoothie [vegetarian,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Strawberry Cream Smoothie [vegetarian,!gluten,!milk]
+      - Strawberry Fruit Smoothie [vegetarian,!gluten,!milk]
+      - Strawberry Lemonade Smoothie [vegetarian,!gluten,!milk]
+    # Coffee Drinks
+      - 16 oz Cold Brew Coffee [vegan,!gluten]
+      - Add Espresso Shot [vegan,!gluten]
+      - Americano 12oz [vegan,!gluten]
+      - Americano 16oz [vegan,!gluten]
+      - Americano 20 oz [vegan,!gluten]
+      - Cappuccino, Single [vegetarian,!gluten,!milk]
+      - Cappucino, Double [vegetarian,!gluten,!milk]
+      - Caramel Latte, Double [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Single [vegetarian,!gluten,!milk,!soy]
+      - Caramel Latte, Triple [vegetarian,!gluten,!milk,!soy]
+      - Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Dirty Hazelnut Chai Latte [vegetarian,!alcohol,!gluten,!milk,!tree_nuts]
+      - Espresso, Double Shot [vegan,!gluten]
+      - Espresso, Single Shot [vegan,!gluten]
+      - Espresso, Triple Shot [vegan,!gluten]
+      - Hazelnut Latte, Double [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Single [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hazelnut Latte, Triple [vegetarian,!gluten,!milk,!tree_nuts]
+      - Hot Chocolate [vegetarian,!gluten,!milk]
+      - Hot Tea [vegan,!gluten]
+      - Latte, Double [vegetarian,!gluten,!milk]
+      - Latte, Single [vegetarian,!gluten,!milk]
+      - Latte, Triple [vegetarian,!gluten,!milk]
+      - Matcha Green Tea Latte [vegetarian,!gluten,!milk]
+      - Mocha, Double [vegetarian,!gluten,!milk]
+      - Mocha, Single [vegetarian,!gluten,!milk]
+      - Mocha, Triple [vegetarian,!gluten,!milk]
+      - Peppermint Matcha Latte [vegetarian,!gluten,!milk]
+      - Peppermint Mocha, 16 oz [vegetarian,!gluten,!milk]
+      - Pumpkin Chai Latte [vegetarian,!alcohol,!gluten,!milk]
+      - Strawberry Matcha Latte [vegetarian,!gluten,!milk]
+      - Tea Latte [vegetarian,!gluten,!milk]
+      - Vanilla Latte, Double [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Single [vegetarian,!alcohol,!gluten,!milk]
+      - Vanilla Latte, Triple [vegetarian,!alcohol,!gluten,!milk]
+      - Vietnamese Coffee, 16 oz [vegetarian,!gluten,!milk]
+      - Whipped Cream [vegetarian,!gluten,!milk]
+      - White Mocha, Double [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Single [vegetarian,!gluten,!milk,!soy]
+      - White Mocha, Triple [vegetarian,!gluten,!milk,!soy]
+    # Drinks
+      - Dirty Vanilla Tonic [vegan,!alcohol,!gluten]
+      - Iced Horchata [vegetarian,!alcohol,!gluten,!milk,!soy]
+      - Italian Soda [vegan,!gluten]

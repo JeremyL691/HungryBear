@@ -23,6 +23,7 @@ class CampusConfig(BaseModel):
     options: Dict[str, Any] = Field(default_factory=dict)
     # Validation expectations (see validate.py)
     main_halls: List[str] = Field(default_factory=list)  # location ids expected to serve full meals
+    weekday_only: List[str] = Field(default_factory=list)  # main halls that are normally closed Sat/Sun
     min_items_per_meal: int = 8  # for main halls
     breaks: List[Tuple[date, date]] = Field(default_factory=list)  # inclusive; no alerts if closed
 

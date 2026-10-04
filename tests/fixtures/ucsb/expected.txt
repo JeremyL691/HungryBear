@@ -1,0 +1,635 @@
+== ucsb 2026-10-03 status=ok
+carrillo | Carrillo [dining_hall/open]
+  Dinner 17:00-20:30
+    # Mongolian Grill
+      - Brown Rice [vegan]
+      - Ginger Beef Stir Fry
+      - Tofu & Vegetable Stir Fry [vegan]
+      - Ham & Navy Bean Soup
+    # Euro
+      - Pork Loin Roast With Garlic and Ginger
+      - Baked Acorn Squash [vegetarian]
+      - Fresh Cauliflower & Broccoli Mix [vegan]
+      - Sinangag - Garlic Fried Rice [vegan]
+    # Salads
+      - Caesar Salad
+    # Pasta
+      - Whole Wheat Spaghetti [vegan]
+      - Red Clam Sauce
+      - Angel Hair Pasta [vegan]
+      - Fresh Tomato Basil Sauce [vegan]
+      - Baked Potato [vegan]
+      - Baked Sweet Potato [vegan]
+      - Black Beans [vegan]
+      - Long Grain Rice [vegan]
+    # Pizza
+      - Assorted Meat Pizza
+      - Cheese Pizza [vegetarian]
+      - Vegetable Pizza on Wheat [vegetarian]
+    # Bakery
+      - Whole Wheat Bread [vegetarian]
+      - Yellow Cake with Chocolate Icing [vegetarian]
+de-la-guerra | De La Guerra [dining_hall/open]
+  Dinner 17:00-20:30
+    # Blue Plate Special
+      - Pasta Fazool Soup [vegan]
+      - Honey Baked Chicken
+      - Steamed Green Beans [vegan]
+      - Rice Pilaf [vegan]
+      - Baked Potato [vegan]
+    # Taqueria (East Side)
+      - Ground Beef Taco
+      - Broccoli & Cauliflower Quesadilla [vegetarian]
+      - Rice with Cilantro & Onions [vegan]
+      - Pinto Beans [vegan]
+      - Flour Tortilla [vegan]
+      - Corn Tortilla [vegan]
+      - Wheat Tortilla [vegan]
+      - Roasted Chile Negro Salsa [vegan]
+    # Pizza
+      - Bacon Jalapeno Pizza
+      - Black Olive Pizza on Wheat [vegetarian]
+      - Herb Breadsticks [vegan]
+    # To Order
+      - Lemon Ginger Chicken Stir Fry
+      - Lemon Ginger Tofu Stir Fry [vegan]
+      - Brown Rice [vegan]
+      - Long Grain Rice [vegan]
+    # Salads/Deli (West Side)
+      - Caesar Salad [vegetarian]
+    # Bakery
+      - Whole Wheat Roll [vegetarian]
+      - Cream Cheese Brownie Pie [vegetarian]
+ortega | Ortega [dining_hall/closed]
+portola | Portola [dining_hall/open]
+  Dinner 17:00-20:30
+    # Greens & Grains
+      - Baked Potato [vegan]
+      - Jasmine Rice [vegan]
+      - Turkey Vegetable Soup
+    # Salad Bar Featured Items
+      - Whole Roasted Garlic [vegan]
+      - Sweet and Spicy Tofu [vegan]
+      - Shredded Carrot & Beet Salad [vegan]
+    # The Brick
+      - Grilled BBQ Chicken Pizza
+      - Corn Pasta Sauce [vegetarian]
+      - Whole Wheat Penne Pasta [vegan]
+      - Roasted Chicken & Zucchini Marinara
+      - Farfalle Pasta [vegan]
+    # Bakery
+      - Peach Crumb Pie [vegetarian]
+      - Hawaiian Sweet Roll [vegetarian]
+    # Chef's Choice
+      - Char Grilled Chicken Thigh
+      - Four Bean Stew [vegan]
+      - Black Beans [vegan]
+      - Steamed Fresh Broccoli [vegan]
+      - Roasted Potato Wedges [vegan]
+    # International
+      - Beef Enchilada
+      - Lettuce/Cheese/Tomatoes [vegetarian]
+      - Vegetarian Tostada [vegetarian]
+      - Fire Roasted Tomato Salsa [vegan]
+      - Sauteed Cabbage & Carrots [vegan]
+      - Tempura Onion Sushi Plate [vegetarian]
+== ucsb 2026-10-04 status=ok
+carrillo | Carrillo [dining_hall/open]
+  Brunch 10:00-14:00
+    # Deli
+      - Sliced Turkey
+      - Sliced Roast Beef
+      - Sliced Provolone Cheese [vegetarian]
+      - Sliced Jack Cheese [vegetarian]
+    # Euro
+      - Mushroom Barley Soup [vegan]
+      - Patty Melt
+      - Garden Burger Patty Melt [vegetarian]
+      - Peas with Onions [vegan]
+      - Baked Potato [vegan]
+      - Baked Sweet Potato [vegan]
+      - Long Grain Rice [vegan]
+    # Salads
+      - Caesar Salad
+    # Grill (Cafe)
+      - Oatmeal [vegan]
+      - Apple Cinnamon Pancake [vegetarian]
+      - Chorizo and Eggs
+      - Diced Potatoes [vegan]
+      - Cage Free Eggs Scrambled [vegetarian]
+      - Cage Free Scrambled Egg Whites [vegetarian]
+      - Black Beans [vegan]
+      - Make Your Own Waffle [vegetarian]
+    # Bakery
+      - Blueberry Muffin [vegan]
+      - Banana Walnut Choc Coffee Cake(w/nut) [vegetarian]
+  Dinner 17:00-20:30
+    # Mongolian Grill
+      - Sticky Rice [vegan]
+      - Chinese Chicken with Vegetables
+      - Vegetable Egg Roll [vegetarian]
+      - Beef Albondigas Soup
+    # Euro
+      - Roast Beef
+      - Au Jus
+      - Polenta with Marinara Sauce [vegan]
+      - Peas [vegan]
+      - Sauteed Button Mushrooms [vegan]
+    # Salads
+      - Caesar Salad
+    # Pasta
+      - Whole Wheat Penne Pasta [vegan]
+      - Marinara Sauce with Sausage
+      - Bowtie Pasta [vegan]
+      - Marinara Sauce [vegan]
+      - Baked Potato [vegan]
+      - Baked Sweet Potato [vegan]
+      - White Navy Beans [vegan]
+      - Pearl Barley [vegan]
+    # Pizza
+      - Ham & Cheese Pizza
+      - Cheese Pizza [vegetarian]
+      - Pesto and Vegetable Pizza on Wheat [vegetarian]
+    # Bakery
+      - Key Lime Pie [vegetarian]
+      - Jalapeno Cornbread [vegetarian]
+de-la-guerra | De La Guerra [dining_hall/open]
+  Brunch 10:00-14:00
+    # Blue Plate Special
+      - Far East Vegetable Soup [vegan]
+      - Grilled Roast Beef & Jack Sandwich
+      - Fresh Cauliflower [vegan]
+      - Baked Potato [vegan]
+    # Pizza
+      - Tomato Pesto Pizza [vegetarian]
+      - Cheese Pizza [vegetarian]
+      - Herb Breadsticks [vegan]
+    # Grill (Cafe)
+      - 7 Grain Hot Cereal [vegan]
+      - Cage Free Scrambled Eggs [vegetarian]
+      - Cage Free Scrambled Egg Whites [vegetarian]
+      - Pancakes [vegetarian]
+      - Sausage Link
+      - Hash Browns [vegan]
+      - Multi-Grain Waffle [vegetarian]
+      - Waffle [vegetarian]
+    # Salads/Deli (West Side)
+      - Macaroni Salad [vegetarian]
+      - Chia Seed Pudding w/Mango [vegan]
+      - Sliced Cantalope [vegan]
+      - Sliced Honeydew [vegan]
+      - Grapefruit Halves [vegan]
+      - Sliced Pineapple [vegan]
+    # Bakery
+      - Blueberry Muffin [vegetarian]
+      - Bagels-Breads & Cereals- See for Choices
+  Dinner 17:00-20:30
+    # Blue Plate Special
+      - Potato Cheese Soup [vegetarian]
+      - Pork Loin Roast with Garlic & Ginger
+      - Carrots & Broccoli [vegan]
+      - Roasted Potato Wedges [vegan]
+      - Baked Potato [vegan]
+    # Taqueria (East Side)
+      - Chicken Bean & Rice Burrito
+      - Grilled Vegetable Tostada [vegan]
+      - Spanish Rice [vegan]
+      - Black Beans [vegan]
+      - Flour Tortilla [vegan]
+      - Corn Tortilla [vegan]
+      - Wheat Tortilla [vegan]
+      - Tomato & Roasted Corn Salsa [vegan]
+    # Pizza
+      - Tomato Pesto Pizza [vegetarian]
+      - Cheese Pizza [vegetarian]
+      - Herb Breadsticks [vegan]
+    # To Order
+      - Spicy Basil Beef
+      - Teriyaki Tofu Stir Fry [vegan]
+      - Wild Rice Blend [vegan]
+      - Long Grain Rice [vegan]
+    # Salads/Deli (West Side)
+      - Tangy Cool Noodle Salad [vegan]
+    # Bakery
+      - Pesto Rolls [vegetarian]
+      - Boston Cream Pie [vegetarian]
+ortega | Ortega [dining_hall/closed]
+portola | Portola [dining_hall/open]
+  Brunch 10:00-14:00
+    # Greens & Grains
+      - Fresh Strawberry [vegan]
+      - Cantaloupe [vegan]
+      - Pineapple [vegan]
+      - Cinnamon Maple Granola [vegan]
+      - Chicken Congee
+      - Quinoa [vegan]
+      - Make Your Own Waffle [vegetarian]
+      - Tortilla Soup
+      - Make Your Own Waffle [vegetarian]
+    # Salad Bar Featured Items
+      - Whole Roasted Garlic [vegan]
+      - Baby Spinach [vegan]
+      - Sweet and Spicy Tofu [vegan]
+    # The Brick
+      - Three Cheese Pizza [vegetarian]
+      - Apple Cranberry Pancake Topping [vegan]
+      - Fluffy Whole Wheat Waffles [vegetarian]
+      - Linguini & Bacon/Tomato Cream Sauce
+    # Bakery
+      - Flour Tortilla [vegan]
+      - Chocolate Chip Coffee Cake [vegetarian]
+    # Chef's Choice
+      - Tuna Melt
+      - Pita Sandwich w/Hummus & Tabouli [vegetarian]
+      - Mashed Yams [vegan]
+      - Black Beans [vegan]
+    # The Grill
+      - Cage Free Scrambled Eggs [vegetarian]
+      - Cage Free Scrambled Egg Whites [vegetarian]
+      - Scrambled Eggs with Ham
+      - Roasted Breakfast Potatoes [vegan]
+      - Buttermilk Pancake [vegetarian]
+      - Steamed Fresh Broccoli [vegan]
+  Dinner 17:00-20:30
+    # Greens & Grains
+      - Baked Sweet Potato [vegan]
+      - Brown Rice [vegan]
+      - Tortilla Soup
+    # Salad Bar Featured Items
+      - Whole Roasted Garlic [vegan]
+      - Sweet and Spicy Tofu [vegan]
+      - Shredded Carrot & Beet Salad [vegan]
+    # The Brick
+      - Tomato Basil Pizza on White [vegetarian]
+      - White Clam Sauce
+      - Linguini Pasta [vegan]
+      - Penne Pasta with Pesto [vegetarian]
+    # Bakery
+      - Cornmeal Berry Cake [vegetarian]
+      - Crusty French Bread [vegan]
+    # Chef's Choice
+      - Beef Stew
+      - Mushroom Risotto [vegan]
+      - Baked Acorn Squash [vegetarian]
+      - Sauteed Cabbage & Carrots [vegan]
+    # International
+      - Hoisin Chicken
+      - Sticky Rice [vegan]
+      - Vegetable Fried Rice [vegan]
+      - Broccoli Spinach Bok Choy Stir Fry [vegan]
+      - Spicy Scallop Sushi Plate
+      - Daikon Roll [vegan]
+== ucsb 2026-10-05 status=ok
+carrillo | Carrillo [dining_hall/open]
+  Breakfast 07:15-10:00
+    # Grill (Cafe)
+      - Oatmeal [vegan]
+      - Banana Pancake [vegetarian]
+      - Breakfast Burrito [vegetarian]
+      - Hash Browns [vegan]
+      - Cage Free Eggs Scrambled [vegetarian]
+      - Cage Free Scrambled Egg Whites [vegetarian]
+      - Make Your Own Waffle [vegetarian]
+    # Bakery
+      - Assorted Bagels & Condiments
+      - Raspberry White Chocolate Muffin [vegetarian]
+  Lunch 11:00-15:00
+    # Deli
+      - Sliced Roast Beef
+      - Sliced Turkey Pastrami
+      - Sliced Pepper Jack Cheese [vegetarian]
+      - Sliced Swiss Cheese [vegetarian]
+    # Mongolian Grill
+      - Sticky Rice [vegan]
+      - Pork & Vegetable Stir Fry
+      - Vegetable Teriyaki Rice Bowl [vegan]
+    # Salads
+      - Cucumber & Onion Salad [vegan]
+      - Waldorf Walnut Salad [vegetarian,!tree_nuts]
+    # Euro
+      - Macaroni Goulash
+      - Vegetable Taco [vegetarian]
+      - Stir Fry Vegetables [vegan]
+      - Rice with Cilantro & Onions [vegan]
+      - Roasted Tomato Salsa [vegan]
+    # Pizza
+      - Chicken Florentine Pizza w/White Sauce
+      - Cheese Pizza [vegetarian]
+      - Tomato Basil Pizza on Wheat [vegetarian]
+    # Grill (Cafe)
+      - Thai Tom Ka Soup w/Tofu [vegan]
+      - Charburger
+      - Gardenburger [vegetarian]
+      - Grilled Tuna & Swiss on Sourdough
+      - Krinkle Cut Fries [vegan]
+      - Baked Potato [vegan]
+      - Baked Sweet Potato [vegan]
+      - Black Beans [vegan]
+      - Brown Rice [vegan]
+    # Bakery
+      - Potato Roll [vegetarian]
+      - Dark Chocolate Walnut Brownie [vegetarian,!tree_nuts]
+      - Cookies 'n Cream Cake [vegetarian]
+  Dinner 17:00-20:30
+    # Deli
+      - Tortilla Chips and Salsa [vegan]
+      - Hummus [vegan]
+      - Pita Chips [vegan]
+    # Mongolian Grill
+      - Brown Rice [vegan]
+      - Pork Fried Rice
+      - Vegetable Tagine [vegan]
+      - Spicy Navy Bean Soup [vegan]
+    # Salads
+      - Marmite Caesar Salad [vegetarian]
+    # Euro
+      - Chicken Chile Verde & Black Bean Burrito
+      - Corn [vegan]
+      - Steamed Carrots [vegan]
+      - Mexican Rice [vegan]
+      - Green Salsa [vegan]
+      - Oven Roasted Tomato [vegan]
+    # Pasta
+      - Pasta Carbonara
+      - Spirals with Marinara Sauce [vegan]
+      - Baked Potato [vegan]
+      - Baked Sweet Potato [vegan]
+      - Pinto Beans [vegan]
+      - Long Grain Rice [vegan]
+    # Pizza
+      - Chicken Florentine Pizza w/White Sauce
+      - Cheese Pizza [vegetarian]
+      - Tomato Basil Pizza on Wheat [vegetarian]
+    # Bakery
+      - Cream Cheese Pie [vegetarian]
+      - Cracked Wheat Bread [vegetarian]
+de-la-guerra | De La Guerra [dining_hall/open]
+  Breakfast 07:15-10:00
+    # Grill (Cafe)
+      - Oatmeal [vegan]
+      - Cage Free Scrambled Eggs Vegetables [vegetarian]
+      - Cage Free Scrambled Eggs [vegetarian]
+      - Cage Free Scrambled Egg Whites [vegetarian]
+      - Bacon
+      - Hash Browns [vegan]
+      - Waffle [vegetarian]
+      - Multi-Grain Waffle [vegetarian]
+    # Bakery
+      - Cranberry Orange Muffin [vegetarian]
+      - Banana Bread [vegetarian]
+    # Beverages
+      - Chia Seed Pudding [vegan]
+      - Sliced Cantalope [vegan]
+      - Sliced Honeydew [vegan]
+      - Grapefruit Halves [vegan]
+      - Sliced Pineapple [vegan]
+  Lunch 11:00-15:00
+    # Blue Plate Special
+      - Chickpea Vegetable Soup [vegan]
+      - Veggie Sandwich with Tomato Spread [vegan]
+      - Steamed Carrot & Corn & Peas [vegan]
+      - Baked Potato [vegan]
+      - Baked Sweet Potato [vegan]
+    # Taqueria (East Side)
+      - Chicken Tostada
+      - Potato Taco [vegan]
+      - Rice with Cilantro & Lime [vegan]
+      - Refried Beans [vegan]
+      - Flour Tortilla [vegan]
+      - Corn Tortilla [vegan]
+      - Wheat Tortilla [vegan]
+      - Roasted Tomato and Chile Salsa [vegan]
+    # Pizza
+      - Assorted Meat Pizza
+      - Vegetable Pizza [vegetarian]
+      - Herb Breadsticks [vegan]
+    # To Order
+      - Fettuccine Pasta [vegan]
+      - Creamy Bolognese Sauce
+      - Wheat Pasta w/Tomato & Basil [vegan]
+      - Long Grain Rice [vegan]
+      - Brown Rice [vegan]
+    # Grill (Cafe)
+      - Char Burger
+      - Veggie Burger on Whole Wheat Bun [vegan]
+      - Grilled Tomato Basil Mozz Sandwich [vegetarian]
+      - Shoestring French Fries [vegan]
+    # Salads/Deli (West Side)
+      - Asian Slaw [vegan]
+    # Bakery
+      - Ricotta Pepper Roll [vegetarian]
+      - Chocolate Volcano Cupcake [vegetarian]
+  Dinner 17:00-20:30
+    # Blue Plate Special
+      - Minestrone Soup [vegan]
+      - Roast Beef
+      - Broccoli Mushroom Noodle Casserole [vegetarian]
+      - Fresh Sauteed Spinach [vegan]
+      - Baked Potato [vegan]
+      - Baked Sweet Potato [vegan]
+    # Taqueria (East Side)
+      - Chicken Fajitas
+      - Grilled Vegetable Quesadilla [vegetarian]
+      - Rice with Cilantro & Lime [vegan]
+      - Refried Beans [vegan]
+      - Flour Tortilla [vegan]
+      - Corn Tortilla [vegan]
+      - Wheat Tortilla [vegan]
+      - Roasted Tomato and Chile Salsa [vegan]
+    # Pizza
+      - Assorted Meat Pizza
+      - Vegetable Pizza [vegetarian]
+      - Herb Breadsticks [vegan]
+    # To Order
+      - Thai Chicken & Vegetable Curry
+      - Vegetable Curry [vegan]
+      - Long Grain Rice [vegan]
+      - Brown Rice [vegan]
+    # Salads/Deli (West Side)
+      - Jicama Salad [vegan]
+    # Bakery
+      - Potato Bread [vegetarian]
+      - Pumpkin Pie [vegetarian]
+ortega | Ortega [dining_hall/open]
+  Lunch 10:00-15:00
+    # Entrees
+      - Creamy Pesto Penne Pasta with Chicken
+      - Bacon Breakfast Burrito
+      - Breakfast Burrito [vegetarian]
+      - Macaroni & Cheese [vegetarian]
+      - Philly Cheesesteak Sandwich
+      - Chicken Caesar Salad
+      - Rainbow Salad w/Goddess Dressing [vegan]
+      - Turkey Sub Sandwich
+      - Carnitas Burrito
+      - Classic Burger
+      - Veggie Burger [vegetarian]
+      - Pressed Bean & Cheese Burrito [vegetarian]
+      - Chipotle BBQ Chicken & Potatoes
+      - Pasta Puttanesca [vegan]
+      - Sweet & Sour Tofu Stir Fry [vegan]
+    # Sides
+      - Tortilla Soup [vegan]
+      - House Salad [vegan]
+      - Roasted Broccoli [vegan]
+      - Roasted Citrus Thyme Carrots [vegetarian]
+      - Hummus with Celery & Carrots [vegan]
+      - Fries [vegan]
+      - Potato Chip [vegan]
+    # Desserts
+      - Cream Cheese Cookie [vegetarian]
+    # Whole Fruit
+      - Fuji Apple [vegan]
+      - Navel Orange [vegan]
+      - Banana [vegan]
+    # Beverages
+      - Water
+    # Condiments
+      - Balsamic Vinaigrette [vegan]
+      - Ranch Dressing [vegetarian]
+      - Mayonnaise [vegetarian]
+      - Ketchup [vegan]
+      - Mustard Packet [vegan]
+  Dinner 15:00-20:00
+    # Entree Specials
+      - Korean Chicken & Rice
+    # Entrees
+      - Creamy Pesto Penne Pasta with Chicken
+      - Bacon Breakfast Burrito
+      - Breakfast Burrito [vegetarian]
+      - Macaroni & Cheese [vegetarian]
+      - Philly Cheesesteak Sandwich
+      - Chicken Caesar Salad
+      - Rainbow Salad w/Goddess Dressing [vegan]
+      - Turkey Sub Sandwich
+      - Carnitas Burrito
+      - Classic Burger
+      - Veggie Burger [vegetarian]
+      - Pressed Bean & Cheese Burrito [vegetarian]
+      - Chipotle BBQ Chicken & Potatoes
+      - Pasta Puttanesca [vegan]
+      - Sweet & Sour Tofu Stir Fry [vegan]
+    # Sides
+      - Tortilla Soup [vegan]
+      - House Salad [vegan]
+      - Roasted Broccoli [vegan]
+      - Roasted Citrus Thyme Carrots [vegetarian]
+      - Hummus with Celery & Carrots [vegan]
+      - Fries [vegan]
+      - Potato Chip [vegan]
+    # Desserts
+      - Cream Cheese Cookie [vegetarian]
+    # Whole Fruit
+      - Fuji Apple [vegan]
+      - Navel Orange [vegan]
+      - Banana [vegan]
+    # Beverages
+      - Water
+    # Condiments
+      - Balsamic Vinaigrette [vegan]
+      - Ranch Dressing [vegetarian]
+      - Mayonnaise [vegetarian]
+      - Ketchup [vegan]
+      - Mustard Packet [vegan]
+portola | Portola [dining_hall/open]
+  Breakfast 07:15-10:00
+    # Greens & Grains
+      - Organic Nonfat Plain Greek Yogurt [vegetarian]
+      - Peach Yogurt [vegetarian]
+      - Watermelon [vegan]
+      - Honeydew Melon [vegan]
+      - Pineapple [vegan]
+      - Seedless Red Grape [vegan]
+      - Cantaloupe [vegan]
+      - Make Your Own Waffle [vegetarian]
+      - Granola Parfait [vegetarian]
+      - Maple Quinoa Granola [vegetarian]
+      - Oatmeal [vegan]
+      - Baby Spinach [vegan]
+    # Bakery
+      - Flour Tortilla [vegan]
+      - Blueberry Bread [vegetarian]
+      - Bran Muffin [vegetarian]
+    # The Grill
+      - Cage Free Scrambled Eggs [vegetarian]
+      - Cage Free Scrambled Egg Whites [vegetarian]
+      - Scrambled Eggs with Ham & Cheese
+      - Sourdough French Toast [vegetarian]
+      - Western Hash Brown [vegan]
+      - Sauteed Kale [vegan]
+  Lunch 11:00-15:00
+    # Greens & Grains
+      - Zucchini Salad w/Dill & Feta [vegetarian]
+      - Turkey Melt
+      - Grilled Chicken Breast
+      - Sliced Turkey Pastrami
+      - Sliced Swiss Cheese [vegetarian]
+      - Sliced Cheddar Cheese [vegetarian]
+      - Baked Potato [vegan]
+      - Brown Rice [vegan]
+      - Roasted Tomato Soup [vegetarian]
+    # Salad Bar Featured Items
+      - Baby Spinach [vegan]
+      - Sweet and Spicy Tofu [vegan]
+      - Brown Rice & Legumes Salad [vegan]
+    # The Brick
+      - Mushroom & Sage Flatbread [vegetarian]
+      - Greek Tomato Sauce [vegan]
+      - Farfalle Pasta [vegan]
+      - Chicken with White Wine Garlic Sauce
+      - Linguini Pasta [vegan]
+    # Bakery
+      - Hawaiian Sweet Bread [vegetarian]
+      - Chocolate Chip Cookie [vegetarian]
+      - Lemon Bar [vegetarian]
+    # Chef's Choice
+      - BBQ Beef Sandwich
+      - French Potato Salad [vegan]
+      - Black Beans [vegan]
+      - Steamed Carrots & Zucchini [vegan]
+    # International
+      - Kung Pao Chicken with Peanuts [!tree_nuts]
+      - Sticky Rice [vegan]
+      - Stir Fried Chinese Greens [vegan]
+      - Salmon Roll
+      - Crunchy Onion Roll [vegetarian]
+    # The Grill
+      - Hamburger
+      - Sourdough French Toast [vegetarian]
+      - Falafel Sandwich [vegetarian]
+      - Shoestring Fries [vegan]
+      - Sweet &Tangy Pickled Red Onion [vegan]
+      - Chipotle Aioli [vegetarian]
+      - Raita Sauce [vegetarian]
+  Dinner 17:00-20:30
+    # Greens & Grains
+      - Baked Potato [vegan]
+      - Brown Rice [vegan]
+      - Roasted Tomato Soup [vegetarian]
+    # Salad Bar Featured Items
+      - Baby Spinach [vegan]
+      - Sweet and Spicy Tofu [vegan]
+      - Brown Rice & Legumes Salad [vegan]
+    # The Brick
+      - Pineapple & Jalapeno Pizza on Wheat [vegetarian]
+      - Sausage Marinara Sauce
+      - Spaghetti [vegan]
+      - Greek Tomato Sauce [vegan]
+      - Farfalle Pasta [vegan]
+    # Bakery
+      - Chocolate Mint Cupcake [vegetarian]
+      - Hawaiian Sweet Bread [vegetarian]
+    # Chef's Choice
+      - Grilled Chicken & Bean Burrito
+      - Cheese Quesadilla with Chiles [vegetarian]
+      - Fire Roasted Tomato Salsa [vegan]
+      - Rice with Cilantro and Lime [vegetarian]
+      - Pinto Beans [vegan]
+      - Fresh Cauliflower & Carrots [vegan]
+    # International
+      - Chicken Shoyu
+      - Sticky Rice [vegan]
+      - Bok Choy Garlic & Ginger [vegan]
+      - Steamed Fresh Broccoli [vegan]
+      - Salmon Sushi Plate
+      - Crunchy Onion Roll [vegetarian]

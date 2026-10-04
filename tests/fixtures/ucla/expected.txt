@@ -1,0 +1,1341 @@
+== ucla 2026-10-03 status=ok
+de-neve-dining | De Neve Dining [dining_hall/open]
+  Breakfast 09:00-10:00
+    # The Front Burner
+      - French Toast [vegetarian,!alcohol,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Maple Flavored Syrup [vegan]
+    # The Kitchen
+      - Scrambled Eggs [vegetarian,!egg]
+      - Fried Eggs [vegetarian,!egg]
+      - Buttery Hash Browns [vegetarian,!milk]
+      - Pork Sausage
+      - Tomatillo Salsa [vegan]
+      - Scrambled Egg Whites [vegetarian,!egg]
+    # The Pizzeria
+      - Belgian Waffles [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Maple Flavored Syrup [vegan]
+    # The Grill
+      - Bodega Egg & Bacon Roll [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Tater Tots [halal,vegan,!soy]
+    # Harvest Kitchen
+      - Oatmeal [vegan,!gluten]
+      - Grits [halal,vegan]
+    # Seasonal Sides
+      - Plain Bagel [vegan,!gluten,!soy,!wheat]
+      - Everything Bagel [vegan,!gluten,!sesame,!soy,!wheat]
+      - Cinnamon Raisin Bagel [vegan,!gluten,!soy,!wheat]
+    # Market Salads & Fruit
+      - Cream Cheese [vegetarian,!milk]
+      - Chive Cream Cheese [vegetarian,!milk]
+      - Avocado Pulp [vegan]
+      - Black Forest Ham
+      - Sliced Swiss Cheese [vegetarian,!milk]
+      - Sliced Tomatoes [vegan]
+      - Julienne Red Onion [vegan]
+      - Capers [vegan]
+      - Spinach [halal,vegan]
+      - Cucumber [vegan]
+      - Watermelon [vegan]
+      - Pineapple [vegan]
+      - Cantaloupe [vegan]
+    # The Sweet Stop
+      - Protein Yeast Donut Sweetened [vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+      - Mini Croissant [halal,vegetarian]
+      - Salvadorian Coffee Cake [halal,vegetarian,!egg,!milk,!sesame]
+      - Banana Walnut Muffin [halal,vegetarian,!egg,!gluten,!tree_nuts,!wheat]
+  Lunch 11:00-15:00
+    # Theme of the Day
+      - Brunch
+    # The Front Burner
+      - French Toast [vegetarian,!alcohol,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Maple Flavored Syrup [vegan]
+    # The Kitchen
+      - Scrambled Eggs [vegetarian,!egg]
+      - Fried Eggs [vegetarian,!egg]
+      - Scrambled Egg Whites [vegetarian,!egg]
+      - Pork Sausage
+      - Buttery Hash Browns [vegetarian,!milk]
+      - Tomatillo Salsa [vegan]
+    # The Pizzeria
+      - Shrimp Scampi Pizza [!gluten,!milk,!shellfish,!wheat]
+      - Margherita Pizza [vegetarian,!gluten,!milk,!wheat]
+      - Pepperoni Pizza [!gluten,!milk,!wheat]
+    # The Grill
+      - Bruin Burger [halal,!egg,!gluten,!sesame,!soy,!wheat]
+      - Bruin Cheeseburger [halal,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - LA Hot Chicken Sandwich [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Maple Bacon Breakfast Burger [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - D.F.C. [!egg,!gluten,!sesame,!soy,!wheat]
+      - Beyond Burger [vegan,!gluten,!sesame,!soy,!wheat]
+      - French Fries [vegan,!soy]
+    # Harvest Kitchen
+      - Honey Lime Chicken Thighs [!gluten,!soy,!wheat]
+      - Garlic Flavored Rice [vegan]
+      - Garbanzo Picadillo [vegan]
+      - Chicken Tortilla Soup
+      - Potato Dumpling Soup [vegetarian,!egg,!gluten,!milk,!wheat]
+    # Seasonal Sides
+      - Roasted Brussels Sprouts [vegan]
+      - Roasted Cauliflower [vegan]
+      - Roasted Fingerling Potato [vegan]
+    # Field Greens Bar
+      - Ranch Dressing [vegetarian,!egg,!milk,!soy]
+      - Caesar Salad Dressing [!egg,!fish,!milk,!soy]
+      - Grilled Rosemary Chicken Breast
+      - Salad Bar [!alcohol,!egg,!fish,!gluten,!milk,!shellfish,!soy,!wheat]
+    # Market Salads & Fruit
+      - Watermelon [vegan]
+      - Pineapple [vegan]
+      - Cantaloupe [vegan]
+    # The Sweet Stop
+      - Red Velvet Cupcake [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat]
+      - Double Chocolate Cookie [halal,vegetarian,!alcohol,!gluten,!soy,!wheat]
+      - Banana Cream Pie [vegetarian,!alcohol,!egg,!gluten,!milk,!peanuts,!soy,!tree_nuts,!wheat]
+      - Magic Bar [vegetarian,!gluten,!milk,!soy,!tree_nuts,!wheat]
+      - Chocolate Cherry Crisp [halal,vegan,!gluten,!soy]
+      - Banana Bread Pudding [halal,vegetarian,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Yogurt Bar [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Ice Cream & Frozen Yogurt Bar [vegetarian,!gluten,!milk,!peanuts,!soy,!wheat]
+  Dinner 17:00-21:00
+    # Theme of the Day
+      - Breakfast @ Night
+    # The Front Burner
+      - Chocolate Chip Pancakes [vegetarian,!gluten,!milk,!soy,!wheat]
+    # The Kitchen
+      - Country Fried Beef Steak [!gluten,!soy,!wheat]
+      - Country-Style Gravy [!egg,!milk,!soy,!wheat]
+      - Steak Cut Fries [vegan,!soy]
+      - Beyond Chicken Tenders [vegan,!gluten,!soy,!wheat]
+    # The Pizzeria
+      - Shrimp Scampi Pizza [!gluten,!milk,!shellfish,!wheat]
+      - Margherita Pizza [vegetarian,!gluten,!milk,!wheat]
+      - Pepperoni Pizza [!gluten,!milk,!wheat]
+    # The Grill
+      - Bruin Burger [halal,!egg,!gluten,!sesame,!soy,!wheat]
+      - Bruin Cheeseburger [halal,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - LA Hot Chicken Sandwich [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Maple Bacon Breakfast Burger [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - D.F.C. [!egg,!gluten,!sesame,!soy,!wheat]
+      - Beyond Burger [vegan,!gluten,!sesame,!soy,!wheat]
+      - French Fries [vegan,!soy]
+    # Harvest Kitchen
+      - Honey Lime Chicken Thighs [!gluten,!soy,!wheat]
+      - Garlic Flavored Rice [vegan]
+      - Garbanzo Picadillo [vegan]
+      - Chicken Tortilla Soup
+      - Potato Dumpling Soup [vegetarian,!egg,!gluten,!milk,!wheat]
+    # Seasonal Sides
+      - Roasted Brussels Sprouts [vegan]
+      - Roasted Cauliflower [vegan]
+      - Roasted Fingerling Potato [vegan]
+    # Field Greens Bar
+      - Ranch Dressing [vegetarian,!egg,!milk,!soy]
+      - Caesar Salad Dressing [!egg,!fish,!milk,!soy]
+      - Grilled Rosemary Chicken Breast
+      - Salad Bar [!alcohol,!egg,!fish,!gluten,!milk,!shellfish,!soy,!wheat]
+    # Market Salads & Fruit
+      - Watermelon [vegan]
+      - Cantaloupe [vegan]
+      - Pineapple [vegan]
+    # The Sweet Stop
+      - Red Velvet Cupcake [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat]
+      - Double Chocolate Cookie [halal,vegetarian,!alcohol,!gluten,!soy,!wheat]
+      - Banana Cream Pie [vegetarian,!alcohol,!egg,!gluten,!milk,!peanuts,!soy,!tree_nuts,!wheat]
+      - Magic Bar [vegetarian,!gluten,!milk,!soy,!tree_nuts,!wheat]
+      - Chocolate Cherry Crisp [halal,vegan,!gluten,!soy]
+      - Banana Bread Pudding [halal,vegetarian,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Yogurt Bar [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Ice Cream & Frozen Yogurt Bar [vegetarian,!gluten,!milk,!peanuts,!soy,!wheat]
+  Late Night 22:00-00:00
+sproul-dining | Sproul Dining [dining_hall/open]
+  Breakfast 07:00-10:00
+    # Freshly Bowled
+      - Create-Your-Own Omelet Bar [!egg,!milk]
+    # Harvest
+      - Green Chile Rice w/ Black Beans & Egg [halal,vegetarian,!egg]
+      - Roasted Tomato Salsa [halal,vegan]
+      - Scrambled Eggs [halal,vegetarian,!egg]
+      - Scrambled Egg Whites [halal,vegetarian,!egg]
+      - Vegan Scrambled Eggs [halal,vegan,!soy]
+      - Roasted Red Breakfast Potato Wedges [halal,vegan]
+      - Turkey Bacon
+    # Stone Fired
+      - Oat & Whole Wheat Waffle [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat]
+      - Roasted Beet & Grilled Pineapple Butter [vegan]
+      - Waffle [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+    # Simply Grilled
+      - Tri-Color Quinoa Pancake w/ Blueberries [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat]
+      - Vegan Pancake [vegan,!alcohol,!gluten,!wheat]
+    # Fruit
+      - Cantaloupe [vegan]
+      - Grapefruit [vegan]
+      - Green Grapes [vegan]
+      - Red Grapes [vegan]
+      - Pineapple [vegan]
+      - Kiwi [vegan]
+    # Sweet Bites
+      - Multi-Grain Bread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Raisin Walnut Bread [halal,vegan,!gluten,!tree_nuts,!wheat]
+      - Whole Wheat Sourdough Bread [halal,vegan,!gluten,!wheat]
+      - Apple Quickbread [vegan,!alcohol,!gluten,!wheat]
+      - Carrot Zucchini Bread [vegan,!gluten,!tree_nuts,!wheat]
+      - Almond Butter [vegan,!tree_nuts]
+      - Cacao Butter [halal,vegetarian,!milk,!soy,!tree_nuts]
+      - Chocolate Peanut Butter [vegetarian,!milk,!peanuts,!soy]
+      - Orange-Papaya Marmalade [vegan]
+    # Yogurt Bar
+      - Lowfat Cottage Cheese [vegetarian,!milk]
+      - Low Fat Greek Yogurt [vegetarian,!milk]
+      - Vegan Vanilla Coconut Yogurt [vegan]
+      - Strawberry Yogurt [vegetarian,!milk]
+      - Wild Blueberries [vegan]
+      - Mango [vegan]
+    # Beverage Special
+      - Kiwi Water [vegan]
+    # Greens 'N More
+      - Whole Wheat Bagel [vegan,!gluten,!soy,!wheat]
+      - Arugula [vegan]
+      - Low Fat Cream Cheese [vegetarian,!milk]
+      - Cheese Whipped Creamy Spread [vegan]
+      - Avocado Topping [vegan]
+      - Chocolate Chip Cream Cheese [vegetarian,!milk,!soy]
+    # Cereal / Oatmeal
+      - Oatmeal [halal,vegan,!gluten]
+      - Cream of Rice Cereal [halal,vegan]
+  Lunch 11:00-14:00
+    # Soups
+      - Chicken Noodle Soup [!gluten,!wheat]
+      - Creamy Tomato Basil Soup [halal,vegetarian,!milk]
+    # Freshly Bowled
+      - Create-Your-Own Omelet Bar [!egg,!milk]
+    # Harvest
+      - Chile Roasted Turkey w/ Jalapeno-Lime Slaw
+      - Spinach, Arugula, & White Bean Guacamole Wrap [vegan,!gluten,!soy,!wheat]
+    # Farmstand
+      - Frijoles de la Olla [halal,vegan]
+      - Brown Calrose Rice [halal,vegan]
+      - Mixed Grains--Farro, Wheatberry, & Brown Rice [vegan,!gluten,!wheat]
+      - Roasted Broccoli [halal,vegan]
+      - Black Eyed Peas & Collard Greens [halal,vegan]
+    # Stone Fired
+      - Beef Picadillo Flatbread [halal,!gluten,!milk,!soy,!wheat]
+      - Wild Mushroom & Arugula Flatbread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+    # Simply Grilled
+      - Halal Italian Chicken Thigh [halal,!alcohol]
+      - Falafel Stacker [vegetarian,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Baked Russet Potato [halal,vegan]
+    # Fruit
+      - Cantaloupe [vegan]
+      - Green Grapes [vegan]
+      - Red Grapes [vegan]
+      - Pineapple [vegan]
+      - Kiwi [vegan]
+    # Sweet Bites
+      - Multi-Grain Bread [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Multi-Grain Bread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Raisin Walnut Bread [halal,vegan,!gluten,!tree_nuts,!wheat]
+      - Whole Wheat Sourdough Bread [halal,vegan,!gluten,!wheat]
+      - Apple Quickbread [vegan,!alcohol,!gluten,!wheat]
+      - Carrot Zucchini Bread [vegan,!gluten,!tree_nuts,!wheat]
+      - Flaxsnax Breakfast Cookie w/ Pecans [vegetarian,!alcohol,!egg,!gluten,!milk,!sesame,!soy,!tree_nuts]
+      - Almond Cashew Butter [vegan,!peanuts,!soy,!tree_nuts]
+      - Cacao Butter [halal,vegetarian,!milk,!soy,!tree_nuts]
+      - Chocolate Peanut Butter [vegetarian,!milk,!peanuts,!soy]
+      - Green Lentil Butter [vegan]
+      - Orange-Papaya Marmalade [vegan]
+    # Yogurt Bar
+      - Lowfat Greek Yogurt [vegetarian,!milk]
+      - Vegan Vanilla Coconut Yogurt [vegan]
+      - Wild Blueberries [vegan]
+      - Mango [vegan]
+      - Cottage Cheese [vegetarian,!milk]
+    # Beverage Special
+      - Kiwi Water [vegan]
+      - Apple Spritzer [vegan]
+      - Cranberry Spritzer [vegan]
+      - Orange Spritzer [vegan]
+    # Greens 'N More
+      - Romaine Lettuce [halal,vegan]
+      - Power Greens Blend [vegan]
+      - Spring Mix [halal,vegan]
+      - Spinach [halal,vegan]
+      - Roasted Broccoli [halal,vegan]
+      - Roasted Brussels Sprouts [halal,vegan]
+      - Roasted Cauliflower [halal,vegan]
+      - Green Lentils [halal,vegan]
+      - Roasted Butternut Squash [halal,vegan]
+      - Oven Roasted Red Beets [halal,vegan]
+      - Salad Bar Selection [!alcohol,!egg,!fish,!gluten,!milk,!sesame,!soy,!wheat]
+    # Frozen Yogurt
+      - Frozen Yogurt Bar [vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+  Dinner 17:00-21:00
+    # Soups
+      - Chicken Noodle Soup [!gluten,!wheat]
+      - Creamy Tomato Basil Soup [halal,vegetarian,!milk]
+    # Freshly Bowled
+      - Freshly Bowled Special [!alcohol,!egg,!fish,!gluten,!milk,!peanuts,!sesame,!shellfish,!soy,!tree_nuts,!wheat]
+      - Seitan, Brown Rice, Kale, & Carrot Bowl [halal,vegan,!gluten,!soy,!wheat]
+    # Harvest
+      - Grilled Flank Steak Taco w/ Jicama-Chipotle Salsa [halal,!gluten,!soy,!wheat]
+      - Lentils w/ Roasted Beets & Carrots [vegetarian,!milk]
+    # Farmstand
+      - Frijoles de la Olla [halal,vegan]
+      - Brown Calrose Rice [halal,vegan]
+      - Steamed Barley [halal,vegan,!gluten]
+      - Roasted Carrots & Onions [vegan]
+      - Sautéed Spinach [halal,vegan]
+    # Stone Fired
+      - Roasted Pork, Sorrel, & Goat Cheese Pizza [!gluten,!milk,!soy,!wheat]
+      - Pear, Thyme, & Blue Cheese Pizza [vegetarian,!gluten,!milk,!soy,!wheat]
+    # Simply Grilled
+      - Halal Orange Chipotle Herb Chicken Thigh [halal,!soy]
+      - Grilled Ginger Miso Tofu [vegan,!gluten,!soy,!wheat]
+      - Potato & Red Pepper Hash [vegan]
+    # Fruit
+      - Cantaloupe [vegan]
+      - Green Grapes [vegan]
+      - Red Grapes [vegan]
+      - Pineapple [vegan]
+      - Kiwi [vegan]
+    # Sweet Bites
+      - Multi-Grain Bread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Raisin Walnut Bread [halal,vegan,!gluten,!tree_nuts,!wheat]
+      - Whole Wheat Sourdough Bread [halal,vegan,!gluten,!wheat]
+      - Apple Quickbread [vegan,!alcohol,!gluten,!wheat]
+      - Carrot Zucchini Bread [vegan,!gluten,!tree_nuts,!wheat]
+      - Flaxsnax Breakfast Cookie w/ Pecans [vegetarian,!alcohol,!egg,!gluten,!milk,!sesame,!soy,!tree_nuts]
+      - Flao Tart [vegetarian,!alcohol,!egg,!gluten,!milk,!soy,!wheat]
+      - Almond Butter [vegan,!tree_nuts]
+      - Cacao Butter [halal,vegetarian,!milk,!soy,!tree_nuts]
+      - Chocolate Peanut Butter [vegetarian,!milk,!peanuts,!soy]
+      - Green Lentil Butter [vegan]
+      - Orange-Papaya Marmalade [vegan]
+    # Yogurt Bar
+      - Lowfat Greek Yogurt [vegetarian,!milk]
+      - Vegan Vanilla Coconut Yogurt [vegan]
+      - Wild Blueberries [vegan]
+      - Mango [vegan]
+      - Cottage Cheese [vegetarian,!milk]
+    # Beverage Special
+      - Lemon-Mint Water [vegan]
+      - Apple Spritzer [vegan]
+      - Cranberry Spritzer [vegan]
+      - Orange Spritzer [vegan]
+    # Greens 'N More
+      - Romaine Lettuce [halal,vegan]
+      - Power Greens Blend [vegan]
+      - Spring Mix [halal,vegan]
+      - Spinach [halal,vegan]
+      - Roasted Broccoli [halal,vegan]
+      - Roasted Brussels Sprouts [halal,vegan]
+      - Roasted Cauliflower [halal,vegan]
+      - Green Lentils [halal,vegan]
+      - Roasted Butternut Squash [halal,vegan]
+      - Oven Roasted Red Beets [halal,vegan]
+      - Salad Bar Selection [!alcohol,!egg,!fish,!gluten,!milk,!sesame,!soy,!wheat]
+    # Frozen Yogurt
+      - Frozen Yogurt Bar [vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+covel-dining | Covel Dining [dining_hall/closed]
+feast-at-rieber | Feast at Rieber [dining_hall/closed]
+bruin-bowl | Bruin Bowl [restaurant/closed]
+bruin-cafe | Bruin Café [restaurant/open]
+  Lunch 11:00-15:00
+  Dinner 16:00-21:00
+cafe-1919 | Café 1919 [restaurant/closed]
+epicuria-at-ackerman | Epicuria at Ackerman [restaurant/closed]
+food-trucks | Food Trucks [restaurant/closed]
+rendezvous | Rendezvous [restaurant/open]
+  Lunch 11:00-15:00
+  Dinner 17:00-21:00
+the-drey | The Drey [restaurant/closed]
+the-study-at-hedrick | The Study at Hedrick [restaurant/open]
+  Lunch 11:00-15:00
+  Dinner 17:00-21:00
+  Late Night 21:00-00:00
+to-go-lunches | To-Go Lunches [restaurant/closed]
+== ucla 2026-10-04 status=ok
+de-neve-dining | De Neve Dining [dining_hall/open]
+  Breakfast 09:00-10:00
+    # The Front Burner
+      - Buttermilk Pancakes [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Maple Flavored Syrup [vegan]
+    # The Kitchen
+      - Scrambled Eggs [vegetarian,!egg]
+      - Scrambled Egg Whites [vegetarian,!egg]
+      - Fried Eggs [vegetarian,!egg]
+      - Buttery Hash Browns [vegetarian,!milk]
+      - Pork Sausage
+      - Tomatillo Salsa [vegan]
+    # The Pizzeria
+      - Belgian Waffles [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Maple Flavored Syrup [vegan]
+    # The Grill
+      - Bodega Egg & Bacon Roll [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Tater Tots [halal,vegan,!soy]
+    # Harvest Kitchen
+      - Oatmeal [vegan,!gluten]
+      - Grits [halal,vegan]
+    # Seasonal Sides
+      - Plain Bagel [vegan,!gluten,!soy,!wheat]
+      - Everything Bagel [vegan,!gluten,!sesame,!soy,!wheat]
+      - Cinnamon Raisin Bagel [vegan,!gluten,!soy,!wheat]
+    # Market Salads & Fruit
+      - Cream Cheese [vegetarian,!milk]
+      - Chive Cream Cheese [vegetarian,!milk]
+      - Avocado Pulp [vegan]
+      - Black Forest Ham
+      - Sliced Swiss Cheese [vegetarian,!milk]
+      - Sliced Tomatoes [vegan]
+      - Julienne Red Onion [vegan]
+      - Capers [vegan]
+      - Spinach [halal,vegan]
+      - Cucumber [vegan]
+      - Watermelon [vegan]
+      - Pineapple [vegan]
+      - Cantaloupe [vegan]
+    # The Sweet Stop
+      - Vanilla Glazed Cake Donut [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+      - Mini Croissant [halal,vegetarian]
+      - Mini Almond Bear Claw [halal,vegetarian,!egg,!gluten,!milk,!sesame,!soy,!tree_nuts,!wheat]
+      - Blueberry Muffin [halal,vegetarian,!egg,!gluten,!milk,!wheat]
+  Lunch 11:00-15:00
+    # Theme of the Day
+      - Brunch
+    # The Front Burner
+      - Buttermilk Pancakes [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Maple Flavored Syrup [vegan]
+    # The Kitchen
+      - Scrambled Eggs [vegetarian,!egg]
+      - Fried Eggs [vegetarian,!egg]
+      - Scrambled Egg Whites [vegetarian,!egg]
+      - Pork Sausage
+      - Buttery Hash Browns [vegetarian,!milk]
+      - Tomatillo Salsa [vegan]
+    # The Pizzeria
+      - Three Cheese & Tomato Pizza [vegetarian,!gluten,!milk,!wheat]
+      - Cheese Pizza [vegetarian,!gluten,!milk,!wheat]
+      - Pepperoni Pizza [!gluten,!milk,!wheat]
+    # The Grill
+      - Bruin Burger [halal,!egg,!gluten,!sesame,!soy,!wheat]
+      - Bruin Cheeseburger [halal,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - LA Hot Chicken Sandwich [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Brunch Burger [!egg,!gluten,!sesame,!soy,!wheat]
+      - D.F.C. [!egg,!gluten,!sesame,!soy,!wheat]
+      - Beyond Burger [vegan,!gluten,!sesame,!soy,!wheat]
+      - Sweet Potato Fries [vegan]
+    # Harvest Kitchen
+      - Cilantro Jalapeno Chicken Thigh
+      - Steamed Rice [vegan]
+      - De la Olla Beans [vegan]
+      - Chicken Tortilla Soup
+      - Garden Vegetable Soup [halal,vegan]
+    # Seasonal Sides
+      - Roasted Corn & Red Bell Peppers [vegan]
+      - Roasted Brussels Sprouts [vegan]
+      - Grilled Tri-color Carrots w/ Peruvian Salsa Verde [vegetarian,!milk]
+    # Field Greens Bar
+      - Ranch Dressing [vegetarian,!egg,!milk,!soy]
+      - Caesar Salad Dressing [!egg,!fish,!milk,!soy]
+      - Grilled Rosemary Chicken Breast
+      - Salad Bar [!alcohol,!egg,!fish,!gluten,!milk,!shellfish,!soy,!wheat]
+    # Market Salads & Fruit
+      - Watermelon [vegan]
+      - Pineapple [vegan]
+      - Cantaloupe [vegan]
+    # The Sweet Stop
+      - Chocolate Ganache Cake [halal,vegetarian,!egg,!gluten,!milk,!peanuts,!sesame,!soy,!tree_nuts,!wheat]
+      - Snickerdoodle Cookies [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat]
+      - Chocolate Silk Pie [vegetarian,!egg,!gluten,!milk,!peanuts,!sesame,!soy,!tree_nuts,!wheat]
+      - Red Velvet Brownie [vegetarian,!alcohol,!egg,!gluten,!milk,!soy,!wheat]
+      - Mixed Berry Crisp [halal,vegan,!gluten,!soy]
+      - Pumpkin Bake [!egg,!gluten,!milk,!tree_nuts,!wheat]
+      - Yogurt Bar [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Ice Cream & Frozen Yogurt Bar [vegetarian,!gluten,!milk,!peanuts,!soy,!wheat]
+  Dinner 17:00-21:00
+    # Theme of the Day
+      - LA Street Food
+    # The Front Burner
+      - Tacos de Camaron Gobernador Estilo Sinaloa [!milk,!shellfish,!soy]
+      - Santa Cruz Spicy Lentil & Avocado Crema Tacos [vegetarian,!milk]
+    # The Kitchen
+      - Carne Asada Fries [!soy]
+      - Beyond Chicken Tenders [vegan,!gluten,!soy,!wheat]
+      - French Fries [vegan,!soy]
+    # The Pizzeria
+      - Three Cheese & Tomato Pizza [vegetarian,!gluten,!milk,!wheat]
+      - Cheese Pizza [vegetarian,!gluten,!milk,!wheat]
+      - Pepperoni Pizza [!gluten,!milk,!wheat]
+    # The Grill
+      - Bruin Burger [halal,!egg,!gluten,!sesame,!soy,!wheat]
+      - Bruin Cheeseburger [halal,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - LA Hot Chicken Sandwich [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Brunch Burger [!egg,!gluten,!sesame,!soy,!wheat]
+      - D.F.C. [!egg,!gluten,!sesame,!soy,!wheat]
+      - Beyond Burger [vegan,!gluten,!sesame,!soy,!wheat]
+      - Sweet Potato Fries [vegan]
+    # Harvest Kitchen
+      - Cilantro Jalapeno Chicken Thigh
+      - Steamed Rice [vegan]
+      - De la Olla Beans [vegan]
+      - Chicken Tortilla Soup
+      - Garden Vegetable Soup [halal,vegan]
+    # Seasonal Sides
+      - Roasted Corn & Red Bell Peppers [vegan]
+      - Roasted Brussels Sprouts [vegan]
+      - Grilled Tri-color Carrots w/ Peruvian Salsa Verde [vegetarian,!milk]
+    # Field Greens Bar
+      - Ranch Dressing [vegetarian,!egg,!milk,!soy]
+      - Caesar Salad Dressing [!egg,!fish,!milk,!soy]
+      - Grilled Rosemary Chicken Breast
+      - Salad Bar [!alcohol,!egg,!fish,!gluten,!milk,!shellfish,!soy,!wheat]
+    # Market Salads & Fruit
+      - Watermelon [vegan]
+      - Cantaloupe [vegan]
+      - Pineapple [vegan]
+    # The Sweet Stop
+      - Chocolate Ganache Cake [halal,vegetarian,!egg,!gluten,!milk,!peanuts,!sesame,!soy,!tree_nuts,!wheat]
+      - Snickerdoodle Cookies [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat]
+      - Chocolate Silk Pie [vegetarian,!egg,!gluten,!milk,!peanuts,!sesame,!soy,!tree_nuts,!wheat]
+      - Red Velvet Brownie [vegetarian,!alcohol,!egg,!gluten,!milk,!soy,!wheat]
+      - Mixed Berry Crisp [halal,vegan,!gluten,!soy]
+      - Pumpkin Bake [!egg,!gluten,!milk,!tree_nuts,!wheat]
+      - Yogurt Bar [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Ice Cream & Frozen Yogurt Bar [vegetarian,!gluten,!milk,!peanuts,!soy,!wheat]
+  Late Night 22:00-00:00
+sproul-dining | Sproul Dining [dining_hall/open]
+  Breakfast 07:00-10:00
+    # Freshly Bowled
+      - Create-Your-Own Omelet Bar [!egg,!milk]
+    # Harvest
+      - Tri-Color Quinoa & Spinach Breakfast Bake [vegetarian,!egg,!milk]
+      - Scrambled Eggs [halal,vegetarian,!egg]
+      - Scrambled Egg Whites [halal,vegetarian,!egg]
+      - Vegan Scrambled Eggs [halal,vegan,!soy]
+      - Roasted Red Breakfast Potato Wedges [halal,vegan]
+      - Turkey Bacon
+    # Stone Fired
+      - Red Lentil Waffle [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat]
+      - Pineapple Compote [vegan]
+      - Waffle [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+    # Simply Grilled
+      - Whole Wheat Pancake [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat]
+      - Vegan Pancake [vegan,!alcohol,!gluten,!wheat]
+    # Fruit
+      - Cantaloupe [vegan]
+      - Grapefruit [vegan]
+      - Green Grapes [vegan]
+      - Red Grapes [vegan]
+      - Pineapple [vegan]
+      - Kiwi [vegan]
+    # Sweet Bites
+      - Multi-Grain Bread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Raisin Walnut Bread [halal,vegan,!gluten,!tree_nuts,!wheat]
+      - Whole Wheat Sourdough Bread [halal,vegan,!gluten,!wheat]
+      - Spiced Apple Bread [vegetarian,!alcohol,!egg,!gluten,!wheat]
+      - Pumpkin Walnut Bread [vegan,!gluten,!tree_nuts,!wheat]
+      - Almond Butter [vegan,!tree_nuts]
+      - Blueberry Compote [vegan]
+      - Peanut Butter [vegan,!peanuts]
+      - Green Tea-Shiso Marmalade [vegetarian]
+    # Yogurt Bar
+      - Lowfat Cottage Cheese [vegetarian,!milk]
+      - Low Fat Greek Yogurt [vegetarian,!milk]
+      - Vegan Vanilla Coconut Yogurt [vegan]
+      - Strawberry Yogurt [vegetarian,!milk]
+      - Wild Blueberries [vegan]
+      - Mango [vegan]
+    # Beverage Special
+      - Cranberry Apple Water [vegan]
+    # Greens 'N More
+      - Whole Wheat Bagel [vegan,!gluten,!soy,!wheat]
+      - Arugula [vegan]
+      - Low Fat Cream Cheese [vegetarian,!milk]
+      - Cheese Whipped Creamy Spread [vegan]
+      - Avocado Topping [vegan]
+      - Herbed Cream Cheese [vegetarian,!milk]
+    # Cereal / Oatmeal
+      - Oatmeal [halal,vegan,!gluten]
+      - Savory Grits [vegan]
+  Lunch 11:00-14:00
+    # Soups
+      - Rustic Sausage Potato Kale Soup [!milk]
+      - Creamy Tomato Basil Soup [halal,vegetarian,!milk]
+    # Freshly Bowled
+      - Create-Your-Own Omelet Bar [!egg,!milk]
+    # Harvest
+      - Chicken Spring Roll Whole Wheat Wrap [!gluten,!sesame,!soy,!wheat]
+      - BBQ Seitan Lettuce Wrap [vegan,!gluten,!soy,!wheat]
+    # Farmstand
+      - Frijoles de la Olla [halal,vegan]
+      - Brown Basmati Rice [halal,vegan]
+      - Roasted Cauliflower [halal,vegan]
+      - Sautéed Spinach [halal,vegan]
+    # Stone Fired
+      - Spicy Pork Tortilla Pizza [!milk,!sesame]
+      - Pineapple & Goat Cheese Tortilla Pizza [vegetarian,!milk,!sesame,!soy]
+    # Simply Grilled
+      - Halal Sage Chicken Thigh [halal]
+      - Red Quinoa & Yam Stacker w/ Pineapple Salsa [vegetarian]
+      - Grilled Sweet Potato w/ Lemon Chile Dressing [vegan]
+    # Fruit
+      - Cantaloupe [vegan]
+      - Green Grapes [vegan]
+      - Red Grapes [vegan]
+      - Pineapple [vegan]
+      - Kiwi [vegan]
+    # Sweet Bites
+      - Multi-Grain Bread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Raisin Walnut Bread [halal,vegan,!gluten,!tree_nuts,!wheat]
+      - Whole Wheat Sourdough Bread [halal,vegan,!gluten,!wheat]
+      - Spiced Apple Bread [vegetarian,!alcohol,!egg,!gluten,!wheat]
+      - Pumpkin Walnut Bread [vegan,!gluten,!tree_nuts,!wheat]
+      - Date & Cranberry Bar [vegetarian,!gluten,!soy,!wheat]
+      - Almond Cashew Butter [vegan,!peanuts,!soy,!tree_nuts]
+      - Blueberry Compote [vegan]
+      - Peanut Butter [vegan,!peanuts]
+      - Apple, Grapefruit, & Ginger Marmalade [vegan]
+      - Green Tea-Shiso Marmalade [vegetarian]
+    # Yogurt Bar
+      - Lowfat Greek Yogurt [vegetarian,!milk]
+      - Vegan Vanilla Coconut Yogurt [vegan]
+      - Wild Blueberries [vegan]
+      - Mango [vegan]
+      - Cottage Cheese [vegetarian,!milk]
+    # Beverage Special
+      - Cranberry Apple Water [vegan]
+      - Apple Spritzer [vegan]
+      - Cranberry Spritzer [vegan]
+      - Orange Spritzer [vegan]
+    # Greens 'N More
+      - Romaine Lettuce [halal,vegan]
+      - Power Greens Blend [vegan]
+      - Spring Mix [halal,vegan]
+      - Spinach [halal,vegan]
+      - Roasted Broccoli [halal,vegan]
+      - Roasted Brussels Sprouts [halal,vegan]
+      - Roasted Cauliflower [halal,vegan]
+      - Green Lentils [halal,vegan]
+      - Roasted Butternut Squash [halal,vegan]
+      - Oven Roasted Red Beets [halal,vegan]
+      - Salad Bar Selection [!alcohol,!egg,!fish,!gluten,!milk,!sesame,!soy,!wheat]
+    # Frozen Yogurt
+      - Frozen Yogurt Bar [vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+  Dinner 17:00-21:00
+    # Soups
+      - Rustic Sausage Potato Kale Soup [!milk]
+      - Creamy Tomato Basil Soup [halal,vegetarian,!milk]
+    # Freshly Bowled
+      - Arabic Chicken Bowl w/ Red Cabbage & Whole Wheat Pita [!gluten,!milk,!sesame,!soy,!wheat]
+      - Eastern Spiced Tofu w/ Farro Tabouli [vegan,!gluten,!soy,!wheat]
+    # Harvest
+      - Roasted Lamb [halal]
+      - Yukon Gold Potato & Celery Root Mash [vegan]
+      - Vegan Brown Gravy [vegan,!alcohol,!gluten,!soy,!wheat]
+      - Parmesan Tempeh w/ Baked Purple Potato & Turnips [vegetarian,!milk,!soy,!tree_nuts]
+    # Farmstand
+      - Frijoles de la Olla [halal,vegan]
+      - Brown Calrose Rice [halal,vegan]
+      - Red Quinoa [vegan]
+      - Roasted Broccoli [halal,vegan]
+      - Sauteed Spinach & Kale [halal,vegan]
+    # Stone Fired
+      - BBQ Pork Tortilla Pizza [!milk,!sesame,!soy]
+      - Hawaiian Macadamia Pesto, Goat Cheese, & Peppadew Flatbread [vegetarian,!gluten,!milk,!soy,!tree_nuts,!wheat]
+    # Simply Grilled
+      - Grilled Shrimp [!shellfish]
+      - Grilled Mole Tofu [vegetarian,!milk,!soy]
+      - Baked Purple Potato [halal,vegan]
+    # Fruit
+      - Cantaloupe [vegan]
+      - Green Grapes [vegan]
+      - Red Grapes [vegan]
+      - Pineapple [vegan]
+      - Kiwi [vegan]
+    # Sweet Bites
+      - Multi-Grain Bread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Raisin Walnut Bread [halal,vegan,!gluten,!tree_nuts,!wheat]
+      - Whole Wheat Sourdough Bread [halal,vegan,!gluten,!wheat]
+      - Spiced Apple Bread [vegetarian,!alcohol,!egg,!gluten,!wheat]
+      - Pumpkin Walnut Bread [vegan,!gluten,!tree_nuts,!wheat]
+      - Date & Cranberry Bar [vegetarian,!gluten,!soy,!wheat]
+      - Almond Butter [vegan,!tree_nuts]
+      - Key Lime Tart [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+      - Cacao Butter [halal,vegetarian,!milk,!soy,!tree_nuts]
+      - Chocolate Peanut Butter [vegetarian,!milk,!peanuts,!soy]
+      - Pear-Pineapple Compote [vegetarian]
+      - Nopales & Vanilla Marmalade [vegan]
+    # Yogurt Bar
+      - Lowfat Greek Yogurt [vegetarian,!milk]
+      - Vegan Vanilla Coconut Yogurt [vegan]
+      - Wild Blueberries [vegan]
+      - Mango [vegan]
+      - Cottage Cheese [vegetarian,!milk]
+    # Beverage Special
+      - Pear Vanilla Water [vegan]
+      - Apple Spritzer [vegan]
+      - Cranberry Spritzer [vegan]
+      - Orange Spritzer [vegan]
+    # Greens 'N More
+      - Romaine Lettuce [halal,vegan]
+      - Power Greens Blend [vegan]
+      - Spring Mix [halal,vegan]
+      - Spinach [halal,vegan]
+      - Roasted Broccoli [halal,vegan]
+      - Roasted Brussels Sprouts [halal,vegan]
+      - Roasted Cauliflower [halal,vegan]
+      - Green Lentils [halal,vegan]
+      - Roasted Butternut Squash [halal,vegan]
+      - Oven Roasted Red Beets [halal,vegan]
+      - Salad Bar Selection [!alcohol,!egg,!fish,!gluten,!milk,!sesame,!soy,!wheat]
+    # Frozen Yogurt
+      - Frozen Yogurt Bar [vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+covel-dining | Covel Dining [dining_hall/open]
+  Dinner 17:00-21:00
+    # Capri
+      - Tortellini w/ Spinach & Mornay Sauce [halal,vegetarian,!egg,!gluten,!milk,!wheat]
+      - Spinach Tortellini w/ Cauliflower & Cherry Tomato [halal,vegetarian,!egg,!gluten,!milk,!wheat]
+    # Psistaris
+      - Lemon & Sage Marinated Pork Chops
+      - Campania Panini [vegan,!alcohol,!gluten,!wheat]
+      - Citrus Basmati Rice [halal,vegan]
+      - Spanish Brussel Sprouts [vegan]
+      - Greek Style Roasted Carrot & Pepper Saute [halal,vegan]
+      - Greek Salad [vegan]
+      - Moroccan Couscous Salad [vegan,!gluten,!tree_nuts,!wheat]
+      - Bean Salad w/ Sundried Tomato [vegan,!gluten,!wheat]
+    # Alimenti
+      - Baked Cod w/ Tarragon Dijon Sauce [halal,!fish,!milk]
+      - Saffron Rice [halal,vegan]
+      - Lemon Zhug Mushrooms over Polenta [halal,vegan,!milk]
+      - Beef Barley Soup [halal,!gluten]
+      - Garden Vegetable Soup [halal,vegan]
+      - Salad Bar Selection [!alcohol,!egg,!fish,!gluten,!milk,!soy,!wheat]
+    # Dolce
+      - Classic Chocolate Chip Cookie [halal,vegan,!alcohol,!gluten,!soy,!wheat]
+      - Cappuccino Cookie [halal,vegan,!gluten,!soy,!tree_nuts,!wheat]
+      - Flan [vegetarian,!alcohol,!egg,!milk]
+      - Italian Cream Cake [vegetarian,!alcohol,!egg,!gluten,!milk,!soy,!tree_nuts,!wheat]
+      - Yogurt Bar [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+    # Mezze
+      - Focaccia [halal,vegan,!gluten,!wheat]
+      - Lavash Chips [halal,vegan,!gluten,!sesame,!wheat]
+      - Sun-Dried Tomato Pesto [halal,vegan]
+      - Garlic Oil [halal,vegan]
+      - Parsley Pesto [halal,!milk]
+      - Hummus [halal,vegan,!sesame]
+      - Tzatziki [halal,vegetarian,!milk]
+      - Baba Ghanoush [vegan,!sesame]
+      - Muhammara (Spicy Roasted Pepper Dip) [halal,vegan,!tree_nuts]
+      - Artichoke Spinach Dip [halal,vegetarian,!milk]
+      - Cauliflower Skordalia Spread [halal,vegan,!tree_nuts]
+      - Smoked Mozzarella Spread [halal,vegetarian,!egg,!milk,!soy]
+      - Paprika Garlic Spread [halal,vegetarian,!egg,!soy]
+      - Tunisian Vegetable Dip [vegan,!tree_nuts]
+      - Morrocan Spicy Lentil Dip [halal,vegan]
+      - White Bean, Feta, & Za'atar Spread [halal,vegetarian,!milk,!sesame]
+      - Zhug [halal,vegan]
+      - Garlic Lebneh [halal,vegetarian,!milk]
+      - Htipiti Feta Spread [halal,vegetarian,!milk]
+      - Marinated Red Grape Tomatoes [vegan,!alcohol]
+      - Pitted Kalamata Olives [vegan]
+      - Pickled Vegetables [vegan]
+      - Dolma [halal,vegan,!soy]
+      - Grated Parmesan Cheese [halal,vegetarian,!milk]
+    # Capri Pizza
+      - Cheese Pizza [halal,vegetarian,!gluten,!milk,!wheat]
+      - Pepperoni Pizza [!gluten,!milk,!wheat]
+      - Moussaka Pizza [halal,!gluten,!milk,!wheat]
+      - Caesar Salad [halal,!egg,!fish,!gluten,!milk,!soy,!wheat]
+      - Greek Salad [vegan]
+      - Moroccan Couscous Salad [vegan,!gluten,!tree_nuts,!wheat]
+      - Bean Salad w/ Sundried Tomato [vegan,!gluten,!wheat]
+    # .
+      - Plums
+      - Sugar in the Raw (Turbinado)
+    # ..
+      - Pizza Dough [halal,!gluten,!wheat]
+      - White Hoagie Torpedo Roll [halal,vegan,!gluten,!wheat]
+      - Panini Roll [halal,vegan,!gluten,!wheat]
+      - Fluffy Potato Bun [halal,vegan,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Focaccia [halal,vegan,!gluten,!wheat]
+feast-at-rieber | Feast at Rieber [dining_hall/closed]
+bruin-bowl | Bruin Bowl [restaurant/closed]
+bruin-cafe | Bruin Café [restaurant/open]
+  Lunch 11:00-15:00
+  Dinner 16:00-21:00
+cafe-1919 | Café 1919 [restaurant/closed]
+epicuria-at-ackerman | Epicuria at Ackerman [restaurant/closed]
+food-trucks | Food Trucks [restaurant/open]
+  Dinner 17:00-20:30
+  Late Night 21:00-00:00
+rendezvous | Rendezvous [restaurant/open]
+  Lunch 11:00-15:00
+  Dinner 17:00-21:00
+the-drey | The Drey [restaurant/closed]
+the-study-at-hedrick | The Study at Hedrick [restaurant/open]
+  Lunch 11:00-15:00
+  Dinner 17:00-21:00
+  Late Night 21:00-00:00
+to-go-lunches | To-Go Lunches [restaurant/closed]
+== ucla 2026-10-05 status=ok
+de-neve-dining | De Neve Dining [dining_hall/open]
+  Breakfast 07:00-10:00
+    # The Front Burner
+      - Bruin Scramble [!egg,!milk]
+      - Vegetarian Bruin Scramble [vegetarian,!egg,!milk]
+      - Potato O'Brien [vegan]
+    # The Kitchen
+      - Scrambled Eggs [vegetarian,!egg]
+      - Scrambled Egg Whites [vegetarian,!egg]
+      - Fried Eggs [vegetarian,!egg]
+      - Buttery Hash Browns [vegetarian,!milk]
+      - Bacon
+      - Tomatillo Salsa [vegan]
+    # The Pizzeria
+      - Belgian Waffles [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Maple Flavored Syrup [vegan]
+    # The Grill
+      - Bodega Egg & Bacon Roll [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Egg Benedict Sandwich [vegetarian,!egg,!gluten,!milk,!wheat]
+      - Tater Tots [halal,vegan,!soy]
+    # Harvest Kitchen
+      - Oatmeal [vegan,!gluten]
+      - Cream of Rice Cereal [vegan]
+    # Seasonal Sides
+      - Plain Bagel [vegan,!gluten,!soy,!wheat]
+      - Everything Bagel [vegan,!gluten,!sesame,!soy,!wheat]
+      - Cinnamon Raisin Bagel [vegan,!gluten,!soy,!wheat]
+    # Market Salads & Fruit
+      - Cream Cheese [vegetarian,!milk]
+      - Chive Cream Cheese [vegetarian,!milk]
+      - Avocado Pulp [vegan]
+      - Black Forest Ham
+      - Sliced Swiss Cheese [vegetarian,!milk]
+      - Sliced Tomatoes [vegan]
+      - Julienne Red Onion [vegan]
+      - Capers [vegan]
+      - Spinach [halal,vegan]
+      - Cucumber [vegan]
+      - Watermelon [vegan]
+      - Pineapple [vegan]
+      - Cantaloupe [vegan]
+    # The Sweet Stop
+      - Cinnamon Protein Donut [vegan]
+      - Mini Croissant [halal,vegetarian]
+      - Mini Maple Pecan Danish [halal,vegetarian,!egg,!gluten,!milk,!tree_nuts,!wheat]
+      - Lemon Poppy Seed Muffin [vegetarian,!egg,!gluten,!wheat]
+  Lunch 11:00-14:00
+    # Theme of the Day
+      - Hawaiian Islands
+    # The Front Burner
+      - Hawaiian Shrimp [!alcohol,!milk,!shellfish]
+      - Steamed Rice [vegan]
+      - Peppered Beyond Steak [vegan,!gluten,!soy,!wheat]
+    # The Kitchen
+      - Huli Huli Roasted Chicken [!gluten,!soy,!wheat]
+      - Roasted Green Beans [halal,vegan]
+      - Coconut Crusted Tofu [vegan,!gluten,!soy,!wheat]
+    # The Pizzeria
+      - Luau Pizza [!gluten,!milk,!soy,!wheat]
+      - Cheese Pizza [vegetarian,!gluten,!milk,!wheat]
+      - Pepperoni Deluxe Pizza [!gluten,!milk,!wheat]
+    # The Grill
+      - Bruin Burger [halal,!egg,!gluten,!sesame,!soy,!wheat]
+      - Bruin Cheeseburger [halal,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - LA Hot Chicken Sandwich [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Big Island Burger [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Chicken Katsu Sandwich [!egg,!gluten,!sesame,!soy,!wheat]
+      - Beyond Burger [vegan,!gluten,!sesame,!soy,!wheat]
+      - French Fries [vegan,!soy]
+    # Harvest Kitchen
+      - Hawaiian Roasted Pork [!alcohol,!gluten,!soy,!wheat]
+      - Cilantro Rice [vegan]
+      - Spicy Lentil [vegan]
+      - Chicken Noodle Soup
+      - Creamy Tomato Basil Soup [halal,vegetarian,!milk]
+    # Seasonal Sides
+      - Roasted Broccoli w/ Garlic [vegan]
+      - Roasted Cauliflower w/ Chile & Lime [vegan]
+      - Pan Roasted Mushrooms with Onions [vegan]
+    # Field Greens Bar
+      - Ranch Dressing [vegetarian,!egg,!milk,!soy]
+      - Caesar Salad Dressing [!egg,!fish,!milk,!soy]
+      - Grilled Rosemary Chicken Breast
+      - Salad Bar [!alcohol,!egg,!fish,!gluten,!milk,!shellfish,!soy,!wheat]
+    # Market Salads & Fruit
+      - Watermelon [vegan]
+      - Pineapple [vegan]
+      - Cantaloupe [vegan]
+    # The Sweet Stop
+      - White Cupcake [halal,vegetarian,!egg,!gluten,!wheat]
+      - White Chocolate Chip Cookie w/ Cranberries [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+      - Dutch Apple Pie [halal,vegan,!gluten,!milk,!peanuts,!soy,!tree_nuts,!wheat]
+      - Cranberry Crunch Bar [halal,!gluten,!soy]
+      - Oreo Mousse [!gluten,!milk,!soy,!wheat]
+      - Blueberry Cobbler [vegetarian,!egg,!gluten,!milk,!wheat]
+      - Yogurt Bar [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Ice Cream & Frozen Yogurt Bar [vegetarian,!gluten,!milk,!peanuts,!soy,!wheat]
+  Dinner 17:00-21:00
+    # Theme of the Day
+      - Hawaiian Islands
+    # The Front Burner
+      - Beef Loco Moco [halal,!egg,!gluten,!soy,!wheat]
+      - Portobello Loco Moco [vegetarian,!egg,!gluten,!soy,!wheat]
+    # The Kitchen
+      - Mahi Mahi Seared Fish [!fish]
+      - Spicy Pineapple Salsa [vegan]
+      - Coconut Rice [vegan]
+      - Garlic Lemon Tofu [vegan,!soy]
+    # The Pizzeria
+      - Luau Pizza [!gluten,!milk,!soy,!wheat]
+      - Cheese Pizza [vegetarian,!gluten,!milk,!wheat]
+      - Pepperoni Deluxe Pizza [!gluten,!milk,!wheat]
+    # The Grill
+      - Bruin Burger [halal,!egg,!gluten,!sesame,!soy,!wheat]
+      - Bruin Cheeseburger [halal,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - LA Hot Chicken Sandwich [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Big Island Burger [!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Chicken Katsu Sandwich [!egg,!gluten,!sesame,!soy,!wheat]
+      - Beyond Burger [vegan,!gluten,!sesame,!soy,!wheat]
+      - French Fries [vegan,!soy]
+    # Harvest Kitchen
+      - Hawaiian Roasted Pork [!alcohol,!gluten,!soy,!wheat]
+      - Cilantro Rice [vegan]
+      - Spicy Lentil [vegan]
+      - Chicken Noodle Soup
+      - Creamy Tomato Basil Soup [halal,vegetarian,!milk]
+    # Seasonal Sides
+      - Roasted Broccoli w/ Garlic [vegan]
+      - Roasted Cauliflower w/ Chile & Lime [vegan]
+      - Pan Roasted Mushrooms with Onions [vegan]
+    # Field Greens Bar
+      - Ranch Dressing [vegetarian,!egg,!milk,!soy]
+      - Caesar Salad Dressing [!egg,!fish,!milk,!soy]
+      - Grilled Rosemary Chicken Breast
+      - Salad Bar [!alcohol,!egg,!fish,!gluten,!milk,!shellfish,!soy,!wheat]
+    # Market Salads & Fruit
+      - Watermelon [vegan]
+      - Cantaloupe [vegan]
+      - Pineapple [vegan]
+    # The Sweet Stop
+      - White Cupcake [halal,vegetarian,!egg,!gluten,!wheat]
+      - White Chocolate Chip Cookie w/ Cranberries [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+      - Dutch Apple Pie [halal,vegan,!gluten,!milk,!peanuts,!soy,!tree_nuts,!wheat]
+      - Cranberry Crunch Bar [halal,!gluten,!soy]
+      - Oreo Mousse [!gluten,!milk,!soy,!wheat]
+      - Blueberry Cobbler [vegetarian,!egg,!gluten,!milk,!wheat]
+      - Yogurt Bar [vegetarian,!gluten,!milk,!soy,!wheat]
+      - Ice Cream & Frozen Yogurt Bar [vegetarian,!gluten,!milk,!peanuts,!soy,!wheat]
+  Late Night 22:00-00:00
+sproul-dining | Sproul Dining [dining_hall/open]
+  Breakfast 07:00-09:00
+    # Freshly Bowled
+      - Amaranth Bowl w/ Winter Squash & Apple [vegan,!tree_nuts]
+    # Harvest
+      - Sweet Potato, Turkey & White Bean Hash [!egg,!gluten,!wheat]
+      - Scrambled Eggs [halal,vegetarian,!egg]
+      - Scrambled Egg Whites [halal,vegetarian,!egg]
+      - Vegan Scrambled Eggs [halal,vegan,!soy]
+      - Roasted Red Breakfast Potato Wedges [halal,vegan]
+      - Turkey Bacon
+    # Stone Fired
+      - Chickpea & Oat Waffle [vegetarian]
+      - Pear-Pineapple Compote [vegetarian]
+      - Waffle [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+    # Simply Grilled
+      - Whole Wheat Pancakes w/ Amaranth & Chocolate Chips [vegetarian,!alcohol,!egg,!gluten,!milk,!soy,!tree_nuts,!wheat]
+      - Vegan Pancake [vegan,!alcohol,!gluten,!wheat]
+    # Fruit
+      - Cantaloupe [vegan]
+      - Grapefruit [vegan]
+      - Green Grapes [vegan]
+      - Red Grapes [vegan]
+      - Pineapple [vegan]
+      - Kiwi [vegan]
+    # Sweet Bites
+      - Multi-Grain Bread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Raisin Walnut Bread [halal,vegan,!gluten,!tree_nuts,!wheat]
+      - Whole Wheat Sourdough Bread [halal,vegan,!gluten,!wheat]
+      - Boston Brown Quickbread [halal,vegetarian,!egg,!gluten,!milk,!wheat]
+      - Cranberry Orange Bread [vegetarian,!egg,!gluten,!wheat]
+      - Almond Butter [vegan,!tree_nuts]
+      - Blueberry Compote [vegan]
+      - Chocolate Peanut Butter [vegetarian,!milk,!peanuts,!soy]
+      - Pear-Pineapple Compote [vegetarian]
+    # Yogurt Bar
+      - Lowfat Cottage Cheese [vegetarian,!milk]
+      - Low Fat Greek Yogurt [vegetarian,!milk]
+      - Vegan Vanilla Coconut Yogurt [vegan]
+      - Strawberry Yogurt [vegetarian,!milk]
+      - Wild Blueberries [vegan]
+      - Mango [vegan]
+    # Beverage Special
+      - Kiwi Water [vegan]
+    # Greens 'N More
+      - Whole Wheat Bagel [vegan,!gluten,!soy,!wheat]
+      - Arugula [vegan]
+      - Low Fat Cream Cheese [vegetarian,!milk]
+      - Cheese Whipped Creamy Spread [vegan]
+      - Avocado Topping [vegan]
+      - Herbed Cream Cheese [vegetarian,!milk]
+    # Cereal / Oatmeal
+      - Oatmeal [halal,vegan,!gluten]
+      - White Polenta [vegan]
+  Lunch 11:00-14:00
+    # Soups
+      - Chicken Tortilla Soup
+      - Potato Dumpling Soup [vegetarian,!egg,!gluten,!milk,!wheat]
+    # Freshly Bowled
+      - Tofu, Black-Eyed Peas, & Collard Greens Bowl [vegan,!soy]
+      - Roasted Cauliflower & Turnip Greens w/ Spaghetti [vegan,!gluten,!wheat]
+    # Harvest
+      - Sticky Korean-Style Chicken Wings [!gluten,!sesame,!soy,!wheat]
+      - Sweet & Tangy Cabbage Salad [halal,vegan,!sesame]
+      - Lentil Shepherd's Pie [vegan,!gluten,!wheat]
+    # Farmstand
+      - Frijoles de la Olla [halal,vegan]
+      - Brown Calrose Rice [halal,vegan]
+      - Quinoa Pilaf [vegan]
+      - Roasted Parsnips, Carrots, & Onions [vegan]
+      - Sauteed Bok Choy [halal,vegan]
+    # Stone Fired
+      - Armenian Lamb Flatbread [halal,!gluten,!milk,!sesame,!soy,!wheat]
+      - Tri-Color Cauliflower Flatbread [vegetarian,!gluten,!milk,!soy,!wheat]
+    # Simply Grilled
+      - Fennel Coriander Marinated Grilled Chicken Thigh
+      - Tofu Caprese Stacker [vegetarian,!soy]
+      - Spicy Fingerling Potatoes [vegan]
+    # Fruit
+      - Cantaloupe [vegan]
+      - Green Grapes [vegan]
+      - Red Grapes [vegan]
+      - Pineapple [vegan]
+      - Kiwi [vegan]
+    # Sweet Bites
+      - Multi-Grain Bread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Raisin Walnut Bread [halal,vegan,!gluten,!tree_nuts,!wheat]
+      - Whole Wheat Sourdough Bread [halal,vegan,!gluten,!wheat]
+      - Boston Brown Quickbread [halal,vegetarian,!egg,!gluten,!milk,!wheat]
+      - Cranberry Orange Bread [vegetarian,!egg,!gluten,!wheat]
+      - Fudgy Brownie w/Nuts [vegan,!alcohol,!soy]
+      - Almond Cashew Butter [vegan,!peanuts,!soy,!tree_nuts]
+      - Blueberry Compote [vegan]
+      - Chocolate Peanut Butter [vegetarian,!milk,!peanuts,!soy]
+      - Pear-Pineapple Compote [vegetarian]
+      - Smoky Hibiscus Compote [vegan,!soy]
+    # Yogurt Bar
+      - Lowfat Greek Yogurt [vegetarian,!milk]
+      - Vegan Vanilla Coconut Yogurt [vegan]
+      - Wild Blueberries [vegan]
+      - Mango [vegan]
+      - Cottage Cheese [vegetarian,!milk]
+    # Beverage Special
+      - Kiwi Water [vegan]
+      - Apple Spritzer [vegan]
+      - Cranberry Spritzer [vegan]
+      - Orange Spritzer [vegan]
+    # Greens 'N More
+      - Romaine Lettuce [halal,vegan]
+      - Power Greens Blend [vegan]
+      - Spring Mix [halal,vegan]
+      - Spinach [halal,vegan]
+      - Roasted Broccoli [halal,vegan]
+      - Roasted Brussels Sprouts [halal,vegan]
+      - Roasted Cauliflower [halal,vegan]
+      - Green Lentils [halal,vegan]
+      - Roasted Butternut Squash [halal,vegan]
+      - Oven Roasted Red Beets [halal,vegan]
+      - Salad Bar Selection [!alcohol,!egg,!fish,!gluten,!milk,!sesame,!soy,!wheat]
+    # Frozen Yogurt
+      - Frozen Yogurt Bar [vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+  Dinner 17:00-21:00
+    # Soups
+      - Chicken Tortilla Soup
+      - Potato Dumpling Soup [vegetarian,!egg,!gluten,!milk,!wheat]
+    # Freshly Bowled
+      - Tempeh, Spaghetti Squash, Wheat Berry, & Mushroom Broth Bowl [vegan,!gluten,!soy,!wheat]
+      - Italian Style Seitan w/ Spinach & Whole Wheat Penne [vegan,!gluten,!soy,!wheat]
+    # Harvest
+      - Roasted Onion & Celery Seed Chicken
+      - Kale & Quinoa Pilaf [vegan]
+      - Stuffed Portobello w/ Red Bell Pepper Coulis [vegan,!alcohol,!gluten,!soy,!wheat]
+    # Farmstand
+      - Frijoles de la Olla [halal,vegan]
+      - Brown Basmati Rice [halal,vegan]
+      - Roasted Butternut Squash [halal,vegan]
+      - Sautéed Cabbage [vegan]
+    # Stone Fired
+      - Lamb, Tomato, Onion & Jalapeno Flatbread [halal,!gluten,!milk,!sesame,!soy,!wheat]
+      - Marinated Roma Tomato Pizza [vegetarian,!gluten,!milk,!soy,!wheat]
+    # Simply Grilled
+      - Grilled Santa Maria Boneless Pork Chop
+      - Grilled Chayote [halal,vegetarian,!milk]
+      - Baked Russet Potato [halal,vegan]
+    # Fruit
+      - Cantaloupe [vegan]
+      - Green Grapes [vegan]
+      - Red Grapes [vegan]
+      - Pineapple [vegan]
+      - Kiwi [vegan]
+    # Sweet Bites
+      - Multi-Grain Bread [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Raisin Walnut Bread [halal,vegan,!gluten,!tree_nuts,!wheat]
+      - Whole Wheat Sourdough Bread [halal,vegan,!gluten,!wheat]
+      - Boston Brown Quickbread [halal,vegetarian,!egg,!gluten,!milk,!wheat]
+      - Cranberry Orange Bread [vegetarian,!egg,!gluten,!wheat]
+      - Fudgy Brownie w/Nuts [vegan,!alcohol,!soy]
+      - Chocolate Budino w/ Basil Seed Caviar [vegan,!alcohol,!egg,!gluten,!milk,!peanuts,!sesame,!soy,!tree_nuts]
+      - Almond Butter [vegan,!tree_nuts]
+      - Cacao Butter [halal,vegetarian,!milk,!soy,!tree_nuts]
+      - Peanut Butter [vegan,!peanuts]
+      - Fig Compote [vegan]
+      - Butternut Squash Confit [vegetarian]
+    # Yogurt Bar
+      - Lowfat Greek Yogurt [vegetarian,!milk]
+      - Vegan Vanilla Coconut Yogurt [vegan]
+      - Wild Blueberries [vegan]
+      - Mango [vegan]
+      - Cottage Cheese [vegetarian,!milk]
+    # Beverage Special
+      - Passion Fruit & Orange Water [vegan]
+      - Apple Spritzer [vegan]
+      - Cranberry Spritzer [vegan]
+      - Orange Spritzer [vegan]
+    # Greens 'N More
+      - Romaine Lettuce [halal,vegan]
+      - Power Greens Blend [vegan]
+      - Spring Mix [halal,vegan]
+      - Spinach [halal,vegan]
+      - Roasted Broccoli [halal,vegan]
+      - Roasted Brussels Sprouts [halal,vegan]
+      - Roasted Cauliflower [halal,vegan]
+      - Green Lentils [halal,vegan]
+      - Roasted Butternut Squash [halal,vegan]
+      - Oven Roasted Red Beets [halal,vegan]
+      - Salad Bar Selection [!alcohol,!egg,!fish,!gluten,!milk,!sesame,!soy,!wheat]
+    # Frozen Yogurt
+      - Frozen Yogurt Bar [vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+covel-dining | Covel Dining [dining_hall/open]
+  Lunch 11:00-15:00
+    # Capri
+      - Build-Your-Own Pasta Bowl [!egg,!fish,!gluten,!milk,!shellfish,!soy,!wheat]
+      - NOODLES BOWTIE FARFALLE [halal,vegan,!gluten,!wheat]
+      - Ground Beef
+      - Cannellini Beans [halal,vegan]
+      - Pomodoro [halal,vegan]
+      - Sun Dried Tomato Cream Sauce [halal,vegetarian,!gluten,!milk,!wheat]
+      - Roasted Broccoli [halal,vegan]
+      - Roasted Marinated Cherry Tomatoes [halal,vegan]
+    # Psistaris
+      - Grilled Chicken Breast w/ Salsa Verde [halal]
+      - Halloumi Grilled Cheese Pita [halal,vegetarian,!gluten,!milk,!soy,!wheat]
+      - Lebanese Lentil & Bulgur Pilaf w/ Roasted Squash [halal,vegan,!gluten,!wheat]
+      - Roasted Mushrooms [halal,vegan]
+      - Roasted Delicata Squash [vegan]
+      - Greek Salad [vegan]
+      - Moroccan Couscous Salad [vegan,!gluten,!tree_nuts,!wheat]
+      - Bean Salad w/ Sundried Tomato [vegan,!gluten,!wheat]
+    # Alimenti
+      - Pomegranate Lamb [halal,!sesame]
+      - Greek Style Black-Eyed Pea Stew w/ Kale [halal,vegan]
+      - Chicken Noodle Soup [halal,!gluten,!wheat]
+      - Creamy Tomato Basil Soup [halal,vegetarian,!milk]
+      - Salad Bar Selection [!alcohol,!egg,!fish,!gluten,!milk,!soy,!wheat]
+    # Dolce
+      - Classic Chocolate Chip Cookie [halal,vegan,!alcohol,!gluten,!soy,!wheat]
+      - Cappuccino Cookie [halal,vegan,!gluten,!soy,!tree_nuts,!wheat]
+      - Flan [vegetarian,!alcohol,!egg,!milk]
+      - Italian Cream Cake [vegetarian,!alcohol,!egg,!gluten,!milk,!soy,!tree_nuts,!wheat]
+      - Yogurt Bar [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+    # Mezze
+      - Focaccia [halal,vegan,!gluten,!wheat]
+      - Lavash Chips [halal,vegan,!gluten,!sesame,!wheat]
+      - Sun-Dried Tomato Pesto [halal,vegan]
+      - Garlic Oil [halal,vegan]
+      - Parsley Pesto [halal,!milk]
+      - Hummus [halal,vegan,!sesame]
+      - Tzatziki [halal,vegetarian,!milk]
+      - Baba Ghanoush [vegan,!sesame]
+      - Muhammara (Spicy Roasted Pepper Dip) [halal,vegan,!tree_nuts]
+      - Artichoke Spinach Dip [halal,vegetarian,!milk]
+      - Cauliflower Skordalia Spread [halal,vegan,!tree_nuts]
+      - Smoked Mozzarella Spread [halal,vegetarian,!egg,!milk,!soy]
+      - Paprika Garlic Spread [halal,vegetarian,!egg,!soy]
+      - Tunisian Vegetable Dip [vegan,!tree_nuts]
+      - Morrocan Spicy Lentil Dip [halal,vegan]
+      - White Bean, Feta, & Za'atar Spread [halal,vegetarian,!milk,!sesame]
+      - Zhug [halal,vegan]
+      - Garlic Lebneh [halal,vegetarian,!milk]
+      - Htipiti Feta Spread [halal,vegetarian,!milk]
+      - Marinated Red Grape Tomatoes [vegan,!alcohol]
+      - Pitted Kalamata Olives [vegan]
+      - Pickled Vegetables [vegan]
+      - Dolma [halal,vegan,!soy]
+      - Grated Parmesan Cheese [halal,vegetarian,!milk]
+    # Capri Pizza
+      - Cheese Pizza [halal,vegetarian,!gluten,!milk,!wheat]
+      - Pepperoni Pizza [!gluten,!milk,!wheat]
+      - Grilled Radicchio & Belgian Endive Pizza [vegetarian,!gluten,!milk,!wheat]
+      - Caesar Salad [halal,!egg,!fish,!gluten,!milk,!soy,!wheat]
+      - Greek Salad [vegan]
+      - Moroccan Couscous Salad [vegan,!gluten,!tree_nuts,!wheat]
+      - Bean Salad w/ Sundried Tomato [vegan,!gluten,!wheat]
+    # ..
+      - Pizza Dough [halal,!gluten,!wheat]
+      - White Hoagie Torpedo Roll [halal,vegan,!gluten,!wheat]
+      - Panini Roll [halal,vegan,!gluten,!wheat]
+      - Fluffy Potato Bun [halal,vegan,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Focaccia [halal,vegan,!gluten,!wheat]
+  Dinner 17:00-21:00
+    # Capri
+      - Chicken Fettuccine Alfredo [halal,!gluten,!milk,!wheat]
+      - Garlic Basil Fettuccine [halal,vegetarian,!gluten,!milk,!wheat]
+    # Psistaris
+      - French Onion & Braised Beef Sandwich [!gluten,!milk,!wheat]
+      - Eggplant "Bacon" BLT Sandwich [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+      - Carrot-Cumin Farro [halal,vegan,!gluten,!wheat]
+      - Italian Style Broccoli & Cauliflower [halal,vegan]
+      - Roasted Eggplant [halal,vegan]
+      - Greek Salad [vegan]
+      - Moroccan Couscous Salad [vegan,!gluten,!tree_nuts,!wheat]
+      - Bean Salad w/ Sundried Tomato [vegan,!gluten,!wheat]
+    # Alimenti
+      - Apple-Glazed Pork [!alcohol,!gluten,!milk,!wheat]
+      - Red Roasted Potatoes [halal,vegan]
+      - 4 Cheese Baked Lasagna [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat]
+      - Chicken Noodle Soup [halal,!gluten,!wheat]
+      - Creamy Tomato Basil Soup [halal,vegetarian,!milk]
+      - Salad Bar Selection [!alcohol,!egg,!fish,!gluten,!milk,!soy,!wheat]
+    # Dolce
+      - Classic Chocolate Chip Cookie [halal,vegan,!alcohol,!gluten,!soy,!wheat]
+      - Cappuccino Cookie [halal,vegan,!gluten,!soy,!tree_nuts,!wheat]
+      - Flan [vegetarian,!alcohol,!egg,!milk]
+      - Italian Cream Cake [vegetarian,!alcohol,!egg,!gluten,!milk,!soy,!tree_nuts,!wheat]
+      - Yogurt Bar [vegetarian,!gluten,!milk,!soy,!tree_nuts]
+    # Mezze
+      - Focaccia [halal,vegan,!gluten,!wheat]
+      - Lavash Chips [halal,vegan,!gluten,!sesame,!wheat]
+      - Sun-Dried Tomato Pesto [halal,vegan]
+      - Garlic Oil [halal,vegan]
+      - Parsley Pesto [halal,!milk]
+      - Hummus [halal,vegan,!sesame]
+      - Tzatziki [halal,vegetarian,!milk]
+      - Baba Ghanoush [vegan,!sesame]
+      - Muhammara (Spicy Roasted Pepper Dip) [halal,vegan,!tree_nuts]
+      - Artichoke Spinach Dip [halal,vegetarian,!milk]
+      - Cauliflower Skordalia Spread [halal,vegan,!tree_nuts]
+      - Smoked Mozzarella Spread [halal,vegetarian,!egg,!milk,!soy]
+      - Paprika Garlic Spread [halal,vegetarian,!egg,!soy]
+      - Tunisian Vegetable Dip [vegan,!tree_nuts]
+      - Morrocan Spicy Lentil Dip [halal,vegan]
+      - White Bean, Feta, & Za'atar Spread [halal,vegetarian,!milk,!sesame]
+      - Zhug [halal,vegan]
+      - Garlic Lebneh [halal,vegetarian,!milk]
+      - Htipiti Feta Spread [halal,vegetarian,!milk]
+      - Marinated Red Grape Tomatoes [vegan,!alcohol]
+      - Pitted Kalamata Olives [vegan]
+      - Pickled Vegetables [vegan]
+      - Dolma [halal,vegan,!soy]
+      - Grated Parmesan Cheese [halal,vegetarian,!milk]
+    # Capri Pizza
+      - Cheese Pizza [halal,vegetarian,!gluten,!milk,!wheat]
+      - Pepperoni Pizza [!gluten,!milk,!wheat]
+      - Seafood Marinara Pizza [halal,!egg,!fish,!gluten,!milk,!shellfish,!soy,!wheat]
+      - Caesar Salad [halal,!egg,!fish,!gluten,!milk,!soy,!wheat]
+      - Greek Salad [vegan]
+      - Moroccan Couscous Salad [vegan,!gluten,!tree_nuts,!wheat]
+      - Bean Salad w/ Sundried Tomato [vegan,!gluten,!wheat]
+    # ..
+      - Pizza Dough [halal,!gluten,!wheat]
+      - White Hoagie Torpedo Roll [halal,vegan,!gluten,!wheat]
+      - Panini Roll [halal,vegan,!gluten,!wheat]
+      - Fluffy Potato Bun [halal,vegan,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Focaccia [halal,vegan,!gluten,!wheat]
+feast-at-rieber | Feast at Rieber [dining_hall/open]
+  Lunch 11:00-14:00
+    # Bruin Wok
+      - Build Your Own Sushi Bowl [!alcohol,!egg,!fish,!gluten,!sesame,!shellfish,!soy,!wheat]
+    # BYO Poke Bowl
+      - Build-Your-Own Poke Bowl [!fish,!gluten,!sesame,!soy,!wheat]
+    # Spice Kitchen
+      - Honey-Glazed Walnut Shrimp [!egg,!shellfish,!soy,!tree_nuts]
+      - Szechuan Style Crispy Seitan Stir Fry [vegan,!alcohol,!gluten,!sesame,!soy,!wheat]
+      - Garlic Green Beans [vegan]
+      - Sticky Rice [vegan]
+      - Cucumber Sunomono Salad [vegan]
+    # Stone Oven
+      - Beef Hayashi Flatbread [!alcohol,!fish,!gluten,!milk,!soy,!wheat]
+      - Paneer and Veggie Flatbread [vegetarian,!gluten,!milk,!wheat]
+    # Iron Grill
+      - Bulgogi Grilled Cheese Sandwich [!gluten,!milk,!sesame,!soy,!wheat]
+      - Onion Rings [vegetarian,!gluten,!milk,!wheat]
+    # Sweets Station
+      - Coconut Matcha Cream Roll [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat]
+    # Toppings
+      - Kimchi [vegan]
+      - Seaweed Salad [vegan]
+      - Pickled Yellow Radish (Takuan)
+      - Edamame Shelled [!soy]
+      - Chinese Cucumber Salad [vegan,!alcohol]
+      - Avocado Pulp
+      - Red Shredded Ginger
+      - Ginger Gari White Marukyo
+  Dinner 17:00-21:00
+    # Bruin Wok
+      - Shrimp Fried Rice [!alcohol,!egg,!gluten,!shellfish,!soy,!wheat]
+      - Thai Fried Rice with Tofu and Seitan [vegan,!gluten,!soy,!wheat]
+    # Spice Kitchen
+      - California Sushi Bowl [!egg,!fish,!gluten,!sesame,!soy,!wheat]
+      - Seaweed Salad Bowl [vegan,!alcohol,!egg,!gluten,!sesame,!soy,!wheat]
+    # Stone Oven
+      - Huo Guo Hot Pot [!gluten,!soy,!wheat]
+      - Vegetable Hot Pot [vegan,!gluten,!soy,!wheat]
+      - Sliced Ribeye
+      - Diced Tofu [vegan,!soy]
+    # Iron Grill
+      - Kurobuta Sausage Hot Dog [!alcohol,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+      - Ao Nori Fries [vegan,!alcohol,!gluten,!sesame,!soy,!wheat]
+      - Grilled Lemongrass Chili Chicken [!fish]
+    # Sweets Station
+      - Honey Sponge Cake [vegetarian,!egg,!gluten,!wheat]
+      - Green Tea Mousse [!milk]
+      - Fudge Brownie [halal,vegetarian,!alcohol,!egg,!gluten,!milk,!peanuts,!sesame,!soy,!tree_nuts,!wheat]
+      - Classic Chocolate Chip Cookie [halal,vegan,!alcohol,!gluten,!soy,!wheat]
+      - Tropical Fruits [vegan]
+      - Fuji Apple [vegan]
+      - Oranges [vegan]
+      - Banana [vegan]
+    # Hot Food Bar
+      - Tonjiru (Japanese Pork & Vegetable Soup) [!soy]
+      - Asian Stir Fry
+      - Brown Calrose Rice [halal,vegan]
+      - Sticky Rice [vegan]
+      - Egg Drop Soup [!egg,!sesame,!soy]
+    # Feast Salad Bar
+      - Salad Bar [!alcohol,!egg,!gluten,!milk,!sesame,!soy,!wheat]
+bruin-bowl | Bruin Bowl [restaurant/closed]
+bruin-cafe | Bruin Café [restaurant/open]
+  Breakfast 07:00-10:00
+  Lunch 11:00-15:00
+  Dinner 16:00-21:00
+cafe-1919 | Café 1919 [restaurant/open]
+  Lunch 11:00-15:00
+  Dinner 17:00-21:00
+epicuria-at-ackerman | Epicuria at Ackerman [restaurant/open]
+  Lunch 11:00-16:00
+  Dinner 17:00-21:00
+food-trucks | Food Trucks [restaurant/open]
+  Late Night 21:00-00:00
+rendezvous | Rendezvous [restaurant/open]
+  Lunch 11:00-15:00
+  Dinner 17:00-21:00
+the-drey | The Drey [restaurant/open]
+  Breakfast 07:00-11:00
+  Lunch 11:00-15:00
+the-study-at-hedrick | The Study at Hedrick [restaurant/open]
+  Breakfast 07:00-10:00
+  Lunch 11:00-15:00
+  Dinner 17:00-21:00
+  Late Night 21:00-00:00
+to-go-lunches | To-Go Lunches [restaurant/open]
+  Breakfast 07:00-11:00

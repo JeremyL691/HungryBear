@@ -25,7 +25,7 @@ build-backend = "setuptools.build_meta"
 include = ["hungrybear*"]
 
 [tool.setuptools.package-data]
-hungrybear = ["campuses.yaml"]
+hungrybear = ["campuses.yaml", "certs/*.pem"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

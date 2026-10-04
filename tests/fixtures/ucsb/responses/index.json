@@ -1,0 +1,149 @@
+{
+ "a7ea7a886799884d": {
+  "data": {},
+  "method": "GET",
+  "params": [
+   [
+    "d",
+    "2026-10-03"
+   ],
+   [
+    "dc",
+    "carrillo"
+   ],
+   [
+    "dc",
+    "de-la-guerra"
+   ],
+   [
+    "dc",
+    "ortega"
+   ],
+   [
+    "dc",
+    "portola"
+   ],
+   [
+    "m",
+    "breakfast"
+   ],
+   [
+    "m",
+    "brunch"
+   ],
+   [
+    "m",
+    "dinner"
+   ],
+   [
+    "m",
+    "late-night"
+   ],
+   [
+    "m",
+    "lunch"
+   ]
+  ],
+  "url": "https://apps.dining.ucsb.edu/menu/day"
+ },
+ "c91fd371b47bc29d": {
+  "data": {},
+  "method": "GET",
+  "params": {},
+  "url": "https://apps.dining.ucsb.edu/menu/day"
+ },
+ "ce33f72b679d5cfd": {
+  "data": {},
+  "method": "GET",
+  "params": [
+   [
+    "d",
+    "2026-10-04"
+   ],
+   [
+    "dc",
+    "carrillo"
+   ],
+   [
+    "dc",
+    "de-la-guerra"
+   ],
+   [
+    "dc",
+    "ortega"
+   ],
+   [
+    "dc",
+    "portola"
+   ],
+   [
+    "m",
+    "breakfast"
+   ],
+   [
+    "m",
+    "brunch"
+   ],
+   [
+    "m",
+    "dinner"
+   ],
+   [
+    "m",
+    "late-night"
+   ],
+   [
+    "m",
+    "lunch"
+   ]
+  ],
+  "url": "https://apps.dining.ucsb.edu/menu/day"
+ },
+ "f0f5262d15509f88": {
+  "data": {},
+  "method": "GET",
+  "params": [
+   [
+    "d",
+    "2026-10-05"
+   ],
+   [
+    "dc",
+    "carrillo"
+   ],
+   [
+    "dc",
+    "de-la-guerra"
+   ],
+   [
+    "dc",
+    "ortega"
+   ],
+   [
+    "dc",
+    "portola"
+   ],
+   [
+    "m",
+    "breakfast"
+   ],
+   [
+    "m",
+    "brunch"
+   ],
+   [
+    "m",
+    "dinner"
+   ],
+   [
+    "m",
+    "late-night"
+   ],
+   [
+    "m",
+    "lunch"
+   ]
+  ],
+  "url": "https://apps.dining.ucsb.edu/menu/day"
+ }
+}

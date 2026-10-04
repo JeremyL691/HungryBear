@@ -23,9 +23,9 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 from .adapters import build_adapter
-from .config import CampusConfig, load_campuses, today_pacific
+from .config import PACIFIC, CampusConfig, load_campuses, today_pacific
 from .http import Fetcher, RecordingFetcher, ReplayFetcher
-from .models import DayMenu
+from .models import DayMenu, sort_meals
 from .store import LocalStore
 from .validate import total_items, validate_day
 
@@ -41,6 +41,27 @@ class CampusRun:
     @property
     def broken(self) -> List[DayMenu]:
         return [d for d in self.days if d.status == "broken"]
+
+
+def carry_over_past_meals(old: Optional[DayMenu], new: DayMenu, now_hhmm: str) -> DayMenu:
+    """Some sites drop meals from *today's* page once they end (UCSB). Keep ones we saw earlier today."""
+    if old is None or old.status != "ok" or old.date != new.date:
+        return new
+    for old_loc in old.locations:
+        loc = new.location(old_loc.id)
+        if loc is None:
+            continue
+        have = {m.name for m in loc.meals}
+        for meal in old_loc.meals:
+            end = "24:00" if meal.end == "00:00" else meal.end
+            if meal.name not in have and meal.stations and end and end <= now_hhmm:
+                loc.meals.append(meal)
+        loc.meals = sort_meals(loc.meals)
+        if loc.meals:
+            loc.status = "open"
+    if new.status == "closed" and any(loc.meals for loc in new.locations):
+        new.status = "ok"
+    return new
 
 
 def collect_campus(
@@ -64,6 +85,10 @@ def collect_campus(
             day = start + timedelta(days=offset)
             try:
                 menu = adapter.fetch_day(day)
+                if day == today_pacific():
+                    menu = carry_over_past_meals(
+                        store.read_day(cfg.id, day), menu, datetime.now(PACIFIC).strftime("%H:%M")
+                    )
                 menu = validate_day(menu, cfg, store.history_counts(cfg.id, day), today=start)
             except Exception as e:  # any failure is data for the alert, never a crash
                 log.debug("%s %s failed:\n%s", cfg.id, day, traceback.format_exc())

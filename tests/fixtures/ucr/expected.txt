@@ -1,0 +1,398 @@
+== ucr 2026-10-03 status=ok
+glasgow | Glasgow [dining_hall/open]
+  Lunch ?-?
+    # Breakfast Offerings
+      - Sweet Potato Apple Hash [gluten_free,vegan,vegetarian,!soy]
+    # Salad, Deli and More
+      - Apple Cranberry Salad [vegetarian,!milk]
+      - Buffalo Cauliflower Wrap [vegan,vegetarian,!soy,!wheat]
+      - Cantaloupe Slices [gluten_free,vegan,vegetarian]
+      - Curried Chicken Salad [gluten_free,!egg,!milk,!tree_nuts]
+      - Fresh Grapes
+      - Halal Grilled Chicken [gluten_free]
+      - Hot Cereal Breakfast Toppings [vegetarian]
+      - Oatmeal [vegan,vegetarian,!wheat]
+    # Specialty Soups
+      - Chicken Noodle Soup [!wheat]
+      - Vegetable Minestrone Soup [vegan,vegetarian,!egg,!wheat]
+    # Wok Kitchen
+      - Green Chicken Pozole
+      - Soup Condiment Bar
+    # Hot Plate
+      - Bacon Jalapeno Cheddar Quiche [!egg,!milk,!soy,!wheat]
+      - Garden Green Salad [gluten_free,vegan,vegetarian]
+      - Jalapeno Cheddar Quiche [vegetarian,!egg,!milk,!soy,!wheat]
+      - Just Egg Plant Based Omelet Made to Order [gluten_free,vegan,vegetarian,!soy]
+    # Three-Sixty Grill
+      - Just Egg Country Scramble [gluten_free,vegan,vegetarian,!soy]
+      - Sausage Patty [gluten_free]
+      - Scrambled Eggs w/ Cheese [gluten_free,vegetarian,!egg,!milk]
+      - Scrambled Eggs [gluten_free,vegetarian,!egg]
+      - Tater Tots [gluten_free,vegan,vegetarian]
+      - Turkey Sausage Patty [gluten_free,!soy]
+      - Vegan Sausage Patty [gluten_free,vegan,vegetarian,!soy]
+    # The Carvery
+      - Green Chilaquiles [gluten_free,vegetarian,!milk]
+      - Halal Grilled Chicken [gluten_free]
+      - Pork Chile Verde
+      - Refried Beans [gluten_free,vegan,vegetarian]
+      - Roasted Corn [gluten_free,vegan,vegetarian]
+    # Sweets & Treats
+      - Assorted Bagels [!wheat]
+      - Assorted Donuts [vegetarian,!egg,!milk,!soy,!wheat]
+      - Assorted Vegan and Gluten Friendly Cookies [vegan,vegetarian]
+      - Fresh Baked Assorted Cookies [!egg,!milk,!soy,!wheat]
+      - Vegan Glazed Donut [vegan,vegetarian,!soy,!wheat]
+      - Vegan Oatmeal Raisin Cookie [vegan,vegetarian,!wheat]
+    # Power Protein Bowls
+      - Vegan Nacho Bar [gluten_free,vegan,vegetarian,!soy,!tree_nuts]
+  Dinner ?-?
+    # Salad, Deli and More
+      - Apple Cranberry Salad [vegetarian,!milk]
+      - Buffalo Cauliflower Wrap [vegan,vegetarian,!soy,!wheat]
+      - Cantaloupe Slices [gluten_free,vegan,vegetarian]
+      - Curried Chicken Salad [gluten_free,!egg,!milk,!tree_nuts]
+      - Fresh Grapes
+      - Halal Grilled Chicken [gluten_free]
+      - Mediterranean Deli Toppings [gluten_free,!milk,!sesame]
+    # Specialty Soups
+      - Chicken Noodle Soup [!wheat]
+      - Vegetable Minestrone Soup [vegan,vegetarian,!egg,!wheat]
+    # Wok Kitchen
+      - Beef Pho Bo [!fish,!sesame,!soy,!wheat]
+      - Pho Bo Bar Topping [vegan,vegetarian,!sesame,!soy,!wheat]
+      - Vegetable Pho Chay [vegan,vegetarian,!wheat]
+    # Hot Plate
+      - Crafted Pepperoni Pizza [!milk,!soy,!wheat]
+      - Crafted Veggie Supreme Pizza [vegetarian,!milk,!soy,!wheat]
+      - Vegan Veggie Supreme Pizza [vegan,vegetarian,!soy,!tree_nuts,!wheat]
+    # Three-Sixty Grill
+      - Cilantro Lime Rice [gluten_free,vegan,vegetarian]
+      - Fire Grilled Chicken Fajitas [!wheat]
+      - Salsa Bar [gluten_free,vegetarian,!milk]
+      - Vegetable Fajitas [gluten_free,vegan,vegetarian]
+    # The Carvery
+      - Baked Potato Bar [gluten_free,vegetarian,!milk]
+      - Barn Smokehouse Vegan Chili [gluten_free,vegan,vegetarian,!soy]
+      - Halal Grilled Chicken [gluten_free]
+      - Texas Beef Chili [gluten_free,!milk]
+    # Sweets & Treats
+      - Assorted Vegan and Gluten Friendly Cookies [vegan,vegetarian]
+      - Cookie Dough Brownies [vegetarian,!egg,!milk,!soy,!wheat]
+      - Fresh Baked Assorted Cookies [!egg,!milk,!soy,!wheat]
+    # Power Protein Bowls
+      - Vegan Nacho Bar [gluten_free,vegan,vegetarian,!soy,!tree_nuts]
+lothian | Lothian [dining_hall/closed]
+== ucr 2026-10-04 status=ok
+glasgow | Glasgow [dining_hall/open]
+  Lunch ?-?
+    # Breakfast Offerings
+      - Sweet Potato Apple Hash [gluten_free,vegan,vegetarian,!soy]
+    # Salad, Deli and More
+      - Apple Cranberry Salad [vegetarian,!milk]
+      - Buffalo Cauliflower Wrap [vegan,vegetarian,!soy,!wheat]
+      - Cantaloupe Slices [gluten_free,vegan,vegetarian]
+      - Curried Chicken Salad [gluten_free,!egg,!milk,!tree_nuts]
+      - Fresh Grapes
+      - Halal Grilled Chicken [gluten_free]
+      - Hot Cereal Breakfast Toppings [vegetarian]
+      - Mediterranean Deli Toppings [gluten_free,!milk,!sesame]
+      - Oatmeal [vegan,vegetarian,!wheat]
+    # Specialty Soups
+      - Chicken Noodle Soup [!wheat]
+      - Vegetable Minestrone Soup [vegan,vegetarian,!egg,!wheat]
+    # Wok Kitchen
+      - Green Chicken Pozole
+      - Soup Condiment Bar
+    # Hot Plate
+      - Bacon Jalapeno Cheddar Quiche [!egg,!milk,!soy,!wheat]
+      - Garden Green Salad [gluten_free,vegan,vegetarian]
+      - Jalapeno Cheddar Quiche [vegetarian,!egg,!milk,!soy,!wheat]
+      - Just Egg Plant Based Omelet Made to Order [gluten_free,vegan,vegetarian,!soy]
+    # Three-Sixty Grill
+      - Belgian Waffles [vegetarian,!egg,!milk,!soy,!wheat]
+      - Just Egg Country Scramble [gluten_free,vegan,vegetarian,!soy]
+      - Sausage Links [gluten_free]
+      - Scrambled Eggs w/ Cheese [gluten_free,vegetarian,!egg,!milk]
+      - Scrambled Eggs [gluten_free,vegetarian,!egg]
+      - Triangle Hasbrown [gluten_free,vegan,vegetarian,!soy]
+      - Turkey Sausage Patty [gluten_free,!soy]
+      - Vegan Sausage Patty [gluten_free,vegan,vegetarian,!soy]
+    # The Carvery
+      - Argentinian Halal Beef Top Sirloin with Chimi Churri [gluten_free]
+      - Au Gratin Potatoes [gluten_free,vegetarian,!milk]
+      - Green Beans [gluten_free,vegan,vegetarian]
+      - Halal Grilled Chicken [gluten_free]
+    # Sweets & Treats
+      - Assorted Bagels [!wheat]
+      - Assorted Donuts [vegetarian,!egg,!milk,!soy,!wheat]
+      - Assorted Vegan and Gluten Friendly Cookies [vegan,vegetarian]
+      - Fresh Baked Assorted Cookies [!egg,!milk,!soy,!wheat]
+      - Vegan Glazed Donut [vegan,vegetarian,!soy,!wheat]
+    # Power Protein Bowls
+      - Vegan Nacho Bar [gluten_free,vegan,vegetarian,!soy,!tree_nuts]
+  Dinner ?-?
+    # Salad, Deli and More
+      - Apple Cranberry Salad [vegetarian,!milk]
+      - Buffalo Cauliflower Wrap [vegan,vegetarian,!soy,!wheat]
+      - Cantaloupe Slices [gluten_free,vegan,vegetarian]
+      - Curried Chicken Salad [gluten_free,!egg,!milk,!tree_nuts]
+      - Fresh Grapes
+      - Halal Grilled Chicken [gluten_free]
+      - Mediterranean Deli Toppings [gluten_free,!milk,!sesame]
+    # Specialty Soups
+      - Chicken Noodle Soup [!wheat]
+      - Vegetable Minestrone Soup [vegan,vegetarian,!egg,!wheat]
+    # Wok Kitchen
+      - Basmati Rice [gluten_free,vegan,vegetarian]
+      - Brown Rice [gluten_free,vegan,vegetarian]
+      - Coconut Curried Chicken [gluten_free,!tree_nuts]
+      - Coconut Curried Tofu [gluten_free,vegan,vegetarian,!soy,!tree_nuts]
+    # Hot Plate
+      - Crafted Jalapeño Pineapple Pizza [vegetarian,!milk,!soy,!wheat]
+      - Crafted Pepperoni Pizza [!milk,!soy,!wheat]
+      - Vegan Cheese Pizza [vegan,vegetarian,!soy,!tree_nuts,!wheat]
+    # Three-Sixty Grill
+      - Broccoli, Zucchini & Carrots [gluten_free,vegan,vegetarian]
+      - Garlic Breadsticks [vegetarian,!wheat]
+      - Marinara Sauce [gluten_free,vegan,vegetarian]
+      - Penne Pasta [vegan,vegetarian,!wheat]
+    # The Carvery
+      - BBQ Pork Baked Beans
+      - Corn Cobbette [gluten_free,vegetarian,!milk]
+      - Halal Grilled Chicken [gluten_free]
+      - Kansas City Barbecue Pork [gluten_free]
+    # Sweets & Treats
+      - Assorted Vegan and Gluten Friendly Cookies [vegan,vegetarian]
+      - Blueberry Oat Crumble Bar [!egg,!milk,!soy,!wheat]
+      - Fresh Baked Assorted Cookies [!egg,!milk,!soy,!wheat]
+    # Power Protein Bowls
+      - Vegan Nacho Bar [gluten_free,vegan,vegetarian,!soy,!tree_nuts]
+lothian | Lothian [dining_hall/closed]
+== ucr 2026-10-05 status=ok
+glasgow | Glasgow [dining_hall/open]
+  Breakfast ?-?
+    # Cereal Station
+      - Fruit Yogurt Parfait [gluten_free,vegetarian,!milk]
+      - Hot Cereal Breakfast Toppings [vegetarian]
+      - Oatmeal [vegan,vegetarian,!wheat]
+    # Breakfast Offerings
+      - Just Egg Plant Based Scramble [gluten_free,vegan,vegetarian,!soy]
+      - Sausage Patty [gluten_free]
+      - Scrambled Eggs w/ Cheese [gluten_free,vegetarian,!egg,!milk]
+      - Scrambled Eggs [gluten_free,vegetarian,!egg]
+      - Sweet Potato Apple Hash [gluten_free,vegan,vegetarian,!soy]
+      - Tater Tots [gluten_free,vegan,vegetarian]
+      - Turkey Sausage Patty [gluten_free,!soy]
+      - Vegan Sausage Patty [gluten_free,vegan,vegetarian,!soy]
+    # Daily Special
+      - French Toast Sticks [vegetarian,!soy,!wheat]
+    # Sweets & Treats
+      - Assorted Bagels [!wheat]
+      - Assorted Scones [!milk,!soy,!wheat]
+      - Cranberry Orange Loaf Cake [!egg,!milk,!soy,!wheat]
+      - Vegan Lemon Poppy Seed Muffin [vegan,vegetarian,!wheat]
+  Lunch ?-?
+    # Salad, Deli and More
+      - Egg Salad [gluten_free,vegetarian,!egg]
+      - Halal Grilled Chicken [gluten_free]
+      - Peanut Thai Tofu Wrap [vegan,vegetarian,!peanuts,!sesame,!soy,!wheat]
+      - Pineapple Wedges [gluten_free,vegan,vegetarian]
+      - Sliced Honeydew
+      - Spanish Tapas Deli Toppings [gluten_free,!milk,!sesame,!soy]
+      - Spicy Edamame Salad [!sesame,!soy,!wheat]
+    # Specialty Soups
+      - Chicken Noodle Soup [!wheat]
+      - Cream of Broccoli Soup [!milk]
+    # Wok Kitchen
+      - Korean Barbecue Chicken Rice Bowl [!sesame,!soy,!wheat]
+      - Korean Barbecue Tempeh Rice Bowl [vegan,vegetarian,!soy,!wheat]
+    # Hot Plate
+      - Crafted Buffalo Chicken Pizza [!egg,!milk,!soy,!wheat]
+      - Crafted Veggie Supreme Pizza [vegetarian,!milk,!soy,!wheat]
+      - Vegan Cheese Pizza [vegan,vegetarian,!soy,!tree_nuts,!wheat]
+    # Three-Sixty Grill
+      - Cavatappi Pasta [vegan,vegetarian,!wheat]
+      - Garlic Breadsticks [vegetarian,!wheat]
+      - Italian Sausage and Peppers with Pasta [!wheat]
+      - Tempeh Bolognaise Sauce [gluten_free,vegan,vegetarian,!soy]
+    # The Carvery
+      - Coconut Pineapple Rice [gluten_free,vegan,vegetarian,!tree_nuts]
+      - Halal Grilled Chicken [gluten_free]
+      - Jerk Halal Chicken [!soy]
+      - Roasted Carrots [gluten_free,vegan,vegetarian]
+    # Sweets & Treats
+      - Apple Crisp [!milk,!wheat]
+      - Fresh Baked Assorted Cookies [!egg,!milk,!soy,!wheat]
+      - Fudge Brownies [vegetarian,!egg,!milk,!soy,!wheat]
+      - Raspberry Jello [gluten_free]
+      - Sugar Free Citrus Jello
+      - Vegan Peanut Butter Brownie [vegan,vegetarian,!peanuts,!wheat]
+    # Power Protein Bowls
+      - Jerk Roasted Chickpeas [gluten_free,vegan,vegetarian,!soy]
+      - Jerk Sweet Potatoes [gluten_free,vegan,vegetarian]
+      - Roasted Eggplant [gluten_free,vegan,vegetarian]
+      - Saffron Basmati Rice & Quinoa [gluten_free,vegan,vegetarian]
+    # Power Bowl Toppings
+      - Haitian Pickled Cabbage (Pikliz) [gluten_free,vegan,vegetarian]
+      - Harissa [gluten_free,vegan,vegetarian]
+      - Mango Salsa [gluten_free,vegan,vegetarian]
+      - Spicy Zhug Green Herb Sauce [gluten_free,vegan,vegetarian]
+  Dinner ?-?
+    # Salad, Deli and More
+      - Egg Salad [gluten_free,vegetarian,!egg]
+      - Halal Grilled Chicken [gluten_free]
+      - Peanut Thai Tofu Wrap [vegan,vegetarian,!peanuts,!sesame,!soy,!wheat]
+      - Pineapple Wedges [gluten_free,vegan,vegetarian]
+      - Sliced Honeydew
+      - Spanish Tapas Deli Toppings [gluten_free,!milk,!sesame,!soy]
+      - Spicy Edamame Salad [!sesame,!soy,!wheat]
+    # Specialty Soups
+      - Chicken Noodle Soup [!wheat]
+      - Cream of Broccoli Soup [!milk]
+    # Wok Kitchen
+      - Basmati Rice [gluten_free,vegan,vegetarian]
+      - Brown Rice [gluten_free,vegan,vegetarian]
+      - Chicken Vindaloo
+      - Vegetarian Vindaloo [vegetarian,!soy]
+    # Hot Plate
+      - Crafted Buffalo Chicken Pizza [!egg,!milk,!soy,!wheat]
+      - Crafted Veggie Supreme Pizza [vegetarian,!milk,!soy,!wheat]
+      - Vegan Cheese Pizza [vegan,vegetarian,!soy,!tree_nuts,!wheat]
+    # Three-Sixty Grill
+      - Basil Pesto Mac [vegetarian,!milk,!wheat]
+      - Garlic Breadsticks [vegetarian,!wheat]
+      - Vegan Grilled Cheese [vegan,vegetarian,!tree_nuts,!wheat]
+    # The Carvery
+      - Argentinian Halal Beef Sirloin with Chimi Churri [gluten_free]
+      - Halal Grilled Chicken [gluten_free]
+      - Herb Roasted Potatoes [gluten_free,vegan,vegetarian]
+      - Roasted Carrots [gluten_free,vegan,vegetarian]
+    # Sweets & Treats
+      - Apple Crisp [!milk,!wheat]
+      - Assorted Vegan and Gluten Friendly Cookies [vegan,vegetarian]
+      - Fresh Baked Assorted Cookies [!egg,!milk,!soy,!wheat]
+      - Vanilla Cake [vegetarian,!egg,!milk,!soy,!wheat]
+    # Power Protein Bowls
+      - Jerk Roasted Chickpeas [gluten_free,vegan,vegetarian,!soy]
+      - Jerk Sweet Potatoes [gluten_free,vegan,vegetarian]
+      - Roasted Eggplant [gluten_free,vegan,vegetarian]
+      - Saffron Basmati Rice & Quinoa [gluten_free,vegan,vegetarian]
+    # Power Bowl Toppings
+      - Haitian Pickled Cabbage (Pikliz) [gluten_free,vegan,vegetarian]
+      - Harissa [gluten_free,vegan,vegetarian]
+      - Mango Salsa [gluten_free,vegan,vegetarian]
+      - Spicy Zhug Green Herb Sauce [gluten_free,vegan,vegetarian]
+lothian | Lothian [dining_hall/open]
+  Lunch ?-?
+    # Deli Bar
+      - Fresh Seasonal Fruits & Vegetables [vegan,vegetarian,!egg,!fish,!milk,!peanuts,!sesame,!shellfish,!soy,!tree_nuts,!wheat]
+      - Vegetarian Greek Wrap [vegetarian,!milk,!soy,!wheat]
+    # Specialty Soups
+      - Chicken Noodle Soup [!wheat]
+      - Cream of Broccoli Soup [!milk]
+    # Daily Fruits
+      - Cantaloupe Slices [gluten_free,vegan,vegetarian]
+      - Pineapple Wedges [gluten_free,vegan,vegetarian]
+    # Power Protein Bowls
+      - Jamaican Jerk Sauce [gluten_free,vegan,vegetarian,!soy]
+      - Jerk Roasted Chickpeas [gluten_free,vegan,vegetarian,!soy]
+      - Jerk Sweet Potatoes [gluten_free,vegan,vegetarian]
+      - Roasted Eggplant [gluten_free,vegan,vegetarian]
+      - Saffron Basmati Rice & Quinoa [gluten_free,vegan,vegetarian]
+    # Spinellis
+      - Classic Cheese Pizza [vegetarian,!milk,!soy,!wheat]
+      - Classic Pepperoni Pizza [!milk,!soy,!wheat]
+      - Vegan Cheese Pizza [vegan,vegetarian,!tree_nuts,!wheat]
+    # The Grill
+      - Chicken Taquitos [!milk,!soy,!wheat]
+      - French Fries [gluten_free,vegan,vegetarian]
+      - Guacamole [gluten_free,vegan,vegetarian]
+    # Global Sizzle
+      - Garlic Breadsticks [vegetarian,!wheat]
+      - Pasta Marinara and Meatballs [!milk,!soy,!wheat]
+      - Penne Marinara [vegetarian,!milk,!wheat]
+    # Urban Kitchen
+      - Jasmine Rice [gluten_free,vegan,vegetarian]
+      - Korean Spicy Pork with Cabbage [!sesame,!soy,!wheat]
+    # Comfort Table
+      - Halal Grilled Chicken [gluten_free]
+      - Steamed Yellow Squash [gluten_free,vegan,vegetarian]
+      - Steamed Zucchini [gluten_free,vegan,vegetarian]
+    # Village Garden
+      - Udon Garlic Vegetable Salad [vegetarian,!sesame,!soy,!wheat]
+    # Desserts
+      - Apple Crisp [!milk,!wheat]
+      - Fresh Baked Assorted Cookies [!egg,!milk,!soy,!wheat]
+      - Fudge Brownies [vegetarian,!egg,!milk,!soy,!wheat]
+      - Raspberry Jello [gluten_free]
+      - Sugar Free Citrus Jello
+      - Vegan Peanut Butter Brownie [vegan,vegetarian,!peanuts,!wheat]
+  Dinner ?-?
+    # Deli Bar
+      - Fresh Seasonal Fruits & Vegetables [vegan,vegetarian,!egg,!fish,!milk,!peanuts,!sesame,!shellfish,!soy,!tree_nuts,!wheat]
+      - Vegetarian Greek Wrap [vegetarian,!milk,!soy,!wheat]
+    # Specialty Soups
+      - Chicken Noodle Soup [!wheat]
+      - Cream of Broccoli Soup [!milk]
+    # Daily Fruits
+      - Cantaloupe Slices [gluten_free,vegan,vegetarian]
+      - Pineapple Wedges [gluten_free,vegan,vegetarian]
+    # Power Protein Bowls
+      - Jamaican Jerk Sauce [gluten_free,vegan,vegetarian,!soy]
+      - Jerk Roasted Chickpeas [gluten_free,vegan,vegetarian,!soy]
+      - Jerk Sweet Potatoes [gluten_free,vegan,vegetarian]
+      - Roasted Eggplant [gluten_free,vegan,vegetarian]
+      - Saffron Basmati Rice & Quinoa [gluten_free,vegan,vegetarian]
+    # Spinellis
+      - Classic Cheese Pizza [vegetarian,!milk,!soy,!wheat]
+      - Classic Pepperoni Pizza [!milk,!soy,!wheat]
+      - Vegan Cheese Pizza [vegan,vegetarian,!tree_nuts,!wheat]
+    # The Grill
+      - French Fries [gluten_free,vegan,vegetarian]
+      - Hot Dog - Beef Frank [!sesame,!wheat]
+    # Global Sizzle
+      - Corn Tortillas [vegan,vegetarian]
+      - Crispy Tofu Option [gluten_free,vegan,vegetarian,!soy]
+      - Honey Sriracha Chicken for Tacos [gluten_free]
+      - Korean Style Kim-Chee [gluten_free,vegan,vegetarian]
+    # Urban Kitchen
+      - Jasmine Rice [gluten_free,vegan,vegetarian]
+      - Kotopoulo Lemon Chicken [!milk,!wheat]
+    # Comfort Table
+      - Green Beans [gluten_free,vegan,vegetarian]
+      - Halal Grilled Chicken [gluten_free]
+      - Zucchini & Yellow Squash [gluten_free,vegan,vegetarian]
+    # Village Garden
+      - Udon Garlic Vegetable Salad [vegetarian,!sesame,!soy,!wheat]
+    # Desserts
+      - Apple Crisp [!milk,!wheat]
+      - Assorted Vegan and Gluten Friendly Cookies [vegan,vegetarian]
+      - Fresh Baked Assorted Cookies [!egg,!milk,!soy,!wheat]
+      - Vanilla Cake [vegetarian,!egg,!milk,!soy,!wheat]
+  All Day 14:30-16:30 (Continuous Service 2:30PM-4:30PM)
+    # Deli Bar
+      - Fresh Seasonal Fruits & Vegetables [vegan,vegetarian,!egg,!fish,!milk,!peanuts,!sesame,!shellfish,!soy,!tree_nuts,!wheat]
+      - Vegetarian Greek Wrap [vegetarian,!milk,!soy,!wheat]
+    # Specialty Soups
+      - Chicken Noodle Soup [!wheat]
+      - Cream of Broccoli Soup [!milk]
+    # Daily Fruits
+      - Cantaloupe Slices [gluten_free,vegan,vegetarian]
+      - Pineapple Wedges [gluten_free,vegan,vegetarian]
+    # Deli Bar Toppings
+      - Feta Cheese Crumbled [gluten_free,vegetarian,!milk]
+      - Gherkin Pickle [gluten_free,vegan,vegetarian]
+      - Kalamata Pitted Olives [gluten_free,vegan,vegetarian]
+      - Leaves Grape Dolma Stuffed [gluten_free,vegan,vegetarian]
+      - Red Pepper Hummus [gluten_free,vegan,vegetarian,!sesame]
+      - Sliced Mortadella [gluten_free,!milk]
+      - Sliced Pepperoncini [gluten_free,vegan,vegetarian]
+    # Spinellis
+      - Classic Cheese Pizza [vegetarian,!milk,!soy,!wheat]
+      - Classic Pepperoni Pizza [!milk,!soy,!wheat]
+      - Vegan Cheese Pizza [vegan,vegetarian,!tree_nuts,!wheat]
+    # The Grill
+      - Chicken Taquitos [!milk,!soy,!wheat]
+      - French Fries [gluten_free,vegan,vegetarian]
+      - Guacamole [gluten_free,vegan,vegetarian]
