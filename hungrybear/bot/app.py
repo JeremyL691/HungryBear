@@ -262,9 +262,28 @@ class Bot:
                 raise
 
 
+COMMANDS = [
+    ("start", "Browse menus"),
+    ("now", "What's being served now at your last location"),
+    ("campus", "Switch campus"),
+    ("diet", "Vegetarian / vegan / halal filter"),
+    ("help", "How to use HungryBear"),
+]
+
+
+async def _post_init(app: Application) -> None:
+    await app.bot.set_my_commands(COMMANDS)
+
+
 def build_app(token: str, store, persistence_path: Path) -> Application:
     persistence_path.parent.mkdir(parents=True, exist_ok=True)
-    app = ApplicationBuilder().token(token).persistence(PicklePersistence(filepath=persistence_path)).build()
+    app = (
+        ApplicationBuilder()
+        .token(token)
+        .persistence(PicklePersistence(filepath=persistence_path))
+        .post_init(_post_init)
+        .build()
+    )
     bot = Bot(store)
     app.add_handler(CommandHandler("start", bot.start))
     app.add_handler(CommandHandler("campus", bot.campus_cmd))
