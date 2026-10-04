@@ -13,6 +13,7 @@ from __future__ import annotations
 import gzip
 import hashlib
 import json
+import re
 import ssl
 import time
 from functools import lru_cache
@@ -110,6 +111,14 @@ class Fetcher:
         return json.loads(self.get(url, params=params, headers=headers))
 
 
+_DATA_URI = re.compile(r"data:[^;,\"']{1,40};base64,[A-Za-z0-9+/=\s]{200,}")
+
+
+def shrink_for_recording(text: str) -> str:
+    """Drop inline base64 images (UCSD embeds MBs of them); no adapter reads image bytes."""
+    return _DATA_URI.sub("data:,", text)
+
+
 class RecordingFetcher(Fetcher):
     """Live fetcher that also writes each response to `directory` (gzip) + an index.json."""
 
@@ -123,7 +132,7 @@ class RecordingFetcher(Fetcher):
     def _send(self, method: str, url: str, *, params=None, data=None, headers=None) -> str:
         text = super()._send(method, url, params=params, data=data, headers=headers)
         key = request_key(method, url, params, data)
-        (self.dir / f"{key}.gz").write_bytes(gzip.compress(text.encode(), mtime=0))
+        (self.dir / f"{key}.gz").write_bytes(gzip.compress(shrink_for_recording(text).encode(), mtime=0))
         self._index[key] = {"method": method, "url": url, "params": _norm_params(params), "data": _norm_params(data)}
         self._index_path.write_text(json.dumps(self._index, indent=1, sort_keys=True))
         return text

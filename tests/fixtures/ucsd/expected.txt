@@ -1,0 +1,388 @@
+== ucsd 2026-10-03 status=ok
+64-degrees | 64 Degrees [dining_hall/open]
+  Brunch ?-?
+    # Taqueria: Breakfast A La Carte
+      - Bacon 313cal
+      - Fresh Fruit Salad [vegan] 44cal
+      - Fried Egg [vegetarian,!egg] 78cal
+      - JUST Scrambled Vegan Eggs [vegan] 169cal
+      - Pork Sausage Links 171cal
+      - Scrambled Egg Whites [vegetarian,!egg] 51cal
+      - Scrambled Eggs [vegetarian,!egg] 132cal
+      - Tater Tots [vegan,!soy] 398cal
+    # Taqueria: Breakfast Burrito
+      - Soyrizo Potato Breakfast Burrito [vegetarian,!gluten,!soy,!wheat] 755cal
+    # Taqueria: Breakfast Cravings
+      - Buttermilk Pancakes [vegetarian,!gluten,!milk,!soy,!wheat] 316cal
+      - Churro French Toast [vegetarian,!egg,!gluten,!milk,!wheat] 579cal
+    # Taqueria: Breakfast Specials
+      - Soyrizo Ranchero Chilaquiles [vegetarian,!egg,!milk,!soy] 642cal
+    # Taqueria: Burritos
+      - Bacon Breakfast Burrito [!egg,!gluten,!milk,!soy,!wheat] 963cal
+      - Breakfast Burrito [vegetarian,!egg,!gluten,!milk,!soy,!wheat] 1050cal
+      - Sausage Breakfast Burrito [!egg,!gluten,!milk,!soy,!wheat] 930cal
+    # Taqueria: Combos
+      - Café Breakfast Combo [!egg,!gluten,!milk,!sesame,!soy,!wheat] 981cal
+      - Triton Breakfast Combo [!egg,!gluten,!milk,!soy,!wheat] 683cal
+    # Taqueria: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+    # Taqueria: Tacos
+      - Green Chile and Bacon Breakfast Tacos [!egg,!milk] 755cal
+      - Mushroom Breakfast Tacos [vegetarian,!egg,!milk] 642cal
+    # Triton Grill: Beverages
+      - Dark Roast Coffee 12oz 0cal
+    # Triton Grill: Breakfast A La Carte
+      - Bacon 313cal
+      - Fresh Fruit Salad [vegan] 44cal
+      - Fried Egg [vegetarian,!egg] 78cal
+      - House Potatoes [vegan] 109cal
+      - JUST Scrambled Vegan Eggs [vegan] 169cal
+      - Pork Sausage Links 171cal
+      - Scrambled Egg Whites [vegetarian,!egg] 51cal
+      - Scrambled Eggs [vegetarian,!egg] 132cal
+      - Steel Cut Oatmeal [vegan] 115cal
+      - Tater Tots [vegan,!soy] 398cal
+      - Toast (Sourdough, Wheat, English Muffin) [vegan,!gluten,!milk,!sesame,!soy,!wheat] 178cal
+      - Veggie Sausage [vegan,!gluten,!soy,!wheat] 139cal
+    # Triton Grill: Breakfast Cravings
+      - Avocado Toast [!gluten,!milk,!soy,!wheat] 167cal
+      - Brioche French Toast [vegetarian,!egg,!gluten,!milk,!wheat] 486cal
+      - Buttermilk Pancakes [vegetarian,!gluten,!milk,!soy,!wheat] 316cal
+      - Loco Moco [!egg,!gluten,!milk,!soy,!wheat] 730cal
+      - Nutella Gone Bananas French Toast [vegetarian,!egg,!gluten,!milk,!soy,!tree_nuts,!wheat] 585cal
+    # Triton Grill: Breakfast Sandwiches
+      - Egg & Cheese King Triton Breakfast Sandwich [vegetarian,!egg,!gluten,!milk,!soy,!wheat] 720cal
+      - Egg, Cheese & Sausage King Triton Sandwich [!egg,!gluten,!milk,!soy,!wheat] 795cal
+      - Egg, Cheese, & Bacon King Triton Sandwich [!egg,!gluten,!milk,!soy,!wheat] 1020cal
+      - Egg, Cheese, & Veggie Sausage King Triton sandwich [vegetarian,!egg,!gluten,!milk,!soy,!wheat] 845cal
+    # Triton Grill: Combos
+      - Café Breakfast Combo [!egg,!gluten,!milk,!sesame,!soy,!wheat] 981cal
+      - Triton Breakfast Combo [!egg,!gluten,!milk,!soy,!wheat] 683cal
+    # Triton Grill: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+  Lunch ?-?
+    # Garden Bar: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+    # Garden Bar: Salads
+      - 64 Caesar Salad [!egg,!fish,!milk,!soy] 521cal
+      - Blackened Chicken Taco Salad [!egg,!milk,!soy] 583cal
+      - Chicken Pecan Salad [!tree_nuts] 593cal
+      - Mandarin Chicken Salad [!gluten,!sesame,!soy,!wheat] 508cal
+      - Southwest Grain Bowl [vegetarian,!milk] 647cal
+    # Garden Bar: Sandwiches & More
+      - Chicken Club Sandwich [!gluten,!sesame,!soy,!wheat] 972cal
+      - Roast Beef Cheddar Roll [!egg,!gluten,!milk,!soy,!wheat] 558cal
+      - Roasted Tomato Caprese Sandwich [vegetarian,!gluten,!milk,!soy,!wheat] 394cal
+    # Garden Bar: Sides
+      - Caesar Side Salad [!egg,!fish,!gluten,!milk,!soy,!wheat] 200cal
+    # Garden Bar: Soups
+      - Soup, Beef Chili Bean [!soy] 538cal
+    # Taqueria: Bowls
+      - Beyond Beef Picadillo Bowl [vegan,!soy] 394cal
+      - Carne Asada Bowl [!milk,!soy] 495cal
+      - Pollo Asado Bowl [!milk,!soy] 420cal
+      - Pork Carnitas Bowl [!milk,!soy] 411cal
+    # Taqueria: Breakfast Burrito
+      - Pico de Gallo [vegan] 6cal
+    # Taqueria: Build Your Own
+      - Guacamole [vegan] 47cal
+      - Shredded Lettuce [vegan] 4cal
+    # Taqueria: Burritos
+      - Baja Fish Burrito [!fish,!gluten,!soy,!wheat] 833cal
+      - Beans and Cheese Burrito [vegetarian,!gluten,!milk,!soy,!wheat] 801cal
+      - Beyond Beef Picadillo Burrito [vegan,!gluten,!soy,!wheat] 816cal
+      - California Triton Burrito [!gluten,!milk,!soy,!wheat] 936cal
+      - Carne Asada Burrito [!gluten,!milk,!soy,!wheat] 773cal
+      - Pollo Asado Burrito [!gluten,!milk,!soy,!wheat] 704cal
+      - Pork Carnitas Burrito [!gluten,!milk,!soy,!wheat] 656cal
+    # Taqueria: Desserts
+      - Flan [vegetarian,!egg,!milk] 411cal
+      - Tres Leches Cake [vegetarian,!egg,!gluten,!milk,!wheat] 256cal
+    # Taqueria: Extras
+      - Chile de Arbol Salsa [vegan] 13cal
+      - Cilantro and Onions [vegan] 10cal
+      - Cotija Cheese [vegetarian,!milk] 103cal
+      - Escabeche [vegan] 33cal
+      - Tropical Habanero Salsa [vegan] 13cal
+    # Taqueria: Loaded
+      - Beyond Beef Picadillo Fries [vegetarian,!milk,!soy] 644cal
+      - Carne Asada Fries [!milk,!soy] 780cal
+      - Cheese Fries [vegetarian,!milk,!soy] 581cal
+      - Pollo Asado Fries [!milk,!soy] 704cal
+      - Pork Carnitas Fries [!milk,!soy] 704cal
+    # Taqueria: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+      - Pineapple, Chile Roasted [vegan] 22cal
+    # Taqueria: Quesadillas
+      - Beyond Beef Picadillo Quesadilla [vegan,!gluten,!wheat] 763cal
+      - Carne Asada Quesadilla [!gluten,!milk,!wheat] 945cal
+      - Cheese Quesadilla [vegetarian,!gluten,!milk,!wheat] 746cal
+      - Pollo Asado Quesadilla [!gluten,!milk,!wheat] 876cal
+      - Pork Carnitas Quesadilla [!gluten,!milk,!wheat] 868cal
+    # Taqueria: Sauces
+      - Salsa Macha [vegan] 218cal
+    # Taqueria: Sides
+      - Chips and Salsa [vegan] 182cal
+      - Mexican Red Rice [vegan] 178cal
+    # Taqueria: Tacos
+      - Beyond Beef Picadillo Tacos [vegan] 424cal
+      - Carne Asada Tacos 514cal
+      - Pollo Asado Tacos 445cal
+      - Pork Carnitas Tacos 437cal
+      - San Diego Fish Tacos [!egg,!fish,!milk,!soy] 546cal
+    # Triton Grill: Breakfast A La Carte
+      - Bacon Slice 156cal
+      - Fried Egg [vegetarian,!egg] 78cal
+    # Triton Grill: Build Your Own
+      - American Cheese [vegetarian,!milk] 50cal
+      - Beef Patty 396cal
+      - Chipotle Black Bean Patty [!gluten,!soy,!wheat] 170cal
+      - Grilled Chicken Breast 269cal
+    # Triton Grill: Burger Styles
+      - California Burger [!egg,!gluten,!milk,!soy,!wheat] 966cal
+      - Texas BBQ Burger [!egg,!gluten,!milk,!soy,!wheat] 877cal
+    # Triton Grill: Burgers
+      - Black Bean Chipotle Burger [vegan,!gluten,!soy,!wheat] 496cal
+      - Triton Cheeseburger [!egg,!gluten,!milk,!soy,!wheat] 847cal
+    # Triton Grill: Combos
+      - Black Bean Chipotle Burger Combo [vegan,!gluten,!soy,!wheat] 972cal
+      - Chicken Tender Combo [!gluten,!soy,!wheat] 985cal
+      - Crispy Chicken Sandwich Combo [!egg,!gluten,!milk,!soy,!wheat] 1496cal
+      - Triton Cheeseburger Combo [!egg,!gluten,!milk,!soy,!wheat] 1321cal
+    # Triton Grill: Desserts
+      - Chocolate Cake Cone [vegetarian,!gluten,!milk,!wheat] 145cal
+      - Chocolate Chunk Cookie [vegetarian,!egg,!gluten,!milk,!soy,!wheat] 369cal
+      - Chocolate Ice Cream Shake [vegetarian,!milk] 335cal
+      - Chocolate Waffle Cone [vegetarian,!gluten,!milk,!soy,!wheat] 319cal
+      - Oatmeal Raisin Cookie [vegetarian,!egg,!gluten,!milk,!soy,!wheat] 350cal
+      - Vanilla Cake Cone [vegetarian,!gluten,!milk,!wheat] 145cal
+      - Vanilla Ice Cream Shake [vegetarian,!milk] 335cal
+      - Vanilla Waffle Cone [vegetarian,!gluten,!milk,!soy,!wheat] 319cal
+      - White Chocolate Macadamia Cookie [vegetarian,!egg,!gluten,!milk,!soy,!tree_nuts,!wheat] 400cal
+    # Triton Grill: Extras
+      - Avocado 62cal
+    # Triton Grill: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+    # Triton Grill: Sandwiches & More
+      - Buffalo Chicken Wing Basket [!egg,!milk,!soy] 1035cal
+      - Crispy BLT Chicken Sandwich [!egg,!gluten,!milk,!soy,!wheat] 1002cal
+      - Crispy Chicken Sandwich [!egg,!gluten,!milk,!soy,!wheat] 1034cal
+      - Fish and Chips [!fish,!gluten,!soy,!wheat] 986cal
+      - Three Cheese Grilled Cheese [!egg,!gluten,!milk,!soy,!wheat] 808cal
+      - Triton Hot Dog [!gluten,!sesame,!soy,!wheat] 388cal
+      - Vegan Crispy Chikn Sandwich [vegan,!gluten,!soy,!wheat] 582cal
+    # Triton Grill: Sides
+      - Bacon Brussels Sprouts 185cal
+      - Chicken Tenders [!gluten,!soy,!wheat] 536cal
+      - Curly Fries [vegan,!soy] 474cal
+      - French Fries [vegan,!soy] 362cal
+    # Wok This Way: Base
+      - Half Rice and Half Noodles [!sesame,!soy,!tree_nuts] 331cal
+      - Jasmine Rice [vegan] 130cal
+      - Pad Thai Noodles [vegan,!sesame,!soy,!tree_nuts] 304cal
+      - Wok Vegetables [vegan,!sesame,!soy] 70cal
+    # Wok This Way: Beverages
+      - Matcha Milk Tea Boba [vegetarian,!milk] 343cal
+      - Milk Tea Boba [!milk] 252cal
+      - Oat Milk Tea Boba [vegan] 258cal
+      - Taro Milk Tea Boba [vegetarian,!milk,!soy] 245cal
+    # Wok This Way: Bowls
+      - Sweet Chile Tofu Bowl with Rice [vegan,!sesame,!soy] 541cal
+      - Thai Basil Pork Belly Bowl with Rice [!fish,!sesame,!shellfish,!soy] 857cal
+      - Thai Coconut Chicken Bowl with Rice [!fish,!sesame,!soy] 498cal
+    # Wok This Way: Desserts
+      - Thai Mango Sticky Rice [vegetarian,!milk] 397cal
+    # Wok This Way: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+    # Wok This Way: Sauces
+      - Dragon Sauce [vegan,!soy] 36cal
+      - Lemongrass Ponzu Sauce [vegan,!sesame,!soy] 25cal
+    # Wok This Way: Sides
+      - Chicken Potstickers [!gluten,!sesame,!soy,!wheat] 89cal
+      - Steamed Pork Bun [!gluten,!sesame,!shellfish,!soy,!wheat] 329cal
+      - Vegetable Spring Rolls [vegan,!gluten,!soy,!wheat] 81cal
+    # Wok This Way: Specialty Bowls
+      - Sweet Chile Tofu Bowl with Noodles [vegan,!sesame,!soy,!tree_nuts] 680cal
+      - Thai Basil Pork Belly Bowl with Noodles [!fish,!sesame,!shellfish,!soy,!tree_nuts] 996cal
+      - Thai Coconut Chicken Bowl with Noodles [!fish,!sesame,!soy,!tree_nuts] 637cal
+    # Wok This Way: Wings
+      - Thai Chicken Wings [!fish] 537cal
+  Dinner ?-?
+    # Al Dente: Bowls
+      - Roasted Crimini Fettuccini Alfredo [vegetarian,!gluten,!milk,!wheat] 676cal
+      - Spaghetti Marinara [vegetarian,!gluten,!milk,!wheat] 361cal
+      - Spinach Pesto Rotini [vegetarian,!gluten,!milk,!wheat] 707cal
+    # Al Dente: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+    # Al Dente: Plates
+      - Lasagna with Meat Sauce [!egg,!gluten,!milk,!wheat] 874cal
+    # Al Dente: Proteins
+      - Hot Italian Sausage 266cal
+      - Lemon Oregano Chicken 238cal
+      - Soy Beans Based Bolognese [!soy] 123cal
+      - Turkey Meatballs [!gluten,!milk,!soy,!wheat] 60cal
+    # Al Dente: Sides
+      - Caesar Side Salad [!egg,!fish,!gluten,!milk,!soy,!wheat] 200cal
+      - Roasted Garlic Breadsticks [!gluten,!milk,!soy,!wheat] 209cal
+    # Garden Bar: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+    # Garden Bar: Salads
+      - 64 Caesar Salad [!egg,!fish,!milk,!soy] 521cal
+      - Blackened Chicken Taco Salad [!egg,!milk,!soy] 583cal
+      - Chicken Pecan Salad [!tree_nuts] 593cal
+      - Mandarin Chicken Salad [!gluten,!sesame,!soy,!wheat] 508cal
+      - Southwest Grain Bowl [vegetarian,!milk] 647cal
+    # Garden Bar: Sandwiches & More
+      - Chicken Club Sandwich [!gluten,!sesame,!soy,!wheat] 972cal
+      - Roast Beef Cheddar Roll [!egg,!gluten,!milk,!soy,!wheat] 558cal
+      - Roasted Tomato Caprese Sandwich [vegetarian,!gluten,!milk,!soy,!wheat] 394cal
+    # Garden Bar: Sides
+      - Caesar Side Salad [!egg,!fish,!gluten,!milk,!soy,!wheat] 200cal
+    # Garden Bar: Soups
+      - Soup, Beef Chili Bean [!soy] 538cal
+    # Taqueria: Bowls
+      - Beyond Beef Picadillo Bowl [vegan,!soy] 394cal
+      - Carne Asada Bowl [!milk,!soy] 495cal
+      - Pollo Asado Bowl [!milk,!soy] 420cal
+      - Pork Carnitas Bowl [!milk,!soy] 411cal
+    # Taqueria: Breakfast Burrito
+      - Pico de Gallo [vegan] 6cal
+    # Taqueria: Build Your Own
+      - Guacamole [vegan] 47cal
+      - Shredded Lettuce [vegan] 4cal
+    # Taqueria: Burritos
+      - Baja Fish Burrito [!fish,!gluten,!soy,!wheat] 833cal
+      - Beans and Cheese Burrito [vegetarian,!gluten,!milk,!soy,!wheat] 801cal
+      - Beyond Beef Picadillo Burrito [vegan,!gluten,!soy,!wheat] 816cal
+      - Birria Burrito [!gluten,!milk,!soy,!wheat] 538cal
+      - California Triton Burrito [!gluten,!milk,!soy,!wheat] 936cal
+      - Carne Asada Burrito [!gluten,!milk,!soy,!wheat] 773cal
+      - Pollo Asado Burrito [!gluten,!milk,!soy,!wheat] 704cal
+      - Pork Carnitas Burrito [!gluten,!milk,!soy,!wheat] 656cal
+    # Taqueria: Desserts
+      - Flan [vegetarian,!egg,!milk] 411cal
+      - Tres Leches Cake [vegetarian,!egg,!gluten,!milk,!wheat] 256cal
+    # Taqueria: Dinner Specials
+      - Taquitos Supreme [!gluten,!milk,!soy,!wheat] 798cal
+    # Taqueria: Extras
+      - Chile de Arbol Salsa [vegan] 13cal
+      - Cilantro and Onions [vegan] 10cal
+      - Cotija Cheese [vegetarian,!milk] 103cal
+      - Escabeche [vegan] 33cal
+      - Tropical Habanero Salsa [vegan] 13cal
+    # Taqueria: Loaded
+      - Beyond Beef Picadillo Fries [vegetarian,!milk,!soy] 644cal
+      - Carne Asada Fries [!milk,!soy] 780cal
+      - Cheese Fries [vegetarian,!milk,!soy] 581cal
+      - Pollo Asado Fries [!milk,!soy] 704cal
+      - Pork Carnitas Fries [!milk,!soy] 704cal
+    # Taqueria: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+      - Pineapple, Chile Roasted [vegan] 22cal
+    # Taqueria: Quesadillas
+      - Beyond Beef Picadillo Quesadilla [vegan,!gluten,!wheat] 763cal
+      - Carne Asada Quesadilla [!gluten,!milk,!wheat] 945cal
+      - Cheese Quesadilla [vegetarian,!gluten,!milk,!wheat] 746cal
+      - Pollo Asado Quesadilla [!gluten,!milk,!wheat] 876cal
+      - Pork Carnitas Quesadilla [!gluten,!milk,!wheat] 868cal
+    # Taqueria: Sauces
+      - Salsa Macha [vegan] 218cal
+    # Taqueria: Sides
+      - Chips and Salsa [vegan] 182cal
+      - Mexican Red Rice [vegan] 178cal
+    # Taqueria: Tacos
+      - Beyond Beef Picadillo Tacos [vegan] 424cal
+      - Birria Tacos 427cal
+      - Carne Asada Tacos 514cal
+      - Pollo Asado Tacos 445cal
+      - Pork Carnitas Tacos 437cal
+      - San Diego Fish Tacos [!egg,!fish,!milk,!soy] 546cal
+    # Triton Grill: Breakfast A La Carte
+      - Bacon Slice 156cal
+      - Fried Egg [vegetarian,!egg] 78cal
+    # Triton Grill: Build Your Own
+      - American Cheese [vegetarian,!milk] 50cal
+      - Beef Patty 396cal
+      - Chipotle Black Bean Patty [!gluten,!soy,!wheat] 170cal
+      - Grilled Chicken Breast 269cal
+    # Triton Grill: Burger Styles
+      - California Burger [!egg,!gluten,!milk,!soy,!wheat] 966cal
+      - Texas BBQ Burger [!egg,!gluten,!milk,!soy,!wheat] 877cal
+    # Triton Grill: Burgers
+      - Black Bean Chipotle Burger [vegan,!gluten,!soy,!wheat] 496cal
+      - Triton Cheeseburger [!egg,!gluten,!milk,!soy,!wheat] 847cal
+    # Triton Grill: Combos
+      - Black Bean Chipotle Burger Combo [vegan,!gluten,!soy,!wheat] 972cal
+      - Chicken Tender Combo [!gluten,!soy,!wheat] 985cal
+      - Crispy Chicken Sandwich Combo [!egg,!gluten,!milk,!soy,!wheat] 1496cal
+      - Triton Cheeseburger Combo [!egg,!gluten,!milk,!soy,!wheat] 1321cal
+    # Triton Grill: Desserts
+      - Chocolate Cake Cone [vegetarian,!gluten,!milk,!wheat] 145cal
+      - Chocolate Chunk Cookie [vegetarian,!egg,!gluten,!milk,!soy,!wheat] 369cal
+      - Chocolate Ice Cream Shake [vegetarian,!milk] 335cal
+      - Chocolate Waffle Cone [vegetarian,!gluten,!milk,!soy,!wheat] 319cal
+      - Oatmeal Raisin Cookie [vegetarian,!egg,!gluten,!milk,!soy,!wheat] 350cal
+      - Vanilla Cake Cone [vegetarian,!gluten,!milk,!wheat] 145cal
+      - Vanilla Ice Cream Shake [vegetarian,!milk] 335cal
+      - Vanilla Waffle Cone [vegetarian,!gluten,!milk,!soy,!wheat] 319cal
+      - White Chocolate Macadamia Cookie [vegetarian,!egg,!gluten,!milk,!soy,!tree_nuts,!wheat] 400cal
+    # Triton Grill: Extras
+      - Avocado 62cal
+    # Triton Grill: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+    # Triton Grill: Sandwiches & More
+      - Buffalo Chicken Wing Basket [!egg,!milk,!soy] 1035cal
+      - Crispy BLT Chicken Sandwich [!egg,!gluten,!milk,!soy,!wheat] 1002cal
+      - Crispy Chicken Sandwich [!egg,!gluten,!milk,!soy,!wheat] 1034cal
+      - Fish and Chips [!fish,!gluten,!soy,!wheat] 986cal
+      - Three Cheese Grilled Cheese [!egg,!gluten,!milk,!soy,!wheat] 808cal
+      - Triton Hot Dog [!gluten,!sesame,!soy,!wheat] 388cal
+      - Vegan Crispy Chikn Sandwich [vegan,!gluten,!soy,!wheat] 582cal
+    # Triton Grill: Sides
+      - Bacon Brussels Sprouts 185cal
+      - Chicken Tenders [!gluten,!soy,!wheat] 536cal
+      - Curly Fries [vegan,!soy] 474cal
+      - French Fries [vegan,!soy] 362cal
+    # Wok This Way: Base
+      - Half Rice and Half Noodles [!sesame,!soy,!tree_nuts] 331cal
+      - Jasmine Rice [vegan] 130cal
+      - Pad Thai Noodles [vegan,!sesame,!soy,!tree_nuts] 304cal
+      - Wok Vegetables [vegan,!sesame,!soy] 70cal
+    # Wok This Way: Beverages
+      - Matcha Milk Tea Boba [vegetarian,!milk] 343cal
+      - Milk Tea Boba [!milk] 252cal
+      - Oat Milk Tea Boba [vegan] 258cal
+      - Taro Milk Tea Boba [vegetarian,!milk,!soy] 245cal
+    # Wok This Way: Bowls
+      - Sweet Chile Tofu Bowl with Rice [vegan,!sesame,!soy] 541cal
+      - Thai Basil Pork Belly Bowl with Rice [!fish,!sesame,!shellfish,!soy] 857cal
+      - Thai Coconut Chicken Bowl with Rice [!fish,!sesame,!soy] 498cal
+    # Wok This Way: Desserts
+      - Thai Mango Sticky Rice [vegetarian,!milk] 397cal
+    # Wok This Way: Menu Items
+      - Fruit, Apple Whole 119cal
+      - Fruit, Banana Whole 175cal
+    # Wok This Way: Sauces
+      - Dragon Sauce [vegan,!soy] 36cal
+      - Lemongrass Ponzu Sauce [vegan,!sesame,!soy] 25cal
+    # Wok This Way: Sides
+      - Chicken Potstickers [!gluten,!sesame,!soy,!wheat] 89cal
+      - Steamed Pork Bun [!gluten,!sesame,!shellfish,!soy,!wheat] 329cal
+      - Vegetable Spring Rolls [vegan,!gluten,!soy,!wheat] 81cal
+    # Wok This Way: Specialty Bowls
+      - Sweet Chile Tofu Bowl with Noodles [vegan,!sesame,!soy,!tree_nuts] 680cal
+      - Thai Basil Pork Belly Bowl with Noodles [!fish,!sesame,!shellfish,!soy,!tree_nuts] 996cal
+      - Thai Coconut Chicken Bowl with Noodles [!fish,!sesame,!soy,!tree_nuts] 637cal
+    # Wok This Way: Wings
+      - Thai Chicken Wings [!fish] 537cal
+bistro | Bistro [restaurant/closed]

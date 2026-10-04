@@ -73,3 +73,16 @@ ucr:
   options:
     base: https://foodpro.ucr.edu/foodpro/
     index: location.aspx
+
+ucsd:
+  name: UC San Diego
+  short_name: UCSD
+  adapter: ucsd
+  main_halls: [64-degrees, canyon-vista-marketplace, foodworx, oceanview, pines, ventanas]
+  weekday_only: [oceanview]
+  min_items_per_meal: 10
+  options:
+    location_types:
+      bistro: restaurant
+      cecils-at-faculty-club: restaurant
+      club-med: cafe

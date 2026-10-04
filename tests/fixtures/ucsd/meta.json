@@ -1,0 +1,12 @@
+{
+ "start": "2026-10-03",
+ "days": 1,
+ "overrides": {
+  "options": {
+   "max_venues": 2
+  },
+  "main_halls": [
+   "64-degrees"
+  ]
+ }
+}

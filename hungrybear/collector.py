@@ -80,7 +80,7 @@ def collect_campus(
     else:
         fetcher = Fetcher()
     try:
-        adapter = build_adapter(cfg, fetcher)
+        adapter = build_adapter(cfg, fetcher, today=start)
         for offset in range(min(days, adapter.max_days)):
             day = start + timedelta(days=offset)
             try:

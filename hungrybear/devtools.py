@@ -22,7 +22,7 @@ from pathlib import Path
 from typing import List
 
 from .adapters import build_adapter
-from .config import load_campuses, today_pacific
+from .config import CampusConfig, load_campuses, today_pacific
 from .http import RecordingFetcher, ReplayFetcher
 from .models import DayMenu
 from .validate import validate_day
@@ -47,12 +47,20 @@ def summarize(menu: DayMenu) -> str:
     return "\n".join(out) + "\n"
 
 
+def fixture_config(campus: str, overrides: dict) -> CampusConfig:
+    """Campus config with fixture overrides applied (e.g. record only a few venues of a huge site)."""
+    cfg = load_campuses()[campus]
+    overrides = dict(overrides or {})
+    options = {**cfg.options, **overrides.pop("options", {})}
+    return cfg.model_copy(update={**overrides, "options": options})
+
+
 def replay_days(campus: str) -> List[DayMenu]:
     d = FIXTURES / campus
     meta = json.loads((d / "meta.json").read_text())
-    cfg = load_campuses()[campus]
-    adapter = build_adapter(cfg, ReplayFetcher(d / "responses"))
+    cfg = fixture_config(campus, meta.get("overrides", {}))
     start = date.fromisoformat(meta["start"])
+    adapter = build_adapter(cfg, ReplayFetcher(d / "responses"), today=start)
     days = []
     for i in range(meta["days"]):
         menu = adapter.fetch_day(start + timedelta(days=i))
@@ -66,18 +74,21 @@ def write_golden(campus: str) -> Path:
     return path
 
 
-def record_fixture(campus: str, start: date, days: int) -> None:
-    cfg = load_campuses()[campus]
+def record_fixture(campus: str, start: date, days: int, overrides: dict) -> None:
+    cfg = fixture_config(campus, overrides)
     d = FIXTURES / campus
     shutil.rmtree(d / "responses", ignore_errors=True)
     fetcher = RecordingFetcher(d / "responses")
     try:
-        adapter = build_adapter(cfg, fetcher)
+        adapter = build_adapter(cfg, fetcher, today=start)
         for i in range(days):
             adapter.fetch_day(start + timedelta(days=i))
     finally:
         fetcher.close()
-    (d / "meta.json").write_text(json.dumps({"start": start.isoformat(), "days": days}, indent=1) + "\n")
+    meta = {"start": start.isoformat(), "days": days}
+    if overrides:
+        meta["overrides"] = overrides
+    (d / "meta.json").write_text(json.dumps(meta, indent=1) + "\n")
 
 
 def main(argv=None) -> int:
@@ -87,6 +98,9 @@ def main(argv=None) -> int:
     f.add_argument("campus")
     f.add_argument("--start", type=date.fromisoformat, default=None)
     f.add_argument("--days", type=int, default=2)
+    f.add_argument(
+        "--override", type=json.loads, default={}, help='config overrides, e.g. \'{"options": {"max_venues": 2}}\''
+    )
     g = sub.add_parser("golden")
     g.add_argument("campus")
     s = sub.add_parser("show")
@@ -94,7 +108,7 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     if args.cmd == "fixture":
-        record_fixture(args.campus, args.start or today_pacific(), args.days)
+        record_fixture(args.campus, args.start or today_pacific(), args.days, args.override)
         print(f"recorded -> {FIXTURES / args.campus}; golden -> {write_golden(args.campus)}")
     elif args.cmd == "golden":
         print(f"golden -> {write_golden(args.campus)}")

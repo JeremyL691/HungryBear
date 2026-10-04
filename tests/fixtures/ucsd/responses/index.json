@@ -1,0 +1,28 @@
+{
+ "51fe69c62627c84f": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dayNum": "0",
+   "locDetID": "37",
+   "locId": "2"
+  },
+  "url": "https://hdh-web.ucsd.edu/dining/apps/diningservices/Restaurants/Venue_V3"
+ },
+ "ac0063680a7c20c6": {
+  "data": {},
+  "method": "GET",
+  "params": {},
+  "url": "https://hdh-web.ucsd.edu/dining/apps/diningservices/Restaurants/Restaurants"
+ },
+ "f0173d26362dd145": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dayNum": "0",
+   "locDetID": "27",
+   "locId": "13"
+  },
+  "url": "https://hdh-web.ucsd.edu/dining/apps/diningservices/Restaurants/Venue_V3"
+ }
+}

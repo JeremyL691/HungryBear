@@ -6,7 +6,7 @@ from abc import ABC, abstractmethod
 from datetime import UTC, date, datetime
 from typing import List, Optional
 
-from ..config import CampusConfig
+from ..config import CampusConfig, today_pacific
 from ..http import Fetcher
 from ..models import DayMenu, Location, sort_meals
 
@@ -27,10 +27,12 @@ class Adapter(ABC):
     #: how many days ahead (including today) the source publishes
     max_days: int = 7
 
-    def __init__(self, config: CampusConfig, fetcher: Fetcher) -> None:
+    def __init__(self, config: CampusConfig, fetcher: Fetcher, today: Optional[date] = None) -> None:
         self.config = config
         self.fetcher = fetcher
         self.options = config.options
+        # "Today" for sources that address days relative to now (UCSD dayNum); replay passes the recording date.
+        self.today = today or today_pacific()
 
     @abstractmethod
     def fetch_day(self, day: date) -> DayMenu: ...
