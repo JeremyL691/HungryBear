@@ -1,0 +1,28 @@
+# One entry per campus. The autofix agent may edit this file (and adapters/, tests/).
+#
+#   adapter:            module in hungrybear/adapters/
+#   main_halls:         location ids that must serve full meals on a normal day
+#   min_items_per_meal: a main-hall meal with fewer items than this is flagged "broken"
+#   breaks:             [start, end] inclusive date ranges with no service (suppresses alerts)
+#   options:            adapter-specific settings
+
+ucb:
+  name: UC Berkeley
+  short_name: Berkeley
+  adapter: berkeley
+  main_halls: [cafe-3, clark-kerr, crossroads, foothill]
+  min_items_per_meal: 10
+  breaks:
+    - [2026-11-26, 2026-11-29]   # Thanksgiving
+    - [2026-12-19, 2027-01-10]   # Winter break (approx.; confirm on Important Dates page)
+  options:
+    location_types:
+      bear-market: market
+      cub-market: market
+      den: market
+      golden-bear-cafe: cafe
+      eateries-at-student-union: restaurant
+      browns: cafe
+      local-x-design: cafe
+      qualcomm-cafe: cafe
+      gateway-cafe: cafe
