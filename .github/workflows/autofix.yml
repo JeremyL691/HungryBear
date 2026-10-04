@@ -1,0 +1,136 @@
+name: autofix
+
+# Dispatched by hungrybear.report when a campus has failed 2 collector runs in a row.
+# Claude gets the live failure + raw responses, edits the adapter, and we only open a PR
+# if (1) it stayed inside adapters/ campuses.yaml tests/, (2) pytest passes, and
+# (3) a fresh live collection for that campus validates. A human reviews and merges.
+on:
+  workflow_dispatch:
+    inputs:
+      campus:
+        description: campus id (e.g. ucla)
+        required: true
+      issue:
+        description: scraper-broken issue number to reference
+        required: false
+        default: "0"
+
+concurrency:
+  group: autofix-${{ inputs.campus }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  autofix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      CAMPUS: ${{ inputs.campus }}
+      ISSUE: ${{ inputs.issue }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -e ".[dev]"
+
+      - name: Reproduce and capture live responses
+        run: |
+          mkdir -p .autofix
+          python -m hungrybear.collector --campus "$CAMPUS" --days 2 --out /tmp/before \
+            --record .autofix/live -v 2>&1 | tee .autofix/collector.log || true
+          cp /tmp/before/v1/status.json .autofix/status.json || true
+
+      - name: Ask Claude for a fix
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: |
+            --model claude-sonnet-5-5
+            --max-turns 40
+            --allowedTools "Read,Edit,Write,Glob,Grep,Bash(python -m hungrybear.collector:*),Bash(python -m hungrybear.devtools:*),Bash(pytest:*),Bash(python -m pytest:*),Bash(git diff:*),Bash(git status:*),Bash(zcat:*),Bash(gunzip -c:*)"
+          prompt: |
+            The HungryBear menu collector is failing for campus `${{ inputs.campus }}` (see hungrybear/campuses.yaml
+            for its adapter and options). Your job: make the adapter parse the site's current pages correctly again.
+
+            Context you have:
+            - .autofix/collector.log and .autofix/status.json: the failing run and its validation reasons
+            - .autofix/live/${{ inputs.campus }}/: the raw responses from that run (gzip files + index.json mapping
+              file -> request). These are what the site serves *now*.
+            - tests/fixtures/${{ inputs.campus }}/: the last known-good recording and its golden summary.
+            - hungrybear/validate.py explains what "broken" means. README section "Architecture" explains the rest.
+
+            Rules:
+            - Only edit files under hungrybear/adapters/, hungrybear/campuses.yaml, and tests/. Anything else will be
+              rejected automatically.
+            - Do NOT weaken validation to make it pass (no lowering min_items_per_meal, no removing main_halls) unless
+              the site genuinely changed (e.g. a hall was renamed/closed) - and then say so explicitly.
+            - Keep the adapter's output schema the same (hungrybear/models.py).
+            - If the site now blocks automated access (403s, captcha/bot challenge), requires login, or simply has no
+              menus published, do not try to work around it. Explain in .autofix/notes.md and stop.
+
+            When the adapter works:
+            1. Run `python -m hungrybear.collector --campus ${{ inputs.campus }} --days 2 --out /tmp/check -v` and make sure
+               it reports ok/closed (not broken).
+            2. Refresh the fixture: `python -m hungrybear.devtools fixture ${{ inputs.campus }} --days 2` (keep any
+               "overrides" from the old tests/fixtures/${{ inputs.campus }}/meta.json by passing --override). Skim
+               expected.txt to confirm it looks like real food, not page chrome.
+            3. Run `pytest -q`.
+            4. Write .autofix/notes.md: what changed on the site, what you changed, anything a reviewer should check.
+
+      - name: Check scope
+        id: scope
+        run: |
+          changed=$(git status --porcelain | awk '{print $2}' | grep -v '^\.autofix/' || true)
+          echo "$changed"
+          if [ -z "$changed" ]; then echo "result=nochange" >> "$GITHUB_OUTPUT"; exit 0; fi
+          bad=$(echo "$changed" | grep -vE '^(hungrybear/adapters/|hungrybear/campuses\.yaml$|tests/)' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::out-of-scope changes: $bad"; echo "result=out-of-scope" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          echo "result=ok" >> "$GITHUB_OUTPUT"
+
+      - name: Verify (tests + live collection)
+        id: verify
+        if: steps.scope.outputs.result == 'ok'
+        run: |
+          pytest -q
+          python -m hungrybear.collector --campus "$CAMPUS" --days 2 --out /tmp/after --strict
+          echo "passed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open PR
+        if: steps.verify.outputs.passed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: autofix/${{ inputs.campus }}-${{ github.run_id }}
+          title: "autofix(${{ inputs.campus }}): repair menu adapter"
+          commit-message: "autofix(${{ inputs.campus }}): repair menu adapter"
+          add-paths: |
+            hungrybear/adapters/**
+            hungrybear/campuses.yaml
+            tests/**
+          labels: autofix
+          body-path: .autofix/notes.md
+
+      - name: Report outcome on the issue
+        if: always() && inputs.issue != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SCOPE: ${{ steps.scope.outputs.result }}
+          VERIFIED: ${{ steps.verify.outputs.passed }}
+        run: |
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ "$VERIFIED" = "true" ]; then
+            msg="🤖 Autofix opened a PR for review ($run_url). Merge it if the diff and golden summary look right."
+          else
+            msg="🤖 Autofix could not produce a verified fix (scope: ${SCOPE:-n/a}). Needs a human. Run: $run_url"
+          fi
+          { echo "$msg"; echo; [ -f .autofix/notes.md ] && cat .autofix/notes.md; } > /tmp/comment.md
+          gh issue comment "$ISSUE" --body-file /tmp/comment.md

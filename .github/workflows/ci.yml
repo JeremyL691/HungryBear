@@ -1,0 +1,36 @@
+name: ci
+
+on:
+  push:
+    branches-ignore: [data]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - run: ruff check hungrybear tests
+      - run: ruff format --check hungrybear tests
+      - run: pytest -q
+
+      # Autofix PRs may only touch adapters, campus config, and tests.
+      - name: Autofix path guard
+        if: github.event_name == 'pull_request' && startsWith(github.head_ref, 'autofix/')
+        run: |
+          bad=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" \
+                | grep -vE '^(hungrybear/adapters/|hungrybear/campuses\.yaml$|tests/)' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::autofix PR touches files outside its allowed scope:"; echo "$bad"; exit 1
+          fi
