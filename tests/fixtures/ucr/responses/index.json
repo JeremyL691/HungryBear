@@ -1,0 +1,86 @@
+{
+ "082d83f1e92f88cb": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Glasgow",
+   "locationNum": "03",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "University of California, Riverside Dining Services"
+  },
+  "url": "https://foodpro.ucr.edu/foodpro/shortmenu.aspx"
+ },
+ "19fc9dafa8eee12a": {
+  "data": {},
+  "method": "GET",
+  "params": {},
+  "url": "https://foodpro.ucr.edu/foodpro/location.aspx"
+ },
+ "291546e703715690": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Lothian",
+   "locationNum": "02",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "University of California, Riverside Dining Services"
+  },
+  "url": "https://foodpro.ucr.edu/foodpro/shortmenu.aspx"
+ },
+ "4dae908cb9fcc20a": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Glasgow",
+   "locationNum": "03",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "University of California, Riverside Dining Services"
+  },
+  "url": "https://foodpro.ucr.edu/foodpro/shortmenu.aspx"
+ },
+ "8651def5fac4bec1": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Lothian",
+   "locationNum": "02",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "University of California, Riverside Dining Services"
+  },
+  "url": "https://foodpro.ucr.edu/foodpro/shortmenu.aspx"
+ },
+ "b3e0067758e3bef9": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Glasgow",
+   "locationNum": "03",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "University of California, Riverside Dining Services"
+  },
+  "url": "https://foodpro.ucr.edu/foodpro/shortmenu.aspx"
+ },
+ "d8ca27c51a3e8335": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Lothian",
+   "locationNum": "02",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "University of California, Riverside Dining Services"
+  },
+  "url": "https://foodpro.ucr.edu/foodpro/shortmenu.aspx"
+ }
+}

@@ -1,0 +1,81 @@
+name: collect
+
+# Times are UTC. Full refresh 11:30 UTC = 04:30 PDT / 03:30 PST;
+# today+tomorrow refresh every 2h from 06:30 to 22:30 PDT (an hour earlier in winter).
+on:
+  schedule:
+    - cron: "30 11 * * *"
+    - cron: "30 1-5/2,13-23/2 * * *"
+  workflow_dispatch:
+    inputs:
+      campus:
+        description: "campus ids (comma-separated) or 'all'"
+        default: all
+      days:
+        description: "days to collect, starting today (Pacific)"
+        default: "7"
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # push to the data branch
+  issues: write     # open/close scraper-broken issues
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out data branch into ./data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch --depth=1 origin data:refs/remotes/origin/data; then
+            git worktree add data origin/data
+          else
+            git worktree add --orphan -b data data
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install .
+
+      - name: Collect
+        env:
+          CAMPUS: ${{ inputs.campus || 'all' }}
+          DAYS: ${{ inputs.days || (github.event.schedule == '30 11 * * *' && '7') || '2' }}
+        run: python -m hungrybear.collector --campus "$CAMPUS" --days "$DAYS" --out data --record snapshots
+
+      - name: Report (issues, Telegram alert)
+        id: report
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+        run: python -m hungrybear.report --data data --snapshots snapshots
+
+      - name: Upload raw responses of broken campuses
+        if: steps.report.outputs.broken != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: snapshots
+          path: snapshots/
+          retention-days: 14
+
+      - name: Publish data branch
+        run: |
+          cd data
+          touch .nojekyll
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no data changes"
+          else
+            git commit -q -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin HEAD:data
+          fi

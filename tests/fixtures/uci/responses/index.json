@@ -1,0 +1,192 @@
+{
+ "16f63a2244926dd3": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-03\", \"locationUrlKey\": \"the-anteatery\", \"mealPeriod\": 16, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "2aff364dd45b7dfd": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-04\", \"locationUrlKey\": \"the-anteatery\", \"mealPeriod\": 16, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "2ca3c5f2da6a5308": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-03\", \"locationUrlKey\": \"halal-shack\", \"mealPeriod\": 4, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "34f0dce7caed610a": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-04\", \"locationUrlKey\": \"brandywine\", \"mealPeriod\": 10, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "3ff044f86db87e30": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-04\", \"locationUrlKey\": \"the-anteatery\", \"mealPeriod\": 13, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "55bcafc1fadd4f55": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocation",
+   "query": "query getLocation($campus_url_key:String!$location_url_key:String!){getLocation(campusUrlKey:$campus_url_key locationUrlKey:$location_url_key){commerceAttributes{url_key children{id name} meal_periods{id name position}} aemAttributes{name hoursOfOperation{schedule}}}}",
+   "variables": "{\"campus_url_key\": \"campus\", \"location_url_key\": \"halal-shack\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "5f394e7a556d2d8a": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-04\", \"locationUrlKey\": \"brandywine\", \"mealPeriod\": 16, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "6290d169c0bae6a5": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocation",
+   "query": "query getLocation($campus_url_key:String!$location_url_key:String!){getLocation(campusUrlKey:$campus_url_key locationUrlKey:$location_url_key){commerceAttributes{url_key children{id name} meal_periods{id name position}} aemAttributes{name hoursOfOperation{schedule}}}}",
+   "variables": "{\"campus_url_key\": \"campus\", \"location_url_key\": \"brandywine\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "6773063b193f77af": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocation",
+   "query": "query getLocation($campus_url_key:String!$location_url_key:String!){getLocation(campusUrlKey:$campus_url_key locationUrlKey:$location_url_key){commerceAttributes{url_key children{id name} meal_periods{id name position}} aemAttributes{name hoursOfOperation{schedule}}}}",
+   "variables": "{\"campus_url_key\": \"campus\", \"location_url_key\": \"the-anteatery\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "6967bf17452fa649": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocations",
+   "query": "query getLocations($campus_url_key:String!){getLocations(campusUrlKey:$campus_url_key){commerceAttributes{url_key hasActiveMenus} aemAttributes{name}}}",
+   "variables": "{\"campus_url_key\": \"campus\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "6c35264729ff3466": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-03\", \"locationUrlKey\": \"brandywine\", \"mealPeriod\": 16, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "988a0fe0c6129dd6": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "StoreConfig",
+   "query": "query StoreConfig{Commerce_storeConfig{allergens_intolerances{label value} menu_preferences{label value}}}",
+   "variables": "{}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "b0a3f8673f4927d1": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-03\", \"locationUrlKey\": \"brandywine\", \"mealPeriod\": 10, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "b89b7b9d30970cf8": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-04\", \"locationUrlKey\": \"halal-shack\", \"mealPeriod\": 4, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "bc0cfa25f6dd1c1a": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-03\", \"locationUrlKey\": \"the-anteatery\", \"mealPeriod\": 13, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "be6cb029787c24c6": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-03\", \"locationUrlKey\": \"brandywine\", \"mealPeriod\": 13, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "c0b087227a858f46": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-04\", \"locationUrlKey\": \"brandywine\", \"mealPeriod\": 13, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "cb1509e6fd69d9c9": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-03\", \"locationUrlKey\": \"the-anteatery\", \"mealPeriod\": 10, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ },
+ "e2b569eeb6c45f9f": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "operationName": "getLocationRecipes",
+   "query": "query getLocationRecipes($campusUrlKey:String!$locationUrlKey:String!$date:String!$mealPeriod:Int$viewType:Commerce_MenuViewType!){getLocationRecipes(campusUrlKey:$campusUrlKey locationUrlKey:$locationUrlKey date:$date mealPeriod:$mealPeriod viewType:$viewType){locationRecipesMap{dateSkuMap{date stations{id skus{simple configurable{sku variants}}}}} products{items{name sku attributes{name value}}}}}",
+   "variables": "{\"campusUrlKey\": \"campus\", \"date\": \"2026-10-04\", \"locationUrlKey\": \"the-anteatery\", \"mealPeriod\": 10, \"viewType\": \"DAILY\"}"
+  },
+  "url": "https://api.elevate-dxp.com/api/mesh/c087f756-cc72-4649-a36f-3a41b700c519/graphql"
+ }
+}

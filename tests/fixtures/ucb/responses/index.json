@@ -1,0 +1,41 @@
+{
+ "570524503c4a9e7a": {
+  "data": {
+   "action": "cald_filter_xml",
+   "date": "20261005",
+   "location": "",
+   "mealperiod": ""
+  },
+  "method": "POST",
+  "params": {},
+  "url": "https://dining.berkeley.edu/wp-admin/admin-ajax.php"
+ },
+ "98410c784ea1ca59": {
+  "data": {},
+  "method": "GET",
+  "params": {},
+  "url": "https://dining.berkeley.edu/menus/"
+ },
+ "9a4b81c0c480961e": {
+  "data": {
+   "action": "cald_filter_xml",
+   "date": "20261004",
+   "location": "",
+   "mealperiod": ""
+  },
+  "method": "POST",
+  "params": {},
+  "url": "https://dining.berkeley.edu/wp-admin/admin-ajax.php"
+ },
+ "e0131b480cdfc7b4": {
+  "data": {
+   "action": "cald_filter_xml",
+   "date": "20261003",
+   "location": "",
+   "mealperiod": ""
+  },
+  "method": "POST",
+  "params": {},
+  "url": "https://dining.berkeley.edu/wp-admin/admin-ajax.php"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "062ea4fe402a5c2b": {
+  "data": {},
+  "method": "GET",
+  "params": {},
+  "url": "https://housing.ucdavis.edu/dining/dining-commons/segundo/"
+ },
+ "80ca3f7a42b75f96": {
+  "data": {},
+  "method": "GET",
+  "params": {},
+  "url": "https://housing.ucdavis.edu/dining/dining-commons/tercero/"
+ },
+ "cdd8fd114eb95555": {
+  "data": {},
+  "method": "GET",
+  "params": {},
+  "url": "https://housing.ucdavis.edu/dining/dining-commons/cuarto/"
+ }
+}

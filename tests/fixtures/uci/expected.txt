@@ -1,0 +1,650 @@
+== uci 2026-10-03 status=ok
+anteatery | The Anteatery [dining_hall/open]
+  Breakfast 09:00-11:00
+    # Home
+      - Scrambled Eggs [gluten_free,halal,vegetarian,!egg] 142cal
+      - Turkey Bacon 44cal
+      - Tater Tots [gluten_free,halal,vegan,vegetarian] 243cal
+      - Teriyaki Sauce 92cal
+      - Asian Seared Chicken [gluten_free,!sesame,!soy]
+      - California Blend Vegetables [gluten_free,halal,vegan,vegetarian]
+      - Jasmine Rice [gluten_free,halal,vegan,vegetarian]
+    # The Twisted Root
+      - Tofu-Potato Hash [gluten_free,vegan,vegetarian,!soy] 133cal
+      - General Tso's Tofu [vegan,vegetarian,!soy,!wheat]
+      - Jasmine Rice [gluten_free,halal,vegan,vegetarian]
+    # Deli
+      - Ham & Swiss Sandwich [!milk,!soy,!wheat]
+    # Bakery
+      - Danish Pastry 123cal
+      - Glazed Donut 266cal
+      - Pound Cake [!egg,!milk,!wheat]
+      - Orange Jell-O® [gluten_free]
+    # Farmer's Market
+      - Old Fashioned Oatmeal [halal,vegan,vegetarian] 106cal
+      - Overnight Chia Oats [vegetarian,!milk] 164cal
+      - Nonfat Strawberry Yogurt [gluten_free,vegetarian,!milk]
+      - Nonfat Vanilla Yogurt [gluten_free,vegetarian,!milk]
+    # Noodle Bar
+      - Salsa [gluten_free,vegan,vegetarian]
+      - Salsa Verde 26cal
+      - Avocado Cilantro Crema [gluten_free,vegetarian,!milk] 26cal
+      - Tortilla Chips [gluten_free]
+  Brunch 11:00-16:30
+    # Sizzle Grill
+      - Crispy Breaded Chicken [!wheat] 343cal
+      - Cheeseburger [!milk,!sesame,!wheat] 413cal
+      - Grilled Black Bean Burger [vegan,vegetarian,!sesame,!soy,!wheat] 257cal
+      - Classic Hot Dog 304cal
+      - Classic Grilled Cheese [!milk,!soy,!wheat] 315cal
+      - Grilled Chicken Breast [gluten_free] 292cal
+      - Crispy Homestyle French Fries [gluten_free,halal,vegan,vegetarian]
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian]
+    # Home
+      - Scrambled Eggs [gluten_free,halal,vegetarian,!egg] 142cal
+      - Turkey Bacon 44cal
+      - Tater Tots [gluten_free,halal,vegan,vegetarian] 243cal
+      - Teriyaki Sauce 92cal
+      - Asian Seared Chicken [gluten_free,!sesame,!soy]
+      - California Blend Vegetables [gluten_free,halal,vegan,vegetarian]
+      - Jasmine Rice [gluten_free,halal,vegan,vegetarian]
+    # The Twisted Root
+      - Tofu-Potato Hash [gluten_free,vegan,vegetarian,!soy] 133cal
+      - General Tso's Tofu [vegan,vegetarian,!soy,!wheat]
+      - Jasmine Rice [gluten_free,halal,vegan,vegetarian]
+    # Oven
+      - Pepperoni Pizza [!milk,!wheat] 374cal
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat]
+    # Deli
+      - Ham & Swiss Sandwich [!milk,!soy,!wheat]
+    # Soups
+      - Vegetable Soup [gluten_free,halal,vegan,vegetarian] 74cal
+    # Bakery
+      - Danish Pastry 123cal
+      - Glazed Donut 266cal
+      - Pound Cake [!egg,!milk,!wheat]
+      - Orange Jell-O® [gluten_free]
+    # Farmer's Market
+      - Old Fashioned Oatmeal [halal,vegan,vegetarian] 106cal
+      - Overnight Chia Oats [vegetarian,!milk] 164cal
+      - Nonfat Strawberry Yogurt [gluten_free,vegetarian,!milk]
+      - Nonfat Vanilla Yogurt [gluten_free,vegetarian,!milk]
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Brown Lentils [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Chopped Kale [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Cucumber [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+    # Noodle Bar
+      - Salsa [gluten_free,vegan,vegetarian]
+      - Salsa Verde 26cal
+      - Avocado Cilantro Crema [gluten_free,vegetarian,!milk] 26cal
+      - Tortilla Chips [gluten_free]
+  Dinner 16:30-20:00
+    # Sizzle Grill
+      - Crispy Breaded Chicken [!wheat] 343cal
+      - Cheeseburger [!milk,!sesame,!wheat] 413cal
+      - Grilled Black Bean Burger [vegan,vegetarian,!sesame,!soy,!wheat] 257cal
+      - Classic Hot Dog 304cal
+      - Classic Grilled Cheese [!milk,!soy,!wheat] 315cal
+      - Grilled Chicken Breast [gluten_free] 292cal
+      - Crispy Homestyle French Fries [gluten_free,halal,vegan,vegetarian]
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian]
+    # The Twisted Root
+      - Sweet & Sour Tofu Stir-Fry [gluten_free,vegan,vegetarian,!soy]
+      - Basmati Rice [gluten_free,halal,vegan,vegetarian]
+    # Oven
+      - Pepperoni Pizza [!milk,!wheat] 374cal
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat]
+    # Home
+      - Pinto Beans [gluten_free,halal,vegan,vegetarian] 132cal
+      - Baja Fish Tacos
+      - Cilantro Lime Rice [gluten_free,halal,vegan,vegetarian]
+    # Soups
+      - Vegetable Soup [gluten_free,halal,vegan,vegetarian] 74cal
+    # Bakery
+      - Moist Apple Crumb Cake [vegetarian,!egg,!milk,!soy,!wheat] 300cal
+      - Craveworthy® Chocolate Chip Cookie [halal,vegetarian,!egg,!milk,!soy,!wheat] 237cal
+      - Craveworthy® Oatmeal Raisin Cookie [vegetarian,!egg,!milk,!wheat] 220cal
+      - Craveworthy®Sugar Cookie [vegetarian,!egg,!milk,!wheat] 232cal
+      - Orange Jell-O® [gluten_free]
+    # Noodle Bar
+      - Texas Toast [vegetarian,!milk,!wheat] 102cal
+      - Spaghetti with Meat Sauce [!wheat]
+    # Farmer's Market
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Brown Lentils [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Chopped Kale [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Cucumber [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+brandywine | Brandywine [dining_hall/open]
+  Breakfast 09:00-11:00
+    # Compass
+      - Mojo Grilled Chicken [gluten_free] 182cal
+      - Sofrito Black Beans & Rice [gluten_free,halal,vegan,vegetarian] 188cal
+    # Grubb
+      - Biscuits & Sausage Gravy 568cal
+      - Soft Beef Taco [!milk,!wheat] 224cal
+      - Turkey Bacon 44cal
+      - Southwest Black Beans [gluten_free,halal,vegan,vegetarian] 88cal
+      - Hash Brown Potato Patty [gluten_free,halal,vegan,vegetarian] 134cal
+      - Scrambled Eggs [gluten_free,halal,vegetarian,!egg]
+      - Spanish Rice [gluten_free,halal,vegan,vegetarian]
+    # The Twisted Root
+      - Tofu-Potato Hash [gluten_free,vegan,vegetarian,!soy] 133cal
+      - Plant-Based Chorizo Breakfast Taco 394cal
+    # Crossroads
+      - Ham & Swiss Sandwich 282cal
+    # Honeycakes
+      - Croissant 371cal
+      - Assorted Scone [vegetarian,!milk,!soy,!wheat]
+      - Cinnamon Donut Bites [vegetarian,!egg,!milk,!soy,!wheat]
+    # The Farm Stand- Salad
+      - Apple Cinnamon Overnight Oats [vegetarian,!milk] 186cal
+      - Nonfat Strawberry Yogurt [gluten_free,vegetarian,!milk]
+      - Nonfat Vanilla Yogurt [gluten_free,vegetarian,!milk]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Strawberries [gluten_free,halal,vegan,vegetarian]
+  Brunch 11:00-16:30
+    # Compass
+      - Mojo Grilled Chicken [gluten_free] 182cal
+      - Sofrito Black Beans & Rice [gluten_free,halal,vegan,vegetarian] 188cal
+    # Grubb
+      - Biscuits & Sausage Gravy 568cal
+      - Soft Beef Taco [!milk,!wheat] 224cal
+      - Turkey Bacon 44cal
+      - Southwest Black Beans [gluten_free,halal,vegan,vegetarian] 88cal
+      - Hash Brown Potato Patty [gluten_free,halal,vegan,vegetarian] 134cal
+      - Scrambled Eggs [gluten_free,halal,vegetarian,!egg]
+      - Spanish Rice [gluten_free,halal,vegan,vegetarian]
+    # The Twisted Root
+      - Tofu-Potato Hash [gluten_free,vegan,vegetarian,!soy] 133cal
+      - Plant-Based Chorizo Breakfast Taco 394cal
+    # Hearth
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat] 348cal
+      - Pepperoni Pizza [!milk,!wheat] 373cal
+    # Ember
+      - Cheeseburger 413cal
+      - Grilled Black Bean Burger 283cal
+      - Classic Hot Dog 304cal
+      - Crispy Chicken Sandwich 444cal
+      - Grilled Herb Chicken Sandwich 307cal
+      - Grilled Cheese Sandwich 449cal
+      - Crispy Waffle Fries 206cal
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian]
+    # Crossroads
+      - Ham & Swiss Sandwich 282cal
+    # Soups
+      - Chicken & Rice Soup Florentine [gluten_free] 74cal
+      - Vegetable Soup [gluten_free,halal,vegan,vegetarian] 74cal
+      - Dinner Roll 58cal
+    # Honeycakes
+      - Craveworthy® Chocolate Chip Cookie [halal,vegetarian,!egg,!milk,!soy,!wheat] 237cal
+      - Craveworthy® Oatmeal Raisin Cookie [vegetarian,!egg,!milk,!wheat] 220cal
+      - Craveworthy®Sugar Cookie [vegetarian,!egg,!milk,!wheat] 232cal
+      - Croissant 371cal
+      - Assorted Scone [vegetarian,!milk,!soy,!wheat]
+      - Cinnamon Donut Bites [vegetarian,!egg,!milk,!soy,!wheat]
+      - Coconut Chia Pudding [gluten_free,vegetarian]
+    # The Farm Stand- Salad
+      - Apple Cinnamon Overnight Oats [vegetarian,!milk] 186cal
+      - Chopped Hard-Cooked Egg [gluten_free,halal,vegetarian,!egg]
+      - Nonfat Strawberry Yogurt [gluten_free,vegetarian,!milk]
+      - Nonfat Vanilla Yogurt [gluten_free,vegetarian,!milk]
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+      - Strawberries [gluten_free,halal,vegan,vegetarian]
+      - Balsamic Vinaigrette [gluten_free,vegan,vegetarian]
+      - Creamy Caesar Dressing [gluten_free,!fish,!milk]
+      - Lite Italian Dressing
+      - Ranch Dressing [gluten_free,halal,vegetarian,!egg,!milk]
+      - Thousand Island Dressing [gluten_free,vegetarian,!egg]
+  Dinner 16:30-20:00
+    # Compass
+      - Chicken & Veggie Stir-Fry [gluten_free] 97cal
+      - Jasmine Rice [gluten_free,halal,vegan,vegetarian] 131cal
+    # Grubb
+      - Steamed Peas [gluten_free,halal,vegan,vegetarian] 68cal
+      - Garlic Herb Breadstick [!egg,!milk,!soy,!wheat] 174cal
+      - Homestyle Spaghetti & Meatballs [!egg,!milk,!soy,!wheat]
+    # The Twisted Root
+      - Plant-Based Chicken & Kale Penne [vegan,vegetarian,!soy,!wheat] 218cal
+    # Hearth
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat] 348cal
+      - Pepperoni Pizza [!milk,!wheat] 373cal
+    # Ember
+      - Cheeseburger 413cal
+      - Grilled Black Bean Burger 283cal
+      - Classic Hot Dog 304cal
+      - Crispy Chicken Sandwich 444cal
+      - Grilled Herb Chicken Sandwich 307cal
+      - Grilled Cheese Sandwich 449cal
+      - Crispy Waffle Fries 206cal
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian]
+    # Soups
+      - Chicken & Rice Soup Florentine [gluten_free] 74cal
+      - Vegetable Soup [gluten_free,halal,vegan,vegetarian] 74cal
+      - Dinner Roll 58cal
+    # Honeycakes
+      - Craveworthy® Chocolate Chip Cookie [halal,vegetarian,!egg,!milk,!soy,!wheat] 237cal
+      - Craveworthy® Oatmeal Raisin Cookie [vegetarian,!egg,!milk,!wheat] 220cal
+      - Craveworthy®Sugar Cookie [vegetarian,!egg,!milk,!wheat] 232cal
+      - Coconut Chia Pudding [gluten_free,vegetarian]
+    # The Farm Stand- Salad
+      - Chopped Hard-Cooked Egg [gluten_free,halal,vegetarian,!egg]
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+      - Balsamic Vinaigrette [gluten_free,vegan,vegetarian]
+      - Creamy Caesar Dressing [gluten_free,!fish,!milk]
+      - Lite Italian Dressing
+      - Ranch Dressing [gluten_free,halal,vegetarian,!egg,!milk]
+      - Thousand Island Dressing [gluten_free,vegetarian,!egg]
+halal-shack-west-food-court | The Halal Shack @ West Food Court [restaurant/open]
+  All Day 11:00-18:00
+    # Hearth/Pizza
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat] 348cal
+      - Pepperoni Pizza [!milk,!wheat] 373cal
+    # Ember/Grill
+      - Cheeseburger 413cal
+      - Grilled Black Bean Burger 283cal
+      - Classic Hot Dog 304cal
+      - Crispy Chicken Sandwich 444cal
+      - Grilled Herb Chicken Sandwich 307cal
+      - Grilled Cheese Sandwich 449cal
+      - Crispy Waffle Fries 206cal
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian] 52cal
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+    # Soups
+      - Chicken & Rice Soup Florentine [gluten_free] 74cal
+      - Vegetable Soup [gluten_free,halal,vegan,vegetarian] 74cal
+      - Dinner Roll 58cal
+    # Honeycakes/Bakery
+      - Craveworthy® Chocolate Chip Cookie [halal,vegetarian,!egg,!milk,!soy,!wheat] 237cal
+      - Craveworthy® Oatmeal Raisin Cookie [vegetarian,!egg,!milk,!wheat] 220cal
+      - Craveworthy®Sugar Cookie [vegetarian,!egg,!milk,!wheat] 232cal
+      - Coconut Chia Pudding [gluten_free,vegetarian]
+    # The Farm Stand/ Salad Bar
+      - Chopped Hard-Cooked Egg [gluten_free,halal,vegetarian,!egg]
+      - Garbanzo Beans [gluten_free,halal,vegan,vegetarian]
+      - Red Kidney Beans [gluten_free,halal,vegan,vegetarian]
+      - Shredded Cheddar Cheese [gluten_free,halal,vegetarian,!milk]
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Beets [gluten_free,halal,vegan,vegetarian]
+      - Sliced Mixed Bell Peppers [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+      - Balsamic Vinaigrette [gluten_free,vegan,vegetarian]
+      - Creamy Caesar Dressing [gluten_free,!fish,!milk]
+      - Lite Italian Dressing
+      - Ranch Dressing [gluten_free,halal,vegetarian,!egg,!milk]
+      - Thousand Island Dressing [gluten_free,vegetarian,!egg]
+== uci 2026-10-04 status=ok
+anteatery | The Anteatery [dining_hall/open]
+  Breakfast 09:00-11:00
+    # Home
+      - Smoked Maple Sausage [gluten_free] 177cal
+      - Scrambled Eggs [gluten_free,halal,vegetarian,!egg] 142cal
+      - Hash Brown Potato Patty [gluten_free,halal,vegan,vegetarian] 134cal
+      - Swedish Meatballs [!egg,!milk,!soy,!wheat] 282cal
+      - Italian Vegetable Blend [gluten_free,halal,vegan,vegetarian]
+    # The Twisted Root
+      - Tofu Shawarma [gluten_free,vegan,vegetarian,!soy] 171cal
+      - Red Lentil & Quinoa Blend [gluten_free,halal,vegan,vegetarian] 94cal
+      - Just® Scrambled Eggs [gluten_free,vegetarian,!egg]
+    # Deli
+      - Ham & Swiss Sandwich [!milk,!soy,!wheat]
+    # Noodle Bar
+      - Chicken Gyozas [!fish,!wheat] 158cal
+      - Teriyaki Sauce 92cal
+      - Jasmine Rice [gluten_free,halal,vegan,vegetarian]
+    # Bakery
+      - Iced Cinnamon Roll [vegetarian,!milk,!soy,!wheat] 217cal
+      - Assorted Muffin [vegetarian,!egg,!milk,!wheat] 204cal
+      - Flan [gluten_free,vegetarian,!egg,!milk]
+    # Farmer's Market
+      - Old Fashioned Oatmeal [halal,vegan,vegetarian] 106cal
+      - Overnight Chia Oats [vegetarian,!milk] 164cal
+      - Nonfat Strawberry Yogurt [gluten_free,vegetarian,!milk]
+      - Nonfat Vanilla Yogurt [gluten_free,vegetarian,!milk]
+  Brunch 11:00-16:30
+    # Home
+      - Smoked Maple Sausage [gluten_free] 177cal
+      - Scrambled Eggs [gluten_free,halal,vegetarian,!egg] 142cal
+      - Hash Brown Potato Patty [gluten_free,halal,vegan,vegetarian] 134cal
+      - Swedish Meatballs [!egg,!milk,!soy,!wheat] 282cal
+      - Italian Vegetable Blend [gluten_free,halal,vegan,vegetarian]
+    # Sizzle Grill
+      - Crispy Breaded Chicken [!wheat] 343cal
+      - Cheeseburger [!milk,!sesame,!wheat] 413cal
+      - Grilled Black Bean Burger [vegan,vegetarian,!sesame,!soy,!wheat] 257cal
+      - Classic Hot Dog 304cal
+      - Classic Grilled Cheese [!milk,!soy,!wheat] 315cal
+      - Grilled Chicken Breast [gluten_free] 292cal
+      - Crispy Homestyle French Fries [gluten_free,halal,vegan,vegetarian]
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian]
+    # The Twisted Root
+      - Tofu Shawarma [gluten_free,vegan,vegetarian,!soy] 171cal
+      - Red Lentil & Quinoa Blend [gluten_free,halal,vegan,vegetarian] 94cal
+      - Just® Scrambled Eggs [gluten_free,vegetarian,!egg]
+    # Oven
+      - Pepperoni Pizza [!milk,!wheat] 374cal
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat]
+    # Deli
+      - Ham & Swiss Sandwich [!milk,!soy,!wheat]
+    # Noodle Bar
+      - Chicken Gyozas [!fish,!wheat] 158cal
+      - Teriyaki Sauce 92cal
+      - Jasmine Rice [gluten_free,halal,vegan,vegetarian]
+    # Soups
+      - Cream of Mushroom Soup [vegetarian,!milk,!soy,!wheat] 146cal
+    # Bakery
+      - Iced Cinnamon Roll [vegetarian,!milk,!soy,!wheat] 217cal
+      - Assorted Muffin [vegetarian,!egg,!milk,!wheat] 204cal
+      - Flan [gluten_free,vegetarian,!egg,!milk]
+    # Farmer's Market
+      - Old Fashioned Oatmeal [halal,vegan,vegetarian] 106cal
+      - Overnight Chia Oats [vegetarian,!milk] 164cal
+      - Nonfat Strawberry Yogurt [gluten_free,vegetarian,!milk]
+      - Nonfat Vanilla Yogurt [gluten_free,vegetarian,!milk]
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Brown Lentils [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Chopped Kale [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Cucumber [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+  Dinner 16:30-20:00
+    # Home
+      - Steamed Green Peas 70cal
+      - Chicken with Piccata Sauce [!wheat]
+      - Linguine [halal,vegan,vegetarian,!wheat]
+    # Sizzle Grill
+      - Crispy Breaded Chicken [!wheat] 343cal
+      - Cheeseburger [!milk,!sesame,!wheat] 413cal
+      - Grilled Black Bean Burger [vegan,vegetarian,!sesame,!soy,!wheat] 257cal
+      - Classic Hot Dog 304cal
+      - Classic Grilled Cheese [!milk,!soy,!wheat] 315cal
+      - Grilled Chicken Breast [gluten_free] 292cal
+      - Crispy Homestyle French Fries [gluten_free,halal,vegan,vegetarian]
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian]
+    # The Twisted Root
+      - Cauliflower Lentil Curry [gluten_free,halal,vegan,vegetarian]
+      - Basmati Rice [gluten_free,halal,vegan,vegetarian]
+    # Noodle Bar
+      - Baked Cheese Ravioli [!egg,!milk,!wheat]
+    # Oven
+      - Pepperoni Pizza [!milk,!wheat] 374cal
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat]
+    # Soups
+      - Cream of Mushroom Soup [vegetarian,!milk,!soy,!wheat] 146cal
+    # Bakery
+      - Craveworthy® Chocolate Chip Cookie [halal,vegetarian,!egg,!milk,!soy,!wheat] 237cal
+      - Craveworthy® Oatmeal Raisin Cookie [vegetarian,!egg,!milk,!wheat] 220cal
+      - Craveworthy®Sugar Cookie [vegetarian,!egg,!milk,!wheat] 232cal
+      - Coconut Cream Pie
+      - Flan [gluten_free,vegetarian,!egg,!milk]
+    # Farmer's Market
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Brown Lentils [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Chopped Kale [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Cucumber [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+brandywine | Brandywine [dining_hall/open]
+  Breakfast 09:00-11:00
+    # Compass
+      - Steamed Peas [gluten_free,halal,vegan,vegetarian] 68cal
+      - Roasted Red Potatoes [gluten_free,halal,vegan,vegetarian] 100cal
+      - Beef Goulash [gluten_free]
+    # The Twisted Root
+      - Turmeric Tofu Scramble [gluten_free,halal,vegan,vegetarian,!soy] 214cal
+      - Curried Chickpeas [gluten_free,halal,vegan,vegetarian]
+    # Grubb
+      - Chili Garlic Shrimp 79cal
+      - Garlic Broccoli [gluten_free,halal,vegan,vegetarian] 42cal
+      - Pork Sausage Patty [gluten_free] 180cal
+      - Garlic Ginger Fried Rice [gluten_free,vegetarian,!egg,!soy] 184cal
+      - Hash Brown Potato Patty [gluten_free,halal,vegan,vegetarian] 134cal
+      - Scrambled Eggs [gluten_free,halal,vegetarian,!egg]
+    # Crossroads
+      - Ham & Swiss Sandwich 282cal
+    # Honeycakes
+      - Danish Pastry 123cal
+      - Assorted Muffin [vegetarian,!egg,!milk,!wheat] 204cal
+      - Assorted Scone [vegetarian,!milk,!soy,!wheat]
+    # The Farm Stand- Salad
+      - Pineapple Overnight Oats [vegetarian,!milk,!tree_nuts] 182cal
+      - Nonfat Strawberry Yogurt [gluten_free,vegetarian,!milk]
+      - Nonfat Vanilla Yogurt [gluten_free,vegetarian,!milk]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Strawberries [gluten_free,halal,vegan,vegetarian]
+  Brunch 11:00-16:30
+    # Compass
+      - Steamed Peas [gluten_free,halal,vegan,vegetarian] 68cal
+      - Roasted Red Potatoes [gluten_free,halal,vegan,vegetarian] 100cal
+      - Beef Goulash [gluten_free]
+    # The Twisted Root
+      - Turmeric Tofu Scramble [gluten_free,halal,vegan,vegetarian,!soy] 214cal
+      - Curried Chickpeas [gluten_free,halal,vegan,vegetarian]
+    # Grubb
+      - Chili Garlic Shrimp 79cal
+      - Garlic Broccoli [gluten_free,halal,vegan,vegetarian] 42cal
+      - Pork Sausage Patty [gluten_free] 180cal
+      - Garlic Ginger Fried Rice [gluten_free,vegetarian,!egg,!soy] 184cal
+      - Hash Brown Potato Patty [gluten_free,halal,vegan,vegetarian] 134cal
+      - Scrambled Eggs [gluten_free,halal,vegetarian,!egg]
+    # Hearth
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat] 348cal
+      - Pepperoni Pizza [!milk,!wheat] 373cal
+    # Ember
+      - Cheeseburger 413cal
+      - Grilled Black Bean Burger 283cal
+      - Classic Hot Dog 304cal
+      - Crispy Chicken Sandwich 444cal
+      - Grilled Herb Chicken Sandwich 307cal
+      - Grilled Cheese Sandwich 449cal
+      - Sweet Potato Fries [gluten_free,halal,vegan,vegetarian] 195cal
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian]
+    # Crossroads
+      - Ham & Swiss Sandwich 282cal
+    # Soups
+      - Cream of Mushroom Soup 146cal
+      - Chili Con Carne [!wheat] 178cal
+      - Dinner Roll 58cal
+    # Honeycakes
+      - Danish Pastry 123cal
+      - Assorted Muffin [vegetarian,!egg,!milk,!wheat] 204cal
+      - Craveworthy® Chocolate Chip Cookie [halal,vegetarian,!egg,!milk,!soy,!wheat] 237cal
+      - Craveworthy® Oatmeal Raisin Cookie [vegetarian,!egg,!milk,!wheat] 220cal
+      - Craveworthy®Sugar Cookie [vegetarian,!egg,!milk,!wheat] 232cal
+      - Assorted Scone [vegetarian,!milk,!soy,!wheat]
+      - Coconut Chia Pudding [gluten_free,vegetarian]
+    # The Farm Stand- Salad
+      - Pineapple Overnight Oats [vegetarian,!milk,!tree_nuts] 182cal
+      - Chopped Hard-Cooked Egg [gluten_free,halal,vegetarian,!egg]
+      - Nonfat Strawberry Yogurt [gluten_free,vegetarian,!milk]
+      - Nonfat Vanilla Yogurt [gluten_free,vegetarian,!milk]
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+      - Strawberries [gluten_free,halal,vegan,vegetarian]
+      - Balsamic Vinaigrette [gluten_free,vegan,vegetarian]
+      - Creamy Caesar Dressing [gluten_free,!fish,!milk]
+      - Lite Italian Dressing
+      - Ranch Dressing [gluten_free,halal,vegetarian,!egg,!milk]
+      - Thousand Island Dressing [gluten_free,vegetarian,!egg]
+  Dinner 16:30-20:00
+    # Grubb
+      - Chicken with Piccata Sauce [!wheat] 183cal
+      - Broccoli & Cauliflower [gluten_free,halal,vegan,vegetarian] 17cal
+      - Buttery Penne 110cal
+    # Compass
+      - Beef Harissa Rice Bowl 340cal
+    # The Twisted Root
+      - Vegetable Bolognese [gluten_free,vegan,vegetarian] 110cal
+    # Hearth
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat] 348cal
+      - Pepperoni Pizza [!milk,!wheat] 373cal
+    # Ember
+      - Cheeseburger 413cal
+      - Grilled Black Bean Burger 283cal
+      - Classic Hot Dog 304cal
+      - Crispy Chicken Sandwich 444cal
+      - Grilled Herb Chicken Sandwich 307cal
+      - Grilled Cheese Sandwich 449cal
+      - Sweet Potato Fries [gluten_free,halal,vegan,vegetarian] 195cal
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian]
+    # Soups
+      - Cream of Mushroom Soup 146cal
+      - Chili Con Carne [!wheat] 178cal
+      - Dinner Roll 58cal
+    # Honeycakes
+      - Craveworthy® Chocolate Chip Cookie [halal,vegetarian,!egg,!milk,!soy,!wheat] 237cal
+      - Craveworthy® Oatmeal Raisin Cookie [vegetarian,!egg,!milk,!wheat] 220cal
+      - Craveworthy®Sugar Cookie [vegetarian,!egg,!milk,!wheat] 232cal
+      - Coconut Chia Pudding [gluten_free,vegetarian]
+    # The Farm Stand- Salad
+      - Chopped Hard-Cooked Egg [gluten_free,halal,vegetarian,!egg]
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+      - Balsamic Vinaigrette [gluten_free,vegan,vegetarian]
+      - Creamy Caesar Dressing [gluten_free,!fish,!milk]
+      - Lite Italian Dressing
+      - Ranch Dressing [gluten_free,halal,vegetarian,!egg,!milk]
+      - Thousand Island Dressing [gluten_free,vegetarian,!egg]
+halal-shack-west-food-court | The Halal Shack @ West Food Court [restaurant/open]
+  All Day 11:00-18:00
+    # Hearth/Pizza
+      - Classic Cheese Pizza [vegetarian,!milk,!wheat] 348cal
+      - Pepperoni Pizza [!milk,!wheat] 373cal
+    # Ember/Grill
+      - Cheeseburger 413cal
+      - Grilled Black Bean Burger 283cal
+      - Classic Hot Dog 304cal
+      - Crispy Chicken Sandwich 444cal
+      - Grilled Herb Chicken Sandwich 307cal
+      - Grilled Cheese Sandwich 449cal
+      - Sweet Potato Fries [gluten_free,halal,vegan,vegetarian] 195cal
+      - Dill Pickle Slices [gluten_free,halal,vegan,vegetarian] 52cal
+      - American Cheese [gluten_free,!milk]
+      - Lettuce [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Sliced Tomatoes [gluten_free,halal,vegan,vegetarian]
+    # Soups
+      - Cream of Mushroom Soup 146cal
+      - Chili Con Carne [!wheat] 178cal
+      - Dinner Roll 58cal
+    # Honeycakes/Bakery
+      - Craveworthy® Chocolate Chip Cookie [halal,vegetarian,!egg,!milk,!soy,!wheat] 237cal
+      - Craveworthy® Oatmeal Raisin Cookie [vegetarian,!egg,!milk,!wheat] 220cal
+      - Craveworthy®Sugar Cookie [vegetarian,!egg,!milk,!wheat] 232cal
+      - Coconut Chia Pudding [gluten_free,vegetarian]
+    # The Farm Stand/ Salad Bar
+      - Chopped Hard-Cooked Egg [gluten_free,halal,vegetarian,!egg]
+      - Garbanzo Beans [gluten_free,halal,vegan,vegetarian]
+      - Red Kidney Beans [gluten_free,halal,vegan,vegetarian]
+      - Shredded Cheddar Cheese [gluten_free,halal,vegetarian,!milk]
+      - Baby Spinach [gluten_free,halal,vegan,vegetarian]
+      - Cantaloupe [gluten_free,halal,vegan,vegetarian]
+      - Diced Pineapple [gluten_free,halal,vegan,vegetarian]
+      - Feta Cheese Crumbles [gluten_free,halal,vegetarian,!milk]
+      - Grape Tomatoes [gluten_free,halal,vegan,vegetarian]
+      - Honeydew Melon [gluten_free,halal,vegan,vegetarian]
+      - Shredded Carrots [gluten_free,halal,vegan,vegetarian]
+      - Sliced Beets [gluten_free,halal,vegan,vegetarian]
+      - Sliced Mixed Bell Peppers [gluten_free,halal,vegan,vegetarian]
+      - Sliced Red Onions [gluten_free,halal,vegan,vegetarian]
+      - Spring Salad Mix [gluten_free,halal,vegan,vegetarian]
+      - Balsamic Vinaigrette [gluten_free,vegan,vegetarian]
+      - Creamy Caesar Dressing [gluten_free,!fish,!milk]
+      - Lite Italian Dressing
+      - Ranch Dressing [gluten_free,halal,vegetarian,!egg,!milk]
+      - Thousand Island Dressing [gluten_free,vegetarian,!egg]

@@ -1,0 +1,554 @@
+{
+ "04e402dbaad64c6b": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Stevenson Coffee House - open 9/24",
+   "locationNum": "26",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "0c935f639f887968": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "John R. Lewis & College Nine Dining Hall",
+   "locationNum": "40",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "120fa4218ad3d513": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Cowell & Stevenson Dining Hall",
+   "locationNum": "05",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "13a2821c806c8285": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Merrill Market",
+   "locationNum": "47",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "1742cf33527fea39": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Stevenson Coffee House - open 9/24",
+   "locationNum": "26",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "1b7c5e5d90aaaa85": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "UCen Coffee Bar - open 9/24",
+   "locationNum": "45",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "1cba5c7b99e7bcd8": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Porter Market",
+   "locationNum": "50",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "267b34e56f880dad": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Owl's Nest Cafe",
+   "locationNum": "24",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "27cca67788521a24": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Banana Joe's",
+   "locationNum": "21",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "3a8813cdc91b3df7": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Oakes Cafe",
+   "locationNum": "23",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "3ab47925bbf5438c": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Rachel Carson & Oakes Dining Hall",
+   "locationNum": "30",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "3f399b84db7e18de": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Owl's Nest Cafe",
+   "locationNum": "24",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "40689072d7cd2f3a": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "John R. Lewis & College Nine Dining Hall",
+   "locationNum": "40",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "42bcb3cef200b5ff": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "UCen Coffee Bar - open 9/24",
+   "locationNum": "45",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "58dee19c0c7a43e4": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Crown & Merrill Dining Hall",
+   "locationNum": "20",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "6119edca38230192": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Rachel Carson & Oakes Dining Hall",
+   "locationNum": "30",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "65ef40980353eeb5": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Crown & Merrill Dining Hall",
+   "locationNum": "20",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "6a82139df8018a8e": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Cowell & Stevenson Dining Hall",
+   "locationNum": "05",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "798388436df7af6b": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Perk Coffee Bar",
+   "locationNum": "22",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "8a629959c69707f7": {
+  "data": {},
+  "method": "GET",
+  "params": {},
+  "url": "https://nutrition.sa.ucsc.edu/"
+ },
+ "8a7a35b6f1a2c99d": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Global Village Cafe",
+   "locationNum": "46",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "8bc5ba315cd3a87f": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Porter & Kresge Dining Hall",
+   "locationNum": "25",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "8f86961bcb7a7979": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Global Village Cafe",
+   "locationNum": "46",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "96eeaedeb465865e": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Porter Market",
+   "locationNum": "50",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "9941d8f6416afcde": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Rachel Carson & Oakes Dining Hall",
+   "locationNum": "30",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "a1430a227c787681": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Crown & Merrill Dining Hall",
+   "locationNum": "20",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "aa6da6ab85cdc4cd": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Banana Joe's",
+   "locationNum": "21",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "aa945d30c86b4f55": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Porter & Kresge Dining Hall",
+   "locationNum": "25",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "ae78ba0a4f74f921": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Merrill Market",
+   "locationNum": "47",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "b169cf6114166ac4": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Banana Joe's",
+   "locationNum": "21",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "b7f153c352c7d743": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Owl's Nest Cafe",
+   "locationNum": "24",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "ba9524b4b7b131d5": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Merrill Market",
+   "locationNum": "47",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "bccf0728e8f35a41": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Oakes Cafe",
+   "locationNum": "23",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "beb02c21fc74a31d": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "John R. Lewis & College Nine Dining Hall",
+   "locationNum": "40",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "d343f2e5d463d043": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Cowell & Stevenson Dining Hall",
+   "locationNum": "05",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "d4f2d2c959c88cca": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Perk Coffee Bar",
+   "locationNum": "22",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "d72551822c0c7d53": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Oakes Cafe",
+   "locationNum": "23",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "da345cc5dca88e9b": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/5/2026",
+   "locationName": "Porter & Kresge Dining Hall",
+   "locationNum": "25",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "eabcf46b2bf6221d": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Porter Market",
+   "locationNum": "50",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "edb0f5b9130e3a8f": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "UCen Coffee Bar - open 9/24",
+   "locationNum": "45",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "fb4550247cd8da83": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Global Village Cafe",
+   "locationNum": "46",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "fea2209b30e16084": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/4/2026",
+   "locationName": "Perk Coffee Bar",
+   "locationNum": "22",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ },
+ "ff509e0965424dfc": {
+  "data": {},
+  "method": "GET",
+  "params": {
+   "dtdate": "10/3/2026",
+   "locationName": "Stevenson Coffee House - open 9/24",
+   "locationNum": "26",
+   "myaction": "read",
+   "naFlag": "1",
+   "sName": "UC Santa Cruz Dining"
+  },
+  "url": "https://nutrition.sa.ucsc.edu/shortmenu.aspx"
+ }
+}

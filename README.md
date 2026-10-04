@@ -1,33 +1,86 @@
-# HungryBear - Cal Student Dining Guide 🐻🍽️
+# HungryBear 🐻🍽️
 
-A tiny UC Berkeley dining menu helper.
+Dining-hall menus for all **9 UC undergraduate campuses**, collected automatically several times a day,
+published as a free JSON API, and served by a Telegram bot.
 
-- Data source: https://dining.berkeley.edu/menus/
-- Telegram bot (public): https://t.me/HungryBearsBot
+- Telegram bot: https://t.me/HungryBearsBot
+- JSON API: `https://jeremyl691.github.io/HungryBear/v1/index.json` (GitHub Pages, `data` branch)
 
-## What you can do
+| Campus | Source | Notes |
+|---|---|---|
+| Berkeley | dining.berkeley.edu (WordPress `cal-dining`) | 7 days, diet tags + allergens |
+| UCLA | dining.ucla.edu menus-at-a-glance + /hours/ | 7 days; quick-service spots are hours-only |
+| UCSB | apps.dining.ucsb.edu | 7 days |
+| UCSC | nutrition.sa.ucsc.edu (FoodPro) | 7 days; server sends an incomplete TLS chain (see `hungrybear/certs/`) |
+| UCR | foodpro.ucr.edu (FoodPro) | 7 days; no hours published |
+| UCSD | hdh-web.ucsd.edu (HDH) | 7 days, calories; no per-meal hours |
+| Davis | housing.ucdavis.edu dining commons pages | current Sun–Sat week only |
+| UCI | uci.mydininghub.com (Aramark GraphQL) | 7 days, calories, holiday-aware hours |
+| Merced | bigZpoon menu widget API | weekly cycle menu, current week only |
 
-- Pick a dining location
-- Pick a meal (Breakfast/Lunch/Dinner/All Day when available)
-- Get today’s menu with hours + categories
+## Architecture
 
-## Run locally
+```
+GitHub Actions (cron)                                          your Mac / any host
+collect.yml ─ collector ─ 9 adapters → validate → data branch ─┬─ GitHub Pages = public JSON API
+                    │                                          └─ Telegram bot (reads JSON only)
+                    └ report.py ─ GitHub issue + Telegram alert to the maintainer
+```
+
+- **Adapters** (`hungrybear/adapters/`) – one per menu platform; each turns a site into the shared
+  schema in `hungrybear/models.py`. Bound to campuses in `hungrybear/campuses.yaml`.
+- **Validator** (`hungrybear/validate.py`) – the guard against *silent* breakage. A day is `broken` if a
+  main hall is missing, a hall's biggest meal is implausibly thin, item names look like page chrome, or the
+  item count collapses versus previous weeks. `closed` (weekends/breaks) is not an error.
+- **Collector** (`hungrybear/collector.py`) – fetch → validate → write `v1/{campus}/{date}.json`. A broken
+  day never overwrites the last good file. `status.json` tracks consecutive failures per campus.
+- **Alerts** (`hungrybear/report.py`) – after 2 consecutive failures: GitHub issue (`scraper-broken`,
+  `campus:<id>`) with the reasons + a `snapshots` artifact of the raw responses, and a Telegram message to
+  the maintainer. Recovery closes the issue automatically. Fixes are done by hand.
+- **Fixtures** (`tests/fixtures/<campus>/`) – recorded responses + a human-readable golden summary
+  (`expected.txt`). Tests replay them with no network.
+
+## Local development
 
 ```bash
-git clone https://github.com/JeremyL691/HungryBear.git
-cd HungryBear
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -U pip
-pip install -r requirements.txt
-python -m src.telegram_bot
+python3 -m venv .venv && source .venv/bin/activate
+pip install -e ".[bot,dev]"
+pytest -q
+
+# collect live data into ./data (same as CI)
+python -m hungrybear.collector --campus all --days 7 --out data
+python -m hungrybear.collector --campus ucla --days 2 --out /tmp/out -v
+
+# refresh a campus fixture after a site change you've handled
+python -m hungrybear.devtools fixture ucla --days 2
+python -m hungrybear.devtools golden ucla       # re-render expected.txt from existing recording
 ```
 
-Create a `.env` file in the project root:
+## Running the bot (polling, e.g. on a Mac)
+
+`.env` in the project root:
 
 ```env
-TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN_HERE
+TELEGRAM_BOT_TOKEN=...
+# optional: read a local data dir instead of the published API
+# HUNGRYBEAR_DATA_DIR=data
 ```
+
+```bash
+python -m hungrybear.bot
+```
+
+Commands: `/start` (remembers your campus), `/now`, `/campus`, `/diet`, `/help`. User preferences are
+stored in `~/.hungrybear/bot.pickle`.
+
+## One-time GitHub setup
+
+1. **Default branch** – scheduled workflows only run on the default branch; merge this work there.
+2. **Pages** – Settings → Pages → Deploy from a branch → `data` / `(root)` (after the first collect run
+   creates the branch).
+3. **Actions permissions** – Settings → Actions → General → Workflow permissions: *Read and write*.
+4. **Secrets** – `TELEGRAM_BOT_TOKEN` + `ADMIN_CHAT_ID` (Telegram alerts; optional - issues are opened either way).
+5. Run **collect** once manually (Actions → collect → Run workflow).
 
 ## License
 
