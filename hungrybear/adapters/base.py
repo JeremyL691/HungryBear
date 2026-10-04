@@ -15,12 +15,18 @@ class AdapterError(RuntimeError):
     """The source responded, but not in the shape we expect (site changed) -> 'broken'."""
 
 
+class NotPublished(Exception):
+    """The source does not cover this date (e.g. a weekly menu that only shows the current week).
+    The collector skips the day: no file, no alert."""
+
+
 class Adapter(ABC):
     """One adapter per menu platform. A config entry in campuses.yaml binds it to a campus.
 
     Contract for fetch_day():
     - return DayMenu(status="ok") with at least one location that has meals, or
     - return DayMenu(status="closed") when the source is healthy but has no menu that day, or
+    - raise NotPublished when the source simply doesn't cover that date, or
     - raise AdapterError / FetchError when anything looks off. Never return a silently-empty "ok".
     """
 
@@ -48,7 +54,9 @@ class Adapter(ABC):
         status: Optional[str] = None,
         reason: Optional[str] = None,
     ) -> DayMenu:
+        types = self.options.get("location_types", {})
         for loc in locations:
+            loc.type = types.get(loc.id, loc.type)
             loc.meals = sort_meals(loc.meals)
             if loc.status == "unknown":
                 loc.status = "open" if loc.meals else "closed"

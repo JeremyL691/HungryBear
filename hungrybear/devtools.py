@@ -21,7 +21,7 @@ from datetime import date, timedelta
 from pathlib import Path
 from typing import List
 
-from .adapters import build_adapter
+from .adapters import NotPublished, build_adapter
 from .config import CampusConfig, load_campuses, today_pacific
 from .http import RecordingFetcher, ReplayFetcher
 from .models import DayMenu
@@ -63,7 +63,10 @@ def replay_days(campus: str) -> List[DayMenu]:
     adapter = build_adapter(cfg, ReplayFetcher(d / "responses"), today=start)
     days = []
     for i in range(meta["days"]):
-        menu = adapter.fetch_day(start + timedelta(days=i))
+        try:
+            menu = adapter.fetch_day(start + timedelta(days=i))
+        except NotPublished:
+            continue
         days.append(validate_day(menu, cfg, today=start))
     return days
 
@@ -82,7 +85,10 @@ def record_fixture(campus: str, start: date, days: int, overrides: dict) -> None
     try:
         adapter = build_adapter(cfg, fetcher, today=start)
         for i in range(days):
-            adapter.fetch_day(start + timedelta(days=i))
+            try:
+                adapter.fetch_day(start + timedelta(days=i))
+            except NotPublished:
+                pass
     finally:
         fetcher.close()
     meta = {"start": start.isoformat(), "days": days}

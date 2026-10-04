@@ -7,16 +7,20 @@ from typing import Dict, Optional, Type
 
 from ..config import CampusConfig
 from ..http import Fetcher
-from .base import Adapter, AdapterError
+from .base import Adapter, AdapterError, NotPublished
 from .berkeley import BerkeleyAdapter
+from .davis import DavisAdapter
 from .foodpro import FoodProAdapter
+from .mydininghub import MyDiningHubAdapter
 from .ucla import UclaAdapter
 from .ucsb import UcsbAdapter
 from .ucsd import UcsdAdapter
 
 ADAPTERS: Dict[str, Type[Adapter]] = {
     "berkeley": BerkeleyAdapter,
+    "davis": DavisAdapter,
     "foodpro": FoodProAdapter,
+    "mydininghub": MyDiningHubAdapter,
     "ucla": UclaAdapter,
     "ucsb": UcsbAdapter,
     "ucsd": UcsdAdapter,
@@ -31,4 +35,4 @@ def build_adapter(config: CampusConfig, fetcher: Fetcher, today: Optional[date] 
     return cls(config, fetcher, today)
 
 
-__all__ = ["ADAPTERS", "Adapter", "AdapterError", "build_adapter"]
+__all__ = ["ADAPTERS", "Adapter", "AdapterError", "NotPublished", "build_adapter"]

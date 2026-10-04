@@ -92,13 +92,10 @@ class BerkeleyAdapter(Adapter):
             parsed[loc.id] = loc
 
         # Every location from the dropdown appears in the output; ones missing that day are closed.
-        types = self.options.get("location_types", {})
         locations: List[Location] = []
         for name in self.all_location_names():
             lid = location_id(name)
-            loc = parsed.pop(lid, None) or Location(id=lid, name=name, status="closed")
-            loc.type = types.get(lid, loc.type)
-            locations.append(loc)
+            locations.append(parsed.pop(lid, None) or Location(id=lid, name=name, status="closed"))
         # Anything on the menu page that the dropdown didn't list (shouldn't happen, keep it anyway).
         locations.extend(parsed.values())
 

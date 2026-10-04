@@ -86,3 +86,23 @@ ucsd:
       bistro: restaurant
       cecils-at-faculty-club: restaurant
       club-med: cafe
+
+ucd:
+  name: UC Davis
+  short_name: Davis
+  adapter: davis
+  main_halls: [segundo, tercero, cuarto]
+  weekday_only: [tercero, cuarto]
+  min_items_per_meal: 8
+
+uci:
+  name: UC Irvine
+  short_name: UCI
+  adapter: mydininghub
+  main_halls: [anteatery, brandywine]
+  min_items_per_meal: 10
+  options:
+    store: ch_uci_en
+    campus_url_key: campus
+    location_types:
+      halal-shack-west-food-court: restaurant

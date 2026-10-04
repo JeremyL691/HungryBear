@@ -22,7 +22,7 @@ from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from .adapters import build_adapter
+from .adapters import NotPublished, build_adapter
 from .config import PACIFIC, CampusConfig, load_campuses, today_pacific
 from .http import Fetcher, RecordingFetcher, ReplayFetcher
 from .models import DayMenu, sort_meals
@@ -64,6 +64,29 @@ def carry_over_past_meals(old: Optional[DayMenu], new: DayMenu, now_hhmm: str) -
     return new
 
 
+def fetch_validated(adapter, cfg: CampusConfig, store: LocalStore, day: date, start: date) -> DayMenu:
+    """Fetch + validate one day. Any failure becomes a 'broken' DayMenu (data for the alert, never a crash).
+    NotPublished propagates so the caller can skip the day."""
+    try:
+        menu = adapter.fetch_day(day)
+        if day == today_pacific():
+            now = datetime.now(PACIFIC).strftime("%H:%M")
+            menu = carry_over_past_meals(store.read_day(cfg.id, day), menu, now)
+        return validate_day(menu, cfg, store.history_counts(cfg.id, day), today=start)
+    except NotPublished:
+        raise
+    except Exception as e:
+        log.debug("%s %s failed:\n%s", cfg.id, day, traceback.format_exc())
+        return DayMenu(
+            campus=cfg.id,
+            date=day,
+            fetched_at=datetime.now(UTC).replace(microsecond=0),
+            source_url="",
+            status="broken",
+            reason=f"{type(e).__name__}: {e}",
+        )
+
+
 def collect_campus(
     cfg: CampusConfig,
     store: LocalStore,
@@ -84,22 +107,10 @@ def collect_campus(
         for offset in range(min(days, adapter.max_days)):
             day = start + timedelta(days=offset)
             try:
-                menu = adapter.fetch_day(day)
-                if day == today_pacific():
-                    menu = carry_over_past_meals(
-                        store.read_day(cfg.id, day), menu, datetime.now(PACIFIC).strftime("%H:%M")
-                    )
-                menu = validate_day(menu, cfg, store.history_counts(cfg.id, day), today=start)
-            except Exception as e:  # any failure is data for the alert, never a crash
-                log.debug("%s %s failed:\n%s", cfg.id, day, traceback.format_exc())
-                menu = DayMenu(
-                    campus=cfg.id,
-                    date=day,
-                    fetched_at=datetime.now(UTC).replace(microsecond=0),
-                    source_url="",
-                    status="broken",
-                    reason=f"{type(e).__name__}: {e}",
-                )
+                menu = fetch_validated(adapter, cfg, store, day, start)
+            except NotPublished as e:
+                log.info("%-5s %s skip   %s", cfg.id, day, e)
+                continue
             run.days.append(menu)
             if menu.status != "broken" and store.write_day(menu):
                 run.written += 1

@@ -108,9 +108,7 @@ class UcsdAdapter(Adapter):
                     existing.stations += stations
                 else:
                     meals.append(Meal(name=meal_name, stations=stations))
-        loc_id = slugify(name)
-        loc_type = self.options.get("location_types", {}).get(loc_id, "dining_hall")
-        return Location(id=loc_id, name=name, type=loc_type, meals=meals)
+        return Location(id=slugify(name), name=name, type="dining_hall", meals=meals)
 
     @staticmethod
     def _stations(cat: Tag) -> List[Station]:

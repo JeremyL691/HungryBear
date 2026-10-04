@@ -17,7 +17,7 @@ from pydantic import BaseModel, Field
 SCHEMA_VERSION = 1
 
 # Canonical meal periods, in display order.
-MEAL_ORDER = ["Breakfast", "Brunch", "Lunch", "Dinner", "Late Night", "All Day"]
+MEAL_ORDER = ["Breakfast", "Brunch", "Lunch", "Snack", "Dinner", "Late Night", "All Day"]
 
 # Canonical dietary tags / allergens. Adapters map their site's labels onto these.
 TAGS = {"vegan", "vegetarian", "halal", "kosher", "gluten_free"}

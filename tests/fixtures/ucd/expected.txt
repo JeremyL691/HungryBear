@@ -1,0 +1,67 @@
+== ucd 2026-10-03 status=ok
+segundo | Segundo DC [dining_hall/open]
+  Breakfast 09:00-11:00
+    # Red Zone
+      - 2PM Grass-Fed Cheeseburger [halal,!gluten,!milk,!sesame,!wheat] 488cal
+      - 2 PM Malibu Burger [halal,vegan,vegetarian,!gluten,!sesame,!soy,!wheat] 456cal
+      - Curly Fries [halal,vegan,vegetarian,!gluten,!wheat] 313cal
+    # Green Zone
+      - Oatmeal [halal,vegan,vegetarian] 15cal
+      - Boiled Eggs [halal,vegetarian,!egg] 81cal
+      - Locally Grown Sticky Rice [halal,vegan,vegetarian] 199cal
+      - The Parfait Palette [vegetarian,!alcohol,!coconut,!gluten,!milk,!peanuts,!tree_nuts,!wheat] 69cal
+    # Pink Zone
+      - Breakfast Bread [vegetarian,!alcohol,!egg,!gluten,!milk,!soy,!tree_nuts,!wheat] 329cal
+      - Blueberry Bread [halal,vegetarian,!egg,!gluten,!milk,!soy,!wheat] 176cal
+      - Cream Cheese Danish [halal,vegetarian,!egg,!gluten,!milk,!wheat] 250cal
+      - Onion Bagel [halal,vegan,vegetarian,!gluten,!wheat] 181cal
+      - Whole Wheat Bagel [halal,vegan,vegetarian,!gluten,!wheat] 151cal
+  Lunch 11:00-17:00
+    # Red Zone
+      - Grass-Fed Cheeseburger [halal,!gluten,!milk,!sesame,!wheat] 488cal
+      - Malibu Burger [halal,vegan,vegetarian,!gluten,!sesame,!soy,!wheat] 456cal
+      - Curly Fries [halal,vegan,vegetarian,!gluten,!wheat] 313cal
+    # Yellow Zone
+      - Chicken Piccata with Mushroom Risotto [!alcohol,!gluten,!milk,!wheat] 548cal
+      - Chicken Piccata with Mushroom Risotto [!alcohol,!gluten,!milk,!wheat] 548cal
+      - Pepperoni Pizza [halal,!gluten,!milk,!wheat] 219cal
+      - Cheese Pizza [halal,vegetarian,!gluten,!milk,!wheat] 200cal
+    # Green Zone
+      - Salad Selections [!alcohol,!egg,!fish,!gluten,!milk,!sesame,!soy,!wheat] 208cal
+      - Panini Deli Bar [!gluten,!milk,!soy,!wheat] 289cal
+      - Tuna Salad [halal,!egg,!fish] 273cal
+      - Picnic Potato Salad [halal,vegetarian,!egg,!soy] 143cal
+      - Italian Feta Pasta Salad [halal,vegetarian,!gluten,!milk,!soy,!wheat] 164cal
+      - Chicken Tikka Masala Soup [!milk] 82cal
+      - Organic Smoky Split Pea Soup [halal,vegan,vegetarian] 102cal
+    # Purple Zone
+      - Pork Chop with Honey mustard
+      - Lemon Herb Chicken [halal] 977cal
+      - White Beans with Kale [halal,vegan,vegetarian] 96cal
+      - Roasted Seasonal Vegetables [halal,vegan,vegetarian] 67cal
+    # Pink Zone
+      - M&M Brownie [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat] 265cal
+      - Snickerdoodle Cookie [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat] 230cal
+      - Chocolate Chip Cookie [vegan,vegetarian,!alcohol,!gluten,!soy,!wheat] 189cal
+  Dinner 17:00-20:00
+    # Yellow Zone
+      - Chicken Piccata with Mushroom Risotto [!alcohol,!gluten,!milk,!wheat] 548cal
+      - Chicken Piccata with Mushroom Risotto [!alcohol,!gluten,!milk,!wheat] 548cal
+      - Pepperoni Pizza [halal,!gluten,!milk,!wheat] 219cal
+      - Cheese Pizza [halal,vegetarian,!gluten,!milk,!wheat] 200cal
+    # Green Zone
+      - Salad Bar [!alcohol,!egg,!fish,!gluten,!milk,!sesame,!soy,!wheat] 208cal
+      - Deli Bar [!gluten,!milk,!soy,!wheat] 289cal
+      - Chicken Tikka Masala Soup [!milk] 82cal
+      - Organic Smoky Split Pea Soup [halal,vegan,vegetarian] 102cal
+    # Purple Zone
+      - Seasoned Pork Loin 241cal
+      - White Beans with Kale [halal,vegan,vegetarian] 96cal
+      - Roasted Seasonal Vegetables [halal,vegan,vegetarian] 67cal
+    # Pink Zone
+      - Snickerdoodle Cookie [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat] 230cal
+      - Double Chocolate Chip Mint Condition Cookie [vegetarian,!alcohol,!egg,!gluten,!milk,!wheat] 243cal
+      - Oatmeal Raisin Cookie [vegan,vegetarian,!alcohol,!gluten,!wheat] 176cal
+      - Chocolate Chip Cookie [vegan,vegetarian,!alcohol,!gluten,!soy,!wheat] 189cal
+tercero | Tercero DC [dining_hall/closed]
+cuarto | Cuarto DC [dining_hall/closed]
