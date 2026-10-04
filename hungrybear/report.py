@@ -3,15 +3,14 @@
 
 For each campus:
 - consecutive_failures >= threshold and no open issue -> open a GitHub issue (labels: scraper-broken,
-  campus:<id>), send a Telegram alert, and dispatch the autofix workflow for that campus
+  campus:<id>) and send a Telegram alert to the admin
 - consecutive_failures >= threshold and issue open    -> refresh the issue body (no new noise)
 - healthy again and issue open                        -> comment + close, Telegram "recovered"
 
   python -m hungrybear.report --data data --snapshots snapshots [--dry-run]
 
 Env: GITHUB_TOKEN, GITHUB_REPOSITORY, GITHUB_SERVER_URL, GITHUB_RUN_ID (all set by Actions);
-     TELEGRAM_BOT_TOKEN + ADMIN_CHAT_ID (optional - skip Telegram if missing);
-     AUTOFIX_WORKFLOW (default autofix.yml; set empty to disable dispatch).
+     TELEGRAM_BOT_TOKEN + ADMIN_CHAT_ID (optional - skip Telegram if missing).
 """
 
 from __future__ import annotations
@@ -68,9 +67,6 @@ class GitHub:
     def comment(self, number: int, body: str) -> None:
         self._write("POST", f"/issues/{number}/comments", {"body": body})
 
-    def dispatch(self, workflow: str, ref: str, inputs: dict) -> None:
-        self._write("POST", f"/actions/workflows/{workflow}/dispatches", {"ref": ref, "inputs": inputs})
-
 
 def telegram(text: str, dry_run: bool) -> None:
     token, chat = os.getenv("TELEGRAM_BOT_TOKEN"), os.getenv("ADMIN_CHAT_ID")
@@ -104,7 +100,6 @@ Reproduce locally:
 python -m hungrybear.collector --campus {campus} --days 2 --out /tmp/out --record /tmp/snap -v
 ```
 
-An autofix run has been dispatched; if it finds a fix it will open a PR referencing this issue.
 _This issue closes automatically when the campus recovers._
 """
 
@@ -141,8 +136,6 @@ def main(argv=None) -> int:
         f"{os.getenv('GITHUB_SERVER_URL', 'https://github.com')}/{repo}/actions/runs/{os.getenv('GITHUB_RUN_ID', '')}"
     )
     issues = gh.open_issues()
-    workflow = os.getenv("AUTOFIX_WORKFLOW", "autofix.yml")
-    ref = os.getenv("GITHUB_REF_NAME", "main")
 
     for campus, entry in sorted(status.items()):
         issue = issues.get(campus)
@@ -152,11 +145,8 @@ def main(argv=None) -> int:
                 gh.update_issue(issue["number"], body=body)
                 continue
             first = next((i["reason"] for i in entry.get("days", {}).values() if i.get("reason")), "unknown")
-            created = gh.create_issue(f"[{campus}] menu scraper broken", body, [LABEL, f"campus:{campus}"])
-            number = created["number"] if created else 0
+            gh.create_issue(f"[{campus}] menu scraper broken", body, [LABEL, f"campus:{campus}"])
             telegram(f"🔴 HungryBear: {campus} scraper broken\n{first[:300]}\n{run_url}", args.dry_run)
-            if workflow:
-                gh.dispatch(workflow, ref, {"campus": campus, "issue": str(number)})
         elif issue and entry["status"] == "ok":
             gh.comment(issue["number"], f"Recovered in {run_url} — closing.")
             gh.update_issue(issue["number"], state="closed", state_reason="completed")

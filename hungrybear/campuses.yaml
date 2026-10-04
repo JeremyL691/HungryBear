@@ -1,4 +1,4 @@
-# One entry per campus. The autofix agent may edit this file (and adapters/, tests/).
+# One entry per campus.
 #
 #   adapter:            module in hungrybear/adapters/
 #   main_halls:         location ids that must serve full meals on a normal day

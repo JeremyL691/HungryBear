@@ -24,7 +24,7 @@ published as a free JSON API, and served by a Telegram bot.
 GitHub Actions (cron)                                          your Mac / any host
 collect.yml ─ collector ─ 9 adapters → validate → data branch ─┬─ GitHub Pages = public JSON API
                     │                                          └─ Telegram bot (reads JSON only)
-                    └ report.py ─ issue + Telegram alert ─ dispatch autofix.yml ─ Claude → PR (you merge)
+                    └ report.py ─ GitHub issue + Telegram alert to the maintainer
 ```
 
 - **Adapters** (`hungrybear/adapters/`) – one per menu platform; each turns a site into the shared
@@ -35,10 +35,8 @@ collect.yml ─ collector ─ 9 adapters → validate → data branch ─┬─ 
 - **Collector** (`hungrybear/collector.py`) – fetch → validate → write `v1/{campus}/{date}.json`. A broken
   day never overwrites the last good file. `status.json` tracks consecutive failures per campus.
 - **Alerts** (`hungrybear/report.py`) – after 2 consecutive failures: GitHub issue (`scraper-broken`,
-  `campus:<id>`), Telegram message to the admin, and an `autofix` run. Recovery closes the issue.
-- **Autofix** (`.github/workflows/autofix.yml`) – Claude Code gets the live failure + raw responses and
-  edits the adapter. A PR is opened only if it stayed within `adapters/`, `campuses.yaml`, `tests/`,
-  `pytest` passes, and a fresh live collection validates. You review and merge.
+  `campus:<id>`) with the reasons + a `snapshots` artifact of the raw responses, and a Telegram message to
+  the maintainer. Recovery closes the issue automatically. Fixes are done by hand.
 - **Fixtures** (`tests/fixtures/<campus>/`) – recorded responses + a human-readable golden summary
   (`expected.txt`). Tests replay them with no network.
 
@@ -80,13 +78,9 @@ stored in `~/.hungrybear/bot.pickle`.
 1. **Default branch** – scheduled workflows only run on the default branch; merge this work there.
 2. **Pages** – Settings → Pages → Deploy from a branch → `data` / `(root)` (after the first collect run
    creates the branch).
-3. **Actions permissions** – Settings → Actions → General → Workflow permissions: *Read and write*, and
-   allow GitHub Actions to create pull requests (needed by autofix).
-4. **Secrets** – `ANTHROPIC_API_KEY` (autofix), `TELEGRAM_BOT_TOKEN` + `ADMIN_CHAT_ID` (alerts; optional).
+3. **Actions permissions** – Settings → Actions → General → Workflow permissions: *Read and write*.
+4. **Secrets** – `TELEGRAM_BOT_TOKEN` + `ADMIN_CHAT_ID` (Telegram alerts; optional - issues are opened either way).
 5. Run **collect** once manually (Actions → collect → Run workflow).
-
-PRs opened by the autofix bot use the workflow token, so they don't trigger `ci.yml` by themselves; the
-autofix job already ran the tests and a live validation before opening the PR.
 
 ## License
 

@@ -1,5 +1,5 @@
 # hungrybear/devtools.py
-"""Fixture tooling for adapter tests (also what the autofix agent uses).
+"""Fixture tooling for adapter tests (also handy when fixing a broken campus).
 
 # record live responses for a campus into tests/fixtures/<campus>/ and write the golden summary
 python -m hungrybear.devtools fixture ucla --days 2

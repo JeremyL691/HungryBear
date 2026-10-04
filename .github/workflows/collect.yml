@@ -22,7 +22,6 @@ concurrency:
 permissions:
   contents: write   # push to the data branch
   issues: write     # open/close scraper-broken issues
-  actions: write    # dispatch autofix.yml
 
 jobs:
   collect:
@@ -53,7 +52,7 @@ jobs:
           DAYS: ${{ inputs.days || (github.event.schedule == '30 11 * * *' && '7') || '2' }}
         run: python -m hungrybear.collector --campus "$CAMPUS" --days "$DAYS" --out data --record snapshots
 
-      - name: Report (issues, Telegram, autofix dispatch)
+      - name: Report (issues, Telegram alert)
         id: report
         env:
           GITHUB_TOKEN: ${{ github.token }}

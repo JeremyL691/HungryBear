@@ -4,7 +4,7 @@
 Adapters never call httpx directly - they go through a Fetcher. That gives us:
 - one place for UA, timeouts, retries, and politeness delays
 - `RecordingFetcher`: saves every response to a directory (the raw snapshot attached to
-  a "scraper broken" issue, and the fixture the autofix agent reproduces against)
+  a "scraper broken" issue, and the fixture you reproduce a failure against)
 - `ReplayFetcher`: serves those saved responses in tests, with no network
 """
 

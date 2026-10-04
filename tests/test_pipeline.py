@@ -157,9 +157,6 @@ class FakeGitHub:
     def comment(self, number, body):
         self.calls.append(("comment", number))
 
-    def dispatch(self, workflow, ref, inputs):
-        self.calls.append(("dispatch", inputs["campus"], inputs["issue"]))
-
 
 def run_report(tmp_path, monkeypatch, campuses, issues):
     (tmp_path / "v1").mkdir()
@@ -174,7 +171,7 @@ def run_report(tmp_path, monkeypatch, campuses, issues):
     return fake.calls
 
 
-def test_report_opens_issue_and_dispatches_autofix_after_two_failures(tmp_path, monkeypatch):
+def test_report_opens_issue_after_two_failures(tmp_path, monkeypatch):
     broken = {
         "status": "broken",
         "consecutive_failures": 2,
@@ -182,7 +179,6 @@ def test_report_opens_issue_and_dispatches_autofix_after_two_failures(tmp_path, 
     }
     calls = run_report(tmp_path, monkeypatch, {"ucla": broken}, {})
     assert ("create", ["scraper-broken", "campus:ucla"]) in calls
-    assert ("dispatch", "ucla", "7") in calls
 
 
 def test_report_ignores_a_single_blip(tmp_path, monkeypatch):
