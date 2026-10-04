@@ -40,11 +40,14 @@ def validate_day(
     history_counts: Sequence[int] = (),
     today: Optional[date] = None,
     previous: Optional[DayMenu] = None,
+    service_over: bool = False,
 ) -> DayMenu:
     """Return `menu` with status/reason updated.
 
     history_counts: total_items() of recent same-weekday days (anomaly baseline).
     previous: what we already published for this same date, if anything.
+    service_over: the day is today and it's late evening - some sites (UCSB) drop meals once they end,
+        so an empty page is expected rather than a sign of breakage.
     """
     if menu.status == "broken":
         return menu
@@ -64,7 +67,7 @@ def validate_day(
     if menu.status == "closed" or count == 0:
         # No food anywhere on a normal near-term day is far more likely a broken scraper than a closure.
         # (Far-future days are often just not published yet.)
-        if near_term and not in_break and cfg.main_halls:
+        if near_term and not in_break and cfg.main_halls and not service_over:
             errors.append("no menu items on a non-break day")
     else:
         weekend = menu.date.weekday() >= 5

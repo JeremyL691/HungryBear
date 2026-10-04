@@ -30,6 +30,7 @@ from .store import LocalStore
 from .validate import total_items, validate_day
 
 log = logging.getLogger("hungrybear.collector")
+SERVICE_OVER_HOUR = 20  # Pacific; after this an empty "today" page is plausible
 
 
 @dataclass
@@ -70,10 +71,18 @@ def fetch_validated(adapter, cfg: CampusConfig, store: LocalStore, day: date, st
     try:
         menu = adapter.fetch_day(day)
         previous = store.read_day(cfg.id, day)
-        if day == today_pacific():
-            now = datetime.now(PACIFIC).strftime("%H:%M")
-            menu = carry_over_past_meals(previous, menu, now)
-        return validate_day(menu, cfg, store.history_counts(cfg.id, day), today=start, previous=previous)
+        now = datetime.now(PACIFIC)
+        is_today = day == now.date()
+        if is_today:
+            menu = carry_over_past_meals(previous, menu, now.strftime("%H:%M"))
+        return validate_day(
+            menu,
+            cfg,
+            store.history_counts(cfg.id, day),
+            today=start,
+            previous=previous,
+            service_over=is_today and now.hour >= SERVICE_OVER_HOUR,
+        )
     except NotPublished:
         raise
     except Exception as e:

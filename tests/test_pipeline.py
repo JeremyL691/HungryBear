@@ -65,6 +65,11 @@ def test_empty_near_term_day_is_broken_unless_break_or_far_future():
     assert validate_day(far, cfg(), today=MON).status == "closed"
 
 
+def test_empty_today_is_fine_late_in_the_evening():
+    empty = day(status="closed", locations=[Location(id="hall", name="H")])
+    assert validate_day(empty, cfg(), today=MON, service_over=True).status == "closed"
+
+
 def test_weekday_only_hall_may_be_empty_on_weekends():
     weekend = day(
         d=SAT, locations=[Location(id="hall", name="H"), Location(id="b", name="B", meals=[meal("Lunch", 9)])]
