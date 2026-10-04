@@ -1,23 +1,39 @@
 {
  "api_version": "v1",
- "generated_at": "2026-10-04T03:45:38+00:00",
+ "generated_at": "2026-10-04T03:47:51+00:00",
  "today": "2026-10-03",
  "campuses": [
   {
    "id": "ucb",
    "name": "UC Berkeley",
    "short_name": "Berkeley",
-   "status": "broken",
-   "last_success": null,
-   "dates": []
+   "status": "ok",
+   "last_success": "2026-10-04T03:47:51+00:00",
+   "dates": [
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09"
+   ]
   },
   {
    "id": "ucla",
    "name": "UCLA",
    "short_name": "UCLA",
-   "status": "broken",
-   "last_success": null,
-   "dates": []
+   "status": "ok",
+   "last_success": "2026-10-04T03:47:51+00:00",
+   "dates": [
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09"
+   ]
   },
   {
    "id": "ucsb",

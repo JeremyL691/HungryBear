@@ -1,74 +1,74 @@
 {
  "campuses": {
   "ucb": {
-   "status": "broken",
-   "checked_at": "2026-10-04T03:45:38+00:00",
-   "last_success": null,
-   "consecutive_failures": 1,
+   "status": "ok",
+   "checked_at": "2026-10-04T03:47:51+00:00",
+   "last_success": "2026-10-04T03:47:51+00:00",
+   "consecutive_failures": 0,
    "days": {
     "2026-10-03": {
-     "status": "broken",
-     "reason": "FetchError: POST https://dining.berkeley.edu/wp-admin/admin-ajax.php failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-04": {
-     "status": "broken",
-     "reason": "FetchError: POST https://dining.berkeley.edu/wp-admin/admin-ajax.php failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-05": {
-     "status": "broken",
-     "reason": "FetchError: POST https://dining.berkeley.edu/wp-admin/admin-ajax.php failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-06": {
-     "status": "broken",
-     "reason": "FetchError: POST https://dining.berkeley.edu/wp-admin/admin-ajax.php failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-07": {
-     "status": "broken",
-     "reason": "FetchError: POST https://dining.berkeley.edu/wp-admin/admin-ajax.php failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-08": {
-     "status": "broken",
-     "reason": "FetchError: POST https://dining.berkeley.edu/wp-admin/admin-ajax.php failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-09": {
-     "status": "broken",
-     "reason": "FetchError: POST https://dining.berkeley.edu/wp-admin/admin-ajax.php failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     }
    }
   },
   "ucla": {
-   "status": "broken",
-   "checked_at": "2026-10-04T03:45:38+00:00",
-   "last_success": null,
-   "consecutive_failures": 1,
+   "status": "ok",
+   "checked_at": "2026-10-04T03:47:51+00:00",
+   "last_success": "2026-10-04T03:47:51+00:00",
+   "consecutive_failures": 0,
    "days": {
     "2026-10-03": {
-     "status": "broken",
-     "reason": "FetchError: GET https://dining.ucla.edu/menus-at-a-glance/ failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-04": {
-     "status": "broken",
-     "reason": "FetchError: GET https://dining.ucla.edu/menus-at-a-glance/ failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-05": {
-     "status": "broken",
-     "reason": "FetchError: GET https://dining.ucla.edu/menus-at-a-glance/ failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-06": {
-     "status": "broken",
-     "reason": "FetchError: GET https://dining.ucla.edu/menus-at-a-glance/ failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-07": {
-     "status": "broken",
-     "reason": "FetchError: GET https://dining.ucla.edu/menus-at-a-glance/ failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-08": {
-     "status": "broken",
-     "reason": "FetchError: GET https://dining.ucla.edu/menus-at-a-glance/ failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-09": {
-     "status": "broken",
-     "reason": "FetchError: GET https://dining.ucla.edu/menus-at-a-glance/ failed: HTTP 403"
+     "status": "ok",
+     "reason": null
     }
    }
   },
@@ -277,5 +277,5 @@
    }
   }
  },
- "generated_at": "2026-10-04T03:45:38+00:00"
+ "generated_at": "2026-10-04T03:47:51+00:00"
 }
