@@ -6,8 +6,10 @@
 #   min_items_per_meal: a main-hall meal with fewer items than this is flagged "broken"
 #   breaks:             [start, end] inclusive date ranges with no service (suppresses alerts)
 #   options:            adapter-specific settings
+#   runner:             ci (GitHub Actions, default) or local (Mac; for sites that block cloud IPs)
 
 ucb:
+  runner: local   # site returns HTTP 403 to GitHub Actions (cloud IPs); collected from the Mac
   name: UC Berkeley
   short_name: Berkeley
   adapter: berkeley
@@ -29,6 +31,7 @@ ucb:
       gateway-cafe: cafe
 
 ucla:
+  runner: local   # site returns HTTP 403 to GitHub Actions (cloud IPs); collected from the Mac
   name: UCLA
   short_name: UCLA
   adapter: ucla

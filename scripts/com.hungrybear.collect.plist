@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Collects runner: local campuses. Install with scripts/install_local_collector.sh
+     launchd runs a missed slot once when the Mac wakes up. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.hungrybear.collect</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__REPO__/scripts/collect_local.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>4</integer><key>Minute</key><integer>40</integer></dict>
+    <dict><key>Hour</key><integer>8</integer><key>Minute</key><integer>40</integer></dict>
+    <dict><key>Hour</key><integer>12</integer><key>Minute</key><integer>40</integer></dict>
+    <dict><key>Hour</key><integer>16</integer><key>Minute</key><integer>40</integer></dict>
+    <dict><key>Hour</key><integer>20</integer><key>Minute</key><integer>40</integer></dict>
+  </array>
+  <key>StandardOutPath</key><string>__HOME__/Library/Logs/hungrybear-collect.log</string>
+  <key>StandardErrorPath</key><string>__HOME__/Library/Logs/hungrybear-collect.log</string>
+</dict>
+</plist>

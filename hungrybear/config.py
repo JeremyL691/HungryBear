@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from datetime import date, datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Literal, Optional, Tuple
 from zoneinfo import ZoneInfo
 
 import yaml
@@ -20,6 +20,9 @@ class CampusConfig(BaseModel):
     short_name: str
     adapter: str
     enabled: bool = True
+    # Where the collector runs: "ci" (GitHub Actions) or "local" (the maintainer's Mac, for sites that
+    # block cloud IPs). See scripts/collect_local.sh.
+    runner: Literal["ci", "local"] = "ci"
     options: Dict[str, Any] = Field(default_factory=dict)
     # Validation expectations (see validate.py)
     main_halls: List[str] = Field(default_factory=list)  # location ids expected to serve full meals

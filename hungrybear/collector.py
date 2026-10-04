@@ -161,6 +161,7 @@ def update_status(store: LocalStore, campuses: Dict[str, CampusConfig], runs: Li
 def main(argv: Optional[List[str]] = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--campus", default="all", help="comma-separated campus ids, or 'all'")
+    ap.add_argument("--runner", choices=["ci", "local", "any"], default="any", help="with --campus all: only these")
     ap.add_argument("--days", type=int, default=7)
     ap.add_argument("--start", type=date.fromisoformat, default=None, help="first day (default: today, Pacific)")
     ap.add_argument("--out", type=Path, default=Path("data"))
@@ -173,7 +174,10 @@ def main(argv: Optional[List[str]] = None) -> int:
     logging.getLogger("httpx").setLevel(logging.WARNING)
 
     campuses = load_campuses()
-    wanted = [c for c in campuses if campuses[c].enabled] if args.campus == "all" else args.campus.split(",")
+    if args.campus == "all":
+        wanted = [c for c, cfg in campuses.items() if cfg.enabled and args.runner in ("any", cfg.runner)]
+    else:
+        wanted = args.campus.split(",")
     unknown = [c for c in wanted if c not in campuses]
     if unknown:
         ap.error(f"unknown campus: {unknown}")

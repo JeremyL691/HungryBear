@@ -50,7 +50,8 @@ jobs:
         env:
           CAMPUS: ${{ inputs.campus || 'all' }}
           DAYS: ${{ inputs.days || (github.event.schedule == '30 11 * * *' && '7') || '2' }}
-        run: python -m hungrybear.collector --campus "$CAMPUS" --days "$DAYS" --out data --record snapshots
+        # Campuses with runner: local (sites that block cloud IPs) are collected from the Mac instead.
+        run: python -m hungrybear.collector --campus "$CAMPUS" --runner ci --days "$DAYS" --out data --record snapshots
 
       - name: Report (issues, Telegram alert)
         id: report

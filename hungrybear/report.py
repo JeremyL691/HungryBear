@@ -20,6 +20,7 @@ import json
 import os
 import shutil
 import sys
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -81,6 +82,15 @@ def telegram(text: str, dry_run: bool) -> None:
         print(f"telegram alert failed: {e}", file=sys.stderr)
 
 
+STALE_AFTER = timedelta(hours=36)
+
+
+def is_stale(entry: dict, now: datetime) -> bool:
+    """No successful collection for a while - e.g. the Mac that collects a 'local' campus is off."""
+    last = entry.get("last_success")
+    return bool(last) and now - datetime.fromisoformat(last) > STALE_AFTER
+
+
 def issue_body(campus: str, entry: dict, run_url: str) -> str:
     rows = "\n".join(
         f"| {day} | {info['status']} | {(info.get('reason') or '').replace('|', '/')} |"
@@ -113,7 +123,9 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     status = json.loads((args.data / "v1" / "status.json").read_text())["campuses"]
-    broken = sorted(c for c, e in status.items() if e["consecutive_failures"] >= args.threshold)
+    now = datetime.now(UTC)
+    stale = {c for c, e in status.items() if is_stale(e, now)}
+    broken = sorted(c for c, e in status.items() if e["consecutive_failures"] >= args.threshold or c in stale)
 
     # Keep only snapshots that matter, so the uploaded artifact stays small.
     if args.snapshots and args.snapshots.exists():
@@ -144,7 +156,8 @@ def main(argv=None) -> int:
             if issue:
                 gh.update_issue(issue["number"], body=body)
                 continue
-            first = next((i["reason"] for i in entry.get("days", {}).values() if i.get("reason")), "unknown")
+            first = next((i["reason"] for i in entry.get("days", {}).values() if i.get("reason")), None)
+            first = first or f"no successful update since {entry.get('last_success')}"
             gh.create_issue(f"[{campus}] menu scraper broken", body, [LABEL, f"campus:{campus}"])
             telegram(f"🔴 HungryBear: {campus} scraper broken\n{first[:300]}\n{run_url}", args.dry_run)
         elif issue and entry["status"] == "ok":

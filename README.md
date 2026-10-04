@@ -73,6 +73,18 @@ python -m hungrybear.bot
 Commands: `/start` (remembers your campus), `/now`, `/campus`, `/diet`, `/help`. User preferences are
 stored in `~/.hungrybear/bot.pickle`.
 
+## Campuses collected from a Mac
+
+Berkeley and UCLA return HTTP 403 to GitHub Actions (their sites block cloud IPs), so they are marked
+`runner: local` in `campuses.yaml` and collected by `scripts/collect_local.sh` on a Mac, which pushes to the
+same `data` branch. Install the launchd job (5 runs a day; a missed run happens when the Mac wakes):
+
+```bash
+scripts/install_local_collector.sh
+```
+
+If a campus gets no successful update for 36 hours (e.g. the Mac is off), the usual alert fires.
+
 ## One-time GitHub setup
 
 1. **Default branch** – scheduled workflows only run on the default branch; merge this work there.

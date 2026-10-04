@@ -190,3 +190,18 @@ def test_report_closes_issue_on_recovery(tmp_path, monkeypatch):
     ok = {"status": "ok", "consecutive_failures": 0, "days": {}}
     calls = run_report(tmp_path, monkeypatch, {"ucla": ok}, {"ucla": {"number": 3}})
     assert ("comment", 3) in calls and ("update", 3, "closed") in calls
+
+
+def test_report_alerts_when_a_campus_goes_stale(tmp_path, monkeypatch):
+    stale = {"status": "ok", "consecutive_failures": 0, "last_success": "2026-01-01T00:00:00+00:00", "days": {}}
+    calls = run_report(tmp_path, monkeypatch, {"ucb": stale}, {})
+    assert ("create", ["scraper-broken", "campus:ucb"]) in calls
+
+
+def test_runner_split_covers_every_campus_once():
+    from hungrybear.config import load_campuses
+
+    campuses = load_campuses()
+    local = {c for c, cfg in campuses.items() if cfg.runner == "local"}
+    ci = {c for c, cfg in campuses.items() if cfg.runner == "ci"}
+    assert local == {"ucb", "ucla"} and len(ci) == 7 and not local & ci
