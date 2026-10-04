@@ -86,6 +86,17 @@ def test_sharp_drop_vs_history_is_broken():
     assert validate_day(day(), cfg(), history_counts=[22, 25], today=MON).status == "ok"
 
 
+def test_published_menu_that_vanishes_is_broken_even_far_ahead():
+    far = date(2026, 10, 9)
+    previous = day(d=far, locations=[Location(id="hall", name="H", meals=[meal("Lunch", 40)])])
+    empty = day(d=far, locations=[Location(id="hall", name="H", meals=[Meal(name="Lunch")])])
+    m = validate_day(empty, cfg(), today=MON, previous=previous)
+    assert m.status == "broken" and "previously had 40" in m.reason
+    # A normal menu update (a few dishes swapped) is fine.
+    updated = day(d=far, locations=[Location(id="hall", name="H", meals=[meal("Lunch", 36)])])
+    assert validate_day(updated, cfg(), today=MON, previous=previous).status == "ok"
+
+
 # ---------------- helpers ----------------
 
 

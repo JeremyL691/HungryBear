@@ -39,14 +39,25 @@ def validate_day(
     cfg: CampusConfig,
     history_counts: Sequence[int] = (),
     today: Optional[date] = None,
+    previous: Optional[DayMenu] = None,
 ) -> DayMenu:
-    """Return `menu` with status/reason updated. history_counts = total_items() of recent same-weekday days."""
+    """Return `menu` with status/reason updated.
+
+    history_counts: total_items() of recent same-weekday days (anomaly baseline).
+    previous: what we already published for this same date, if anything.
+    """
     if menu.status == "broken":
         return menu
 
     today = today or today_pacific()
     errors: List[str] = []
     in_break = cfg.in_break(menu.date)
+
+    # A menu that was already published for this date doesn't vanish or collapse - a parser that
+    # suddenly finds nothing does. Without this, a broken scraper would overwrite good future days.
+    prev_count = total_items(previous) if previous is not None and previous.status == "ok" else 0
+    if prev_count >= 20 and total_items(menu) < prev_count * (1 - ANOMALY_DROP):
+        errors.append(f"only {total_items(menu)} items, but this date previously had {prev_count}")
     near_term = menu.date <= today + timedelta(days=NEAR_TERM_DAYS)
 
     count = total_items(menu)

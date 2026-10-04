@@ -69,10 +69,11 @@ def fetch_validated(adapter, cfg: CampusConfig, store: LocalStore, day: date, st
     NotPublished propagates so the caller can skip the day."""
     try:
         menu = adapter.fetch_day(day)
+        previous = store.read_day(cfg.id, day)
         if day == today_pacific():
             now = datetime.now(PACIFIC).strftime("%H:%M")
-            menu = carry_over_past_meals(store.read_day(cfg.id, day), menu, now)
-        return validate_day(menu, cfg, store.history_counts(cfg.id, day), today=start)
+            menu = carry_over_past_meals(previous, menu, now)
+        return validate_day(menu, cfg, store.history_counts(cfg.id, day), today=start, previous=previous)
     except NotPublished:
         raise
     except Exception as e:
