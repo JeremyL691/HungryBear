@@ -10,7 +10,7 @@ from typing import Dict, List, Optional, Tuple
 import requests
 from bs4 import BeautifulSoup
 
-from .constants import DINING_MENUS_URL, DINING_LOCATIONS, LOCATION_ALIASES
+from .constants import DINING_MENUS_URL, DINING_LOCATIONS, LOCATION_ALIASES, MEALS
 
 
 @dataclass
@@ -130,23 +130,23 @@ class MenuScraper:
         return bool(re.search(r"\d{1,2}:\d{2}\s*(a\.m\.|p\.m\.)", s, flags=re.I))
 
     def _is_meal_header(self, s: str) -> bool:
-        low = self._norm(s)
-        return ("-" in low) and any(low.endswith(x) for x in ["breakfast", "lunch", "dinner", "all day"])
+        return self._meal_type_from_header(s) is not None
 
     def _meal_type_from_header(self, header_line: str) -> Optional[str]:
         """
-        "Spring - Breakfast" -> "Breakfast"
-        "Spring - All Day"   -> "All Day"
+        "Spring - Breakfast"               -> "Breakfast"
+        "Fall - Brunch"                    -> "Brunch"
+        "Fall - Breakfast (ends at 10:30)" -> "Breakfast"
+        "Spring - All Day"                 -> "All Day"
         """
         low = self._norm(header_line)
-        if low.endswith("breakfast"):
-            return "Breakfast"
-        if low.endswith("lunch"):
-            return "Lunch"
-        if low.endswith("dinner"):
-            return "Dinner"
-        if low.endswith("all day"):
-            return "All Day"
+        if "-" not in low:
+            return None
+        # Drop trailing notes like "(ends at 10:30)".
+        low = re.sub(r"\s*\(.*\)\s*$", "", low)
+        for meal in MEALS:
+            if low.endswith(meal.lower()):
+                return meal
         return None
 
     def canonicalize_location(self, s: str) -> str:
@@ -257,7 +257,7 @@ class MenuScraper:
     def get_available_meals(self, location: str) -> Tuple[List[str], Optional[str]]:
         """Returns (meals, debug_message_if_any).
 
-        Meals are among: Breakfast, Lunch, Dinner, All Day.
+        Meals are among: Breakfast, Brunch, Lunch, Dinner, All Day.
         """
         location = self.canonicalize_location(location)
         html = self.fetch_html()
@@ -284,7 +284,7 @@ class MenuScraper:
     def _slice_best_meal_block(self, loc_lines: List[str], meal: str) -> Optional[List[str]]:
         wanted = meal.strip().lower()
 
-        candidates = [i for i, ln in enumerate(loc_lines) if self._is_meal_header(ln) and self._norm(ln).endswith(wanted)]
+        candidates = [i for i, ln in enumerate(loc_lines) if (self._meal_type_from_header(ln) or "").lower() == wanted]
         if not candidates:
             return None
 
@@ -339,6 +339,13 @@ class MenuScraper:
         time_ranges = self._dedupe_keep_order(time_ranges)
         if not time_ranges:
             return None
+
+        # The site lists one time range per meal, in the same order as the meal headers.
+        meals_in_order = self._dedupe_keep_order(
+            [mt for mt in (self._meal_type_from_header(ln) for ln in loc_lines) if mt]
+        )
+        if len(meals_in_order) == len(time_ranges) and meal in meals_in_order:
+            return time_ranges[meals_in_order.index(meal)]
 
         if meal.strip().lower() == "all day":
             # for all-day halls, they often show just one range

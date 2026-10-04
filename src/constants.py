@@ -13,8 +13,11 @@ DINING_LOCATIONS = [
     "The Eateries at Student Union",
     "Brown's",
     "Bear Market",
+    "Cub Market",
     "Local x Design",
     "The Den",
+    "Qualcomm Café",
+    "Gateway Café",
 ]
 
 # User-friendly aliases / legacy names that should map to the canonical names above.
@@ -26,7 +29,9 @@ LOCATION_ALIASES = {
     "The Eateries at Student Union": ["Eateries at the Student Union", "Student Union", "Eateries"],
     "Brown's": ["Browns Cafe", "Brown's Cafe", "Browns"],
     "The Den": ["Den"],
+    "Qualcomm Café": ["Qualcomm Cafe", "Qualcomm"],
+    "Gateway Café": ["Gateway Cafe", "Gateway"],
 }
 
-# We only support these 3 meals for now.
-MEALS = ["Breakfast", "Lunch", "Dinner"]
+# Meal periods as they appear after the season prefix ("Fall - Brunch", "Spring - All Day", ...).
+MEALS = ["Breakfast", "Brunch", "Lunch", "Dinner", "All Day"]

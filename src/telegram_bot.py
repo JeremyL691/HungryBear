@@ -168,9 +168,14 @@ def format_menu(result) -> str:
     return "\n".join(lines).strip()
 
 
+def _no_meals_text(loc: str) -> str:
+    return f"{loc} has no menu posted for today — it may be closed today. Try another location."
+
+
 def _meal_pretty(m: str) -> str:
     return {
         "Breakfast": "🍳 Breakfast",
+        "Brunch": "🥞 Brunch",
         "Lunch": "🥪 Lunch",
         "Dinner": "🍽️ Dinner",
         "All Day": "🕒 All Day",
@@ -227,11 +232,9 @@ async def choose_location(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
     context.user_data["location"] = loc
 
-    meals, dbg = scraper.get_available_meals(loc)
+    meals, _dbg = scraper.get_available_meals(loc)
     if not meals:
-        await update.message.reply_text(
-            "Sorry — I couldn't detect available meals for that location today.\n" f"Debug: {dbg or '(none)'}"
-        )
+        await update.message.reply_text(_no_meals_text(loc) + "\nSend /start to pick again.")
         return ConversationHandler.END
 
     context.user_data["available_meals"] = meals
@@ -254,7 +257,7 @@ async def choose_meal(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int
         return await cancel(update, context)
 
     user = norm(txt)
-    user = user.replace("🍳", "").replace("🥪", "").replace("🍽️", "").replace("🕒", "")
+    user = user.replace("🍳", "").replace("🥞", "").replace("🥪", "").replace("🍽️", "").replace("🕒", "")
     user = norm(user)
 
     meal = None
@@ -327,10 +330,13 @@ async def on_button(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     if data.startswith(CB_LOC + "|"):
         loc = data.split("|", 1)[1]
         context.user_data["location"] = loc
-        meals, dbg = scraper.get_available_meals(loc)
+        meals, _dbg = scraper.get_available_meals(loc)
         if not meals:
-            await q.edit_message_text(f"Sorry — couldn't detect meals for {loc}.\nDebug: {dbg or '(none)'}")
-            return ConversationHandler.END
+            back_kb = InlineKeyboardMarkup(
+                [[InlineKeyboardButton(BACK, callback_data=CB_BACK), InlineKeyboardButton(CANCEL, callback_data=CB_CANCEL)]]
+            )
+            await q.edit_message_text(_no_meals_text(loc), reply_markup=back_kb)
+            return CHOOSING_LOCATION
         context.user_data["available_meals"] = meals
         await _send_meal_menu(update, context, loc, meals)
         return CHOOSING_MEAL
