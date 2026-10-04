@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - run: pip install -e ".[dev]"
+      - run: pip install -e ".[bot,dev]"
       - run: ruff check hungrybear tests
       - run: ruff format --check hungrybear tests
       - run: pytest -q
