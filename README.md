@@ -77,7 +77,8 @@ stored in `~/.hungrybear/bot.pickle`.
 
 Berkeley and UCLA return HTTP 403 to GitHub Actions (their sites block cloud IPs), so they are marked
 `runner: local` in `campuses.yaml` and collected by `scripts/collect_local.sh` on a Mac, which pushes to the
-same `data` branch. Install the launchd job (5 runs a day; a missed run happens when the Mac wakes):
+same `data` branch. Install the launchd job (5 runs a day; a missed run happens when the Mac wakes). It runs
+from its own checkout in `~/.hungrybear/collector`, because macOS blocks launchd jobs from reading `~/Desktop`:
 
 ```bash
 scripts/install_local_collector.sh

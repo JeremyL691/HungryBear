@@ -9,6 +9,10 @@
   <array>
     <string>__REPO__/scripts/collect_local.sh</string>
   </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
   <key>StartCalendarInterval</key>
   <array>
     <dict><key>Hour</key><integer>4</integer><key>Minute</key><integer>40</integer></dict>

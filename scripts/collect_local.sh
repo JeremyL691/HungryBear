@@ -8,6 +8,12 @@ PY="$REPO/.venv/bin/python"
 WT="$REPO/data"   # git worktree of the data branch (ignored by the main checkout)
 DAYS="${DAYS:-7}"
 cd "$REPO"
+echo "== $(date '+%Y-%m-%d %H:%M:%S')"
+
+# Run the latest code from main (reinstall only if dependencies changed).
+old_deps="$(git rev-parse HEAD:pyproject.toml)"
+git fetch -q origin main && git reset -q --hard origin/main
+[ "$old_deps" = "$(git rev-parse HEAD:pyproject.toml)" ] || "$PY" -m pip install -q -e "$REPO"
 
 git fetch -q origin data
 if ! git -C "$WT" rev-parse --git-dir >/dev/null 2>&1; then
