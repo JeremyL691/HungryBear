@@ -73,14 +73,14 @@
    }
   },
   "ucsb": {
-   "status": "broken",
-   "checked_at": "2026-10-04T03:45:38+00:00",
-   "last_success": null,
-   "consecutive_failures": 1,
+   "status": "ok",
+   "checked_at": "2026-10-04T03:49:39+00:00",
+   "last_success": "2026-10-04T03:49:39+00:00",
+   "consecutive_failures": 0,
    "days": {
     "2026-10-03": {
-     "status": "broken",
-     "reason": "no menu items on a non-break day"
+     "status": "closed",
+     "reason": null
     },
     "2026-10-04": {
      "status": "ok",
@@ -110,8 +110,8 @@
   },
   "ucsc": {
    "status": "ok",
-   "checked_at": "2026-10-04T03:45:38+00:00",
-   "last_success": "2026-10-04T03:45:38+00:00",
+   "checked_at": "2026-10-04T03:49:39+00:00",
+   "last_success": "2026-10-04T03:49:39+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-03": {
@@ -146,8 +146,8 @@
   },
   "ucr": {
    "status": "ok",
-   "checked_at": "2026-10-04T03:45:38+00:00",
-   "last_success": "2026-10-04T03:45:38+00:00",
+   "checked_at": "2026-10-04T03:49:39+00:00",
+   "last_success": "2026-10-04T03:49:39+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-03": {
@@ -182,8 +182,8 @@
   },
   "ucsd": {
    "status": "ok",
-   "checked_at": "2026-10-04T03:45:38+00:00",
-   "last_success": "2026-10-04T03:45:38+00:00",
+   "checked_at": "2026-10-04T03:49:39+00:00",
+   "last_success": "2026-10-04T03:49:39+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-03": {
@@ -218,8 +218,8 @@
   },
   "ucd": {
    "status": "ok",
-   "checked_at": "2026-10-04T03:45:38+00:00",
-   "last_success": "2026-10-04T03:45:38+00:00",
+   "checked_at": "2026-10-04T03:49:39+00:00",
+   "last_success": "2026-10-04T03:49:39+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-03": {
@@ -230,8 +230,8 @@
   },
   "uci": {
    "status": "ok",
-   "checked_at": "2026-10-04T03:45:38+00:00",
-   "last_success": "2026-10-04T03:45:38+00:00",
+   "checked_at": "2026-10-04T03:49:39+00:00",
+   "last_success": "2026-10-04T03:49:39+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-03": {
@@ -266,8 +266,8 @@
   },
   "ucm": {
    "status": "ok",
-   "checked_at": "2026-10-04T03:45:38+00:00",
-   "last_success": "2026-10-04T03:45:38+00:00",
+   "checked_at": "2026-10-04T03:49:39+00:00",
+   "last_success": "2026-10-04T03:49:39+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-03": {
@@ -277,5 +277,5 @@
    }
   }
  },
- "generated_at": "2026-10-04T03:47:51+00:00"
+ "generated_at": "2026-10-04T03:49:39+00:00"
 }
