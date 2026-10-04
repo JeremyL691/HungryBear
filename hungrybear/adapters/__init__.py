@@ -9,6 +9,7 @@ from ..config import CampusConfig
 from ..http import Fetcher
 from .base import Adapter, AdapterError, NotPublished
 from .berkeley import BerkeleyAdapter
+from .bigzpoon import BigzpoonAdapter
 from .davis import DavisAdapter
 from .foodpro import FoodProAdapter
 from .mydininghub import MyDiningHubAdapter
@@ -18,6 +19,7 @@ from .ucsd import UcsdAdapter
 
 ADAPTERS: Dict[str, Type[Adapter]] = {
     "berkeley": BerkeleyAdapter,
+    "bigzpoon": BigzpoonAdapter,
     "davis": DavisAdapter,
     "foodpro": FoodProAdapter,
     "mydininghub": MyDiningHubAdapter,

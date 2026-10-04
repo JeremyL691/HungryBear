@@ -1,0 +1,84 @@
+== ucm 2026-10-03 status=ok
+pavilion | Pavilion [dining_hall/open]
+  Breakfast ?-?
+    # Main
+      - Breakfast Sausage 690cal
+      - Cereal 330cal
+      - Cream Cheese 70cal
+      - Cereal (Gluten Free) 300cal
+      - Drinks 0cal
+      - Tea 0cal
+      - Creamers 10cal
+      - Milk 120cal
+      - Milk Alternative 80cal
+      - Sugar 30cal
+      - Condiments 35cal
+    # FoG
+      - Oatmeals 120cal
+      - Yogurt 80cal
+      - Fruit 30cal
+      - Toppings 400cal
+      - Bagel Bar 230cal
+  Lunch ?-?
+    # Main
+      - Creamy Butter Chicken 930cal
+      - Sandwich Station 800cal
+      - Healthy Concepts 410cal
+      - Pasta Bowl 940cal
+    # FoG
+      - Charcuterie 110cal
+      - Deli Items 140cal
+      - Yogurt Toppings 30cal
+      - Yogurt 80cal
+      - Salad Bar - Mix Greens 0cal
+      - Composed Salad 160cal
+      - Salad Toppings 35cal
+      - Salad Dressings 160cal
+    # CG
+      - Pastry & Bars 120cal
+      - Pastry (Gluten Free) 130cal
+      - Pastry (Vegan) 130cal
+      - Cereal 330cal
+      - Cream Cheese 70cal
+      - Cereal (Gluten Free) 300cal
+      - Drinks 0cal
+      - Tea 0cal
+      - Creamers 10cal
+      - Milk 120cal
+      - Milk Alternative 80cal
+      - Sugar 30cal
+      - Condiments 35cal
+  Dinner ?-?
+    # Main
+      - Bobcat Express 530cal
+      - Healthy Concepts 430cal
+      - Street Tacos 700cal
+      - Breakfast For Dinner 780cal
+    # FoG
+      - Charcuterie 110cal
+      - Deli Items 140cal
+      - Yogurt Toppings 30cal
+      - Yogurt 80cal
+      - Salad Bar - Mix Greens 0cal
+      - Composed Salad 160cal
+      - Salad Toppings 35cal
+      - Salad Dressings 160cal
+    # CG
+      - Pastry & Bars 120cal
+      - Pastry (Gluten Free) 130cal
+      - Pastry (Vegan) 130cal
+      - Cereal 330cal
+      - Cream Cheese 70cal
+      - Cereal (Gluten Free) 300cal
+      - Drinks 0cal
+      - Tea 0cal
+      - Creamers 10cal
+      - Milk 120cal
+      - Milk Alternative 80cal
+      - Sugar 30cal
+      - Condiments 35cal
+  All Day ?-?
+    # Bakery
+      - Red Velvet 310cal
+      - Vegan Chocolate Chip & Sugar/Snickerdoodle 160cal
+ywdc | YWDC [dining_hall/closed]

@@ -79,7 +79,7 @@ ucsd:
   short_name: UCSD
   adapter: ucsd
   main_halls: [64-degrees, canyon-vista-marketplace, foodworx, oceanview, pines, ventanas]
-  weekday_only: [oceanview]
+  weekday_only: [foodworx, oceanview]
   min_items_per_meal: 10
   options:
     location_types:
@@ -106,3 +106,16 @@ uci:
     campus_url_key: campus
     location_types:
       halal-shack-west-food-court: restaurant
+
+ucm:
+  name: UC Merced
+  short_name: Merced
+  adapter: bigzpoon
+  main_halls: [pavilion]
+  min_items_per_meal: 3   # cycle menu lists composed plates, not individual dishes
+  options:
+    company_id: 61bd7ecd8c760e0011ac0fac
+    # from the "Dining Center Menus" links on dining.ucmerced.edu (location_no 12443 / 12462)
+    locations:
+      - {id: 61df4a34d5507a00103ee41e, name: Pavilion}
+      - {id: 628672b52903a50010fa751e, name: YWDC}
