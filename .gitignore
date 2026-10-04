@@ -3,7 +3,8 @@
 __pycache__/
 *.pyc
 .DS_Store
-*.log.codegraph/
+*.log
+.codegraph/
 .pytest_cache/
 .ruff_cache/
 *.egg-info/
