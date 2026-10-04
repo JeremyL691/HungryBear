@@ -1,6 +1,6 @@
 {
  "api_version": "v1",
- "generated_at": "2026-10-04T03:49:39+00:00",
+ "generated_at": "2026-10-04T04:00:45+00:00",
  "today": "2026-10-03",
  "campuses": [
   {
@@ -8,7 +8,7 @@
    "name": "UC Berkeley",
    "short_name": "Berkeley",
    "status": "ok",
-   "last_success": "2026-10-04T03:47:51+00:00",
+   "last_success": "2026-10-04T04:00:45+00:00",
    "dates": [
     "2026-10-03",
     "2026-10-04",
@@ -24,7 +24,7 @@
    "name": "UCLA",
    "short_name": "UCLA",
    "status": "ok",
-   "last_success": "2026-10-04T03:47:51+00:00",
+   "last_success": "2026-10-04T04:00:45+00:00",
    "dates": [
     "2026-10-03",
     "2026-10-04",
