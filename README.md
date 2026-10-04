@@ -70,6 +70,12 @@ TELEGRAM_BOT_TOKEN=...
 python -m hungrybear.bot
 ```
 
+To keep it running on a Mac (starts at login, restarts on crash, pulls `main` on each start):
+
+```bash
+scripts/install_bot_service.sh      # log: ~/Library/Logs/hungrybear-bot.log
+```
+
 Commands: `/start` (remembers your campus), `/now`, `/campus`, `/diet`, `/help`. User preferences are
 stored in `~/.hungrybear/bot.pickle`.
 

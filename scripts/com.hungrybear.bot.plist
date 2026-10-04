@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Keeps the Telegram bot running. Install with scripts/install_bot_service.sh -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.hungrybear.bot</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__REPO__/scripts/run_bot.sh</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>ThrottleInterval</key><integer>30</integer>
+  <key>StandardOutPath</key><string>__HOME__/Library/Logs/hungrybear-bot.log</string>
+  <key>StandardErrorPath</key><string>__HOME__/Library/Logs/hungrybear-bot.log</string>
+</dict>
+</plist>
