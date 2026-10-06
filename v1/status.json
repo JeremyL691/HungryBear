@@ -74,15 +74,15 @@
   },
   "ucsb": {
    "status": "ok",
-   "checked_at": "2026-10-06T01:50:43+00:00",
-   "last_success": "2026-10-06T01:50:43+00:00",
+   "checked_at": "2026-10-06T10:39:48+00:00",
+   "last_success": "2026-10-06T10:39:48+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-05": {
+    "2026-10-06": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-06": {
+    "2026-10-07": {
      "status": "ok",
      "reason": null
     }
@@ -90,15 +90,15 @@
   },
   "ucsc": {
    "status": "ok",
-   "checked_at": "2026-10-06T01:50:43+00:00",
-   "last_success": "2026-10-06T01:50:43+00:00",
+   "checked_at": "2026-10-06T10:39:48+00:00",
+   "last_success": "2026-10-06T10:39:48+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-05": {
+    "2026-10-06": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-06": {
+    "2026-10-07": {
      "status": "ok",
      "reason": null
     }
@@ -106,47 +106,47 @@
   },
   "ucr": {
    "status": "ok",
-   "checked_at": "2026-10-06T01:50:43+00:00",
-   "last_success": "2026-10-06T01:50:43+00:00",
+   "checked_at": "2026-10-06T10:39:48+00:00",
+   "last_success": "2026-10-06T10:39:48+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-05": {
+    "2026-10-06": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-06": {
+    "2026-10-07": {
      "status": "ok",
      "reason": null
     }
    }
   },
   "ucsd": {
-   "status": "ok",
-   "checked_at": "2026-10-06T01:50:43+00:00",
+   "status": "broken",
+   "checked_at": "2026-10-06T10:39:48+00:00",
    "last_success": "2026-10-06T01:50:43+00:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "days": {
-    "2026-10-05": {
-     "status": "ok",
-     "reason": null
-    },
     "2026-10-06": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "only 393 items, but this date previously had 2069; main hall 'foodworx' has no menu items; main hall 'oceanview' has no menu items"
+    },
+    "2026-10-07": {
+     "status": "broken",
+     "reason": "only 310 items, but this date previously had 2095; main hall 'foodworx' has no menu items"
     }
    }
   },
   "ucd": {
    "status": "ok",
-   "checked_at": "2026-10-06T01:50:43+00:00",
-   "last_success": "2026-10-06T01:50:43+00:00",
+   "checked_at": "2026-10-06T10:39:48+00:00",
+   "last_success": "2026-10-06T10:39:48+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-05": {
+    "2026-10-06": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-06": {
+    "2026-10-07": {
      "status": "ok",
      "reason": null
     }
@@ -154,15 +154,15 @@
   },
   "uci": {
    "status": "ok",
-   "checked_at": "2026-10-06T01:50:43+00:00",
-   "last_success": "2026-10-06T01:50:43+00:00",
+   "checked_at": "2026-10-06T10:39:48+00:00",
+   "last_success": "2026-10-06T10:39:48+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-05": {
+    "2026-10-06": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-06": {
+    "2026-10-07": {
      "status": "ok",
      "reason": null
     }
@@ -170,20 +170,20 @@
   },
   "ucm": {
    "status": "ok",
-   "checked_at": "2026-10-06T01:50:43+00:00",
-   "last_success": "2026-10-06T01:50:43+00:00",
+   "checked_at": "2026-10-06T10:39:48+00:00",
+   "last_success": "2026-10-06T10:39:48+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-05": {
+    "2026-10-06": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-06": {
+    "2026-10-07": {
      "status": "ok",
      "reason": null
     }
    }
   }
  },
- "generated_at": "2026-10-06T03:40:16+00:00"
+ "generated_at": "2026-10-06T10:39:48+00:00"
 }
