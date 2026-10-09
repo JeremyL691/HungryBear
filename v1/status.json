@@ -2,8 +2,8 @@
  "campuses": {
   "ucb": {
    "status": "ok",
-   "checked_at": "2026-10-08T23:40:09+00:00",
-   "last_success": "2026-10-08T23:40:09+00:00",
+   "checked_at": "2026-10-09T03:40:19+00:00",
+   "last_success": "2026-10-09T03:40:19+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-08": {
@@ -37,34 +37,34 @@
    }
   },
   "ucla": {
-   "status": "ok",
-   "checked_at": "2026-10-08T23:40:09+00:00",
+   "status": "broken",
+   "checked_at": "2026-10-09T03:40:19+00:00",
    "last_success": "2026-10-08T23:40:09+00:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "days": {
     "2026-10-08": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "main hall 'sproul-dining' missing (renamed or removed?)"
     },
     "2026-10-09": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "main hall 'sproul-dining' missing (renamed or removed?)"
     },
     "2026-10-10": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "main hall 'sproul-dining' missing (renamed or removed?)"
     },
     "2026-10-11": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "main hall 'sproul-dining' missing (renamed or removed?)"
     },
     "2026-10-12": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "main hall 'sproul-dining' missing (renamed or removed?)"
     },
     "2026-10-13": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "main hall 'sproul-dining' missing (renamed or removed?)"
     },
     "2026-10-14": {
      "status": "ok",
@@ -185,5 +185,5 @@
    }
   }
  },
- "generated_at": "2026-10-08T23:52:03+00:00"
+ "generated_at": "2026-10-09T03:40:19+00:00"
 }
