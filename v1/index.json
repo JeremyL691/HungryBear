@@ -1,6 +1,6 @@
 {
  "api_version": "v1",
- "generated_at": "2026-10-09T19:40:15+00:00",
+ "generated_at": "2026-10-09T23:25:13+00:00",
  "today": "2026-10-09",
  "campuses": [
   {
@@ -40,7 +40,7 @@
    "name": "UC Santa Barbara",
    "short_name": "UCSB",
    "status": "ok",
-   "last_success": "2026-10-09T18:56:04+00:00",
+   "last_success": "2026-10-09T23:25:13+00:00",
    "dates": [
     "2026-10-09",
     "2026-10-10",
@@ -56,7 +56,7 @@
    "name": "UC Santa Cruz",
    "short_name": "UCSC",
    "status": "ok",
-   "last_success": "2026-10-09T18:56:04+00:00",
+   "last_success": "2026-10-09T23:25:13+00:00",
    "dates": [
     "2026-10-09",
     "2026-10-10",
@@ -72,7 +72,7 @@
    "name": "UC Riverside",
    "short_name": "UCR",
    "status": "ok",
-   "last_success": "2026-10-09T18:56:04+00:00",
+   "last_success": "2026-10-09T23:25:13+00:00",
    "dates": [
     "2026-10-09",
     "2026-10-10",
@@ -88,7 +88,7 @@
    "name": "UC San Diego",
    "short_name": "UCSD",
    "status": "ok",
-   "last_success": "2026-10-09T18:56:04+00:00",
+   "last_success": "2026-10-09T23:25:13+00:00",
    "dates": [
     "2026-10-09",
     "2026-10-10",
@@ -104,7 +104,7 @@
    "name": "UC Davis",
    "short_name": "Davis",
    "status": "ok",
-   "last_success": "2026-10-09T18:56:04+00:00",
+   "last_success": "2026-10-09T23:25:13+00:00",
    "dates": [
     "2026-10-09",
     "2026-10-10"
@@ -115,7 +115,7 @@
    "name": "UC Irvine",
    "short_name": "UCI",
    "status": "ok",
-   "last_success": "2026-10-09T18:56:04+00:00",
+   "last_success": "2026-10-09T23:25:13+00:00",
    "dates": [
     "2026-10-09",
     "2026-10-10",
@@ -131,7 +131,7 @@
    "name": "UC Merced",
    "short_name": "Merced",
    "status": "ok",
-   "last_success": "2026-10-09T18:56:04+00:00",
+   "last_success": "2026-10-09T23:25:13+00:00",
    "dates": [
     "2026-10-09",
     "2026-10-10"
