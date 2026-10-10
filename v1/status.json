@@ -74,15 +74,15 @@
   },
   "ucsb": {
    "status": "ok",
-   "checked_at": "2026-10-10T02:35:35+00:00",
-   "last_success": "2026-10-10T02:35:35+00:00",
+   "checked_at": "2026-10-10T10:04:32+00:00",
+   "last_success": "2026-10-10T10:04:32+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-09": {
+    "2026-10-10": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-10": {
+    "2026-10-11": {
      "status": "ok",
      "reason": null
     }
@@ -90,15 +90,15 @@
   },
   "ucsc": {
    "status": "ok",
-   "checked_at": "2026-10-10T02:35:35+00:00",
-   "last_success": "2026-10-10T02:35:35+00:00",
+   "checked_at": "2026-10-10T10:04:32+00:00",
+   "last_success": "2026-10-10T10:04:32+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-09": {
+    "2026-10-10": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-10": {
+    "2026-10-11": {
      "status": "ok",
      "reason": null
     }
@@ -106,46 +106,42 @@
   },
   "ucr": {
    "status": "ok",
-   "checked_at": "2026-10-10T02:35:35+00:00",
-   "last_success": "2026-10-10T02:35:35+00:00",
+   "checked_at": "2026-10-10T10:04:32+00:00",
+   "last_success": "2026-10-10T10:04:32+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-09": {
+    "2026-10-10": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-10": {
+    "2026-10-11": {
      "status": "ok",
      "reason": null
     }
    }
   },
   "ucsd": {
-   "status": "ok",
-   "checked_at": "2026-10-10T02:35:35+00:00",
+   "status": "broken",
+   "checked_at": "2026-10-10T10:04:32+00:00",
    "last_success": "2026-10-10T02:35:35+00:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "days": {
-    "2026-10-09": {
-     "status": "ok",
-     "reason": null
-    },
     "2026-10-10": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "only 289 items, but this date previously had 953"
+    },
+    "2026-10-11": {
+     "status": "broken",
+     "reason": "only 163 items, but this date previously had 1010; main hall '64-degrees' has no menu items"
     }
    }
   },
   "ucd": {
    "status": "ok",
-   "checked_at": "2026-10-10T02:35:35+00:00",
-   "last_success": "2026-10-10T02:35:35+00:00",
+   "checked_at": "2026-10-10T10:04:32+00:00",
+   "last_success": "2026-10-10T10:04:32+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-09": {
-     "status": "ok",
-     "reason": null
-    },
     "2026-10-10": {
      "status": "ok",
      "reason": null
@@ -154,15 +150,15 @@
   },
   "uci": {
    "status": "ok",
-   "checked_at": "2026-10-10T02:35:35+00:00",
-   "last_success": "2026-10-10T02:35:35+00:00",
+   "checked_at": "2026-10-10T10:04:32+00:00",
+   "last_success": "2026-10-10T10:04:32+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-09": {
+    "2026-10-10": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-10": {
+    "2026-10-11": {
      "status": "ok",
      "reason": null
     }
@@ -170,14 +166,10 @@
   },
   "ucm": {
    "status": "ok",
-   "checked_at": "2026-10-10T02:35:35+00:00",
-   "last_success": "2026-10-10T02:35:35+00:00",
+   "checked_at": "2026-10-10T10:04:32+00:00",
+   "last_success": "2026-10-10T10:04:32+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-09": {
-     "status": "ok",
-     "reason": null
-    },
     "2026-10-10": {
      "status": "ok",
      "reason": null
@@ -185,5 +177,5 @@
    }
   }
  },
- "generated_at": "2026-10-10T03:40:15+00:00"
+ "generated_at": "2026-10-10T10:04:32+00:00"
 }
