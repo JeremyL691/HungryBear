@@ -2,8 +2,8 @@
  "campuses": {
   "ucb": {
    "status": "ok",
-   "checked_at": "2026-10-11T19:45:14+00:00",
-   "last_success": "2026-10-11T19:45:14+00:00",
+   "checked_at": "2026-10-11T23:40:14+00:00",
+   "last_success": "2026-10-11T23:40:14+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-11": {
@@ -38,9 +38,9 @@
   },
   "ucla": {
    "status": "broken",
-   "checked_at": "2026-10-11T19:45:14+00:00",
+   "checked_at": "2026-10-11T23:40:14+00:00",
    "last_success": "2026-10-08T23:40:09+00:00",
-   "consecutive_failures": 14,
+   "consecutive_failures": 15,
    "days": {
     "2026-10-11": {
      "status": "broken",
@@ -185,5 +185,5 @@
    }
   }
  },
- "generated_at": "2026-10-11T23:05:15+00:00"
+ "generated_at": "2026-10-11T23:40:14+00:00"
 }
