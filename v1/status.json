@@ -74,8 +74,8 @@
   },
   "ucsb": {
    "status": "ok",
-   "checked_at": "2026-10-18T14:46:36+00:00",
-   "last_success": "2026-10-18T14:46:36+00:00",
+   "checked_at": "2026-10-18T16:43:46+00:00",
+   "last_success": "2026-10-18T16:43:46+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-18": {
@@ -83,26 +83,6 @@
      "reason": null
     },
     "2026-10-19": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-20": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-21": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-22": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-23": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-24": {
      "status": "ok",
      "reason": null
     }
@@ -110,8 +90,8 @@
   },
   "ucsc": {
    "status": "ok",
-   "checked_at": "2026-10-18T14:46:36+00:00",
-   "last_success": "2026-10-18T14:46:36+00:00",
+   "checked_at": "2026-10-18T16:43:46+00:00",
+   "last_success": "2026-10-18T16:43:46+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-18": {
@@ -119,26 +99,6 @@
      "reason": null
     },
     "2026-10-19": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-20": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-21": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-22": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-23": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-24": {
      "status": "ok",
      "reason": null
     }
@@ -146,8 +106,8 @@
   },
   "ucr": {
    "status": "ok",
-   "checked_at": "2026-10-18T14:46:36+00:00",
-   "last_success": "2026-10-18T14:46:36+00:00",
+   "checked_at": "2026-10-18T16:43:46+00:00",
+   "last_success": "2026-10-18T16:43:46+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-18": {
@@ -155,71 +115,31 @@
      "reason": null
     },
     "2026-10-19": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-20": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-21": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-22": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-23": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-24": {
      "status": "ok",
      "reason": null
     }
    }
   },
   "ucsd": {
-   "status": "ok",
-   "checked_at": "2026-10-18T14:46:36+00:00",
+   "status": "broken",
+   "checked_at": "2026-10-18T16:43:46+00:00",
    "last_success": "2026-10-18T14:46:36+00:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "days": {
     "2026-10-18": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "FetchError: GET https://hdh-web.ucsd.edu/dining/apps/diningservices/Restaurants/Restaurants failed: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)"
     },
     "2026-10-19": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-20": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-21": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-22": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-23": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-24": {
-     "status": "ok",
-     "reason": null
+     "status": "broken",
+     "reason": "FetchError: GET https://hdh-web.ucsd.edu/dining/apps/diningservices/Restaurants/Restaurants failed: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)"
     }
    }
   },
   "ucd": {
    "status": "ok",
-   "checked_at": "2026-10-18T14:46:36+00:00",
-   "last_success": "2026-10-18T14:46:36+00:00",
+   "checked_at": "2026-10-18T16:43:46+00:00",
+   "last_success": "2026-10-18T16:43:46+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-18": {
@@ -227,26 +147,6 @@
      "reason": null
     },
     "2026-10-19": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-20": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-21": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-22": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-23": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-24": {
      "status": "ok",
      "reason": null
     }
@@ -254,8 +154,8 @@
   },
   "uci": {
    "status": "ok",
-   "checked_at": "2026-10-18T14:46:36+00:00",
-   "last_success": "2026-10-18T14:46:36+00:00",
+   "checked_at": "2026-10-18T16:43:46+00:00",
+   "last_success": "2026-10-18T16:43:46+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-18": {
@@ -263,26 +163,6 @@
      "reason": null
     },
     "2026-10-19": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-20": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-21": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-22": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-23": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-24": {
      "status": "ok",
      "reason": null
     }
@@ -290,8 +170,8 @@
   },
   "ucm": {
    "status": "ok",
-   "checked_at": "2026-10-18T14:46:36+00:00",
-   "last_success": "2026-10-18T14:46:36+00:00",
+   "checked_at": "2026-10-18T16:43:46+00:00",
+   "last_success": "2026-10-18T16:43:46+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-18": {
@@ -301,29 +181,9 @@
     "2026-10-19": {
      "status": "ok",
      "reason": null
-    },
-    "2026-10-20": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-21": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-22": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-23": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-24": {
-     "status": "ok",
-     "reason": null
     }
    }
   }
  },
- "generated_at": "2026-10-18T15:40:15+00:00"
+ "generated_at": "2026-10-18T16:43:46+00:00"
 }
