@@ -181,38 +181,38 @@
    }
   },
   "ucsd": {
-   "status": "broken",
-   "checked_at": "2026-10-23T06:51:39+00:00",
-   "last_success": "2026-10-23T01:46:05+00:00",
-   "consecutive_failures": 1,
+   "status": "ok",
+   "checked_at": "2026-10-23T06:54:12+00:00",
+   "last_success": "2026-10-23T06:54:12+00:00",
+   "consecutive_failures": 0,
    "days": {
     "2026-10-22": {
-     "status": "broken",
-     "reason": "only 675 items, but this date previously had 2045; only 675 items vs. typical 2062 for this weekday"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-23": {
-     "status": "broken",
-     "reason": "only 365 items, but this date previously had 1875; only 365 items vs. typical 1885 for this weekday"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-24": {
-     "status": "broken",
-     "reason": "only 347 items, but this date previously had 943"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-25": {
-     "status": "broken",
-     "reason": "only 298 items, but this date previously had 1000; only 298 items vs. typical 1005 for this weekday"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-26": {
-     "status": "broken",
-     "reason": "only 204 items, but this date previously had 2083; only 204 items vs. typical 2095 for this weekday"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-27": {
-     "status": "broken",
-     "reason": "only 317 items, but this date previously had 2054; only 317 items vs. typical 2062 for this weekday"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-28": {
-     "status": "broken",
-     "reason": "only 310 items, but this date previously had 2083; only 310 items vs. typical 2089 for this weekday"
+     "status": "ok",
+     "reason": null
     }
    }
   },
@@ -293,5 +293,5 @@
    }
   }
  },
- "generated_at": "2026-10-23T06:51:39+00:00"
+ "generated_at": "2026-10-23T06:54:12+00:00"
 }
