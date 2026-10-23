@@ -6,10 +6,9 @@
 #   min_items_per_meal: a main-hall meal with fewer items than this is flagged "broken"
 #   breaks:             [start, end] inclusive date ranges with no service (suppresses alerts)
 #   options:            adapter-specific settings
-#   runner:             ci (GitHub Actions, default) or local (Mac; for sites that block cloud IPs)
+#   runner:             ci (default) or local; the collector currently runs everything from one host
 
 ucb:
-  runner: local   # site returns HTTP 403 to GitHub Actions (cloud IPs); collected from the Mac
   name: UC Berkeley
   short_name: Berkeley
   adapter: berkeley
@@ -31,17 +30,14 @@ ucb:
       gateway-cafe: cafe
 
 ucla:
-  runner: local   # site returns HTTP 403 to GitHub Actions (cloud IPs); collected from the Mac
   name: UCLA
   short_name: UCLA
   adapter: ucla
-  main_halls: [de-neve-dining, sproul-dining]
+  main_halls: [de-neve-dining, bruin-plate]
   min_items_per_meal: 10
   options:
-    # menus-at-a-glance name -> /hours/ name
-    hours_aliases:
-      Sproul Dining: Bruin Plate
-      Covel Dining: Epicuria at Covel
+    # menus-at-a-glance name -> /hours/ name (both pages now use the same names)
+    hours_aliases: {}
 
 ucsb:
   name: UC Santa Barbara
@@ -81,8 +77,10 @@ ucsd:
   name: UC San Diego
   short_name: UCSD
   adapter: ucsd
-  main_halls: [64-degrees, canyon-vista-marketplace, foodworx, oceanview, pines, ventanas]
-  weekday_only: [foodworx, oceanview]
+  # Pines and OceanView serve only some days (Pines: mostly closed this week; OceanView: dinner on some
+  # weekdays), so an empty day there is not a scraper failure. They are still collected when they serve.
+  main_halls: [64-degrees, canyon-vista-marketplace, foodworx, ventanas]
+  weekday_only: [foodworx]
   min_items_per_meal: 10
   options:
     location_types:

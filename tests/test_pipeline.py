@@ -203,10 +203,9 @@ def test_report_alerts_when_a_campus_goes_stale(tmp_path, monkeypatch):
     assert ("create", ["scraper-broken", "campus:ucb"]) in calls
 
 
-def test_runner_split_covers_every_campus_once():
+def test_all_nine_campuses_are_collected_by_default_runner():
     from hungrybear.config import load_campuses
 
     campuses = load_campuses()
-    local = {c for c, cfg in campuses.items() if cfg.runner == "local"}
-    ci = {c for c, cfg in campuses.items() if cfg.runner == "ci"}
-    assert local == {"ucb", "ucla"} and len(ci) == 7 and not local & ci
+    assert len(campuses) == 9
+    assert all(cfg.runner == "ci" for cfg in campuses.values())
