@@ -2,8 +2,8 @@
  "campuses": {
   "ucb": {
    "status": "ok",
-   "checked_at": "2026-10-24T11:30:55+00:00",
-   "last_success": "2026-10-24T11:30:55+00:00",
+   "checked_at": "2026-10-24T13:30:21+00:00",
+   "last_success": "2026-10-24T13:30:21+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-24": {
@@ -11,26 +11,6 @@
      "reason": null
     },
     "2026-10-25": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-26": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-27": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-28": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-29": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-30": {
      "status": "ok",
      "reason": null
     }
@@ -38,8 +18,8 @@
   },
   "ucla": {
    "status": "ok",
-   "checked_at": "2026-10-24T11:30:55+00:00",
-   "last_success": "2026-10-24T11:30:55+00:00",
+   "checked_at": "2026-10-24T13:30:21+00:00",
+   "last_success": "2026-10-24T13:30:21+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-24": {
@@ -47,26 +27,6 @@
      "reason": null
     },
     "2026-10-25": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-26": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-27": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-28": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-29": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-30": {
      "status": "ok",
      "reason": null
     }
@@ -74,8 +34,8 @@
   },
   "ucsb": {
    "status": "ok",
-   "checked_at": "2026-10-24T11:30:55+00:00",
-   "last_success": "2026-10-24T11:30:55+00:00",
+   "checked_at": "2026-10-24T13:30:21+00:00",
+   "last_success": "2026-10-24T13:30:21+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-24": {
@@ -83,26 +43,6 @@
      "reason": null
     },
     "2026-10-25": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-26": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-27": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-28": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-29": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-30": {
      "status": "ok",
      "reason": null
     }
@@ -110,9 +50,9 @@
   },
   "ucsc": {
    "status": "broken",
-   "checked_at": "2026-10-24T11:30:55+00:00",
+   "checked_at": "2026-10-24T13:30:21+00:00",
    "last_success": "2026-10-23T23:30:27+00:00",
-   "consecutive_failures": 4,
+   "consecutive_failures": 5,
    "days": {
     "2026-10-24": {
      "status": "broken",
@@ -121,33 +61,13 @@
     "2026-10-25": {
      "status": "broken",
      "reason": "FetchError: GET https://nutrition.sa.ucsc.edu/ failed: HTTP 500"
-    },
-    "2026-10-26": {
-     "status": "broken",
-     "reason": "FetchError: GET https://nutrition.sa.ucsc.edu/ failed: HTTP 500"
-    },
-    "2026-10-27": {
-     "status": "broken",
-     "reason": "FetchError: GET https://nutrition.sa.ucsc.edu/ failed: HTTP 500"
-    },
-    "2026-10-28": {
-     "status": "broken",
-     "reason": "FetchError: GET https://nutrition.sa.ucsc.edu/ failed: HTTP 500"
-    },
-    "2026-10-29": {
-     "status": "broken",
-     "reason": "FetchError: GET https://nutrition.sa.ucsc.edu/ failed: HTTP 500"
-    },
-    "2026-10-30": {
-     "status": "broken",
-     "reason": "FetchError: GET https://nutrition.sa.ucsc.edu/ failed: HTTP 500"
     }
    }
   },
   "ucr": {
    "status": "ok",
-   "checked_at": "2026-10-24T11:30:55+00:00",
-   "last_success": "2026-10-24T11:30:55+00:00",
+   "checked_at": "2026-10-24T13:30:21+00:00",
+   "last_success": "2026-10-24T13:30:21+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-24": {
@@ -157,60 +77,20 @@
     "2026-10-25": {
      "status": "ok",
      "reason": null
-    },
-    "2026-10-26": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-27": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-28": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-29": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-30": {
-     "status": "ok",
-     "reason": null
     }
    }
   },
   "ucsd": {
-   "status": "broken",
-   "checked_at": "2026-10-24T11:30:55+00:00",
-   "last_success": "2026-10-24T05:30:24+00:00",
-   "consecutive_failures": 1,
+   "status": "ok",
+   "checked_at": "2026-10-24T13:30:21+00:00",
+   "last_success": "2026-10-24T13:30:21+00:00",
+   "consecutive_failures": 0,
    "days": {
     "2026-10-24": {
-     "status": "broken",
-     "reason": "only 291 items, but this date previously had 943; main hall 'ventanas' has no menu items"
+     "status": "ok",
+     "reason": null
     },
     "2026-10-25": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-26": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-27": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-28": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-29": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-30": {
      "status": "ok",
      "reason": null
     }
@@ -218,8 +98,8 @@
   },
   "ucd": {
    "status": "ok",
-   "checked_at": "2026-10-24T11:30:55+00:00",
-   "last_success": "2026-10-24T11:30:55+00:00",
+   "checked_at": "2026-10-24T13:30:21+00:00",
+   "last_success": "2026-10-24T13:30:21+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-24": {
@@ -230,8 +110,8 @@
   },
   "uci": {
    "status": "ok",
-   "checked_at": "2026-10-24T11:30:55+00:00",
-   "last_success": "2026-10-24T11:30:55+00:00",
+   "checked_at": "2026-10-24T13:30:21+00:00",
+   "last_success": "2026-10-24T13:30:21+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-24": {
@@ -241,33 +121,13 @@
     "2026-10-25": {
      "status": "ok",
      "reason": null
-    },
-    "2026-10-26": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-27": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-28": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-29": {
-     "status": "ok",
-     "reason": null
-    },
-    "2026-10-30": {
-     "status": "ok",
-     "reason": null
     }
    }
   },
   "ucm": {
    "status": "ok",
-   "checked_at": "2026-10-24T11:30:55+00:00",
-   "last_success": "2026-10-24T11:30:55+00:00",
+   "checked_at": "2026-10-24T13:30:21+00:00",
+   "last_success": "2026-10-24T13:30:21+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-10-24": {
@@ -277,5 +137,5 @@
    }
   }
  },
- "generated_at": "2026-10-24T11:30:55+00:00"
+ "generated_at": "2026-10-24T13:30:21+00:00"
 }
