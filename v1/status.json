@@ -2,15 +2,35 @@
  "campuses": {
   "ucb": {
    "status": "ok",
-   "checked_at": "2026-10-29T05:33:12+00:00",
-   "last_success": "2026-10-29T05:33:12+00:00",
+   "checked_at": "2026-10-29T11:36:49+00:00",
+   "last_success": "2026-10-29T11:36:49+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-28": {
+    "2026-10-29": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-29": {
+    "2026-10-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-10-31": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-03": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-04": {
      "status": "ok",
      "reason": null
     }
@@ -18,15 +38,35 @@
   },
   "ucla": {
    "status": "ok",
-   "checked_at": "2026-10-29T05:33:12+00:00",
-   "last_success": "2026-10-29T05:33:12+00:00",
+   "checked_at": "2026-10-29T11:36:49+00:00",
+   "last_success": "2026-10-29T11:36:49+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-28": {
+    "2026-10-29": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-29": {
+    "2026-10-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-10-31": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-03": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-04": {
      "status": "ok",
      "reason": null
     }
@@ -34,15 +74,35 @@
   },
   "ucsb": {
    "status": "ok",
-   "checked_at": "2026-10-29T05:33:12+00:00",
-   "last_success": "2026-10-29T05:33:12+00:00",
+   "checked_at": "2026-10-29T11:36:49+00:00",
+   "last_success": "2026-10-29T11:36:49+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-28": {
+    "2026-10-29": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-29": {
+    "2026-10-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-10-31": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-03": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-04": {
      "status": "ok",
      "reason": null
     }
@@ -50,15 +110,35 @@
   },
   "ucsc": {
    "status": "ok",
-   "checked_at": "2026-10-29T05:33:12+00:00",
-   "last_success": "2026-10-29T05:33:12+00:00",
+   "checked_at": "2026-10-29T11:36:49+00:00",
+   "last_success": "2026-10-29T11:36:49+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-28": {
+    "2026-10-29": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-29": {
+    "2026-10-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-10-31": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-03": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-04": {
      "status": "ok",
      "reason": null
     }
@@ -66,31 +146,71 @@
   },
   "ucr": {
    "status": "broken",
-   "checked_at": "2026-10-29T05:33:12+00:00",
+   "checked_at": "2026-10-29T11:36:49+00:00",
    "last_success": "2026-10-29T01:30:29+00:00",
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "days": {
-    "2026-10-28": {
+    "2026-10-29": {
      "status": "broken",
      "reason": "AdapterError: no shortmenu.aspx location links on the index page"
     },
-    "2026-10-29": {
+    "2026-10-30": {
+     "status": "broken",
+     "reason": "FetchError: GET https://foodpro.ucr.edu/foodpro/location.aspx failed: ReadTimeout: The read operation timed out"
+    },
+    "2026-10-31": {
+     "status": "broken",
+     "reason": "AdapterError: no shortmenu.aspx location links on the index page"
+    },
+    "2026-11-01": {
+     "status": "broken",
+     "reason": "AdapterError: no shortmenu.aspx location links on the index page"
+    },
+    "2026-11-02": {
+     "status": "broken",
+     "reason": "AdapterError: no shortmenu.aspx location links on the index page"
+    },
+    "2026-11-03": {
+     "status": "broken",
+     "reason": "AdapterError: no shortmenu.aspx location links on the index page"
+    },
+    "2026-11-04": {
      "status": "broken",
      "reason": "FetchError: GET https://foodpro.ucr.edu/foodpro/location.aspx failed: ReadTimeout: The read operation timed out"
     }
    }
   },
   "ucsd": {
-   "status": "ok",
-   "checked_at": "2026-10-29T05:33:12+00:00",
+   "status": "broken",
+   "checked_at": "2026-10-29T11:36:49+00:00",
    "last_success": "2026-10-29T05:33:12+00:00",
-   "consecutive_failures": 0,
+   "consecutive_failures": 1,
    "days": {
-    "2026-10-28": {
+    "2026-10-29": {
+     "status": "broken",
+     "reason": "only 312 items, but this date previously had 2058; main hall 'canyon-vista-marketplace' has no menu items"
+    },
+    "2026-10-30": {
+     "status": "broken",
+     "reason": "main hall 'canyon-vista-marketplace' has no menu items"
+    },
+    "2026-10-31": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-29": {
+    "2026-11-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-03": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-04": {
      "status": "ok",
      "reason": null
     }
@@ -98,15 +218,19 @@
   },
   "ucd": {
    "status": "ok",
-   "checked_at": "2026-10-29T05:33:12+00:00",
-   "last_success": "2026-10-29T05:33:12+00:00",
+   "checked_at": "2026-10-29T11:36:49+00:00",
+   "last_success": "2026-10-29T11:36:49+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-28": {
+    "2026-10-29": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-29": {
+    "2026-10-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-10-31": {
      "status": "ok",
      "reason": null
     }
@@ -114,15 +238,35 @@
   },
   "uci": {
    "status": "ok",
-   "checked_at": "2026-10-29T05:33:12+00:00",
-   "last_success": "2026-10-29T05:33:12+00:00",
+   "checked_at": "2026-10-29T11:36:49+00:00",
+   "last_success": "2026-10-29T11:36:49+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-28": {
+    "2026-10-29": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-29": {
+    "2026-10-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-10-31": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-03": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-04": {
      "status": "ok",
      "reason": null
     }
@@ -130,20 +274,24 @@
   },
   "ucm": {
    "status": "ok",
-   "checked_at": "2026-10-29T05:33:12+00:00",
-   "last_success": "2026-10-29T05:33:12+00:00",
+   "checked_at": "2026-10-29T11:36:49+00:00",
+   "last_success": "2026-10-29T11:36:49+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-10-28": {
+    "2026-10-29": {
      "status": "ok",
      "reason": null
     },
-    "2026-10-29": {
+    "2026-10-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-10-31": {
      "status": "ok",
      "reason": null
     }
    }
   }
  },
- "generated_at": "2026-10-29T05:33:12+00:00"
+ "generated_at": "2026-10-29T11:36:49+00:00"
 }
