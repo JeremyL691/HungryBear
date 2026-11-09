@@ -2,14 +2,17 @@
 """Validator, collector merge logic, and alert decisions - independent of any campus site."""
 
 import json
-from datetime import UTC, date, datetime
+from datetime import UTC, date, datetime, timedelta
 
 import pytest
 
 from hungrybear import report
+from hungrybear.adapters.base import NotPublished
+from hungrybear.adapters.ucla import UclaAdapter
 from hungrybear.collector import carry_over_past_meals
 from hungrybear.config import CampusConfig
 from hungrybear.models import DayMenu, Item, Location, Meal, Station, canonical_meal, parse_time_range
+from hungrybear.store import LocalStore
 from hungrybear.validate import validate_day
 
 MON = date(2026, 10, 5)
@@ -89,6 +92,27 @@ def test_page_chrome_in_item_names_is_broken():
 def test_sharp_drop_vs_history_is_broken():
     assert validate_day(day(), cfg(), history_counts=[100, 110], today=MON).status == "broken"
     assert validate_day(day(), cfg(), history_counts=[22, 25], today=MON).status == "ok"
+
+
+def test_retail_closure_does_not_trip_weekday_anomaly(tmp_path):
+    store = LocalStore(tmp_path)
+    with_cafe = [
+        Location(id="hall", name="Hall", meals=[meal("Lunch", 20)]),
+        Location(id="cafe", name="Cafe", type="cafe", meals=[meal("All Day", 80)]),
+    ]
+    for w in (1, 2):
+        store.write_day(day(d=MON - timedelta(weeks=w), locations=with_cafe))
+    hist = store.history_counts("x", MON, halls=["hall"])
+    assert hist == [20, 20]
+    prev_with_cafe = day(d=MON, locations=with_cafe)
+    holiday_menu = day(
+        d=MON,
+        locations=[
+            Location(id="hall", name="Hall", meals=[meal("Lunch", 20)]),
+            Location(id="cafe", name="Cafe", type="cafe", meals=[]),
+        ],
+    )
+    assert validate_day(holiday_menu, cfg(), history_counts=hist, today=MON, previous=prev_with_cafe).status == "ok"
 
 
 def test_published_menu_that_vanishes_is_broken_even_far_ahead():
@@ -201,6 +225,61 @@ def test_report_alerts_when_a_campus_goes_stale(tmp_path, monkeypatch):
     stale = {"status": "ok", "consecutive_failures": 0, "last_success": "2026-01-01T00:00:00+00:00", "days": {}}
     calls = run_report(tmp_path, monkeypatch, {"ucb": stale}, {})
     assert ("create", ["scraper-broken", "campus:ucb"]) in calls
+
+
+def test_report_telegram_only_without_github_token(tmp_path, monkeypatch):
+    status_file = tmp_path / "v1" / "status.json"
+    status_file.parent.mkdir()
+    sent = []
+    monkeypatch.setattr(report, "telegram", lambda text, dry_run: sent.append(text))
+    monkeypatch.delenv("GITHUB_TOKEN", raising=False)
+    monkeypatch.delenv("GITHUB_OUTPUT", raising=False)
+
+    status_file.write_text(
+        json.dumps(
+            {
+                "campuses": {
+                    "ucla": {
+                        "status": "broken",
+                        "consecutive_failures": 2,
+                        "days": {"2026-10-05": {"status": "broken", "reason": "x"}},
+                    }
+                }
+            }
+        )
+    )
+    report.main(["--data", str(tmp_path)])
+    assert len(sent) == 1 and "🔴 HungryBear: ucla scraper broken" in sent[0]
+    assert json.loads(status_file.read_text())["campuses"]["ucla"].get("alerted") is True
+
+    # Next broken run does not send a duplicate alert.
+    report.main(["--data", str(tmp_path)])
+    assert len(sent) == 1
+
+    # Recovery sends a recovered message and clears alerted.
+    status_file.write_text(
+        json.dumps({"campuses": {"ucla": {"status": "ok", "consecutive_failures": 0, "alerted": True, "days": {}}}})
+    )
+    report.main(["--data", str(tmp_path)])
+    assert len(sent) == 2 and "🟢 HungryBear: ucla recovered" in sent[1]
+    assert "alerted" not in json.loads(status_file.read_text())["campuses"]["ucla"]
+
+
+def test_ucla_skips_unpublished_far_future_day():
+    class DummyFetcher:
+        def get(self, url, params=None):
+            d = date.fromisoformat(params["date"])
+            return (
+                f'<h1 class="at-a-glance-page-title">Menus for {d:%A, %B} {d.day}, {d.year}</h1>'
+                '<div class="at-a-glance-menu" id="breakfastmenu">'
+                '<div class="at-a-glance-menu__dining-location"><h3>De Neve Dining</h3></div>'
+                "</div>"
+            )
+
+    adapter = UclaAdapter(cfg(adapter="ucla"), DummyFetcher(), today=date(2026, 10, 5))
+    with pytest.raises(NotPublished):
+        adapter.fetch_day(date(2026, 10, 10))
+    assert adapter.fetch_day(date(2026, 10, 5)).status == "closed"
 
 
 def test_all_nine_campuses_are_collected_by_default_runner():

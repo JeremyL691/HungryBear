@@ -122,7 +122,9 @@ def main(argv=None) -> int:
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args(argv)
 
-    status = json.loads((args.data / "v1" / "status.json").read_text())["campuses"]
+    status_path = args.data / "v1" / "status.json"
+    doc = json.loads(status_path.read_text())
+    status = doc["campuses"]
     now = datetime.now(UTC)
     stale = {c for c, e in status.items() if is_stale(e, now)}
     broken = sorted(c for c, e in status.items() if e["consecutive_failures"] >= args.threshold or c in stale)
@@ -139,7 +141,22 @@ def main(argv=None) -> int:
             f.write(f"broken={','.join(broken)}\n")
 
     repo, token = os.getenv("GITHUB_REPOSITORY"), os.getenv("GITHUB_TOKEN")
+    changed = False
     if not repo or not token:
+        for campus, entry in sorted(status.items()):
+            if campus in broken:
+                if not entry.get("alerted"):
+                    first = next((i["reason"] for i in entry.get("days", {}).values() if i.get("reason")), None)
+                    first = first or f"no successful update since {entry.get('last_success')}"
+                    telegram(f"🔴 HungryBear: {campus} scraper broken\n{first[:300]}", args.dry_run)
+                    entry["alerted"] = True
+                    changed = True
+            elif entry.get("alerted") and entry["status"] == "ok":
+                telegram(f"🟢 HungryBear: {campus} recovered", args.dry_run)
+                entry.pop("alerted", None)
+                changed = True
+        if changed and not args.dry_run:
+            status_path.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
         print(f"GITHUB_REPOSITORY/GITHUB_TOKEN not set; broken campuses: {broken or 'none'}")
         return 0
 
@@ -152,6 +169,9 @@ def main(argv=None) -> int:
     for campus, entry in sorted(status.items()):
         issue = issues.get(campus)
         if campus in broken:
+            if not entry.get("alerted"):
+                entry["alerted"] = True
+                changed = True
             body = issue_body(campus, entry, run_url)
             if issue:
                 gh.update_issue(issue["number"], body=body)
@@ -160,10 +180,16 @@ def main(argv=None) -> int:
             first = first or f"no successful update since {entry.get('last_success')}"
             gh.create_issue(f"[{campus}] menu scraper broken", body, [LABEL, f"campus:{campus}"])
             telegram(f"🔴 HungryBear: {campus} scraper broken\n{first[:300]}\n{run_url}", args.dry_run)
-        elif issue and entry["status"] == "ok":
-            gh.comment(issue["number"], f"Recovered in {run_url} — closing.")
-            gh.update_issue(issue["number"], state="closed", state_reason="completed")
+        elif (issue or entry.get("alerted")) and entry["status"] == "ok":
+            if issue:
+                gh.comment(issue["number"], f"Recovered in {run_url} — closing.")
+                gh.update_issue(issue["number"], state="closed", state_reason="completed")
             telegram(f"🟢 HungryBear: {campus} recovered", args.dry_run)
+            if entry.pop("alerted", None) is not None:
+                changed = True
+
+    if changed and not args.dry_run:
+        status_path.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
 
     print(f"broken campuses: {broken or 'none'}")
     return 0

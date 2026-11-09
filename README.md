@@ -31,12 +31,15 @@ collect.yml ─ collector ─ 9 adapters → validate → data branch ─┬─ 
   schema in `hungrybear/models.py`. Bound to campuses in `hungrybear/campuses.yaml`.
 - **Validator** (`hungrybear/validate.py`) – the guard against *silent* breakage. A day is `broken` if a
   main hall is missing, a hall's biggest meal is implausibly thin, item names look like page chrome, or the
-  item count collapses versus previous weeks. `closed` (weekends/breaks) is not an error.
+  item count collapses versus previous weeks across `main_halls` (so holiday closures of retail cafes/markets
+  do not trigger false alerts). `closed` (weekends/breaks) is not an error.
 - **Collector** (`hungrybear/collector.py`) – fetch → validate → write `v1/{campus}/{date}.json`. A broken
   day never overwrites the last good file. `status.json` tracks consecutive failures per campus.
-- **Alerts** (`hungrybear/report.py`) – after 2 consecutive failures: GitHub issue (`scraper-broken`,
-  `campus:<id>`) with the reasons + a `snapshots` artifact of the raw responses, and a Telegram message to
-  the maintainer. Recovery closes the issue automatically. Fixes are done by hand.
+- **Alerts** (`hungrybear/report.py`) – after 2 consecutive failures: in GitHub Actions, opens or updates a
+  GitHub issue (`scraper-broken`, `campus:<id>`) with the reasons + a `snapshots` artifact of the raw responses,
+  and sends a Telegram alert to the maintainer (recovery closes the issue automatically). In standalone cron
+  deployments without `GITHUB_TOKEN`, it sends Telegram alerts and deduplicates notifications across runs via
+  `status.json`. Fixes are done by hand.
 - **Fixtures** (`tests/fixtures/<campus>/`) – recorded responses + a human-readable golden summary
   (`expected.txt`). Tests replay them with no network.
 
@@ -81,10 +84,12 @@ stored in `~/.hungrybear/bot.pickle`.
 
 ## Campuses collected from a Mac
 
-Berkeley and UCLA return HTTP 403 to GitHub Actions (their sites block cloud IPs), so they are marked
-`runner: local` in `campuses.yaml` and collected by `scripts/collect_local.sh` on a Mac, which pushes to the
-same `data` branch. Install the launchd job (5 runs a day; a missed run happens when the Mac wakes). It runs
-from its own checkout in `~/.hungrybear/collector`, because macOS blocks launchd jobs from reading `~/Desktop`:
+All 9 campuses currently run from the primary collector host (`runner: ci` by default in `campuses.yaml`).
+If a campus site blocks cloud IPs, it can be switched to `runner: local` in `campuses.yaml` and collected
+by `scripts/collect_local.sh` on a Mac, pushing to the same `data` branch.
+
+To set up a local collector, install the launchd job (5 runs a day; a missed run happens when the Mac wakes).
+It runs from its own checkout in `~/.hungrybear/collector`, because macOS blocks launchd jobs from reading `~/Desktop`:
 
 ```bash
 scripts/install_local_collector.sh

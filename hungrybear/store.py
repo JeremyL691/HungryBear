@@ -15,7 +15,7 @@ import json
 import time
 from datetime import date, timedelta
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Sequence
 
 import httpx
 
@@ -61,7 +61,9 @@ class LocalStore:
         d = self.root / campus
         return sorted(date.fromisoformat(p.stem) for p in d.glob("*.json")) if d.exists() else []
 
-    def history_counts(self, campus: str, day: date, weeks: int = 2) -> List[int]:
+    def history_counts(
+        self, campus: str, day: date, weeks: int = 2, halls: Optional[Sequence[str]] = None
+    ) -> List[int]:
         """Item totals for the same weekday in previous weeks (for anomaly detection)."""
         from .validate import total_items
 
@@ -69,7 +71,7 @@ class LocalStore:
         for w in range(1, weeks + 1):
             prev = self.read_day(campus, day - timedelta(weeks=w))
             if prev and prev.status == "ok":
-                out.append(total_items(prev))
+                out.append(total_items(prev, halls))
         return out
 
     def prune(self, campus: str, today: date) -> None:

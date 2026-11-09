@@ -15,13 +15,13 @@ The two pages name some halls differently; `options.hours_aliases` maps menu nam
 from __future__ import annotations
 
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from typing import Dict, List, Optional, Tuple
 
 from bs4 import BeautifulSoup
 
 from ..models import DayMenu, Item, Location, Meal, Station, canonical_meal, clean_text, parse_time_range, slugify
-from .base import Adapter, AdapterError
+from .base import Adapter, AdapterError, NotPublished
 
 BASE = "https://dining.ucla.edu"
 MENU_URL = f"{BASE}/menus-at-a-glance/"
@@ -108,6 +108,8 @@ class UclaAdapter(Adapter):
         menus: Dict[str, Dict[str, List[Station]]] = {}  # hall -> meal -> stations
         sections = [s for s in soup.select("div.at-a-glance-menu") if s.get("id")]
         if not sections:
+            if day > self.today + timedelta(days=1):
+                raise NotPublished(f"UCLA menu not published yet for {day}")
             # Page rendered (title matched) but nothing is being served; validate.py decides if that's plausible.
             return self.make_day(day, url, [], status="closed", reason="no menu sections on page")
         for sec in sections:
@@ -135,6 +137,11 @@ class UclaAdapter(Adapter):
                     if station.items:
                         stations.append(station)
                 menus.setdefault(name, {})[meal] = stations
+
+        if not any(st for by_meal in menus.values() for st in by_meal.values()):
+            if day > self.today + timedelta(days=1):
+                raise NotPublished(f"UCLA menu not published yet for {day}")
+            return self.make_day(day, url, [], status="closed", reason="no menu items on page")
 
         hours_today = self.hours().get(day, {})
         aliases: Dict[str, str] = self.options.get("hours_aliases", {})

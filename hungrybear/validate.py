@@ -30,7 +30,10 @@ ANOMALY_DROP = 0.6
 CORE_MEALS = {"Breakfast", "Brunch", "Lunch", "Dinner"}
 
 
-def total_items(menu: DayMenu) -> int:
+def total_items(menu: DayMenu, halls: Optional[Sequence[str]] = None) -> int:
+    if halls:
+        wanted = set(halls)
+        return sum(m.item_count for loc in menu.locations if loc.id in wanted for m in loc.meals)
     return sum(m.item_count for loc in menu.locations for m in loc.meals)
 
 
@@ -58,9 +61,10 @@ def validate_day(
 
     # A menu that was already published for this date doesn't vanish or collapse - a parser that
     # suddenly finds nothing does. Without this, a broken scraper would overwrite good future days.
-    prev_count = total_items(previous) if previous is not None and previous.status == "ok" else 0
-    if prev_count >= 20 and total_items(menu) < prev_count * (1 - ANOMALY_DROP):
-        errors.append(f"only {total_items(menu)} items, but this date previously had {prev_count}")
+    prev_count = total_items(previous, cfg.main_halls) if previous is not None and previous.status == "ok" else 0
+    hall_count = total_items(menu, cfg.main_halls)
+    if prev_count >= 20 and hall_count < prev_count * (1 - ANOMALY_DROP):
+        errors.append(f"only {hall_count} items, but this date previously had {prev_count}")
     near_term = menu.date <= today + timedelta(days=NEAR_TERM_DAYS)
 
     count = total_items(menu)
@@ -96,8 +100,8 @@ def validate_day(
 
         if len(history_counts) >= 2:
             baseline = statistics.median(history_counts)
-            if baseline >= 20 and count < baseline * (1 - ANOMALY_DROP):
-                errors.append(f"only {count} items vs. typical {baseline:.0f} for this weekday")
+            if baseline >= 20 and hall_count < baseline * (1 - ANOMALY_DROP):
+                errors.append(f"only {hall_count} items vs. typical {baseline:.0f} for this weekday")
 
     if errors:
         menu.status = "broken"

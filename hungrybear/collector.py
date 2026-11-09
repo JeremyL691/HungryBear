@@ -78,7 +78,7 @@ def fetch_validated(adapter, cfg: CampusConfig, store: LocalStore, day: date, st
         return validate_day(
             menu,
             cfg,
-            store.history_counts(cfg.id, day),
+            store.history_counts(cfg.id, day, halls=cfg.main_halls),
             today=start,
             previous=previous,
             service_over=is_today and now.hour >= SERVICE_OVER_HOUR,
@@ -142,6 +142,8 @@ def update_status(store: LocalStore, campuses: Dict[str, CampusConfig], runs: Li
             "consecutive_failures": (prev.get("consecutive_failures", 0) + 1) if run.broken else 0,
             "days": {d.date.isoformat(): {"status": d.status, "reason": d.reason} for d in run.days},
         }
+        if prev.get("alerted"):
+            entry["alerted"] = True
         status["campuses"][run.campus] = entry
     status["generated_at"] = now
     store.write_json("status.json", status)
