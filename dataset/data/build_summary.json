@@ -1,0 +1,30 @@
+{
+  "campuses": 9,
+  "checks": {
+    "calories_equal_zero": 776,
+    "duplicate_keys": 0,
+    "max_days_ahead_of_last_commit": 6,
+    "unknown_allergens": [],
+    "unknown_tags": []
+  },
+  "date_max": "2026-11-22",
+  "date_min": "2026-10-03",
+  "halls": 54,
+  "rows": 225812,
+  "source_head": "a48f6f46c3102211bb244cb13ac20903f2a64c8c",
+  "source_ref": "a48f6f46c3102211bb244cb13ac20903f2a64c8c",
+  "source_repo": "https://github.com/JeremyL691/HungryBear",
+  "stats": {
+    "commits": 439,
+    "distinct_campus_date_files": 455,
+    "file_versions": 3003,
+    "file_versions_not_ok": 5,
+    "first_commit_utc": "2026-10-04T03:45:38+00:00",
+    "last_commit_utc": "2026-11-16T23:30:31+00:00",
+    "raw_listings": 1695365,
+    "records_corrected_by_later_snapshot": 16476,
+    "rows_with_conflicting_calories_merged": 77,
+    "snapshot_records": 1652225
+  },
+  "unique_dishes": 9139
+}
