@@ -2,9 +2,9 @@
  "campuses": {
   "ucb": {
    "status": "broken",
-   "checked_at": "2026-11-25T13:30:25+00:00",
+   "checked_at": "2026-11-25T15:30:25+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "days": {
     "2026-11-25": {
      "status": "ok",
@@ -19,9 +19,9 @@
   },
   "ucla": {
    "status": "broken",
-   "checked_at": "2026-11-25T13:30:25+00:00",
+   "checked_at": "2026-11-25T15:30:25+00:00",
    "last_success": "2026-11-24T05:30:29+00:00",
-   "consecutive_failures": 12,
+   "consecutive_failures": 13,
    "days": {
     "2026-11-25": {
      "status": "broken",
@@ -36,9 +36,9 @@
   },
   "ucsb": {
    "status": "broken",
-   "checked_at": "2026-11-25T13:30:25+00:00",
+   "checked_at": "2026-11-25T15:30:25+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "days": {
     "2026-11-25": {
      "status": "ok",
@@ -53,13 +53,13 @@
   },
   "ucsc": {
    "status": "broken",
-   "checked_at": "2026-11-25T13:30:25+00:00",
+   "checked_at": "2026-11-25T15:30:25+00:00",
    "last_success": "2026-11-24T05:30:29+00:00",
-   "consecutive_failures": 12,
+   "consecutive_failures": 13,
    "days": {
     "2026-11-25": {
      "status": "broken",
-     "reason": "only 145 items vs. typical 416 for this weekday"
+     "reason": "only 148 items vs. typical 416 for this weekday"
     },
     "2026-11-26": {
      "status": "broken",
@@ -70,9 +70,9 @@
   },
   "ucr": {
    "status": "broken",
-   "checked_at": "2026-11-25T13:30:25+00:00",
+   "checked_at": "2026-11-25T15:30:25+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "days": {
     "2026-11-25": {
      "status": "ok",
@@ -87,8 +87,8 @@
   },
   "ucsd": {
    "status": "ok",
-   "checked_at": "2026-11-25T13:30:25+00:00",
-   "last_success": "2026-11-25T13:30:25+00:00",
+   "checked_at": "2026-11-25T15:30:25+00:00",
+   "last_success": "2026-11-25T15:30:25+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-11-25": {
@@ -103,9 +103,9 @@
   },
   "ucd": {
    "status": "broken",
-   "checked_at": "2026-11-25T13:30:25+00:00",
+   "checked_at": "2026-11-25T15:30:25+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "days": {
     "2026-11-25": {
      "status": "ok",
@@ -120,9 +120,9 @@
   },
   "uci": {
    "status": "broken",
-   "checked_at": "2026-11-25T13:30:25+00:00",
+   "checked_at": "2026-11-25T15:30:25+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 2,
+   "consecutive_failures": 3,
    "days": {
     "2026-11-25": {
      "status": "ok",
@@ -137,8 +137,8 @@
   },
   "ucm": {
    "status": "ok",
-   "checked_at": "2026-11-25T13:30:25+00:00",
-   "last_success": "2026-11-25T13:30:25+00:00",
+   "checked_at": "2026-11-25T15:30:25+00:00",
+   "last_success": "2026-11-25T15:30:25+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-11-25": {
@@ -152,5 +152,5 @@
    }
   }
  },
- "generated_at": "2026-11-25T13:30:25+00:00"
+ "generated_at": "2026-11-25T15:30:25+00:00"
 }
