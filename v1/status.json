@@ -2,100 +2,216 @@
  "campuses": {
   "ucb": {
    "status": "broken",
-   "checked_at": "2026-11-27T05:30:25+00:00",
+   "checked_at": "2026-11-27T11:31:14+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 20,
+   "consecutive_failures": 21,
    "days": {
-    "2026-11-26": {
-     "status": "ok",
-     "reason": null
-    },
     "2026-11-27": {
      "status": "broken",
      "reason": "only 0 items, but this date previously had 264"
+    },
+    "2026-11-28": {
+     "status": "broken",
+     "reason": "only 0 items, but this date previously had 230"
+    },
+    "2026-11-29": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-03": {
+     "status": "ok",
+     "reason": null
     }
    },
    "alerted": true
   },
   "ucla": {
    "status": "broken",
-   "checked_at": "2026-11-27T05:30:25+00:00",
+   "checked_at": "2026-11-27T11:31:14+00:00",
    "last_success": "2026-11-24T05:30:29+00:00",
-   "consecutive_failures": 30,
+   "consecutive_failures": 31,
    "days": {
-    "2026-11-26": {
-     "status": "broken",
-     "reason": "bruin-plate: largest meal has 1 items (< 10)"
-    },
     "2026-11-27": {
      "status": "broken",
      "reason": "bruin-plate: largest meal has 2 items (< 10)"
+    },
+    "2026-11-28": {
+     "status": "broken",
+     "reason": "bruin-plate: largest meal has 4 items (< 10)"
+    },
+    "2026-11-29": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-02": {
+     "status": "ok",
+     "reason": null
     }
    },
    "alerted": true
   },
   "ucsb": {
    "status": "broken",
-   "checked_at": "2026-11-27T05:30:25+00:00",
+   "checked_at": "2026-11-27T11:31:14+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 20,
+   "consecutive_failures": 21,
    "days": {
-    "2026-11-26": {
-     "status": "closed",
-     "reason": null
-    },
     "2026-11-27": {
      "status": "broken",
      "reason": "no menu items on a non-break day"
+    },
+    "2026-11-28": {
+     "status": "broken",
+     "reason": "no menu items on a non-break day"
+    },
+    "2026-11-29": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-03": {
+     "status": "ok",
+     "reason": null
     }
    },
    "alerted": true
   },
   "ucsc": {
    "status": "broken",
-   "checked_at": "2026-11-27T05:30:25+00:00",
+   "checked_at": "2026-11-27T11:31:14+00:00",
    "last_success": "2026-11-24T05:30:29+00:00",
-   "consecutive_failures": 30,
+   "consecutive_failures": 31,
    "days": {
-    "2026-11-26": {
-     "status": "broken",
-     "reason": "main hall 'cowell-and-stevenson-dining-hall' has no menu items; main hall 'crown-and-merrill-dining-hall' has no menu items; main hall 'porter-and-kresge-dining-hall' has no menu items; main hall 'rachel-carson-and-oakes-dining-h' has no menu items; only 67 items vs. typical 409 for this weekday"
-    },
     "2026-11-27": {
      "status": "broken",
      "reason": "main hall 'cowell-and-stevenson-dining-hall' has no menu items; main hall 'crown-and-merrill-dining-hall' has no menu items; main hall 'porter-and-kresge-dining-hall' has no menu items; main hall 'rachel-carson-and-oakes-dining-h' has no menu items; only 60 items vs. typical 362 for this weekday"
+    },
+    "2026-11-28": {
+     "status": "broken",
+     "reason": "main hall 'cowell-and-stevenson-dining-hall' has no menu items; main hall 'rachel-carson-and-oakes-dining-h' has no menu items; only 59 items vs. typical 192 for this weekday"
+    },
+    "2026-11-29": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-03": {
+     "status": "ok",
+     "reason": null
     }
    },
    "alerted": true
   },
   "ucr": {
    "status": "broken",
-   "checked_at": "2026-11-27T05:30:25+00:00",
+   "checked_at": "2026-11-27T11:31:14+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 20,
+   "consecutive_failures": 21,
    "days": {
-    "2026-11-26": {
-     "status": "closed",
-     "reason": null
-    },
     "2026-11-27": {
      "status": "broken",
      "reason": "no menu items on a non-break day"
+    },
+    "2026-11-28": {
+     "status": "broken",
+     "reason": "no menu items on a non-break day"
+    },
+    "2026-11-29": {
+     "status": "closed",
+     "reason": null
+    },
+    "2026-11-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-03": {
+     "status": "ok",
+     "reason": null
     }
    },
    "alerted": true
   },
   "ucsd": {
    "status": "ok",
-   "checked_at": "2026-11-27T05:30:25+00:00",
-   "last_success": "2026-11-27T05:30:25+00:00",
+   "checked_at": "2026-11-27T11:31:14+00:00",
+   "last_success": "2026-11-27T11:31:14+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-11-26": {
+    "2026-11-27": {
      "status": "ok",
      "reason": null
     },
-    "2026-11-27": {
+    "2026-11-28": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-29": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-11-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-03": {
      "status": "ok",
      "reason": null
     }
@@ -103,15 +219,15 @@
   },
   "ucd": {
    "status": "broken",
-   "checked_at": "2026-11-27T05:30:25+00:00",
+   "checked_at": "2026-11-27T11:31:14+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 20,
+   "consecutive_failures": 21,
    "days": {
-    "2026-11-26": {
-     "status": "closed",
-     "reason": null
-    },
     "2026-11-27": {
+     "status": "broken",
+     "reason": "no menu items on a non-break day"
+    },
+    "2026-11-28": {
      "status": "broken",
      "reason": "no menu items on a non-break day"
     }
@@ -120,37 +236,57 @@
   },
   "uci": {
    "status": "broken",
-   "checked_at": "2026-11-27T05:30:25+00:00",
+   "checked_at": "2026-11-27T11:31:14+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 20,
+   "consecutive_failures": 21,
    "days": {
-    "2026-11-26": {
-     "status": "closed",
-     "reason": null
-    },
     "2026-11-27": {
      "status": "broken",
      "reason": "no menu items on a non-break day"
+    },
+    "2026-11-28": {
+     "status": "broken",
+     "reason": "no menu items on a non-break day"
+    },
+    "2026-11-29": {
+     "status": "broken",
+     "reason": "only 70 items vs. typical 228 for this weekday"
+    },
+    "2026-11-30": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-01": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-02": {
+     "status": "ok",
+     "reason": null
+    },
+    "2026-12-03": {
+     "status": "ok",
+     "reason": null
     }
    },
    "alerted": true
   },
   "ucm": {
    "status": "ok",
-   "checked_at": "2026-11-27T05:30:25+00:00",
-   "last_success": "2026-11-27T05:30:25+00:00",
+   "checked_at": "2026-11-27T11:31:14+00:00",
+   "last_success": "2026-11-27T11:31:14+00:00",
    "consecutive_failures": 0,
    "days": {
-    "2026-11-26": {
+    "2026-11-27": {
      "status": "ok",
      "reason": null
     },
-    "2026-11-27": {
+    "2026-11-28": {
      "status": "ok",
      "reason": null
     }
    }
   }
  },
- "generated_at": "2026-11-27T05:30:25+00:00"
+ "generated_at": "2026-11-27T11:31:14+00:00"
 }
