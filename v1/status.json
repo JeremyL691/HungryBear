@@ -2,13 +2,13 @@
  "campuses": {
   "ucb": {
    "status": "broken",
-   "checked_at": "2026-11-27T21:30:21+00:00",
+   "checked_at": "2026-11-27T23:30:22+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 26,
+   "consecutive_failures": 27,
    "days": {
     "2026-11-27": {
      "status": "broken",
-     "reason": "only 58 items, but this date previously had 264; only 58 items vs. typical 514 for this weekday"
+     "reason": "only 163 items vs. typical 514 for this weekday"
     },
     "2026-11-28": {
      "status": "broken",
@@ -19,9 +19,9 @@
   },
   "ucla": {
    "status": "broken",
-   "checked_at": "2026-11-27T21:30:21+00:00",
+   "checked_at": "2026-11-27T23:30:22+00:00",
    "last_success": "2026-11-24T05:30:29+00:00",
-   "consecutive_failures": 36,
+   "consecutive_failures": 37,
    "days": {
     "2026-11-27": {
      "status": "broken",
@@ -36,9 +36,9 @@
   },
   "ucsb": {
    "status": "broken",
-   "checked_at": "2026-11-27T21:30:21+00:00",
+   "checked_at": "2026-11-27T23:30:22+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 26,
+   "consecutive_failures": 27,
    "days": {
     "2026-11-27": {
      "status": "broken",
@@ -53,9 +53,9 @@
   },
   "ucsc": {
    "status": "broken",
-   "checked_at": "2026-11-27T21:30:21+00:00",
+   "checked_at": "2026-11-27T23:30:22+00:00",
    "last_success": "2026-11-24T05:30:29+00:00",
-   "consecutive_failures": 36,
+   "consecutive_failures": 37,
    "days": {
     "2026-11-27": {
      "status": "broken",
@@ -63,16 +63,16 @@
     },
     "2026-11-28": {
      "status": "broken",
-     "reason": "main hall 'cowell-and-stevenson-dining-hall' has no menu items; main hall 'rachel-carson-and-oakes-dining-h' has no menu items; only 58 items vs. typical 192 for this weekday"
+     "reason": "main hall 'cowell-and-stevenson-dining-hall' has no menu items; main hall 'rachel-carson-and-oakes-dining-h' has no menu items; only 62 items vs. typical 192 for this weekday"
     }
    },
    "alerted": true
   },
   "ucr": {
    "status": "broken",
-   "checked_at": "2026-11-27T21:30:21+00:00",
+   "checked_at": "2026-11-27T23:30:22+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 26,
+   "consecutive_failures": 27,
    "days": {
     "2026-11-27": {
      "status": "broken",
@@ -87,8 +87,8 @@
   },
   "ucsd": {
    "status": "ok",
-   "checked_at": "2026-11-27T21:30:21+00:00",
-   "last_success": "2026-11-27T21:30:21+00:00",
+   "checked_at": "2026-11-27T23:30:22+00:00",
+   "last_success": "2026-11-27T23:30:22+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-11-27": {
@@ -103,9 +103,9 @@
   },
   "ucd": {
    "status": "broken",
-   "checked_at": "2026-11-27T21:30:21+00:00",
+   "checked_at": "2026-11-27T23:30:22+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 26,
+   "consecutive_failures": 27,
    "days": {
     "2026-11-27": {
      "status": "broken",
@@ -120,9 +120,9 @@
   },
   "uci": {
    "status": "broken",
-   "checked_at": "2026-11-27T21:30:21+00:00",
+   "checked_at": "2026-11-27T23:30:22+00:00",
    "last_success": "2026-11-25T05:30:29+00:00",
-   "consecutive_failures": 26,
+   "consecutive_failures": 27,
    "days": {
     "2026-11-27": {
      "status": "broken",
@@ -137,8 +137,8 @@
   },
   "ucm": {
    "status": "ok",
-   "checked_at": "2026-11-27T21:30:21+00:00",
-   "last_success": "2026-11-27T21:30:21+00:00",
+   "checked_at": "2026-11-27T23:30:22+00:00",
+   "last_success": "2026-11-27T23:30:22+00:00",
    "consecutive_failures": 0,
    "days": {
     "2026-11-27": {
@@ -152,5 +152,5 @@
    }
   }
  },
- "generated_at": "2026-11-27T21:30:21+00:00"
+ "generated_at": "2026-11-27T23:30:22+00:00"
 }
