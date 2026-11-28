@@ -63,7 +63,7 @@ def validate_day(
     # suddenly finds nothing does. Without this, a broken scraper would overwrite good future days.
     prev_count = total_items(previous, cfg.main_halls) if previous is not None and previous.status == "ok" else 0
     hall_count = total_items(menu, cfg.main_halls)
-    if prev_count >= 20 and hall_count < prev_count * (1 - ANOMALY_DROP):
+    if not in_break and not service_over and prev_count >= 20 and hall_count < prev_count * (1 - ANOMALY_DROP):
         errors.append(f"only {hall_count} items, but this date previously had {prev_count}")
     near_term = menu.date <= today + timedelta(days=NEAR_TERM_DAYS)
 
@@ -80,7 +80,8 @@ def validate_day(
                 continue
             hall = menu.location(hall_id)
             if hall is None:
-                errors.append(f"main hall {hall_id!r} missing (renamed or removed?)")
+                if not in_break:
+                    errors.append(f"main hall {hall_id!r} missing (renamed or removed?)")
                 continue
             hall_items = sum(m.item_count for m in hall.meals)
             if hall_items == 0:
@@ -90,7 +91,7 @@ def validate_day(
             # A broken parser thins out every meal, while real menus have the odd tiny one (a weekday
             # "Brunch" with 4 items). So flag a hall only when even its biggest core meal is thin.
             core = {m.name: m.item_count for m in hall.meals if m.name in CORE_MEALS}
-            if core and max(core.values()) < cfg.min_items_per_meal:
+            if not in_break and core and max(core.values()) < cfg.min_items_per_meal:
                 errors.append(f"{hall_id}: largest meal has {max(core.values())} items (< {cfg.min_items_per_meal})")
 
         names = [it.name for loc in menu.locations for m in loc.meals for s in m.stations for it in s.items]
@@ -98,7 +99,7 @@ def validate_day(
         if len(junk) / len(names) > 0.05:
             errors.append(f"{len(junk)}/{len(names)} item names look like page chrome, e.g. {junk[:3]}")
 
-        if len(history_counts) >= 2:
+        if not in_break and len(history_counts) >= 2:
             baseline = statistics.median(history_counts)
             if baseline >= 20 and hall_count < baseline * (1 - ANOMALY_DROP):
                 errors.append(f"only {hall_count} items vs. typical {baseline:.0f} for this weekday")

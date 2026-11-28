@@ -4,7 +4,7 @@
 #   main_halls:         location ids that must serve full meals on a normal day
 #   weekday_only:       main halls that normally close on weekends
 #   min_items_per_meal: a main-hall meal with fewer items than this is flagged "broken"
-#   breaks:             [start, end] inclusive date ranges with no service (suppresses alerts)
+#   breaks:             [start, end] inclusive date ranges with no/reduced service (suppresses alerts)
 #   options:            adapter-specific settings
 #   runner:             ci (default) or local; the collector currently runs everything from one host
 
@@ -15,8 +15,9 @@ ucb:
   main_halls: [cafe-3, clark-kerr, crossroads, foothill]
   min_items_per_meal: 10
   breaks:
-    - [2026-11-26, 2026-11-29]   # Thanksgiving
-    - [2026-12-19, 2027-01-10]   # Winter break (approx.; confirm on Important Dates page)
+    - [2026-11-25, 2026-11-29]   # Thanksgiving recess (incl. Wed reduced service & Sun reopen)
+    - [2026-12-19, 2027-01-18]   # Winter break (Fall finals end Dec 18; Spring instruction Jan 19)
+    - [2027-03-20, 2027-03-28]   # Spring break
   options:
     location_types:
       bear-market: market
@@ -35,6 +36,10 @@ ucla:
   adapter: ucla
   main_halls: [de-neve-dining, bruin-plate]
   min_items_per_meal: 10
+  breaks:
+    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
+    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
+    - [2027-03-20, 2027-03-28]   # Spring break
   options:
     # menus-at-a-glance name -> /hours/ name (both pages now use the same names)
     hours_aliases: {}
@@ -45,6 +50,10 @@ ucsb:
   adapter: ucsb
   main_halls: [carrillo, de-la-guerra, portola]
   min_items_per_meal: 8
+  breaks:
+    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
+    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
+    - [2027-03-20, 2027-03-28]   # Spring break
 
 ucsc:
   name: UC Santa Cruz
@@ -58,6 +67,10 @@ ucsc:
     - rachel-carson-and-oakes-dining-h
   weekday_only: [crown-and-merrill-dining-hall, porter-and-kresge-dining-hall]
   min_items_per_meal: 8
+  breaks:
+    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
+    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
+    - [2027-03-20, 2027-03-28]   # Spring break
   options:
     base: https://nutrition.sa.ucsc.edu/
     index: ""
@@ -69,6 +82,10 @@ ucr:
   main_halls: [glasgow, lothian]
   weekday_only: [lothian]
   min_items_per_meal: 8
+  breaks:
+    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
+    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
+    - [2027-03-20, 2027-03-28]   # Spring break
   options:
     base: https://foodpro.ucr.edu/foodpro/
     index: location.aspx
@@ -82,6 +99,10 @@ ucsd:
   main_halls: [64-degrees, canyon-vista-marketplace, foodworx, ventanas]
   weekday_only: [foodworx]
   min_items_per_meal: 10
+  breaks:
+    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
+    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
+    - [2027-03-20, 2027-03-28]   # Spring break
   options:
     location_types:
       bistro: restaurant
@@ -95,6 +116,10 @@ ucd:
   main_halls: [segundo, tercero, cuarto]
   weekday_only: [tercero, cuarto]
   min_items_per_meal: 8
+  breaks:
+    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
+    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
+    - [2027-03-20, 2027-03-28]   # Spring break
 
 uci:
   name: UC Irvine
@@ -102,6 +127,10 @@ uci:
   adapter: mydininghub
   main_halls: [anteatery, brandywine]
   min_items_per_meal: 10
+  breaks:
+    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
+    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
+    - [2027-03-20, 2027-03-28]   # Spring break
   options:
     store: ch_uci_en
     campus_url_key: campus
@@ -114,6 +143,10 @@ ucm:
   adapter: bigzpoon
   main_halls: [pavilion]
   min_items_per_meal: 3   # cycle menu lists composed plates, not individual dishes
+  breaks:
+    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
+    - [2026-12-19, 2027-01-18]   # Winter break (Fall finals end Dec 18; Spring instruction Jan 19)
+    - [2027-03-20, 2027-03-28]   # Spring break
   options:
     company_id: 61bd7ecd8c760e0011ac0fac
     # from the "Dining Center Menus" links on dining.ucmerced.edu (location_no 12443 / 12462)

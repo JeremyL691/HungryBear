@@ -126,6 +126,35 @@ def test_published_menu_that_vanishes_is_broken_even_far_ahead():
     assert validate_day(updated, cfg(), today=MON, previous=previous).status == "ok"
 
 
+def test_break_day_suppresses_closure_and_volume_checks_but_keeps_chrome_check():
+    on_break = cfg(breaks=[(MON, MON)])
+    previous = day(locations=[Location(id="hall", name="H", meals=[meal("Lunch", 40)])])
+
+    # Pre-populated schedule later cleared for a holiday break should publish as closed, not broken.
+    cleared = day(status="closed", locations=[Location(id="hall", name="H")])
+    assert validate_day(cleared, on_break, today=MON, previous=previous).status == "closed"
+
+    # Reduced holiday menus (thin meal, sharp weekday drop, or omitted hall) should not alert.
+    thin = day(locations=[Location(id="hall", name="H", meals=[meal("Lunch", 2)])])
+    assert validate_day(thin, on_break, history_counts=[100, 110], today=MON, previous=previous).status == "ok"
+
+    partial = day(locations=[Location(id="other", name="O", meals=[meal("Lunch", 12)])])
+    assert validate_day(partial, on_break, history_counts=[100, 110], today=MON).status == "ok"
+
+    # Structural page-chrome corruption is still caught on break days.
+    junk = [Item(name="Filters"), Item(name="Include"), Item(name="Calories")] + [Item(name=f"d{i}") for i in range(10)]
+    chrome = day(
+        locations=[Location(id="hall", name="H", meals=[Meal(name="Lunch", stations=[Station(name="S", items=junk)])])]
+    )
+    assert validate_day(chrome, on_break, today=MON).status == "broken"
+
+
+def test_service_over_suppresses_previous_count_drop():
+    previous = day(locations=[Location(id="hall", name="H", meals=[meal("Lunch", 40)])])
+    empty = day(status="closed", locations=[Location(id="hall", name="H")])
+    assert validate_day(empty, cfg(), today=MON, previous=previous, service_over=True).status == "closed"
+
+
 # ---------------- helpers ----------------
 
 
@@ -288,3 +317,13 @@ def test_all_nine_campuses_are_collected_by_default_runner():
     campuses = load_campuses()
     assert len(campuses) == 9
     assert all(cfg.runner == "ci" for cfg in campuses.values())
+
+
+def test_all_campuses_configure_thanksgiving_and_winter_breaks():
+    from hungrybear.config import load_campuses
+
+    campuses = load_campuses()
+    for cid, campus_cfg in campuses.items():
+        for break_day in (date(2026, 11, 25), date(2026, 11, 26), date(2026, 11, 29), date(2026, 12, 25)):
+            assert campus_cfg.in_break(break_day), f"{cid} missing break coverage for {break_day}"
+        assert not campus_cfg.in_break(date(2026, 11, 30)), f"{cid} should not be on break on 2026-11-30"

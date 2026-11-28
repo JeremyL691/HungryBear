@@ -28,7 +28,7 @@ class CampusConfig(BaseModel):
     main_halls: List[str] = Field(default_factory=list)  # location ids expected to serve full meals
     weekday_only: List[str] = Field(default_factory=list)  # main halls that are normally closed Sat/Sun
     min_items_per_meal: int = 8  # for main halls
-    breaks: List[Tuple[date, date]] = Field(default_factory=list)  # inclusive; no alerts if closed
+    breaks: List[Tuple[date, date]] = Field(default_factory=list)  # inclusive; suppress closure/volume alerts
 
     def in_break(self, day: date) -> bool:
         return any(start <= day <= end for start, end in self.breaks)
