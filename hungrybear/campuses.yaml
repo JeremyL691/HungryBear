@@ -1,12 +1,14 @@
 # One entry per campus.
 #
-#   adapter:            module in hungrybear/adapters/
-#   main_halls:         location ids that must serve full meals on a normal day
-#   weekday_only:       main halls that normally close on weekends
-#   min_items_per_meal: a main-hall meal with fewer items than this is flagged "broken"
-#   breaks:             [start, end] inclusive date ranges with no/reduced service (suppresses alerts)
-#   options:            adapter-specific settings
-#   runner:             ci (default) or local; the collector currently runs everything from one host
+#   adapter:              module in hungrybear/adapters/
+#   main_halls:           location ids that must serve full meals on a normal day
+#   weekday_only:         main halls that normally close on weekends
+#   min_items_per_meal:   a main-hall meal with fewer items than this is flagged "broken"
+#   holidays:             FreshCal holiday calendars (country/subdivision codes, e.g. US-CA)
+#   calendar_valid_until: academic-calendar review horizon (FreshCal warns ahead of expiry)
+#   breaks:               inclusive academic break windows ({start, end, name} or [start, end])
+#   options:              adapter-specific settings
+#   runner:               ci (default) or local; the collector currently runs everything from one host
 
 ucb:
   name: UC Berkeley
@@ -14,10 +16,12 @@ ucb:
   adapter: berkeley
   main_halls: [cafe-3, clark-kerr, crossroads, foothill]
   min_items_per_meal: 10
+  holidays: [US-CA]
+  calendar_valid_until: 2027-06-30
   breaks:
-    - [2026-11-25, 2026-11-29]   # Thanksgiving recess (incl. Wed reduced service & Sun reopen)
-    - [2026-12-19, 2027-01-18]   # Winter break (Fall finals end Dec 18; Spring instruction Jan 19)
-    - [2027-03-20, 2027-03-28]   # Spring break
+    - {start: 2026-11-25, end: 2026-11-29, name: Thanksgiving break}   # incl. Wed reduced service & Sun reopen
+    - {start: 2026-12-19, end: 2027-01-18, name: Winter break}         # semester: Fall finals end Dec 18; Spring instruction Jan 19
+    - {start: 2027-03-20, end: 2027-03-28, name: Spring break}
   options:
     location_types:
       bear-market: market
@@ -36,10 +40,12 @@ ucla:
   adapter: ucla
   main_halls: [de-neve-dining, bruin-plate]
   min_items_per_meal: 10
+  holidays: [US-CA]
+  calendar_valid_until: 2027-06-30
   breaks:
-    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
-    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
-    - [2027-03-20, 2027-03-28]   # Spring break
+    - {start: 2026-11-25, end: 2026-11-29, name: Thanksgiving break}
+    - {start: 2026-12-12, end: 2027-01-03, name: Winter break}         # quarter system
+    - {start: 2027-03-20, end: 2027-03-28, name: Spring break}
   options:
     # menus-at-a-glance name -> /hours/ name (both pages now use the same names)
     hours_aliases: {}
@@ -50,10 +56,12 @@ ucsb:
   adapter: ucsb
   main_halls: [carrillo, de-la-guerra, portola]
   min_items_per_meal: 8
+  holidays: [US-CA]
+  calendar_valid_until: 2027-06-30
   breaks:
-    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
-    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
-    - [2027-03-20, 2027-03-28]   # Spring break
+    - {start: 2026-11-25, end: 2026-11-29, name: Thanksgiving break}
+    - {start: 2026-12-12, end: 2027-01-03, name: Winter break}         # quarter system
+    - {start: 2027-03-20, end: 2027-03-28, name: Spring break}
 
 ucsc:
   name: UC Santa Cruz
@@ -67,10 +75,12 @@ ucsc:
     - rachel-carson-and-oakes-dining-h
   weekday_only: [crown-and-merrill-dining-hall, porter-and-kresge-dining-hall]
   min_items_per_meal: 8
+  holidays: [US-CA]
+  calendar_valid_until: 2027-06-30
   breaks:
-    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
-    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
-    - [2027-03-20, 2027-03-28]   # Spring break
+    - {start: 2026-11-25, end: 2026-11-29, name: Thanksgiving break}
+    - {start: 2026-12-12, end: 2027-01-03, name: Winter break}         # quarter system
+    - {start: 2027-03-20, end: 2027-03-28, name: Spring break}
   options:
     base: https://nutrition.sa.ucsc.edu/
     index: ""
@@ -82,10 +92,12 @@ ucr:
   main_halls: [glasgow, lothian]
   weekday_only: [lothian]
   min_items_per_meal: 8
+  holidays: [US-CA]
+  calendar_valid_until: 2027-06-30
   breaks:
-    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
-    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
-    - [2027-03-20, 2027-03-28]   # Spring break
+    - {start: 2026-11-25, end: 2026-11-29, name: Thanksgiving break}
+    - {start: 2026-12-12, end: 2027-01-03, name: Winter break}         # quarter system
+    - {start: 2027-03-20, end: 2027-03-28, name: Spring break}
   options:
     base: https://foodpro.ucr.edu/foodpro/
     index: location.aspx
@@ -99,10 +111,12 @@ ucsd:
   main_halls: [64-degrees, canyon-vista-marketplace, foodworx, ventanas]
   weekday_only: [foodworx]
   min_items_per_meal: 10
+  holidays: [US-CA]
+  calendar_valid_until: 2027-06-30
   breaks:
-    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
-    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
-    - [2027-03-20, 2027-03-28]   # Spring break
+    - {start: 2026-11-25, end: 2026-11-29, name: Thanksgiving break}
+    - {start: 2026-12-12, end: 2027-01-03, name: Winter break}         # quarter system
+    - {start: 2027-03-20, end: 2027-03-28, name: Spring break}
   options:
     location_types:
       bistro: restaurant
@@ -116,10 +130,12 @@ ucd:
   main_halls: [segundo, tercero, cuarto]
   weekday_only: [tercero, cuarto]
   min_items_per_meal: 8
+  holidays: [US-CA]
+  calendar_valid_until: 2027-06-30
   breaks:
-    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
-    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
-    - [2027-03-20, 2027-03-28]   # Spring break
+    - {start: 2026-11-25, end: 2026-11-29, name: Thanksgiving break}
+    - {start: 2026-12-12, end: 2027-01-03, name: Winter break}         # quarter system
+    - {start: 2027-03-20, end: 2027-03-28, name: Spring break}
 
 uci:
   name: UC Irvine
@@ -127,10 +143,12 @@ uci:
   adapter: mydininghub
   main_halls: [anteatery, brandywine]
   min_items_per_meal: 10
+  holidays: [US-CA]
+  calendar_valid_until: 2027-06-30
   breaks:
-    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
-    - [2026-12-12, 2027-01-03]   # Winter break (quarter system)
-    - [2027-03-20, 2027-03-28]   # Spring break
+    - {start: 2026-11-25, end: 2026-11-29, name: Thanksgiving break}
+    - {start: 2026-12-12, end: 2027-01-03, name: Winter break}         # quarter system
+    - {start: 2027-03-20, end: 2027-03-28, name: Spring break}
   options:
     store: ch_uci_en
     campus_url_key: campus
@@ -143,10 +161,12 @@ ucm:
   adapter: bigzpoon
   main_halls: [pavilion]
   min_items_per_meal: 3   # cycle menu lists composed plates, not individual dishes
+  holidays: [US-CA]
+  calendar_valid_until: 2027-06-30
   breaks:
-    - [2026-11-25, 2026-11-29]   # Thanksgiving recess
-    - [2026-12-19, 2027-01-18]   # Winter break (Fall finals end Dec 18; Spring instruction Jan 19)
-    - [2027-03-20, 2027-03-28]   # Spring break
+    - {start: 2026-11-25, end: 2026-11-29, name: Thanksgiving break}
+    - {start: 2026-12-19, end: 2027-01-18, name: Winter break}         # semester: Fall finals end Dec 18; Spring instruction Jan 19
+    - {start: 2027-03-20, end: 2027-03-28, name: Spring break}
   options:
     company_id: 61bd7ecd8c760e0011ac0fac
     # from the "Dining Center Menus" links on dining.ucmerced.edu (location_no 12443 / 12462)

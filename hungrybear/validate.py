@@ -8,6 +8,7 @@ the day to status="broken" so it alerts instead of being published.
 
 from __future__ import annotations
 
+import logging
 import re
 import statistics
 from datetime import date, timedelta
@@ -15,6 +16,8 @@ from typing import List, Optional, Sequence
 
 from .config import CampusConfig, today_pacific
 from .models import DayMenu
+
+log = logging.getLogger("hungrybear.validate")
 
 # Strings that only show up in item names when we are scraping UI chrome instead of food.
 UI_NOISE = re.compile(
@@ -58,6 +61,8 @@ def validate_day(
     today = today or today_pacific()
     errors: List[str] = []
     in_break = cfg.in_break(menu.date)
+    if in_break:
+        log.debug("%s %s break (%s): suppressing closure/volume checks", cfg.id, menu.date, cfg.break_reason(menu.date))
 
     # A menu that was already published for this date doesn't vanish or collapse - a parser that
     # suddenly finds nothing does. Without this, a broken scraper would overwrite good future days.

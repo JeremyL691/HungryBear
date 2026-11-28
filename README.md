@@ -95,7 +95,8 @@ It runs from its own checkout in `~/.hungrybear/collector`, because macOS blocks
 scripts/install_local_collector.sh
 ```
 
-If a campus gets no successful update for 36 hours (e.g. the Mac is off), the usual alert fires.
+If a campus misses an expected operating-day update past its FreshCal grace window (holidays and UC
+academic breaks excluded), the usual alert fires.
 
 ## One-time GitHub setup
 

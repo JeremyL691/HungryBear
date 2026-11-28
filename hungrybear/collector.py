@@ -23,7 +23,7 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 from .adapters import NotPublished, build_adapter
-from .config import PACIFIC, CampusConfig, load_campuses, today_pacific
+from .config import PACIFIC, CampusConfig, calendar_expiry_warnings, load_campuses, today_pacific
 from .http import Fetcher, RecordingFetcher, ReplayFetcher
 from .models import DayMenu, sort_meals
 from .store import LocalStore
@@ -124,7 +124,8 @@ def collect_campus(
             run.days.append(menu)
             if menu.status != "broken" and store.write_day(menu):
                 run.written += 1
-            log.info("%-5s %s %-6s items=%-4d %s", cfg.id, day, menu.status, total_items(menu), menu.reason or "")
+            note = menu.reason or (f"break: {reason}" if (reason := cfg.break_reason(day)) else "")
+            log.info("%-5s %s %-6s items=%-4d %s", cfg.id, day, menu.status, total_items(menu), note)
     finally:
         fetcher.close()
     return run
@@ -196,6 +197,8 @@ def main(argv: Optional[List[str]] = None) -> int:
         ap.error("--replay works with a single --campus")
 
     start = args.start or today_pacific()
+    for cid, issue in calendar_expiry_warnings({c: campuses[c] for c in wanted}).items():
+        log.warning("calendar warning [%s] %s: %s", cid, issue.code, issue.message)
     store = LocalStore(args.out)
     with ThreadPoolExecutor(max_workers=4) as pool:
         runs = list(
